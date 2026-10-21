@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **Fix five slots before drafting:** document type, audience, goal (inform, persuade, request approval), length limit, tone. Skipping the slots is how a message becomes a conversation nobody can action (<https://datafield.dev/working-with-ai-tools-effectively/part-04/chapter-27/>).
-- **Every claim in a generated draft traces to a span in the raw message.** Verification re-reads the source text, never a summary. A generated summary is not evidence of what the sender said (<https://mail.google.com/> STD-17).
-- **Sending is a human act, permanently.** Recall does not exist. SMTP has no recall command, provider undo is a pre-send buffer capped at 30 seconds, and exchange recall is intra-organisation, read-dependent. "Draft is the terminal state": no automation promotes a message out of draft (STD-16, same file).
+- **Every claim in a generated draft traces to a span in the raw message.** Verification re-reads the source text, never a summary. A generated summary is not evidence of what the sender said (<https://mail.google.com/>).
+- **Sending is a human act, permanently.** Recall does not exist. SMTP has no recall command, provider undo is a pre-send buffer capped at 30 seconds, and exchange recall is intra-organisation, read-dependent. "Draft is the terminal state": no automation promotes a message out of draft.
 - **Subject lines carry data.** From 2.3M+ posts: keep 20–100 characters (<https://aitoolverify.com/best-ai-tools-email-marketing-2026> ⚠️ newsletter-platform data, not an email standard). Under 50 is ideal for mobile; no ALL CAPS or excess punctuation. Preview text extends the subject instead of repeating it.
-- **Anti-spam is per jurisdiction.** CAN-SPAM requires opt-out and has no B2B exception. CASL express consent never expires, with the burden on the sender. UK PECR makes the instigator liable (STD-19, same F003 file).
-- **Accessibility is part of the message.** Every reply keeps a usable plain-text part and alt text on images (STD-20).
+- **Anti-spam is per jurisdiction.** CAN-SPAM requires opt-out and has no B2B exception. CASL express consent never expires, with the burden on the sender. UK PECR makes the instigator liable.
+- **Accessibility is part of the message.** Every reply keeps a usable plain-text part and alt text on images.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ status: seedling
 
 ## Sources
 
-- <https://mail.google.com/> STD-16 to STD-20
-- <https://datafield.dev/working-with-ai-tools-effectively/part-04/chapter-27/> · cycle-026 §4
+- <https://mail.google.com/>
+- <https://datafield.dev/working-with-ai-tools-effectively/part-04/chapter-27/>
 - https://www.rfc-editor.org/rfc/rfc5321.html

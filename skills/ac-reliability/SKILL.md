@@ -1,8 +1,9 @@
 ---
 name: ac-reliability
+description: "Running a service reliably: OpenTelemetry instrumentation with logs, metrics and traces, SLOs and error budgets, burn-rate alerting, backup and DR targets, incident response and blameless postmortems. Use when asking \"add tracing\"\"how do I instrument this service\", \"why is prod slow\",, \"set up structured logging\", \"instrument this service\", \"set an SLO\", \"write the alert rule\", \"error budget\", \"backup and DR plan\", \"prod is down\", \"run the incident\", \"write the postmortem\". Not for rollout mechanics, performance budgets and load tests, or browser-side vitals; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Running a service reliably: OpenTelemetry instrumentation with logs, metrics and traces, SLOs and error budgets, burn-rate alerting, backup and DR targets, incident response and blameless postmortems. Use when asking "add tracing""how do I instrument this service", "why is prod slow",, "set up structured logging", "instrument this service", "set an SLO", "write the alert rule", "error budget", "backup and DR plan", "prod is down", "run the incident", "write the postmortem". Not for rollout mechanics, performance budgets and load tests, or browser-side vitals; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Reliability

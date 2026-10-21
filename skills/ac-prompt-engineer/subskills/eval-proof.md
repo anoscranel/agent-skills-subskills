@@ -28,9 +28,9 @@ answers; rubric-graded model judges; pairwise model judges; humans last for subj
 quality (<https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents>).
 Model judges exhibit position, verbosity, and self-preference bias: randomize order, use
 multiple judges, calibrate against a blind human gold set, and keep judges advisory on
-safety and policy calls (same source; MT-Bench and judge-bias studies cited there).
+safety and policy calls (MT-Bench, arXiv 2306.05685).
 Zero failures in n trials only bounds the failure rate near 3/n at 95% confidence, so
-"30 passes" is not proof (rule of three, same source §2).
+"30 passes" is not proof (rule of three).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Zero failures in n trials only bounds the failure rate near 3/n at 95% confidenc
 ## Anti-patterns
 
 - "Looks better on two examples" — anecdotes are not evidence.
-- One aggregate score; aggregates mask dangerous slice failures (agent-ops 04 §1).
+- One aggregate score; aggregates mask dangerous slice failures.
 - A judge model from the same family grading its family without calibration.
 - Reusing the holdout set for iteration; it stops being a holdout.
 

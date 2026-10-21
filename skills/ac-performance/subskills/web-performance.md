@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Core Web Vitals "good"**: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1, at the 75th percentile of page loads, split by mobile and desktop (https://web.dev/articles/vitals, updated 31 Oct 2024; Google Search Central, updated 10 Dec 2025; job-003 G-SE7).
-- **Poor bands**: LCP > 4.0 s, INP > 500 ms, CLS > 0.25 (vault SDP 013 §2).
-- INP replaced FID on 12 March 2024 (vault SWX c07 §9).
-- **Field vs lab**: field = real users (Chrome UX Report, RUM via `web-vitals`). Lab = Lighthouse, WebPageTest, DevTools on a set device (SDP 013 §2).
+- **Core Web Vitals "good"**: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1, at the 75th percentile of page loads, split by mobile and desktop (https://web.dev/articles/vitals, updated 31 Oct 2024; Google Search Central, updated 10 Dec 2025).
+- **Poor bands**: LCP > 4.0 s, INP > 500 ms, CLS > 0.25.
+- INP replaced FID on 12 March 2024.
+- **Field vs lab**: field = real users (Chrome UX Report, RUM via `web-vitals`). Lab = Lighthouse, WebPageTest, DevTools on a set device.
 
 ## Decision rules
 
@@ -29,25 +29,25 @@ status: seedling
 ## Procedure
 
 1. Get field data: CrUX (PageSpeed Insights or the CrUX API), or your RUM:
- ```js
- import { onLCP, onINP, onCLS } from 'web-vitals';
- [onLCP, onINP, onCLS].forEach(f => f(m => navigator.sendBeacon('/rum', JSON.stringify(m))));
- ```
+   ```js
+   import { onLCP, onINP, onCLS } from 'web-vitals';
+   [onLCP, onINP, onCLS].forEach(f => f(m => navigator.sendBeacon('/rum', JSON.stringify(m))));
+   ```
 2. Find the worst metric and the worst page template.
 3. Reproduce in the lab on a throttled mobile profile:
- ```bash
- npx lighthouse https://example.com --preset=perf --form-factor=mobile --view
- ```
+   ```bash
+   npx lighthouse https://example.com --preset=perf --form-factor=mobile --view
+   ```
 4. Diagnose in the DevTools Performance panel: LCP element and phases, long tasks, layout-shift sources.
 5. Inspect bundles (`npx source-map-explorer dist/*.js`). Remove unused code; split by route; replace heavy dependencies.
 6. Apply one fix. Re-run the lab test; record before and after.
 7. Add Lighthouse CI with budgets:
- ```json
- { "ci": { "assert": { "assertions": {
- "largest-contentful-paint": ["error", {"maxNumericValue": 2500}],
- "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}],
- "total-blocking-time": ["warn", {"maxNumericValue": 200}] } } } }
- ```
+   ```json
+   { "ci": { "assert": { "assertions": {
+     "largest-contentful-paint": ["error", {"maxNumericValue": 2500}],
+     "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}],
+     "total-blocking-time": ["warn", {"maxNumericValue": 200}] } } } }
+   ```
  ⚠️ The TBT 200 ms line is a house proxy, not a CWV threshold.
 8. Confirm field p75 after CrUX's rolling 28-day window or a week of RUM. ⚠️ Check the CrUX window in current docs.
 

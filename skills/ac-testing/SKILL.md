@@ -1,8 +1,9 @@
 ---
 name: ac-testing
+description: "Automated software testing: test strategy and portfolios, coverage policy and CI test gates, unit and integration test design, test-driven development, property-based / mutation / fuzz testing, flaky-test triage, browser and end-to-end tests. Use when asking \"what should we test\"\"write the failing test first\", \"is this a bug or is the test wrong\",, \"write a test plan\", \"set a coverage target\", \"write tests for this\", \"should I mock this\", \"do it test-first\", \"red-green-refactor\", \"are my tests good enough\", \"this test fails randomly\", \"write a Playwright test\". Not for debugging the product bug itself, the pipeline's own wiring, or WCAG conformance checks; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Automated software testing: test strategy and portfolios, coverage policy and CI test gates, unit and integration test design, test-driven development, property-based / mutation / fuzz testing, flaky-test triage, browser and end-to-end tests. Use when asking "what should we test""write the failing test first", "is this a bug or is the test wrong",, "write a test plan", "set a coverage target", "write tests for this", "should I mock this", "do it test-first", "red-green-refactor", "are my tests good enough", "this test fails randomly", "write a Playwright test". Not for debugging the product bug itself, the pipeline's own wiring, or WCAG conformance checks; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Testing

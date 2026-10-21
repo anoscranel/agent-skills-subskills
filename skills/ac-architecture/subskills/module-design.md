@@ -10,12 +10,12 @@ status: seedling
 
 ## Standard
 
-- **Deep modules** (John Ousterhout, *A Philosophy of Software Design*, 2018): a simple interface hiding a lot of function. Shallow modules add interface cost for little gain (vault SWX c03 §3).
-- **Information hiding** (Parnas, CACM 1972): each module hides one design decision likely to change. ⚠️ Not in the vault; cited from the canon.
-- **SOLID** pays off at module boundaries, not per class. Its ROI is unmeasured (SWX c03 §1, Flag #1).
-- **Dependency rule**: dependencies point toward the stable core (Martin, *Clean Architecture*, 2017; SWX c02 §1).
-- Change effort tracks module coupling and churn more than any single complexity metric (Nagappan & Ball, ICSE 2005; SWX c03 §5).
-- Language features replace some GoF patterns: sealed types and pattern matching over Visitor; DI over Singleton (SWX c03 §2).
+- **Deep modules** (John Ousterhout, *A Philosophy of Software Design*, 2018): a simple interface hiding a lot of function. Shallow modules add interface cost for little gain.
+- **Information hiding** (Parnas, CACM 1972): each module hides one design decision likely to change. (https://dl.acm.org/doi/10.1145/361598.361623)
+- **SOLID** pays off at module boundaries, not per class. ⚠️ Its ROI is unmeasured: no controlled study backs it.
+- **Dependency rule**: dependencies point toward the stable core (Martin, *Clean Architecture*, 2017).
+- Change effort tracks module coupling and churn more than any single complexity metric (Nagappan & Ball, ICSE 2005).
+- Language features replace some GoF patterns: sealed types and pattern matching over Visitor; DI over Singleton.
 
 ## Decision rules
 

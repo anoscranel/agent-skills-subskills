@@ -12,10 +12,10 @@ status: seedling
 ## Standard
 
 - **The buyer's words carry the copy.** The story is written in the customer's voice, so it reads as their account, not the vendor's pitch (<https://resources.rework.com/libraries/strategic-management/jobs-to-be-done>).
-- **Named frameworks are delivery formats, not evidence.** StoryBrand SB7, SUCCESs, Golden Circle, PASTOR and AIDA have no controlled evaluation (same file §1–§3). Each is convention, never proof of effect.
+- **Named frameworks are delivery formats, not evidence.** StoryBrand SB7, SUCCESs, Golden Circle, PASTOR and AIDA have no controlled evaluation. Each is convention, never proof of effect.
 - **Claims carry legal duties, and the label does not dilute them.** An endorsement must reflect the endorser's honest opinion. A material connection must be disclosed clearly and conspicuously — 16 CFR 255, effective 26 July 2023 (https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255). Fake or AI-generated reviews and bought followers are banned — 16 CFR 465 (https://www.ecfr.gov/current/title-16/part-465).
 - **An educational format inherits the ad's substantiation duty.** Health claims need "competent and reliable scientific evidence", generally randomised human trials (<https://ftc.gov/system/files/ftc_gov/pdf/Health-Products-Compliance-Guidance.pdf:>). Earnings claims trigger the Business Opportunity Rule disclosure artefact.
-- **Editorial clothing is the format-deception line.** Content that reads as independent but is paid for is deceptive even where its claims are true (same file §1). The FTC policy statement sits at 81 FR 22596; the EU makes the advertorial unfair in all circumstances.
+- **Editorial clothing is the format-deception line.** Content that reads as independent but is paid for is deceptive even where its claims are true. The FTC policy statement sits at 81 FR 22596; the EU makes the advertorial unfair in all circumstances.
 - **Urgency must be real.** Reset countdown timers are a live enforcement pattern (FTC Act §5). Scarcity that is not a fact is a false statement of fact.
 
 ## Decision rules

@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **Protect the submission from the desk-reject bucket first.** Average desk rejection is about 40%; >90% of editors endorse rejecting for scope mismatch (<https://sciencedirect.com/science/article/pii/S1049096521000573>). P(ever accepted | first-round minor revision) is 98.3%, and 84.7% after major revision.
-- **IMRaD is the spine; the reporting guideline is the checklist.** EQUATOR holds 706 records; CONSORT is 2025, SPIRIT 2025 (34 items), STROBE (22), ARRIVE 2.0, COREQ (32), SRQR (21) (same op `15-GENRES-GUIDELINES.md` §1).
-- **A submitted checklist is not compliance.** In the IICARus trial, 0 of 762 manuscripts achieved full ARRIVE compliance and the median rose only 36.8% → 39.5% (same file §2, §4). The intervention that works is editor-side expert checking.
-- **The agent flags; the human signs.** An agent may select the guideline and locate each item. It reports each one `missing`, `present`, `unverifiable` or `inconsistent`, with a page reference. It may never emit "compliant" (same file §12).
+- **IMRaD is the spine; the reporting guideline is the checklist.** EQUATOR holds 706 records; CONSORT is 2025, SPIRIT 2025 (34 items), STROBE (22), ARRIVE 2.0, COREQ (32), SRQR (21). ⚠️ Source not cited inline; check the Sources list before relying on this figure.
+- **A submitted checklist is not compliance.** In the IICARus trial, 0 of 762 manuscripts achieved full ARRIVE compliance and the median rose only 36.8% → 39.5%. The intervention that works is editor-side expert checking. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
+- **The agent flags; the human signs.** An agent may select the guideline and locate each item. It reports each one `missing`, `present`, `unverifiable` or `inconsistent`, with a page reference. It may never emit "compliant".
 - **Citations resolve before the bibliography is written.** 20–50% of AI-generated citations are fabricated (<https://arxiv.org/pdf/2607.22693>). Resolve every reference against Crossref, OpenAlex or the DOI resolver, then spot-check unflagged ones.
-- **The response letter concedes in shape, not in fact.** Only 6% of letters fully accommodate every suggestion. The default is agree-and-hedge, and tone is the top failure mode with no detector (same op `13-SUBMISSION-REVIEW.md` §8).
+- **The response letter concedes in shape, not in fact.** Only 6% of letters fully accommodate every suggestion. The default is agree-and-hedge, and tone is the top failure mode with no detector. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
 
 ## Decision rules
 

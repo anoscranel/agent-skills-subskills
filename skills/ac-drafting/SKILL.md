@@ -1,8 +1,9 @@
 ---
 name: ac-drafting
+description: "Starting a new document: the brief (purpose, reader, venue, success test), the outline and structure (answer-first order, action headings), and the first full draft. Use when asking \"write this for me\", \"who is this for\", \"outline this\", \"how should I order this\", \"answer-first headings\", \"get a first draft down\", \"turn my notes into prose\". Not for revising, tightening or restructuring a draft that already exists, and not for finding and checking sources; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Starting a new document: the brief (purpose, reader, venue, success test), the outline and structure (answer-first order, action headings), and the first full draft. Use when asking "write this for me", "who is this for", "outline this", "how should I order this", "answer-first headings", "get a first draft down", "turn my notes into prose". Not for revising, tightening or restructuring a draft that already exists, and not for finding and checking sources; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Drafting

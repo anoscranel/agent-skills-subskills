@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Main stays releasable**: every commit should leave the pipeline releasable (Humble & Farley, *Continuous Delivery*, 2010; vault SWX c05 §1).
-- **Restore first, investigate second** (vault STD 01-DOMAIN-MAP §6).
-- **Not every red is the product**: 26% of non-flaky CI failures were wrong or obsolete tests; 19.3% of failed builds were fixed by editing the test (Hilton et al., FSE 2017; vault QAT F06 §4).
-- **Merge queues** stop "green alone, red together" breaks by testing the merged result (SWX c05 §2).
+- **Main stays releasable**: every commit should leave the pipeline releasable (Humble & Farley, *Continuous Delivery*, 2010).
+- **Restore first, investigate second**.
+- **Not every red is the product**: 26% of non-flaky CI failures were wrong or obsolete tests; 19.3% of failed builds were fixed by editing the test (Hilton et al., FSE 2017).
+- **Merge queues** stop "green alone, red together" breaks by testing the merged result.
 
 ## Decision rules
 
@@ -37,14 +37,14 @@ status: seedling
 2. Scope it: main too? Other branches? Last green run?
 3. Rerun once. Passes → flaky class; quarantine path.
 4. Reproduce locally with CI's exact command and versions:
- ```bash
- docker run --rm -it -v "$PWD":/w -w /w <ci-image> bash -lc '<ci command>'
- ```
+   ```bash
+   docker run --rm -it -v "$PWD":/w -w /w <ci-image> bash -lc '<ci command>'
+   ```
 5. Diff the last green and first red run: commits, lockfile, runner image, tool versions, cache key.
- ```bash
- git log --oneline <last-green>..<first-red>
- git diff <last-green> <first-red> -- package-lock.json poetry.lock go.sum
- ```
+   ```bash
+   git log --oneline <last-green>..<first-red>
+   git diff <last-green> <first-red> -- package-lock.json poetry.lock go.sum
+   ```
 6. Act by class. Code → revert or fix. Test → repair it, reason in the commit. Dependency → pin the last good version; open an upgrade ticket. Environment → pin the image or tool; credential renewal is **human-gated**.
 7. Re-key the cache if it may be corrupt.
 8. Confirm main green. Note cause class, fix and guard.

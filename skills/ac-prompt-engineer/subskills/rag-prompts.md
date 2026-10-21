@@ -16,7 +16,7 @@ model must say so when it does not. Google's Gemini guide supplies the grounding
 template: instruct the model to rely only on the provided user context, and to treat
 anything not mentioned there as unavailable (<https://ai.google.dev/gemini-api/docs/prompting-strategies>). Give an explicit
 license to abstain, because the highest-probability continuation of a question is an
-invented answer (same corpus, §3.6). Put retrieved material in an explicit data envelope at
+invented answer. Put retrieved material in an explicit data envelope at
 the tail of the context; never let its text redefine policy (<https://model-spec.openai.com/2026-08-18.html>).
 Retrieved content is untrusted data, so the rules compose with injection defenses; this
 leaf owns only the faithfulness contract.

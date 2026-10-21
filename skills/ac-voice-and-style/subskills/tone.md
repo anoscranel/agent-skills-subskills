@@ -20,7 +20,7 @@ status: seedling
  Weightiness Wx = social distance + the reader's power over you + the imposition's rank (<https://www.historicalpoliteness.net/bibliography/>).
  Redress runs from bald on-record through positive and negative politeness to off-record.
 - **Hedging is insurance, not a competence penalty.** Sah, Moore and MacCoun (n = 184): when wrong, confident advisors scored 2.23/5 against 2.84 for hedged (https://escholarship.org/content/qt1ww5g76g/qt1ww5g76g.pdf). When right it inverted — 4.00 versus 3.67.
-- **Warmth is the weakest axis.** No corpus dimension and no measured outcome exist for warmth (same F03 file §4, §10). "Be warm" is advice, not a finding. Formality is corpus-anchored in Biber's Dimension 1.
+- **Warmth is the weakest axis.** No corpus dimension and no measured outcome exist for warmth. "Be warm" is advice, not a finding. Formality is corpus-anchored in Biber's Dimension 1.
 
 ## Decision rules
 

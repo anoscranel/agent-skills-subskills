@@ -1,8 +1,9 @@
 ---
 name: ac-task-planning
+description: "Task breakdown and planning: slicing a spec into ordered vertical tasks, estimates and forecasts, cadence choice, risk registers, build-vs-buy calls. Use when asking \"break this into tasks\", \"split this epic\", \"estimate this\", \"how long will this take\", \"when can we ship\", \"scrum or kanban\", \"what are the risks\", \"should we build or buy\". Not for writing the spec or requirements themselves, choosing the system structure, or step sizing inside the coding loop; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Task breakdown and planning: slicing a spec into ordered vertical tasks, estimates and forecasts, cadence choice, risk registers, build-vs-buy calls. Use when asking "break this into tasks", "split this epic", "estimate this", "how long will this take", "when can we ship", "scrum or kanban", "what are the risks", "should we build or buy". Not for writing the spec or requirements themselves, choosing the system structure, or step sizing inside the coding loop; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Task Planning

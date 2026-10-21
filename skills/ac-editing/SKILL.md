@@ -1,8 +1,9 @@
 ---
 name: ac-editing
+description: "Revising and finishing an existing draft: structural revision (reorder and cut by what the document says), line editing, copyedit against a style sheet, the final proofread and publish gate, commenting on someone else's draft, and the AI-use and disclosure decision before text goes out. Use when asking \"restructure this\", \"the argument doesn't hold\", \"tighten this prose\", \"copyedit this\", \"run the style sheet\", \"proofread this\", \"when do I stop editing\", \"give editorial notes\", \"disclose AI use\". Not for writing the first draft, building the style sheet itself, or checking citations; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Revising and finishing an existing draft: structural revision (reorder and cut by what the document says), line editing, copyedit against a style sheet, the final proofread and publish gate, commenting on someone else's draft, and the AI-use and disclosure decision before text goes out. Use when asking "restructure this", "the argument doesn't hold", "tighten this prose", "copyedit this", "run the style sheet", "proofread this", "when do I stop editing", "give editorial notes", "disclose AI use". Not for writing the first draft, building the style sheet itself, or checking citations; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Editing

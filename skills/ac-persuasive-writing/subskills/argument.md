@@ -19,8 +19,8 @@ status: seedling
  The annual rate rose from 20% to about 60% by 2024.
  In an experiment (N = 1,105) readers took the causal framing as causal evidence (Isch et al., *Nature Human Behaviour* 2026, https://doi.org/10.1038/s41562-026-02553-x).
  Methodological labels (β = −0.4, 95% CI −0.56 to −0.19) reduced that reading. Associational wording (β = −0.3, CI −0.43 to −0.07) did the same.
-- **Models amplify overstatement.** Five LLMs summarising these articles stripped hedges and added causal claims where the abstract had used associational wording. A caution prompt reduced but did not remove it (same source).
-- **Calibration runs in both directions.** Claim exactly as much as the design supports: no more (overclaim), no less (mush). The named mechanism is drift — the abstract hedges, the introduction is bolder, the conclusion reaches *causes* (same file §2).
+- **Models amplify overstatement.** Five LLMs summarising these articles stripped hedges and added causal claims where the abstract had used associational wording. A caution prompt reduced but did not remove it.
+- **Calibration runs in both directions.** Claim exactly as much as the design supports: no more (overclaim), no less (mush). The named mechanism is drift — the abstract hedges, the introduction is bolder, the conclusion reaches *causes*.
 
 ## Decision rules
 

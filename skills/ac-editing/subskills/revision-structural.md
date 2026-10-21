@@ -11,6 +11,8 @@ status: seedling
 
 ## Standard
 
+⚠️ The primary standard is paywalled; these points come from secondary sources and the public summary.
+
 - **The pass that changes meaning.** Trade publishing runs four named passes: developmental (the whole argument and arc), line (sentence by sentence), copyedit (mechanical, against a style sheet), proofread (the typeset artifact). The first two change meaning; the last two do not (CMOS Q&A: https://www.chicagomanualofstyle.org/qanda/data/faq/topics/ManuscriptPreparation/faq0218.html; ladder in <https://ntrs.nasa.gov/citations/19760015018>).
 - **Purpose, then structure, then argument, then cuts.** The developmental pass answers in order: does this document do its job, is it ordered for the reader, does each claim carry its evidence, what can go.
 - **Revision moves claims, not sentences.** 60.2% of primary claims are touched between preprint and publication (<https://arxiv.org/abs/2210.15067>). The claim type is preserved in 96.6% of pairs. Structural work is where meaning changes.
@@ -23,7 +25,7 @@ status: seedling
 2. Cut what no reader question needs. A section that answers no brief requirement is removed, not shortened.
 3. If a claim loses its evidence in this pass, cut the claim. Do not soften it and keep it.
 4. Structure changes come before wording changes: a wording pass on a moved section is wasted work.
-5. Do not compress hedges away. Deleting qualifiers while cutting words is an argument change done silently (same file §9).
+5. Do not compress hedges away. Deleting qualifiers while cutting words is an argument change done silently.
 6. Re-check the brief after the cuts. The success test must still be reachable.
 
 ## Procedure

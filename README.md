@@ -1,51 +1,67 @@
 # agent-skills-subskills
 
-An MIT-licensed family of Agent Skills for professional work: writing, software engineering, prompting, and one meta-skill that authors them all. Built and updated by Anos Cranel.
+33 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, and one meta-skill that builds and audits skills like these.
 
-The pack ships three suites of craft skills and one author tool.
+Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
-## What's here
+## What's in the pack
 
-```
-skills/
-  ac-<cluster>/SKILL.md      the agent-loadable entry point for the cluster
-  ac-<cluster>/subskills/    flat depth-1 leaf files — each holds one standard's procedures
-docs/
-  the reference docs and the proof ledger (audit + routing tests)
-```
+| Suite | Skills | Leaves |
+|---|---|---|
+| Software engineering | 18 | 52 |
+| Writing | 13 | 40 |
+| Prompt engineering (`ac-prompt-engineer`) | 1 | 12 |
+| Skill authoring (`ac-subskills-author`) | 1 | 10 |
+| **Total** | **33** | **114** |
 
-Format: each `SKILL.md` is a routing index over its leaves. Every leaf carries a six-field header (name, domain, trigger, anti-trigger, scope, status) and six sections (Standard, Decision rules, Procedure, Anti-patterns, Done checklist, Sources), and is self-contained — it never hands the task to another skill. Every published skill passes a local lint, a security scan, an independent audit, and a routing evaluation before it lands; see `docs/PROOF.md`.
+**Software engineering:** agent-coding-governance · api-design · architecture · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · frontend-ui · git-workflow · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing
 
-## Suites
+**Writing:** academic-writing · business-writing · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards
 
-### `ac-subskills-author` — the meta-skill
+Every skill name carries the `ac-` prefix (for example `ac-testing`).
 
-Builds and audits skill trees to this pack's own rules: research-gate, the closed-enum domain map, flat-or-nest routing rule (depth-1, 60-leaf budget), the delegation-free lint gate, staging behind a fail-closed install gate (you supply the installer; nothing is copied in by hand), and a routing evaluation per tree. It ships four stdlib-only Python checkers in `scripts/`: `lint_tree.py`, `skill_scan.py`, `route_score.py` and `tree_hash.py`.
+## How a leaf is built
 
-### Software engineering (18 clusters)
-
-spec-writing · task-planning · architecture · database-changes · code-construction · codebase-maintenance · testing · code-review · ci-and-release · reliability · performance · frontend-ui · debugging · api-design · git-workflow · agent-coding-governance · quality-verification · software-engineering-standards
-
-Each covers the model professional's craft X with decision rules, a procedure, anti-patterns, and a done-checklist — sourced from SWEBOK v4, SWEBOK-aligned operations, Google's eng-practices set, SLSA's public specs, and the OWASP/ASVS lines, independently audited.
-
-### Writer (13 clusters)
-
-drafting · plain-language · voice-and-style · technical-writing · business-writing · persuasive-writing · proposal-writing · news-writing · narrative-writing · academic-writing · editing · evidence-and-citation · writing-standards
-
-### `ac-prompt-engineer`
-
-A 12-leaf working skill: decompose-the-task, instruction-form/topology, model knobs, tokens-and-capacity, prompt patterns with fallbacks, debug-prompt, eval-proof with seeded design, agent-harness's instructions, injection defense, RAG prompts, prompt libraries, multimodal dialects.
+Each leaf has a routing header (name, domain, trigger, anti-trigger, scope, status) and, for the craft leaves, six sections: Standard, Decision rules, Procedure, Anti-patterns, Done checklist, Sources. Claims cite public primary sources inline. Paywalled or single-source claims carry a ⚠️ flag.
 
 ## Install
 
-Each skill is a self-contained directory. In opencode or any harness that reads Agent Skills:
+Copy one skill directory (or all of them) into a skills directory your harness reads:
 
-1. Pick the skill directory from `skills/ac-*/`.
-2. Copy it into your harness's skills directory (commonly `~/.agents/skills/<skill-name>/` or a project-local `.agents/skills/`; check your harness's docs).
-3. Restart the harness and confirm the skill is listed (opencode: `opencode debug skill`).
+| Harness | Global path | Project path |
+|---|---|---|
+| opencode | `~/.config/opencode/skills/<name>/` or `~/.agents/skills/<name>/` | `.opencode/skills/<name>/` |
+| Claude Code | `~/.claude/skills/<name>/` | `.claude/skills/<name>/` |
+| Other Agent Skills harnesses | see your harness's docs | |
 
-No third-party dependency: leaves are markdown with plain-YAML frontmatter. The only code is the four checker scripts in `skills/ac-subskills-author/scripts/`, which use the Python standard library only and run only when you call them. No skill ships hooks or install scripts.
+```sh
+git clone https://github.com/anoscranel/agent-skills-subskills.git
+cp -r agent-skills-subskills/skills/ac-testing ~/.claude/skills/
+```
+
+Restart the harness, then confirm the skill is listed (opencode: `opencode debug skill`). Paths per the [opencode skills docs](https://opencode.ai/docs/skills/).
+
+## Code in this repo
+
+The only code is four Python checkers in `skills/ac-subskills-author/scripts/`. They use the standard library only, make no network calls and write no files. They run only when you call them:
+
+| Script | What it does |
+|---|---|
+| `lint_tree.py <skill-dir>` | Checks a skill tree's structure: frontmatter, domain chain, index ↔ disk, links, no hand-off lines |
+| `skill_scan.py <skill-dir>` | Scans every file for injection, hand-off, credential-path and build-artifact patterns |
+| `route_score.py` | Scores a blind routing evaluation against pre-registered labels |
+| `tree_hash.py <dir>` | Prints a content hash of a tree, for tamper checks |
+
+No skill ships hooks or install scripts.
+
+## Safety
+
+`ac-subskills-author` audits a skill before install. It never installs on its own judgment: install needs a human's approval, or a fail-closed install gate that you set up yourself. This repo does not ship such a gate.
+
+## Proof
+
+What was tested, what passed, and what was not tested: [`docs/PROOF.md`](docs/PROOF.md).
 
 ## License
 
-MIT — §LICENSE. All 33 + 1 skills © Anos Cranel 2026. The pack is a self-authored original: derived only from public-documented industry standards, our own research, and the runs of our desk; nothing has been copied from another repository's material.
+MIT, © 2026 Anos Cranel. See [LICENSE](LICENSE). The skills are self-authored. Their content draws on public standards and published research, which each leaf cites.

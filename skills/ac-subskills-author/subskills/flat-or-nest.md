@@ -10,7 +10,7 @@ status: seedling
 # Flat or Nest (pipeline step 3)
 
 Decide the tree shape from the leaf count. **Flat-first is the default; nesting is the
-overflow valve, never the default** (SPEC §4, findings/003 ANGLE 5).
+overflow valve, never the default**.
 
 ## Standard
 
@@ -22,11 +22,11 @@ Rules 3–4 become trivially checkable because every scope claim lives in one fi
 ## Decision rules
 
 - **≤60 (operator-set limit ⚠️) leaves → FLAT depth-1, preferred (lint WARNs otherwise).**
- One rich multi-column index in SKILL.md (task | trigger | leaf); every leaf linked
- directly. No intermediate files.
+  One rich multi-column index in SKILL.md (task | trigger | leaf); every leaf linked
+  directly. No intermediate files.
 - **>60 leaves → nesting becomes legal**, and then ONLY as: `subskills/<group>/INDEX.md`
- (a pure TOC — frontmatter + heading + routing table, **zero imperative sentences**)
- routing to leaves. Max depth 2 (index→index→leaf). Depth ≥3 is forbidden.
+  (a pure TOC — frontmatter + heading + routing table, **zero imperative sentences**)
+  routing to leaves. Max depth 2 (index→index→leaf). Depth ≥3 is forbidden.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ Rules 3–4 become trivially checkable because every scope claim lives in one fi
 ## Anti-patterns
 
 - Nesting to look organized — nest only when the index alone would blow the ≤500-line
- SKILL.md body budget.
+  SKILL.md body budget.
 - A nesting level deeper than index→index→leaf.
 
 ## Done checklist
@@ -47,5 +47,4 @@ and shown to the operator at hand-off.
 
 ## Sources
 
-- SPEC-subskills (internal spec) §4; subskills-architecture research findings 003 ANGLE 5
- (internal).
+- House standard for skills-with-subskills (unpublished).

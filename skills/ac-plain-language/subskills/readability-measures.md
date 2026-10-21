@@ -17,7 +17,7 @@ status: seedling
 - **The scores partly measure the topic.** Under a topic model, Flesch scores converge almost surely to functions of the document's topic distribution (Ehara, https://arxiv.org/abs/2608.23327). A topic vector from one half predicts the other half's grade level at r = 0.779 (Brown) and 0.884 (written BNC). It adds only R² = 0.002, CI spanning zero. ⚠️ Single study, unreplicated; the author declines to read it as a claim about human readability.
 - **Issuers reject their own instrument.** CDC: "Readability formulas are inadequate to assess communication effectiveness. These formulas are a mechanical 'count' of syllables and sentences; they don't consider audience, purpose, or the majority of communication characteristics that contribute to clarity and comprehension" (https://www.cdc.gov/ccindex/tool/index-different.html).
 - **Validity hierarchy** (<https://blog.iclr.cc/2025/11/19>): Flesch/Fog/SMOG valid as relative surface complexity inside one corpus, invalid for comprehension or cross-topic comparison. Dale-Chall valid against its school list, invalid for experts. Readability-machine-learning reached 0.631 Spearman with human ratings — on code, not prose. Linters (Vale, alex, textlint) are valid because they publish the rule they enforce.
-- **Target ranges, rules of thumb** ( ⚠️ conventions, not measured optima): general public grade level ≤8, ease ≥60; educated generalists grade ~10–12; expert peers keep their terms, sentences 15–25 words.
+- **Target ranges, rules of thumb** (⚠️ conventions, not measured optima): general public grade level ≤8, ease ≥60; educated generalists grade ~10–12; expert peers keep their terms, sentences 15–25 words.
 
 ## Decision rules
 

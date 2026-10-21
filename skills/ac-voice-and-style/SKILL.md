@@ -1,8 +1,9 @@
 ---
 name: ac-voice-and-style
+description: "How text sounds and the rules that keep it consistent: choosing a style guide (AP, Chicago, APA, MLA, CSE, Microsoft), building a project style sheet, keeping one author or brand voice across documents, setting the tone for tense or high-stakes messages, and removing machine tells from AI-flavoured drafts. Use when asking \"which style guide\", \"AP or Chicago\", \"build a style sheet\", \"keep my voice\", \"brand voice\", \"this sounds cold\", \"deliver bad news\", \"soften this\", \"does this sound like AI\", \"de-slop this\". Not for the copyedit consistency pass that applies the sheet, nor for the AI-disclosure policy decision; that work sits outside this skill."
 license: MIT
-domain: writing
-description: How text sounds and the rules that keep it consistent: choosing a style guide (AP, Chicago, APA, MLA, CSE, Microsoft), building a project style sheet, keeping one author or brand voice across documents, setting the tone for tense or high-stakes messages, and removing machine tells from AI-flavoured drafts. Use when asking "which style guide", "AP or Chicago", "build a style sheet", "keep my voice", "brand voice", "this sounds cold", "deliver bad news", "soften this", "does this sound like AI", "de-slop this". Not for the copyedit consistency pass that applies the sheet, nor for the AI-disclosure policy decision; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Voice and Style

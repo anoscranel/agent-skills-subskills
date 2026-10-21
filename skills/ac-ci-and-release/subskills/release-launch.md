@@ -11,18 +11,18 @@ status: seedling
 ## Standard
 
 - **SemVer 2.0.0** (https://semver.org/spec/v2.0.0.html): PATCH for compatible fixes, MINOR for added function, MAJOR for a public incompatibility. Pre-release suffixes sort before the release.
-- **Release governance** (SWX c05 §10): every artifact is signed; an unsigned artifact is unreleasable. Prefer flag-off or forward-fix over a binary rollback, because an untested rollback fails twice.
-- **Two paths after launch** (SDP 028 §2.1): a normal train for batched changes, a narrow hotfix lane for P1 only. Both ride the same gate.
-- **Apple phased release** (https://developer.apple.com/help/app-store-connect/update-your-app/release-a-version-update-in-phases/): fixed 1/2/5/10/20/50/100 % over 7 days. **Play** (SWX c19 §2): developer-chosen %, manual increases, halt and resume, 100 % terminal.
+- **Release governance**: every artifact is signed; an unsigned artifact is unreleasable. Prefer flag-off or forward-fix over a binary rollback, because an untested rollback fails twice.
+- **Two paths after launch**: a normal train for batched changes, a narrow hotfix lane for P1 only. Both ride the same gate.
+- **Apple phased release** (https://developer.apple.com/help/app-store-connect/update-your-app/release-a-version-update-in-phases/): fixed 1/2/5/10/20/50/100 % over 7 days. **Play**: developer-chosen %, manual increases, halt and resume, 100 % terminal.
 
 ## Decision rules
 
 1. Cut the version from the change list, never by feel. A breaking public change is MAJOR.
 2. Publish the rollback note before the release.
 3. Rollback order: flag off, forward-fix, revert the release. Data restore comes last.
-4. A hotfix carries only the fix and its regression test (SDP 028 §2.3).
+4. A hotfix carries only the fix and its regression test.
 5. Ramp percentages are gates with a halt rule, not a formality.
-6. Never break an old client mid-cycle; announce a sunset first (SWX c19 §4).
+6. Never break an old client mid-cycle; announce a sunset first.
 7. Store submission and the release cut are **human-gated**.
 
 ## Procedure
@@ -40,7 +40,7 @@ status: seedling
 11. Announce the release. Announcement copy is human-approved.
 12. After the ramp, retire the flag.
 
-Mobile extras: the build number rises monotonically, read from the store rather than hardcoded (SWX c19 §5). TestFlight takes 100 internal and 10,000 external users, and builds expire after 90 days (SWX c19 §6). Budget about 12 days before launch and two rejection cycles (SWX c19 §1); ⚠️ the 24-hour review norm is single-sourced.
+Mobile extras: the build number rises monotonically, read from the store rather than hardcoded. TestFlight takes 100 internal and 10,000 external users, and builds expire after 90 days. Budget about 12 days before launch and two rejection cycles; ⚠️ the 24-hour review norm is single-sourced.
 
 ## Anti-patterns
 

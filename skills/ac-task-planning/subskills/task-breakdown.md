@@ -10,9 +10,9 @@ status: seedling
 
 ## Standard
 
-- **Vertical slice**: the smallest end-to-end change that delivers user value through every layer it needs (vault SWX c01 §2).
-- **INVEST** (Bill Wake) applies to each task: Independent, Negotiable, Valuable, Estimable, Small, Testable (SWX c01 §2).
-- **Small batches** cut review load and integration cost. DORA ties small batches and short-lived branches to delivery performance (https://dora.dev/capabilities/trunk-based-development/, vault SDP 039 §2.3).
+- **Vertical slice**: the smallest end-to-end change that delivers user value through every layer it needs.
+- **INVEST** (Bill Wake) applies to each task: Independent, Negotiable, Valuable, Estimable, Small, Testable.
+- **Small batches** cut review load and integration cost. DORA ties small batches and short-lived branches to delivery performance (https://dora.dev/capabilities/trunk-based-development/).
 
 ## Decision rules
 
@@ -31,14 +31,14 @@ status: seedling
 2. Find the riskiest assumption. Make it task 1 (a spike or a thin proof).
 3. Define the walking skeleton: the thinnest path through all layers, deployed. Make it task 2.
 4. Slice the rest with rule 8. Write each task in this shape:
- ```markdown
- ### T-07 Reject expired coupons at checkout
- Traces: REQ-014
- Depends on: T-03
- Done when: Gherkin scenario "expired coupon" passes in CI; flag `coupon_v2` off by default
- Out of scope: coupon admin UI
- Size: S
- ```
+   ```markdown
+   ### T-07 Reject expired coupons at checkout
+   Traces: REQ-014
+   Depends on: T-03
+   Done when: Gherkin scenario "expired coupon" passes in CI; flag `coupon_v2` off by default
+   Out of scope: coupon admin UI
+   Size: S
+   ```
 5. Check each task against INVEST. Too big → split again. Not valuable alone → merge it into a neighbour or mark it enabling.
 6. Order by rule 4. Draw the dependency list. Remove cycles by splitting.
 7. Mark tasks that can run in parallel.
@@ -65,5 +65,5 @@ status: seedling
 ## Sources
 
 - <https://github.blog/developer-skills/github/write-better-commits-build-better-projects/>
-- https://google.github.io/eng-practices/review/developer/small-cls.html (via job-003 G-SE11)
+- https://google.github.io/eng-practices/review/developer/small-cls.html 
 - https://dora.dev/capabilities/trunk-based-development/

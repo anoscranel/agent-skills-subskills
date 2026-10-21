@@ -11,10 +11,12 @@ status: seedling
 
 ## Standard
 
+⚠️ The primary standard is paywalled; these points come from secondary sources and the public summary.
+
 - **Proofreading keys to the typeset artifact.** It catches errors introduced during typesetting (a dropped line, a wrong font, a repeated running head) (CMOS Q&A: https://www.chicagomanualofstyle.org/qanda/data/faq/topics/ManuscriptPreparation/faq0218.html; ladder in <https://ntrs.nasa.gov/citations/19760015018>). It also covers page mechanics: breaks, heads, spacing, alignment. The freelance market also uses the word for a final read of an unedited file — state which object is read before comparing rates.
-- **Single-pass detection is partial.** Two independent readers at p = 0.8 leave about 4% residual; three leave about 0.8%. Independence is the weak link: shared expectations and topic familiarity reduce it (same file §2.1–§2.2).
+- **Single-pass detection is partial.** Two independent readers at p = 0.8 leave about 4% residual; three leave about 0.8%. Independence is the weak link: shared expectations and topic familiarity reduce it. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
 - **The two-reader estimator.** Reader 1 finds A errors, reader 2 finds B, C are found by both: total N̂ = A·B/C; missed by both = N̂ − (A+B−C) (Pólya, *Amer. Math. Monthly* 83(1), 1976, https://www.cs.princeton.edu/courses/archive/fall07/cos323/papers/Polya76.pdf). C = 0 leaves it undefined; the Winter correction is (A−C)(B−C)/(C+1).
-- **No error-density standard exists** (same file §2.3), so a stop rule is calibrated locally. The strongest imported framework is the error budget (Google SRE Book, "Embracing Risk", https://sre.google/sre-book/embracing-risk/; <https://diymfa.com/writing/when-to-stop-editing/>). Perfection is a suboptimal target, the budget needs a neutral instrument, and its owner must be able to stop the pass.
+- **No error-density standard exists**, so a stop rule is calibrated locally. The strongest imported framework is the error budget (Google SRE Book, "Embracing Risk", https://sre.google/sre-book/embracing-risk/; <https://diymfa.com/writing/when-to-stop-editing/>). Perfection is a suboptimal target, the budget needs a neutral instrument, and its owner must be able to stop the pass.
 
 ## Decision rules
 

@@ -14,7 +14,7 @@ status: seedling
 - **Closest-file-wins**: the nearest instruction file to the file being edited governs, and an explicit user prompt overrides everything (https://agents.md/). OpenAI's own repository ships 88 nested files (CE §2).
 - **Length limits**: Anthropic recommends a conventions file under 200 lines, because longer files cut adherence; Codex caps project docs at 32 KiB (CE §2).
 - **Context rot is measured**: accuracy falls from about 95 % to 60–70 % as context grows, even on trivial tasks (CE §4, Chroma).
-- **Budget rules** (SWX c10 §4): pointers, not contents. Supply skeleton maps and fetch bodies just in time.
+- **Budget rules**: pointers, not contents. Supply skeleton maps and fetch bodies just in time.
 
 ## Decision rules
 
@@ -23,7 +23,7 @@ status: seedling
 3. Keep the root file short. A rules file is an attention budget, not a dump.
 4. State each rule once. A rule repeated in three places drifts in one of them.
 5. Name boundaries explicitly: what is off-limits, what needs a human gate.
-6. Prefer a repo map plus retrieval over a full source dump. Coding agents beat raw long-context dumps (SWX c10 §4).
+6. Prefer a repo map plus retrieval over a full source dump. Coding agents beat raw long-context dumps.
 7. Split work into separate sessions per lane rather than growing one window.
 8. The human-gate list is part of the instructions. It states what the agent must never do alone.
 
@@ -31,10 +31,10 @@ status: seedling
 
 1. List what an agent must know here: commands, layout, conventions, boundaries.
 2. Write the root file:
- ```markdown
- ## Commands: npm ci · npm test · npm run lint
- ## Boundaries: migrations are human-gated; no secrets in fixtures
- ```
+   ```markdown
+   ## Commands: npm ci · npm test · npm run lint
+   ## Boundaries: migrations are human-gated; no secrets in fixtures
+   ```
 3. Keep it under 200 lines. If it grows, move detail to the directory that needs it.
 4. Add nested files only where the rules diverge, and replace prose with pointers: paths, commands, file names.
 5. Add a repo map script so the agent can fetch structure cheaply.

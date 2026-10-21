@@ -11,7 +11,7 @@ status: seedling
 
 ## Standard
 
-- **The Aims page is the decision.** Reviewers form a first-pass impression on the Aims page in about 60–120 seconds, then read the rest to confirm (<https://en.wikipedia.org/wiki/Dual_process_theory> ⚠️ consulting sources). Non-assigned panelists skim the Aims page and two lines of the Approach. That page carries significance, capability and feasibility before any detail (same file §8).
+- **The Aims page is the decision.** Reviewers form a first-pass impression on the Aims page in about 60–120 seconds, then read the rest to confirm (<https://en.wikipedia.org/wiki/Dual_process_theory> ⚠️ consulting sources). Non-assigned panelists skim the Aims page and two lines of the Approach. That page carries significance, capability and feasibility before any detail.
 - **Plainness is the strongest single-document writing effect.** Needless complexity depresses judgements of the author's intelligence and of acceptance, robust across domains and independent of the essay's quality (https://onlinelibrary.wiley.com/doi/10.1002/acp.1178).
 - **Risk beats strength in scoring.** As perceived risk rises, strengths predict less; one serious flaw outweighs several strengths. Pre-empt the killer objection in the body, not the appendix (same GA-01 file §2, §8).
 - **Reliability bounds what writing can do.** Two reviewers of the same proposal agree at r about 0.26. Near the payline roughly a third of outcomes flip with score noise. Aim at the range: leaving the triaged half beats a point of impact score (<https://www.niaid.nih.gov/research/understand-paylines-percentiles>).

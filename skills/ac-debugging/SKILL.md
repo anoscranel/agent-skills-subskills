@@ -1,8 +1,9 @@
 ---
 name: ac-debugging
+description: "Scientific debugging and defect analysis: reproduce and minimise a failure, hypothesis-driven experiments, sanitizers and race detection, git bisect and delta debugging, fixing the defect class instead of the instance, and triaging a red build or broken pipeline back to green. Use when asking \"why does this fail\", \"fix this bug\", \"it crashes when\", \"race condition\", \"find the root cause\", \"git bisect this\", \"why do we keep getting this bug\", \"CI is red\", \"the build is broken\". Not for designing the test suite that catches the next defect, nor the pipeline's wiring once it is green; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Scientific debugging and defect analysis: reproduce and minimise a failure, hypothesis-driven experiments, sanitizers and race detection, git bisect and delta debugging, fixing the defect class instead of the instance, and triaging a red build or broken pipeline back to green. Use when asking "why does this fail", "fix this bug", "it crashes when", "race condition", "find the root cause", "git bisect this", "why do we keep getting this bug", "CI is red", "the build is broken". Not for designing the test suite that catches the next defect, nor the pipeline's wiring once it is green; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Debugging

@@ -14,9 +14,9 @@ status: seedling
 - **The diamond shape is the long-form architecture.** An anecdotal lede, a nut graf in paragraphs 3–6 with the thesis and urgency, a systemic body, then a return to the opening subject (<https://www.poynter.org/>).
 - **Every scene changes a value.** A scene is a unified event bounded by time, space or action that shifts a condition between entrance and exit (<https://www.oupress.com>). A static scene is a non-event.
 - **Causal hinges, not episodes.** Connect beats with "therefore" or "but"; beats joined by "and then" mean the momentum has stalled (<https://mckeestory.com>).
-- **Truth is the binding constraint.** Composite characters, fabricated quotes and assumed interiority are banned; factual and honest are separate obligations (same vault file §1).
+- **Truth is the binding constraint.** Composite characters, fabricated quotes and assumed interiority are banned; factual and honest are separate obligations.
 - **The customer's words are the asset.** Copy that works is found, not written (<https://mmsvegas.com/library/voice-of-customer-explained>). The customer has already described the problem, the fear and the outcome, and paraphrasing destroys that property.
-- **The case-study arc answers the committee's questions.** Buyer profile, trigger event, decision criteria, a short approach, an outcome with before-and-after numbers, and a quote reinforcing the specific outcome (same file §8 ⚠️ practitioner convention).
+- **The case-study arc answers the committee's questions.** Buyer profile, trigger event, decision criteria, a short approach, an outcome with before-and-after numbers, and a quote reinforcing the specific outcome (⚠️ practitioner convention).
 - **Legal exposure follows the person written about.** Living persons can sue for defamation or privacy invasion even under nicknames (<https://loucheleaves.com/writing-lives-legal-considerations-in-memoir-biography-and-autobiography/>). Anonymise the mosaic, not just the name.
 
 ## Decision rules

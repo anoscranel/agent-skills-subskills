@@ -1,8 +1,9 @@
 ---
 name: ac-codebase-maintenance
+description: "Maintaining an existing codebase: simplification, dead-code removal, named refactorings and strangler-fig migrations, tech-debt registers and hotspots, dependency upgrades and licence intake, retiring features and systems. Use when asking \"simplify this\"\"make this clearer without changing what it does\", \"dead code\", \"remove the dead branches\", \"rename and shrink this\",, \"clean up this function\", \"refactor this\", \"strangler fig\", \"remove dead code\", \"where is our tech debt\", \"what should we fix first\", \"upgrade dependencies\", \"this package is abandoned\", \"remove this feature\", \"retire this system\". Not for writing new behaviour, schema-migration mechanics, or CI gate wiring; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Maintaining an existing codebase: simplification, dead-code removal, named refactorings and strangler-fig migrations, tech-debt registers and hotspots, dependency upgrades and licence intake, retiring features and systems. Use when asking "simplify this""make this clearer without changing what it does", "dead code", "remove the dead branches", "rename and shrink this",, "clean up this function", "refactor this", "strangler fig", "remove dead code", "where is our tech debt", "what should we fix first", "upgrade dependencies", "this package is abandoned", "remove this feature", "retire this system". Not for writing new behaviour, schema-migration mechanics, or CI gate wiring; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Codebase Maintenance

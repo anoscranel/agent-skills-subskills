@@ -10,31 +10,31 @@ status: seedling
 
 ## Standard
 
-- **ISO/IEC 25010:2023** has nine characteristics: functional suitability, performance efficiency, compatibility, interaction capability (was usability), reliability, security, maintainability, flexibility (was portability), safety (new). ⚠️ Rename mapping is from secondaries; ISO text paywalled (SWX c20; see Sources).
-- **V&V plan** pairs every requirement with a verification method and evidence, so verification answers "how do we know" (SWX c20 §10).
-- **The pragmatic ladder** (SWX c20 §10): assertions → contracts → stateless property tests → stateful model-based → TLA+ or Alloy on hot paths → full verification (SPARK, F*, proof assistants) for kernels and crypto.
-- **Alloy**: Jackson's small-scope hypothesis — most design flaws have small counterexamples, so a bounded check catches the bulk (SWX c20 §3).
-- **TLA+ at AWS**: specification found a DynamoDB fault-recovery bug needing a 35-step interleaving no reviewer imagined (SWX c20 §1).
+- **ISO/IEC 25010:2023** has nine characteristics: functional suitability, performance efficiency, compatibility, interaction capability (was usability), reliability, security, maintainability, flexibility (was portability), safety (new). ⚠️ Rename mapping is from secondaries; ISO text paywalled (see Sources).
+- **V&V plan** pairs every requirement with a verification method and evidence, so verification answers "how do we know".
+- **The pragmatic ladder**: assertions → contracts → stateless property tests → stateful model-based → TLA+ or Alloy on hot paths → full verification (SPARK, F*, proof assistants) for kernels and crypto.
+- **Alloy**: Jackson's small-scope hypothesis — most design flaws have small counterexamples, so a bounded check catches the bulk.
+- **TLA+ at AWS**: specification found a DynamoDB fault-recovery bug needing a 35-step interleaving no reviewer imagined. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
 
 ## Decision rules
 
 1. Turn each NFR into a measurable quality attribute with a number and a method (out of scope for this leaf: NFR authoring).
 2. Pick the cheapest ladder rung that can find the defect you fear. A protocol defect does not wait for a unit test.
 3. Property tests are the bridge: stateless round-trip, then stateful model-based where the machine has states.
-4. Verify the verifier: sabotage the model and confirm the property fails. A property that survives a broken system is vacuous (SWX c20 §10).
-5. Traceability is bidirectional: every requirement has a test, every test names a requirement. Tool qualification matters where the tool carries verification credit (SWX c20 §7).
-6. ⚠️ "Per-commit for fast checks, per-release for heavyweight provers" is inferred from tool performance, not a published policy (SWX c20 §7).
+4. Verify the verifier: sabotage the model and confirm the property fails. A property that survives a broken system is vacuous.
+5. Traceability is bidirectional: every requirement has a test, every test names a requirement. Tool qualification matters where the tool carries verification credit.
+6. ⚠️ "Per-commit for fast checks, per-release for heavyweight provers" is inferred from tool performance, not a published policy.
 
 ## Procedure
 
 1. List the quality attributes that matter, from the spec and the risk list, and state each as measurable: "availability 99.9 % over 30 days".
 2. Pick the verification method per attribute: test, analysis, inspection or formal model, and write the V&V plan as attribute, method, evidence, owner, gate.
 3. Build the trace matrix:
- ```markdown
- | Requirement | Test | Evidence | Status |
- |---|---|---|---|
- | REQ-14 idempotent charge | charge_test::same_key_replays | CI run 4821 | pass |
- ```
+   ```markdown
+   | Requirement | Test | Evidence | Status |
+   |---|---|---|---|
+   | REQ-14 idempotent charge | charge_test::same_key_replays | CI run 4821 | pass |
+   ```
 4. Start at ladder rung one: assertions on the invariants that must never break.
 5. Add property tests for any pure function with a round trip or a metamorphic relation (out of scope for this leaf: property-test design).
 6. Model the concurrency or recovery path when the failure needs an interleaving; bound constants.

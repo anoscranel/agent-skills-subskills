@@ -23,13 +23,13 @@ was stale and was discarded). Key sourced facts:
  video surfaces; Wan truncates at 500 characters silently), a sentence in the main
  prompt (FLUX.2, GPT-image, which have no field), or a discouraged practice (Google,
  Anthropic: describe what you want instead). Midjourney's `--no` is a -0.5 weight, not
- a mask (vendor doc, per F03 §A2).
+ a mask (vendor doc).
 - **Negation can reverse.** On CLIP-family conditioning, negated captions scored better
- than true captions in a 228,246-pair study (WACV 2025, CC-Neg, per F03). Never
+ than true captions in a 228,246-pair study (WACV 2025, CC-Neg). Never
  rely on negating an unwanted object; describe the desired scene instead.
 - **Video is a pipeline, not a prompt.** Prompt-text budgets range from 1,000 to 20,000
  characters across models on one router; duration, aspect, and reference roles are
- fields, not prose (Runway OpenAPI, per F03 §A5).
+ fields, not prose (Runway OpenAPI).
 
 ## Decision rules
 
@@ -48,7 +48,7 @@ was stale and was discarded). Key sourced facts:
 3. Put the most important tokens first on position-sensitive models.
 4. Hold everything constant and change one variable per generation when iterating.
 5. On a model version bump, re-verify the dialect against the vendor page before batch
- runs; behavior can drift silently (F03 §A4 churn protocol).
+ runs; behavior can drift silently.
 
 ## Anti-patterns
 

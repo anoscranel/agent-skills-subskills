@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Kent Beck, *Test-Driven Development: By Example* (2002)**: red → green → refactor (vault SWX c04 §2).
-- **Three laws**: (1) no production code without a failing test; (2) no more test than needed to fail; (3) no more code than needed to pass (SWX c04 §2).
-- **Evidence**: Nagappan et al., *Empirical Software Engineering* 2008 (DOI 10.1007/s10664-008-9062-z) — four industrial teams, 40–90% lower pre-release defect density, 15–35% slower initial development. Controlled replications find small or no external-quality effects. Fucci et al. (ICSE 2016): gains track small steps and test cleanliness more than test-first order (SWX c04 §2).
-- **Bug fixes**: a fix lands with a test that fails before and passes after (vault SDP 017 §2, §4).
+- **Kent Beck, *Test-Driven Development: By Example* (2002)**: red → green → refactor.
+- **Three laws**: (1) no production code without a failing test; (2) no more test than needed to fail; (3) no more code than needed to pass.
+- **Evidence**: Nagappan et al., *Empirical Software Engineering* 2008 (DOI 10.1007/s10664-008-9062-z) — four industrial teams, 40–90% lower pre-release defect density, 15–35% slower initial development. Controlled replications find small or no external-quality effects. Fucci et al. (ICSE 2016): gains track small steps and test cleanliness more than test-first order.
+- **Bug fixes**: a fix lands with a test that fails before and passes after.
 
 ## Decision rules
 
@@ -25,17 +25,17 @@ status: seedling
 6. Green may be ugly. Refactor only on green; run tests after each refactoring move.
 7. Test behaviour through the public interface. Never assert private internals.
 8. Do not claim TDD guarantees fewer defects. Claim faster feedback and testable design (evidence is mixed).
-9. Agent work: the human or a separate gate owns the failing test. An agent that writes both test and fix can game its own check (SDP 017 §3).
+9. Agent work: the human or a separate gate owns the failing test. An agent that writes both test and fix can game its own check.
 
 ## Procedure
 
 1. Write a list of behaviours to add, smallest first.
 2. Pick one. Write one test that expresses it:
- ```python
- def test_rejects_empty_email:
- with pytest.raises(ValidationError):
- parse_signup({"email": ""})
- ```
+   ```python
+   def test_rejects_empty_email():
+       with pytest.raises(ValidationError):
+           parse_signup({"email": ""})
+   ```
 3. Run it. Confirm it fails, and fails on the assertion.
 4. Write the least code that makes it pass. Run all fast tests.
 5. Refactor test and code: remove duplication, improve names. Re-run after each change.

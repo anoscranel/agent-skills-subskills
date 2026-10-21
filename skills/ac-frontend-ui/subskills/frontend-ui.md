@@ -10,13 +10,13 @@ status: seedling
 
 ## Standard
 
-- ⚠️ **No vendor-neutral standard** exists for component or state architecture. The authorities are framework docs (job-003 G-SE4).
+- ⚠️ **No vendor-neutral standard** exists for component or state architecture. The authorities are framework docs.
 - **React, "Choosing the State Structure"**: group related state; avoid contradictions; avoid redundant state; avoid duplication; avoid deep nesting (https://react.dev/learn/choosing-the-state-structure).
 - **Vue**: Pinia for shared app state (https://vuejs.org/guide/scaling-up/state-management).
-- **Design tokens**: DTCG Format 2025.10, a stable W3C Community Group report, not a W3C Standard (https://www.designtokens.org/TR/2025.10/format/; job-003 G-SE4).
-- **Design system** = components + tokens + documented rules (Nielsen Norman Group; vault SDP 002 §2.1).
-- **Usability lens**: Nielsen's 10 heuristics — a review rubric, not a gate (SDP 002 §2.2).
-- **Layout regressions**: visual regression tests per viewport against an approved baseline (SDP 002 §2.4).
+- **Design tokens**: DTCG Format 2025.10, a stable W3C Community Group report, not a W3C Standard (https://www.designtokens.org/TR/2025.10/format/).
+- **Design system** = components + tokens + documented rules (Nielsen Norman Group).
+- **Usability lens**: Nielsen's 10 heuristics — a review rubric, not a gate.
+- **Layout regressions**: visual regression tests per viewport against an approved baseline.
 
 ## Decision rules
 
@@ -28,7 +28,7 @@ status: seedling
 6. Mobile-first CSS. Breakpoints come from tokens. Use flexbox and grid; no fixed widths on containers.
 7. Every data view handles four states: loading, empty, error, success.
 8. Use native elements (`button`, `a`, `input`, `select`) before custom widgets.
-9. Agent-generated UI follows the written design system; the agent cannot hold it in memory across sessions (SDP 002 §2.1).
+9. Agent-generated UI follows the written design system; the agent cannot hold it in memory across sessions.
 
 ## Procedure
 
@@ -36,23 +36,23 @@ status: seedling
 2. Mark each piece of state with its class (rule 3) and its owner component.
 3. Pick existing design-system components first. Build new ones only for gaps.
 4. Write the component:
- ```tsx
- type Props = { items: Item[]; onSelect(id: string): void };
- export function ItemList({ items, onSelect }: Props) {
- if (items.length === 0) return <EmptyState text="No items yet" />;
- return (
- <ul className="stack-md">
- {items.map(i => (
- <li key={i.id}><button onClick={ => onSelect(i.id)}>{i.name}</button></li>
-))}
- </ul>
-);
- }
- ```
+   ```tsx
+   type Props = { items: Item[]; onSelect(id: string): void };
+   export function ItemList({ items, onSelect }: Props) {
+     if (items.length === 0) return <EmptyState text="No items yet" />;
+     return (
+       <ul className="stack-md">
+         {items.map(i => (
+           <li key={i.id}><button onClick={() => onSelect(i.id)}>{i.name}</button></li>
+         ))}
+       </ul>
+     );
+   }
+   ```
 5. Style with tokens only:
- ```css
-.stack-md { display: grid; gap: var(--space-md); }
- ```
+   ```css
+   .stack-md { display: grid; gap: var(--space-md); }
+   ```
 6. Check at three widths: 360 px, 768 px, 1280 px. ⚠️ House viewport set.
 7. Add component tests for behaviour and visual snapshots per viewport.
 8. Heuristic pass: status visible, errors explained, undo possible, labels consistent.

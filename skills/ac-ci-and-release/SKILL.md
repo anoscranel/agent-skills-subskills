@@ -1,8 +1,9 @@
 ---
 name: ac-ci-and-release
+description: "CI pipelines, deployment, release: pipeline-as-code and required checks, canary and blue-green deploys, feature flags, SemVer release cuts and launch checklists, IaC and environment parity. Use when asking \"set up CI\", \"add a GitHub Actions workflow\", \"which checks should be required\", \"speed up the pipeline\", \"deploy safely\", \"set up a canary\", \"roll back the release\", \"put it behind a flag\", \"cut a release\", \"launch checklist\", \"containerize this\", \"write the Terraform\". Not for choosing which tests to run, triaging a red pipeline, branch policy, or incident response; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: CI pipelines, deployment, release: pipeline-as-code and required checks, canary and blue-green deploys, feature flags, SemVer release cuts and launch checklists, IaC and environment parity. Use when asking "set up CI", "add a GitHub Actions workflow", "which checks should be required", "speed up the pipeline", "deploy safely", "set up a canary", "roll back the release", "put it behind a flag", "cut a release", "launch checklist", "containerize this", "write the Terraform". Not for choosing which tests to run, triaging a red pipeline, branch policy, or incident response; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # CI and Release

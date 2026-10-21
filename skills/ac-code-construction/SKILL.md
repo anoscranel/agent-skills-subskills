@@ -1,8 +1,9 @@
 ---
 name: ac-code-construction
+description: "Writing new code and delivering it in small steps: naming, error handling, lint and type gates, walking skeletons, always-green commits, time-boxed spikes, and docs-as-code inside the repo. Use when asking \"implement this\"\"split this feature into small shippable steps keeping main green\",, \"write the function\", \"how should I name this\", \"how should this handle errors\", \"build it step by step\", \"walking skeleton\", \"keep main green\", \"quick prototype to test this\", \"spike this for two days\", \"add docstrings\", \"generate the API reference\". Not for planning the task list or estimates, cleaning up existing working code as a goal in itself, choosing the test portfolio, or branch policy; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Writing new code and delivering it in small steps: naming, error handling, lint and type gates, walking skeletons, always-green commits, time-boxed spikes, and docs-as-code inside the repo. Use when asking "implement this""split this feature into small shippable steps keeping main green",, "write the function", "how should I name this", "how should this handle errors", "build it step by step", "walking skeleton", "keep main green", "quick prototype to test this", "spike this for two days", "add docstrings", "generate the API reference". Not for planning the task list or estimates, cleaning up existing working code as a goal in itself, choosing the test portfolio, or branch policy; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Code Construction

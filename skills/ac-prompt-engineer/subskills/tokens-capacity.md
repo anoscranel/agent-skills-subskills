@@ -40,7 +40,7 @@ pinning", Part II of <https://arxiv.org/html/2511.00751v2>).
 2. Split the prompt into stable (identity, rules, schemas) and dynamic (request data).
  Put stable first.
 3. For agent loops, plan compaction before the wall: summarize summarized state, keep
- artifacts outside the window with IDs and hashes (vault agent-ops 03).
+ artifacts outside the window with IDs and hashes.
 4. Prefer references over preload: give the agent grep-style handles and let it pull
  what it needs (Anthropic context engineering).
 5. Track the cache numbers after every layout change; layout is a cost lever now.

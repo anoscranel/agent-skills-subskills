@@ -1,8 +1,9 @@
 ---
 name: ac-spec-writing
+description: "Requirements and specification writing: user stories, acceptance criteria, NFRs, design docs and RFCs. Use when asking \"write a spec\", \"acceptance criteria for this\", \"is this requirement testable\", \"draft the design doc\", \"RFC for this change\", \"set the done criteria\", \"turn this request into requirements\", \"write the NFRs\". Not for slicing an approved spec into a task list, estimating the work, or recording one decision already made; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Requirements and specification writing: user stories, acceptance criteria, NFRs, design docs and RFCs. Use when asking "write a spec", "acceptance criteria for this", "is this requirement testable", "draft the design doc", "RFC for this change", "set the done criteria", "turn this request into requirements", "write the NFRs". Not for slicing an approved spec into a task list, estimating the work, or recording one decision already made; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Spec Writing

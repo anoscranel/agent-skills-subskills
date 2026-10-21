@@ -11,8 +11,8 @@ status: seedling
 
 ## Standard
 
-Evidence sources: <https://ai.google.dev/gemini-api/docs/prompting-strategies> and `research/prompt-engineering/Prompt-Engineering-Deep-Dive-2026.md` Part I (the
-graveyard table, with arXiv receipts).
+Evidence sources: <https://ai.google.dev/gemini-api/docs/prompting-strategies> and the arXiv papers cited
+per row below.
 
 | Technique | 2026 status | Receipt |
 |---|---|---|

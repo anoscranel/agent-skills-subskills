@@ -1,8 +1,9 @@
 ---
 name: ac-architecture
+description: "Software architecture and design records: system structure and styles, C4 views, quality-attribute trade-offs, internal module boundaries, coupling and cohesion, Architecture Decision Records. Use when asking \"how should we structure this system\", \"monolith or microservices\", \"which architecture style\", \"will this scale\", \"C4 view\", \"where should this code live\", \"this module does too much\", \"reduce coupling\", \"record this decision\", \"write an ADR\". Not for the external API contract itself, line-level code cleanup, or drawing slide-deck diagrams; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Software architecture and design records: system structure and styles, C4 views, quality-attribute trade-offs, internal module boundaries, coupling and cohesion, Architecture Decision Records. Use when asking "how should we structure this system", "monolith or microservices", "which architecture style", "will this scale", "C4 view", "where should this code live", "this module does too much", "reduce coupling", "record this decision", "write an ADR". Not for the external API contract itself, line-level code cleanup, or drawing slide-deck diagrams; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Architecture

@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Deploy ≠ release**: flags let code reach production switched off; release becomes a config change (vault SWX c05 §4; SDD 32 §7).
-- **Toggle categories** (Pete Hodgson, "Feature Toggles", martinfowler.com): release, experiment, ops, permission toggles, differing in lifespan and dynamism (https://martinfowler.com/articles/feature-toggles.html; SDD 32 §7).
-- **Flag debt**: every flag needs an owner, an expiry date and a cleanup plan (SWX c05 §4).
-- **OpenFeature spec v0.9.0** (29 July 2026), vendor-neutral API. Typed evaluation takes a flag key and a required default value. Req 1.4.10: evaluation "MUST NOT throw"; abnormal execution returns the default value (https://openfeature.dev/specification/sections/flag-evaluation; job-003 G-SE14). ⚠️ Pre-1.0; stability is set per section.
+- **Deploy ≠ release**: flags let code reach production switched off; release becomes a config change.
+- **Toggle categories** (Pete Hodgson, "Feature Toggles", martinfowler.com): release, experiment, ops, permission toggles, differing in lifespan and dynamism (https://martinfowler.com/articles/feature-toggles.html).
+- **Flag debt**: every flag needs an owner, an expiry date and a cleanup plan.
+- **OpenFeature spec v0.9.0** (29 July 2026), vendor-neutral API. Typed evaluation takes a flag key and a required default value. Req 1.4.10: evaluation "MUST NOT throw"; abnormal execution returns the default value (https://openfeature.dev/specification/sections/flag-evaluation). ⚠️ Pre-1.0; stability is set per section.
 
 ## Decision rules
 
@@ -34,21 +34,21 @@ status: seedling
 ## Procedure
 
 1. Register the flag:
- ```yaml
- key: new-checkout
- type: release
- owner: payments-team
- created: 2026-10-17
- expires: 2026-11-30
- default: false
- ```
+   ```yaml
+   key: new-checkout
+   type: release
+   owner: payments-team
+   created: 2026-10-17
+   expires: 2026-11-30
+   default: false
+   ```
 2. Evaluate through a neutral API:
- ```ts
- import { OpenFeature } from '@openfeature/server-sdk';
- const client = OpenFeature.getClient;
- const on = await client.getBooleanValue('new-checkout', false, { targetingKey: user.id });
- return on ? newCheckout(req) : oldCheckout(req);
- ```
+   ```ts
+   import { OpenFeature } from '@openfeature/server-sdk';
+   const client = OpenFeature.getClient();
+   const on = await client.getBooleanValue('new-checkout', false, { targetingKey: user.id });
+   return on ? newCheckout(req) : oldCheckout(req);
+   ```
 3. Write tests for flag on and flag off.
 4. Deploy with the flag off. Verify nothing changed.
 5. Ramp: internal users → 1% → 10% → 50% → 100%, watching errors and key metrics at each step. ⚠️ Steps are house defaults.

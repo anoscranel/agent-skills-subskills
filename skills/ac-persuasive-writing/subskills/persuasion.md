@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **Persuasion knowledge is the defence.** People mount coping responses when a persuasion episode activates their beliefs about the seller's goals (Friestad & Wright, *JCR* 1994, <https://doi.org/10.1086/209380>). A salient ask that reads as manipulative raises activation.
-- **Transportation suppresses counterarguing.** Across 132 effect sizes, transportation moves attitudes at ρ =.44 and cuts critical thoughts at ρ = −.20. Transported readers notice fewer factual errors (van Laer et al. 2014, same file §2).
-- **Absorbed processing decouples persuasion from argument quality, then reverses.** Weak arguments do not lose with a transported reader, but the effect flips for skeptical recipients (Escalas 2007, same file §7). So it never licenses a weak offer.
-- **Controlling language triggers reactance.** A threat to behavioural freedom produces anger and counterargument and often moves the attitude opposite to intent (Rains 2013, same file §4).
-- **Let the reader supply the fact and the number.** Self-generated conclusions hold more certainty than handed-down ones (same file §6). Every serious discovery methodology converges on the buyer filling in the numbers.
-- **Disclosure is a measured trade-off, never a permission.** Disclosure lowers brand attitude and credibility while raising recognition and resistance (Eisend et al. 2020, same file §5). It lifts no compliance duty.
+- **Transportation suppresses counterarguing.** Across 132 effect sizes, transportation moves attitudes at ρ =.44 and cuts critical thoughts at ρ = −.20. Transported readers notice fewer factual errors (van Laer et al. 2014).
+- **Absorbed processing decouples persuasion from argument quality, then reverses.** Weak arguments do not lose with a transported reader, but the effect flips for skeptical recipients (Escalas 2007). So it never licenses a weak offer.
+- **Controlling language triggers reactance.** A threat to behavioural freedom produces anger and counterargument and often moves the attitude opposite to intent (Rains 2013).
+- **Let the reader supply the fact and the number.** Self-generated conclusions hold more certainty than handed-down ones. Every serious discovery methodology converges on the buyer filling in the numbers.
+- **Disclosure is a measured trade-off, never a permission.** Disclosure lowers brand attitude and credibility while raising recognition and resistance (Eisend et al. 2020). It lifts no compliance duty.
 - **Objection response is regular and mostly mechanical.** The academic standard is point-by-point, each comment quoted verbatim and numbered. Measured, only 6% of letters fully accommodate every suggestion.
 
 ## Decision rules

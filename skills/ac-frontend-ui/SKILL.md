@@ -1,8 +1,9 @@
 ---
 name: ac-frontend-ui
+description: "Building web interfaces and making them accessible: component structure and state placement, responsive layout, design systems and design tokens, plus WCAG 2.2 AA conformance — semantics, keyboard paths, contrast, screen-reader checks. Use when asking \"build this UI\", \"make this component\", \"where should this state live\", \"make it responsive\", \"use our design tokens\", \"is this accessible\", \"keyboard users can't reach this\", \"fix contrast\", \"meet WCAG 2.2 AA\". Not for browser automation tests, Core Web Vitals and bundle size, or native mobile UI; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Building web interfaces and making them accessible: component structure and state placement, responsive layout, design systems and design tokens, plus WCAG 2.2 AA conformance — semantics, keyboard paths, contrast, screen-reader checks. Use when asking "build this UI", "make this component", "where should this state live", "make it responsive", "use our design tokens", "is this accessible", "keyboard users can't reach this", "fix contrast", "meet WCAG 2.2 AA". Not for browser automation tests, Core Web Vitals and bundle size, or native mobile UI; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Frontend UI

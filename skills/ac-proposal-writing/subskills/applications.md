@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **The selector judges a person, not an offer.** A grader reads one essay against hundreds, so the essay shows the applicant, not a restated CV (<https://ainativestudent.com/blog/how-to-use-ai-college-essay>).
-- **Fraud has a named line.** The Common App policy treats passing off an AI platform's substantive output as your own as application fraud (same file §2). It is punishable by revocation or expulsion.
-- **The trusted-adult test.** Would it be ethical if a trusted adult did this task? A teacher fixing a comma is fine; a teacher writing the paragraph is fraud (same file §2).
-- **A 17-year-old may sound 17.** Unbalanced sentences beat over-polished correctness; the read-aloud test decides (same file §3).
-- **Detectors are evidence-poor.** About 40% of US colleges use them, but Turnitin flags roughly 4% of human sentences (same file §1 ⚠️ vendor-domain sources). Guilt by proxy is unavailable.
-- **Disclose as the venue asks.** Caltech asks directly and says disclosure will not hurt the decision. About 68% of tracked schools have no mechanism (same file §2 ⚠️ same rung).
+- **Fraud has a named line.** The Common App policy treats passing off an AI platform's substantive output as your own as application fraud. It is punishable by revocation or expulsion.
+- **The trusted-adult test.** Would it be ethical if a trusted adult did this task? A teacher fixing a comma is fine; a teacher writing the paragraph is fraud.
+- **A 17-year-old may sound 17.** Unbalanced sentences beat over-polished correctness; the read-aloud test decides.
+- **Detectors are evidence-poor.** About 40% of US colleges use them, but Turnitin flags roughly 4% of human sentences (⚠️ vendor-domain sources). Guilt by proxy is unavailable.
+- **Disclose as the venue asks.** Caltech asks directly and says disclosure will not hurt the decision. About 68% of tracked schools have no mechanism (⚠️ vendor-domain sources).
 
 ## Decision rules
 

@@ -18,39 +18,40 @@ pipeline** if any check fails.
 
 Three minimum-evidence checks, all must PASS:
 
-1. **Dossier exists.** A `research/<slug>/` dossier (or operator-vault equivalent) covers
- the domain's decomposition, verified per the operator's search cascade. Cite its path.
+1. **Dossier exists.** A `research/<slug>/` dossier (or the operator's own notes store) covers
+   the domain's decomposition, verified against primary sources. Cite its path.
 2. **Closed subdomain map is possible.** You can enumerate the domain's subdomains such
- that each is claimed by exactly one candidate leaf, with no orphan content and no
- cross-scope claim.
-3. **Vault-first dedup.** A search of the operator's vault and of `~/.agents/skills/`
- confirms whether an existing skill or note already covers the domain.
+   that each is claimed by exactly one candidate leaf, with no orphan content and no
+   cross-scope claim.
+3. **Notes-first dedup.** A search of the operator's notes and of the installed skills directory
+   confirms whether an existing skill or note already covers the domain.
 
 ## Decision rules
 
 Check 3 routes, never blocks:
 
-- **Our own artifact exists (a vault note or a skill we authored) → EXTEND it, never fork.**
+- **Our own artifact exists (a note or a skill we authored) → EXTEND it, never fork.**
 - **Coverage in any other skill, full or partial, never blocks and never becomes a
- reference:** the new skill covers its full domain itself, re-researched from primary
- sources. Log that coverage as a collision to test at entrance-eval time.
+  reference:** the new skill covers its full domain itself, re-researched from primary
+  sources. Log that coverage as a collision to test at entrance-eval time.
 - **None → author new.**
 
 ## Procedure
 
 1. **Dossier check.** If none exists → **FAIL, do the research first.**
 2. **Closed-map check.** If the domain resists a clean closed map (overlapping concerns
- you cannot separate), that signals insufficient understanding → **FAIL, research more.**
-3. **Dedup — AUTONOMOUS (the operator's directive):** decide extend-vs-new with no pause
- to ask; the decision is logged, not gated. Extend a copy in a staging dir (e.g.
- `~/.local/share/skill-staging/<skill>/`), never the installed tree. A self-authored
- skill installs only through the fail-closed gate (`skill-install local <dir>` style),
- after audit-skill. If the existing skill was not gate-installed, the gate cannot
- update it (G8 name collision): stage the update, run audit-skill and a
- `skill-install scan <dir>`-style check, and log it on the op board. A live swap
- (backup → apply → lint → routing-eval regression, restore on any failure) happens only
- when the op's intake names that swap. Record the decision and its reason on the op
- board so the operator can audit it.
+   you cannot separate), that signals insufficient understanding → **FAIL, research more.**
+3. **Dedup — decide, don't ask:** decide extend-vs-new with no pause to ask; the
+   decision is logged, not gated. Extend a copy in a staging dir (e.g.
+   `~/.local/share/skill-staging/<skill>/`), never the installed tree. A self-authored
+   skill installs only after audit-skill, and then only on human approval or through the
+   operator's fail-closed gate. If the existing skill was not gate-installed, the gate cannot
+   update it (name collision): stage the update, run audit-skill and a
+   gate scan-only check, and log it in the run log. A live swap
+   replaces an installed skill, so it is an install: it happens only on a human's explicit
+   approval or through the operator's fail-closed gate, with backup → apply → lint →
+   routing-eval regression, and restore on any failure. Record the decision and its reason in the run
+   log so the operator can audit it.
 
 ## Anti-patterns
 
@@ -65,5 +66,4 @@ and report the gap to the operator; never author past an unpassed research gate.
 
 ## Sources
 
-- SPEC-subskills (the subskills-architecture spec; internal); the self-contained rebuild
- intake (internal op rules).
+- House standard for skills-with-subskills (unpublished).

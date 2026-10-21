@@ -18,10 +18,10 @@ training (<https://ai.google.dev/gemini-api/docs/prompting-strategies>). The
 test for any line: **what could a competent person not do without it?** "The schema
 version is 4.2" passes. "Be thorough" fails, because thoroughness was implied by asking.
 State constraints positively and checkably: "reply with: approve / reject / escalate"
-can be enforced with an `in` test; "do not be vague" enforces nothing (Craft §3.3). Give
+can be enforced with an `in` test; "do not be vague" enforces nothing. Give
 the model an explicit license to abstain ("if the document does not say, answer: NOT IN
-DOCUMENT"), because the highest-probability continuation of a question is an answer
-(Craft §3.6). The 2026 OpenAI structure is Identity, Instructions, Examples, Context,
+DOCUMENT"), because the highest-probability continuation of a question is an answer.
+The 2026 OpenAI structure is Identity, Instructions, Examples, Context,
 with private data positioned near the end
 (https://platform.openai.com/docs/guides/prompt-engineering, fetched 2026-10-21).
 
@@ -39,7 +39,7 @@ Shorter beats longer for single-task prompts: in a 28K-prompt study, prompts und
 words scored 80.1 versus 66.9 for prompts over 300 words, and 62% of the long prompts
 held contradictory constraints (corpus study, <https://arxiv.org/html/2511.00751v2>).
 Contradictions between a user's own sections are a leading failure cause (OpenAI,
-https://platform.openai.com/docs/guides/gpt-5-prompting).
+https://developers.openai.com/cookbook/examples/gpt-5/gpt-5_prompting_guide).
 
 ## Procedure
 

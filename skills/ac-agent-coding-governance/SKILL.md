@@ -1,8 +1,9 @@
 ---
 name: ac-agent-coding-governance
+description: "Governing AI-written code and the agent's repo instructions: merge gates, review packets, provenance logs, licence scanning, liability and authorship for generated code, plus AGENTS.md rules files, context budgets and compaction. Use when asking \"review AI-generated code\", \"the agent wrote this patch\", \"who is liable for generated code\", \"set up an AGENTS.md\", \"the agent ignores the repo rules\", \"compact the rules file\". Not for judging a human colleague's diff, designing the test portfolio, or CI pipeline wiring; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Governing AI-written code and the agent's repo instructions: merge gates, review packets, provenance logs, licence scanning, liability and authorship for generated code, plus AGENTS.md rules files, context budgets and compaction. Use when asking "review AI-generated code", "the agent wrote this patch", "who is liable for generated code", "set up an AGENTS.md", "the agent ignores the repo rules", "compact the rules file". Not for judging a human colleague's diff, designing the test portfolio, or CI pipeline wiring; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Agent Coding Governance

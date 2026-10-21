@@ -12,9 +12,9 @@ status: seedling
 ## Standard
 
 - **Answer first (Minto's pyramid principle).** State the finding in the first sentence, group the supporting arguments so they do not overlap, evidence at the base. Recorded failure mode: losing submissions open with background and bury the recommendation deep in the document.
-- **Action titles.** A heading states the point the section proves. "Staffing Approach" tells nothing; "A dedicated senior lead removes the first-month risk" tells the argument. Reading only the headings must reconstruct the case (same file §5.4).
-- **BLUF plus a criteria-ordered body.** Section order follows the reader's published criteria where any exist. Each section opens with a topic sentence. Acronyms are defined on first use in every major section, because reviewers read out of order (same file §5.5).
-- **The summary carries everything.** Unassigned readers score without reading the body; the abstract or executive summary must stand alone (same file §5.6).
+- **Action titles.** A heading states the point the section proves. "Staffing Approach" tells nothing; "A dedicated senior lead removes the first-month risk" tells the argument. Reading only the headings must reconstruct the case.
+- **BLUF plus a criteria-ordered body.** Section order follows the reader's published criteria where any exist. Each section opens with a topic sentence. Acronyms are defined on first use in every major section, because reviewers read out of order.
+- **The summary carries everything.** Unassigned readers score without reading the body; the abstract or executive summary must stand alone.
 - **Outlining evidence, with its limits.** Outlining improved the product but not the efficiency of writing, by freeing composition time for translation rather than planning (Kellogg 1988, https://doi.apa.org/doi/10.1037/0278-7393.14.2.355).
  The gains attach to inexperienced writers: "experienced authors writing routine documents are not likely to gain much from outlining."
  No study tests outline-first against prose-first on scientific or technical manuscripts (<https://arxiv.org/abs/2210.15067>, null N6 ⚠️).

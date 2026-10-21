@@ -10,18 +10,18 @@ status: seedling
 
 ## Standard
 
-- **WCAG 2.2**: W3C Recommendation, first published 5 October 2023; current dated version 12 December 2024 (https://www.w3.org/TR/WCAG22/; job-003 G-SE6). Level AA is the usual legal target (vault SWX c08 §7).
-- **WCAG 3.0** is a Working Draft (10 September 2026). Do not cite it as a requirement (job-003 G-SE6).
-- **EU**: European Accessibility Act, Directive (EU) 2019/882, applies from 28 June 2025. EN 301 549 V3.2.1 (WCAG 2.1 AA based) gives presumption of conformity today. V4.1.1 (WCAG 2.2 AA) was published 2 September 2026 but is not yet cited in the Official Journal (job-003 G-SE6). ⚠️ EUR-Lex and ETSI texts not read directly.
-- **Core checks**: semantics, landmarks, headings, labels, error identification, alt text, keyboard and visible focus, contrast 4.5:1 (3:1 large text), live regions, page `lang` (vault SDP 009 §2.3).
-- **Automation ceiling**: best automated tools detect about 18–20% of issues (SDP 009 §2.3). ⚠️ Inherited figure. A clean scan is a floor.
+- **WCAG 2.2**: W3C Recommendation, first published 5 October 2023; current dated version 12 December 2024 (https://www.w3.org/TR/WCAG22/). Level AA is the usual legal target.
+- **WCAG 3.0** is a Working Draft (10 September 2026). Do not cite it as a requirement.
+- **EU**: European Accessibility Act, Directive (EU) 2019/882, applies from 28 June 2025. EN 301 549 V3.2.1 (WCAG 2.1 AA based) gives presumption of conformity today. V4.1.1 (WCAG 2.2 AA) was published 2 September 2026 but is not yet cited in the Official Journal. ⚠️ EUR-Lex and ETSI texts not read directly.
+- **Core checks**: semantics, landmarks, headings, labels, error identification, alt text, keyboard and visible focus, contrast 4.5:1 (3:1 large text), live regions, page `lang`.
+- **Automation ceiling**: best automated tools detect about 18–20% of issues. ⚠️ Inherited figure. A clean scan is a floor.
 
 ## Decision rules
 
 1. Native HTML first. ARIA only when no native element fits. Wrong ARIA is worse than none.
 2. Every interactive element works with the keyboard alone, in a logical order, with a visible focus indicator.
 3. Focus must not be fully hidden by sticky headers or overlays (WCAG 2.2 SC 2.4.11).
-4. Pointer targets at least 24 × 24 CSS px or with enough spacing (SC 2.5.8). ⚠️ Value from the WCAG text, not in the vault; check the SC wording.
+4. Pointer targets at least 24 × 24 CSS px or with enough spacing (SC 2.5.8). (https://www.w3.org/TR/WCAG22/#target-size-minimum)
 5. No cognitive test for login unless an alternative exists (SC 3.3.8).
 6. Every form field has a programmatic label. Errors name the field and say how to fix it.
 7. Never use colour as the only signal.
@@ -32,11 +32,11 @@ status: seedling
 ## Procedure
 
 1. Automated scan in CI:
- ```ts
- import AxeBuilder from '@axe-core/playwright';
- const r = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag22aa']).analyze;
- expect(r.violations).toEqual([]);
- ```
+   ```ts
+   import AxeBuilder from '@axe-core/playwright';
+   const r = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag22aa']).analyze();
+   expect(r.violations).toEqual([]);
+   ```
 2. Lint components (`eslint-plugin-jsx-a11y` or your framework's equivalent). Check token pairs for contrast.
 3. Keyboard pass: no mouse. Tab through each flow. Check order, visible focus, no traps, Escape closes dialogs.
 4. Screen-reader pass: NVDA or JAWS (Windows), VoiceOver (macOS, iOS), TalkBack (Android). Check names, roles, states, headings, dynamic announcements.

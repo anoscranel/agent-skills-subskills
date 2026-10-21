@@ -69,7 +69,7 @@ INJECT = [
 ]
 CRED = [
     ("cred-path", r"~/[.]ssh\b|[.]ssh/|[.]aws/credentials|keys[.]env\b"
-                  r"|[.]config/theta\b|[.]config/opencode\b|[.]hermes/"
+                  r"|[.]config/opencode\b"
                   r"|\bid_(?:rsa|dsa|ecdsa|ed25519)\b|[.]netrc\b"
                   r"|[.]git-credentials\b|[.]bash_history\b|/etc/[s]hadow\b"
                   r"|\bauth[.]json\b"),
@@ -101,7 +101,7 @@ EXFIL = [(k, re.compile(p, re.I)) for k, p in EXFIL]
 CODE = [(k, re.compile(p)) for k, p in CODE]
 SH_CODE = [(k, re.compile(p)) for k, p in SH_CODE]
 
-# ---- self-contained rule (INTAKE R1). lint_tree.py carries the same
+# ---- self-contained rule. lint_tree.py carries the same
 # patterns; keep the two copies identical.
 _DVERBS = (r"(?:load|use|invoke|call|run|open|consult|apply|follow|read|see|"
            r"delegate\s+to|defer\s+to|switch\s+to|"
@@ -131,7 +131,7 @@ DELEG_STOP = {
 }
 
 
-# ---- A-1 (job-006): a delegation line wrapped across two physical lines
+# ---- a delegation line wrapped across two physical lines
 # matched nothing, because every pattern ran one line at a time, and R1 is
 # the law the rebuild enforces. Join a line that ends without terminal
 # punctuation with the next line of the same paragraph, then match on the

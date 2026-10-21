@@ -10,11 +10,11 @@ status: seedling
 
 ## Standard
 
-- **Estimates**: story points with Planning Poker (Cohn 2005), #NoEstimates (Zuill), or throughput forecasting from past flow data (vault SWX c01 §2). Software estimates run late often. ⚠️ Overrun figures vary by study (SWX c01 Flag #2); do not quote one number.
-- **Process**: Scrum Guide 2020 (https://scrumguides.org), Kanban Guide (https://kanbanguides.org), XP practices, Shape Up (https://basecamp.com/shapeup) with fixed appetite instead of estimates (SWX c01 §5, §7).
-- **Risk**: pre-mortem (Gary Klein, HBR 2007) surfaces failure causes before work starts (SWX c11 §9).
-- **Build vs buy**: Wardley mapping. Build what differentiates; buy what is commodity (SWX c11 §8). Spend few "innovation tokens" (McKinley, "Choose Boring Technology", 2015; SWX c11 §3).
-- Sustainable pace: crunch loses output within weeks (Robinson, IGDA 2005; SWX c11 §6).
+- **Estimates**: story points with Planning Poker (Cohn 2005), #NoEstimates (Zuill), or throughput forecasting from past flow data. Software estimates run late often. ⚠️ Overrun figures vary by study; do not quote one number.
+- **Process**: Scrum Guide 2020 (https://scrumguides.org), Kanban Guide (https://kanbanguides.org), XP practices, Shape Up (https://basecamp.com/shapeup) with fixed appetite instead of estimates.
+- **Risk**: pre-mortem (Gary Klein, HBR 2007) surfaces failure causes before work starts.
+- **Build vs buy**: Wardley mapping. Build what differentiates; buy what is commodity. Spend few "innovation tokens" (McKinley, "Choose Boring Technology", 2015).
+- Sustainable pace: crunch loses output within weeks (Robinson, IGDA 2005).
 
 ## Decision rules
 
@@ -39,17 +39,17 @@ status: seedling
  - Without history: sum sizes, apply your team's past ratio of actual to estimate. If none exists, widen the range and flag it ⚠️.
 3. Run a pre-mortem. Each person writes failure causes alone, then merge.
 4. Fill the risk register:
- ```markdown
- | Risk | Likelihood | Impact | Owner | Trigger | Mitigation |
- ```
+   ```markdown
+   | Risk | Likelihood | Impact | Owner | Trigger | Mitigation |
+   ```
 5. For each component you might buy, score: differentiating? vendor lock-in? total cost over 3 years? exit cost? Decide and write the ADR.
 6. Choose cadence with rule 4. Publish range, confidence, assumptions and top risks. Review weekly.
 
 ## Anti-patterns
 
 - Single-date promises; padding hidden inside estimates.
-- Velocity used as a target (Goodhart; SWX c11 §2).
-- Process as ritual ("Scrum-but", SWX c11 §1).
+- Velocity used as a target (Goodhart).
+- Process as ritual ("Scrum-but").
 - Building auth or billing in-house with no reason.
 - Risk register written once, never read.
 

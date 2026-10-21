@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **ISO/IEC/IEEE 29148:2018** (2nd edition, 2018-11) is current. Edition 3 is at DIS stage, not published (https://www.iso.org/standard/94091.html). Clause 5.2.5 lists nine characteristics of one requirement: necessary, appropriate, unambiguous, complete, singular, feasible, verifiable, correct, conforming. ⚠️ ISO text is paywalled; the list comes from secondary sources (job-003 G-SE8).
-- **INVEST** (Bill Wake): a story is Independent, Negotiable, Valuable, Estimable, Small, Testable (vault SWX c01 §2).
+- **ISO/IEC/IEEE 29148:2018** (2nd edition, 2018-11) is current. Edition 3 is at DIS stage, not published (https://www.iso.org/standard/94091.html). Clause 5.2.5 lists nine characteristics of one requirement: necessary, appropriate, unambiguous, complete, singular, feasible, verifiable, correct, conforming. ⚠️ ISO text is paywalled; the list comes from secondary sources.
+- **INVEST** (Bill Wake): a story is Independent, Negotiable, Valuable, Estimable, Small, Testable.
 - **Gherkin** Given/When/Then makes a criterion readable by people and runnable by a test tool (https://cucumber.io/docs/gherkin/).
-- Write the outcome the user measures, not the feature (vault SDP 001 §2).
+- Write the outcome the user measures, not the feature.
 
 ## Decision rules
 
@@ -23,7 +23,7 @@ status: seedling
 4. Implementation detail ("use Redis") is a design decision, not a requirement. Move it to the spec unless a stakeholder truly requires it.
 5. An NFR needs a measure, a threshold, a condition and a measurement method. Example: "p95 search latency ≤ 300 ms at 50 requests/s, measured by the load test in CI."
 6. Format choice: user story for a user-visible goal; job story ("When…, I want…, so I can…") when the situation matters more than the role; "The system shall…" for interfaces and compliance.
-7. Product owns intent. Engineering owns feasibility. ⚠️ This split is org convention, not a standard (SWX c01 §1).
+7. Product owns intent. Engineering owns feasibility. ⚠️ This split is org convention, not a standard.
 
 ## Procedure
 
@@ -31,13 +31,13 @@ status: seedling
 2. Write the need in the user's own words, one sentence.
 3. Draft each requirement with a stable ID (`REQ-012`).
 4. Add acceptance criteria per requirement:
- ```gherkin
- Scenario: Expired session redirects to login
- Given a user whose session expired 1 minute ago
- When they open /settings
- Then they see the login page
- And the original URL is kept as the return target
- ```
+   ```gherkin
+   Scenario: Expired session redirects to login
+     Given a user whose session expired 1 minute ago
+     When they open /settings
+     Then they see the login page
+     And the original URL is kept as the return target
+   ```
 5. Add an exclusion line: what this requirement does not cover.
 6. Write NFRs with rule 5.
 7. Run the nine-characteristic test on every line. Fix or flag each failure.
@@ -47,7 +47,7 @@ status: seedling
 
 - Acceptance criteria that restate the story.
 - A hidden design guess labelled "requirement" (Ralph, arXiv:1304.0116).
-- Agent-drafted requirements accepted as correct. Coherent prose is not correct prose (SDP 001 §3).
+- Agent-drafted requirements accepted as correct. Coherent prose is not correct prose.
 - NFRs with no measurement method.
 - Changing a requirement in chat without updating the file.
 

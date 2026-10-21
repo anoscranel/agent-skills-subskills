@@ -1,8 +1,9 @@
 ---
 name: ac-proposal-writing
+description: "Scored application documents: proposals and RFP responses with compliance matrices and win themes; grant narratives and specific-aims pages; cover letters, personal statements and admissions essays. Use when asking \"answer this RFP\", \"bid response\", \"compliance matrix\", \"win themes\", \"write this grant section\", \"specific aims page\", \"cover letter\", \"personal statement\", \"admissions essay\". Not for persuasive marketing copy, the one-ask business email, or a news announcement; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Scored application documents: proposals and RFP responses with compliance matrices and win themes; grant narratives and specific-aims pages; cover letters, personal statements and admissions essays. Use when asking "answer this RFP", "bid response", "compliance matrix", "win themes", "write this grant section", "specific aims page", "cover letter", "personal statement", "admissions essay". Not for persuasive marketing copy, the one-ask business email, or a news announcement; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Proposal Writing

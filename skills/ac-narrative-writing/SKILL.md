@@ -1,8 +1,9 @@
 ---
 name: ac-narrative-writing
+description: "Story craft in true writing and for the ear: narrative nonfiction structure, case stories and customer stories; talks, keynote outlines, demo narration, video and podcast scripts. Use when asking \"add a story arc\", \"case story\", \"customer story\", \"write a talk script\", \"keynote outline\", \"demo narration\", \"video script\", \"podcast script\". Not for breaking-news structure or a standalone internal decision document, and not for the argument grammar itself; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Story craft in true writing and for the ear: narrative nonfiction structure, case stories and customer stories; talks, keynote outlines, demo narration, video and podcast scripts. Use when asking "add a story arc", "case story", "customer story", "write a talk script", "keynote outline", "demo narration", "video script", "podcast script". Not for breaking-news structure or a standalone internal decision document, and not for the argument grammar itself; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Narrative Writing

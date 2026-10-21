@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """route_score.py: blind routing-eval scorer (subskills/routing-eval.md).
 
-Generalised from the projects-audit J6 scorer
-(vault ops/projects-audit-2026-10/tests/j6/score.py). Stdlib only, no network,
-no file writes. Pre-register it: record its sha256 on the op board BEFORE the
+Stdlib only, no network,
+no file writes. Pre-register it: record its sha256 in the run log BEFORE the
 sealed router runs.
 
 Usage: route_score.py ROUTES_MD LABELS_MD [--need GROUP=N ...] [--min-pct P]

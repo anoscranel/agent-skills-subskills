@@ -10,12 +10,12 @@ status: seedling
 
 ## Standard
 
-- **Bisection**: `git bisect` binary-searches history for the first bad commit. `git bisect run` takes a script: exit 0 = good, 1–127 = bad, 125 = skip (https://git-scm.com/docs/git-bisect; vault SDP 017 §4).
-- **Delta debugging**: Zeller's ddmin reduces a failing input to a 1-minimal cause set (https://arxiv.org/abs/cs/0012009; vault STD 01-DOMAIN-MAP §4).
-- **Evidence for the cheap tool**: a 2026 ICSE study found bisect to the bug-inducing commit beat spectrum-based fault localisation on Top-1 and Top-5 across 120 GCC and LLVM bugs (https://dl.acm.org/doi/10.1145/3744916.3773254; STD §5). ⚠️ Single study.
-- **RCA methods**: five whys, Ishikawa (fishbone), fault tree (STD §4 D4.1). Five whys follows one chain and tends to land on a person; use it to start, not to conclude.
+- **Bisection**: `git bisect` binary-searches history for the first bad commit. `git bisect run` takes a script: exit 0 = good, 1–127 = bad, 125 = skip (https://git-scm.com/docs/git-bisect).
+- **Delta debugging**: Zeller's ddmin reduces a failing input to a 1-minimal cause set (https://arxiv.org/abs/cs/0012009).
+- **Evidence for the cheap tool**: a 2026 ICSE study found bisect to the bug-inducing commit beat spectrum-based fault localisation on Top-1 and Top-5 across 120 GCC and LLVM bugs (https://dl.acm.org/doi/10.1145/3744916.3773254). ⚠️ Single study.
+- **RCA methods**: five whys, Ishikawa (fishbone), fault tree. Five whys follows one chain and tends to land on a person; use it to start, not to conclude.
 - **Classification**: IEEE 1044 failure / fault / defect classes drive causal analysis and process improvement (https://standards.ieee.org/ieee/1044/1526).
-- **Test gap**: for each escape, name the test level that should have caught it (STD §6).
+- **Test gap**: for each escape, name the test level that should have caught it.
 
 ## Decision rules
 
@@ -31,13 +31,13 @@ status: seedling
 ## Procedure
 
 1. Bisect:
- ```bash
- git bisect start
- git bisect bad HEAD
- git bisect good v1.4.0
- git bisect run./repro.sh # exit 0 good, 1 bad, 125 skip
- git bisect reset
- ```
+   ```bash
+   git bisect start
+   git bisect bad HEAD
+   git bisect good v1.4.0
+   git bisect run ./repro.sh      # exit 0 good, 1 bad, 125 skip
+   git bisect reset
+   ```
 2. Read the first bad commit. State what it changed and why that breaks the case.
 3. Minimise input: keep halving and keep the part that still fails (ddmin), or use a reducer such as `creduce`.
 4. Draw the chain: trigger → fault → failure. Mark where a check could have stopped it.
@@ -45,12 +45,12 @@ status: seedling
 6. Search the repo for siblings.
 7. Choose the class fix by rule 6. Add the test at the missing level.
 8. Write the record:
- ```markdown
- Defect: <id> Class: <type>
- Introduced by: <commit> Escaped: <test level>
- Chain: trigger → fault → failure
- Class fix: <control added> Siblings fixed: <n>
- ```
+   ```markdown
+   Defect: <id>  Class: <type>
+   Introduced by: <commit>  Escaped: <test level>
+   Chain: trigger → fault → failure
+   Class fix: <control added>  Siblings fixed: <n>
+   ```
 
 ## Anti-patterns
 

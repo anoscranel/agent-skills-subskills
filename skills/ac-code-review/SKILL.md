@@ -1,8 +1,9 @@
 ---
 name: ac-code-review
+description: "Preparing and judging pull requests: author side — small self-contained changes, PR descriptions, self-review, stacked PRs, review packets for agent-written code. Reviewer side — review order, labelled comments, response times, approve-or-request-changes rules. Use when asking \"open a PR\", \"write the PR description\", \"this PR is too big\", \"self-review my diff\", \"stack these PRs\", \"review this PR\", \"is this change OK to merge\", \"approve or request changes\". Not for commit messages and history repair, branching models and protection, or governing machine-written code as a whole; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Preparing and judging pull requests: author side — small self-contained changes, PR descriptions, self-review, stacked PRs, review packets for agent-written code. Reviewer side — review order, labelled comments, response times, approve-or-request-changes rules. Use when asking "open a PR", "write the PR description", "this PR is too big", "self-review my diff", "stack these PRs", "review this PR", "is this change OK to merge", "approve or request changes". Not for commit messages and history repair, branching models and protection, or governing machine-written code as a whole; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Code Review

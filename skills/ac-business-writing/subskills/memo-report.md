@@ -12,15 +12,15 @@ status: seedling
 ## Standard
 
 - **BLUF: the recommendation is the first sentence.** State the finding at the top and order the body by the reader's decision, not by your process.
-- **The summary carries everything.** Unassigned readers score without reading the body, so the executive summary must stand alone (same file §5.6). The practical bar: standalone in two to three minutes, leading with the recommendation, actions stated specifically, and the decisions the reader must make flagged (<https://datafield.dev/working-with-ai-tools-effectively/part-04/chapter-27/> ⚠️ practitioner rule).
-- **State risks with contingencies, not optimism.** Scores are predicted by risk more than by strength (same vault report §3.4). Specific risk framing moves scores where vague superiority claims do not.
+- **The summary carries everything.** Unassigned readers score without reading the body, so the executive summary must stand alone. The practical bar: standalone in two to three minutes, leading with the recommendation, actions stated specifically, and the decisions the reader must make flagged (<https://datafield.dev/working-with-ai-tools-effectively/part-04/chapter-27/> ⚠️ practitioner rule).
+- **State risks with contingencies, not optimism.** Scores are predicted by risk more than by strength. Specific risk framing moves scores where vague superiority claims do not.
 - **Plain, fluent prose is the highest-yield intervention.** Needless complexity depresses judgements of the author's competence and of acceptance, robust across domains and independent of the text's underlying quality (https://onlinelibrary.wiley.com/doi/10.1002/acp.1178).
 - **Every number is verified before it ships.** A research report runs summary, problem, method, results, interpretation, recommendations and appendix (<https://multiple.chat/ai-whitepaper>). Every statistic carries human verification, because professional readers fact-check the first claim.
 
 ## Decision rules
 
 1. Memo length: one page. ⚠️ Practitioner norm, not a measured standard — the constraint that matters is one screenable span.
-2. Every acronym expands on first use in every major section. Reviewers read out of order (same vault report §5.5).
+2. Every acronym expands on first use in every major section. Reviewers read out of order.
 3. Status reports: one line per workstream (state, trend, the one thing needed), then the decisions requested.
 4. The executive summary answers: what changed, what it means, what we do, what we need from the reader.
 5. Cut every section that only exists to show effort. Record what went.

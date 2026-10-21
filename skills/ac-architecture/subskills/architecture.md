@@ -10,22 +10,24 @@ status: seedling
 
 ## Standard
 
+⚠️ The primary standard is paywalled; these points come from secondary sources and the public summary.
+
 - **SWEBOK v4** makes Software Architecture its own knowledge area (https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics).
-- **ISO/IEC/IEEE 42010:2022**: architecture descriptions use viewpoints and views for stakeholder concerns (vault SWX c02 §7).
+- **ISO/IEC/IEEE 42010:2022**: architecture descriptions use viewpoints and views for stakeholder concerns.
 - **C4 model** (Simon Brown, https://c4model.com): Context → Container → Component → Code. **arc42** (https://arc42.org): 12-section template.
-- **Styles**: layered/clean/hexagonal/onion all keep a stable domain core with inward dependencies (SWX c02 §1). Modular monolith first; extract services at proven seams (Fowler, MonolithFirst, https://martinfowler.com/bliki/MonolithFirst.html; SWX c02 §3).
-- **Trade-off analysis**: ATAM (SEI) finds sensitivity and trade-off points by scenario (SWX c11 §9).
-- **Fitness functions** check architecture rules in CI (Ford et al., *Building Evolutionary Architectures*; ArchUnit, dependency-cruiser; SWX c02 §8).
+- **Styles**: layered/clean/hexagonal/onion all keep a stable domain core with inward dependencies. Modular monolith first; extract services at proven seams (Fowler, MonolithFirst, https://martinfowler.com/bliki/MonolithFirst.html).
+- **Trade-off analysis**: ATAM (SEI) finds sensitivity and trade-off points by scenario.
+- **Fitness functions** check architecture rules in CI (Ford et al., *Building Evolutionary Architectures*; ArchUnit, dependency-cruiser).
 
 ## Decision rules
 
 1. Name the top three quality attributes first (from ISO/IEC 25010:2023: e.g. performance efficiency, reliability, maintainability). Structure follows them.
 2. Default to a modular monolith. Split a service out only when it needs independent deploy, independent scale, a separate team, or a separate compliance fence.
-3. Never share one database between services. Each service owns its data (SWX c02 §10).
-4. Cross-service consistency uses sagas or a transactional outbox, not distributed transactions (SWX c02 §4).
-5. "Exactly-once delivery" claims mean effectively-once inside one system. Consumers stay idempotent (SWX c02 §4).
+3. Never share one database between services. Each service owns its data.
+4. Cross-service consistency uses sagas or a transactional outbox, not distributed transactions.
+5. "Exactly-once delivery" claims mean effectively-once inside one system. Consumers stay idempotent.
 6. Conway's law: structure follows team communication. Check team shape before drawing boxes.
-7. Use DDD bounded contexts for complex domains. Skip tactical DDD for CRUD (SWX c02 §2).
+7. Use DDD bounded contexts for complex domains. Skip tactical DDD for CRUD.
 8. Every rule that matters gets a fitness function in CI.
 
 ## Procedure
@@ -42,12 +44,12 @@ status: seedling
 
 ## Anti-patterns
 
-- Microservices before the domain is understood (distributed monolith; SWX c11 §4).
+- Microservices before the domain is understood (distributed monolith).
 - Shared database across services.
 - Diagrams with unlabelled arrows.
-- Architecture chosen for a résumé (SWX c11 §3).
+- Architecture chosen for a résumé.
 - Rules that live only in a wiki, not in CI.
-- Big-bang rewrite instead of strangler fig (Fowler 2004; SWX c11 §4).
+- Big-bang rewrite instead of strangler fig (Fowler 2004).
 
 ## Done checklist
 

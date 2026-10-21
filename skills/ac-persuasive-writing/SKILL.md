@@ -1,8 +1,9 @@
 ---
 name: ac-persuasive-writing
+description: "Text written to move a reader: marketing copy and landing pages and ads with claims law; search- and answer-engine pages built to be cited; persuasion structure and objection handling; the argument grammar of claim, evidence, warrant and hedging; bios, about pages and pitches; short-form social posts and threads. Use when asking \"write sales copy\", \"make this show up in AI answers\", \"get this ranked\", \"landing page\", \"ad copy\", \"write for search\", \"get cited by ChatGPT\", \"make this page citable\", \"handle objections\", \"is this overstated\", \"argue this point\", \"write my bio\", \"write a thread\". Not for site engineering such as schema markup or crawl configuration, and not for scored bids or news statements; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Text written to move a reader: marketing copy and landing pages and ads with claims law; search- and answer-engine pages built to be cited; persuasion structure and objection handling; the argument grammar of claim, evidence, warrant and hedging; bios, about pages and pitches; short-form social posts and threads. Use when asking "write sales copy", "make this show up in AI answers", "get this ranked", "landing page", "ad copy", "write for search", "get cited by ChatGPT", "make this page citable", "handle objections", "is this overstated", "argue this point", "write my bio", "write a thread". Not for site engineering such as schema markup or crawl configuration, and not for scored bids or news statements; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Persuasive Writing

@@ -11,18 +11,18 @@ status: seedling
 ## Standard
 
 - **NIST SSDF SP 800-218 v1.1** (Final, 3 Feb 2022): four practice groups — Prepare the Organization, Protect the Software, Produce Well-Secured Software, Respond to Vulnerabilities (G-SE15; https://csrc.nist.gov/pubs/sp/800/218/final). v1.2 is a draft with comments closed 30 Jan 2026.
-- **Microsoft SDL** is the phase-gate ancestor — training, requirements, design with threat modelling, static analysis, verification, release, response (SWX c06 §2) — and **OWASP Top 10** is awareness, not a test plan; ASVS Level 1/2/3 is the verifiable set (SWX c06 §3).
-- **Shift-left versus shield-right** (SWX c06 §10): pre-merge tooling catches known-bad patterns cheaply and misses authorisation and chained flaws, which surface at runtime or in a pentest.
-- **US driver**: EO 14028 (May 2021) drove vendor self-attestation; OMB M-26-05 (Jan 2026) replaced it with a risk-based approach (SWX c21 §4).
+- **Microsoft SDL** is the phase-gate ancestor — training, requirements, design with threat modelling, static analysis, verification, release, response — and **OWASP Top 10** is awareness, not a test plan; ASVS Level 1/2/3 is the verifiable set.
+- **Shift-left versus shield-right**: pre-merge tooling catches known-bad patterns cheaply and misses authorisation and chained flaws, which surface at runtime or in a pentest.
+- **US driver**: EO 14028 (May 2021) drove vendor self-attestation; OMB M-26-05 (Jan 2026) replaced it with a risk-based approach.
 
 ## Decision rules
 
 1. One row per phase. An activity without a phase is a policy nobody runs.
 2. Requirement phase: abuse cases and security NFRs ship with the feature.
 3. Design phase: a threat model exists for each new trust boundary or external dependency.
-4. Implementation phase: static analysis and dependency scanning run left of merge (SWX c06 §5).
+4. Implementation phase: static analysis and dependency scanning run left of merge.
 5. Release phase: the artifact is signed and an SBOM is produced.
-6. Response phase: triage is keyed to exploitability — exploited-in-the-wild outranks a theoretical score (SWX c06 §7).
+6. Response phase: triage is keyed to exploitability — exploited-in-the-wild outranks a theoretical score.
 7. This leaf maps the phases only. It does not choose the control.
 
 ## Procedure

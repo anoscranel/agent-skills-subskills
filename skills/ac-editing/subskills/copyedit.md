@@ -11,6 +11,8 @@ status: seedling
 
 ## Standard
 
+⚠️ The primary standard is paywalled; these points come from secondary sources and the public summary.
+
 - **The pass, defined by trade.** Copyediting is "usually the final editorial stage of preparing a manuscript for publication—a meticulous read for technical errors, style, and internal consistency, along with marking or electronically coding the text to be ready for typesetting" (CMOS Q&A: https://www.chicagomanualofstyle.org/qanda/data/faq/topics/ManuscriptPreparation/faq0218.html).
 - **What it checks.** Style-sheet creation, cross-references, terminology consistency, and factual inconsistencies flagged or queried — queried, not repaired, when the answer is not certain (<https://ntrs.nasa.gov/citations/19760015018>).
 - **The style sheet is the closure operation.** A guide is a default layer over an open field.

@@ -12,10 +12,10 @@ status: seedling
 ## Standard
 
 - **The Diátaxis framework** (Daniele Procida, https://diataxis.fr/) sorts every doc on two axes — theory versus practice, action versus reflection — into four non-overlapping types. Tutorials give a newcomer one reproducible first success, no decision forks. How-to guides walk a competent user through one real task. Reference is an austere, machine-mirrored catalogue. Explanation is discursive context and trade-offs (<https://diataxis.fr/>).
-- **Cross-linking is fixed by direction:** Reference and how-tos link out to explanation for theory. Explanation links down to reference. Tutorials never link to deep reference mid-flight (same file).
-- **Docs live with the code.** The git-backed model keeps docs in the repo, so a feature commit cannot merge without its documentation commit. A headless CMS fails here — no branching, no code-diff review (same file §2).
-- **CI gates are named:** Vale prose linting against a style pack (Google developer documentation style: active voice, second person, sentence case; Microsoft Writing Style Guide), markdownlint for structure, Lychee for links, and doc-tests that execute snippets — `cargo test --doc`, `pytest --doctest-glob="*.md"` (same file §3).
-- **API docs run on specs:** OpenAPI 3.1.x for REST, AsyncAPI 3.0 for events (same file §4). Renderers (Scalar, Redocly, Stoplight Elements) draw reference from the canonical spec, so doc and spec cannot drift. Errors follow RFC 9457 Problem Details.
+- **Cross-linking is fixed by direction:** Reference and how-tos link out to explanation for theory. Explanation links down to reference. Tutorials never link to deep reference mid-flight.
+- **Docs live with the code.** The git-backed model keeps docs in the repo, so a feature commit cannot merge without its documentation commit. A headless CMS fails here — no branching, no code-diff review.
+- **CI gates are named:** Vale prose linting against a style pack (Google developer documentation style: active voice, second person, sentence case; Microsoft Writing Style Guide), markdownlint for structure, Lychee for links, and doc-tests that execute snippets — `cargo test --doc`, `pytest --doctest-glob="*.md"`.
+- **API docs run on specs:** OpenAPI 3.1.x for REST, AsyncAPI 3.0 for events. Renderers (Scalar, Redocly, Stoplight Elements) draw reference from the canonical spec, so doc and spec cannot drift. Errors follow RFC 9457 Problem Details.
 
 ## Decision rules
 

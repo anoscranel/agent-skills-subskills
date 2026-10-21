@@ -10,21 +10,21 @@ status: seedling
 
 ## Standard
 
-- **Deprecation is a contract, not an event** (SWX c18 §10): announce, deprecate, sunset with machine-readable signals, and always with a migration path.
+- **Deprecation is a contract, not an event**: announce, deprecate, sunset with machine-readable signals, and always with a migration path.
 - **SUNSET header** (RFC 8594; https://www.rfc-editor.org/rfc/rfc8594.html) advertises unresponsiveness at a date. **Deprecation header** (RFC 9745; https://www.rfc-editor.org/rfc/rfc9745.html) marks a surface as non-preferred but working. They are two signals, not one.
-- **Google GA norm**: minimum one year of notice before a breaking change (SWX c18 §3, §10; https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/support-deprecation).
-- **Notice length is the highest-leverage lever**: 60-day notices produce reactive scrambles, while one-year notices produce proactive migrations (SWX c18 §9).
-- **Exceptions** that shorten notice: alpha or beta surfaces explicitly marked, security-driven removal, and provider-scheduled retirement (SWX c18 §10).
+- **Google GA norm**: minimum one year of notice before a breaking change (https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/support-deprecation).
+- **Notice length is the highest-leverage lever**: 60-day notices produce reactive scrambles, while one-year notices produce proactive migrations. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
+- **Exceptions** that shorten notice: alpha or beta surfaces explicitly marked, security-driven removal, and provider-scheduled retirement.
 
 ## Decision rules
 
-1. Name who is affected before you name the date. Production traffic per version answers that question (SWX c18 §8).
+1. Name who is affected before you name the date. Production traffic per version answers that question.
 2. Give a migration path in the announcement, or give a longer notice.
 3. Deprecate first; remove only after usage falls to zero and the window closes.
-4. Never break an old binary mid-cycle. Announce, nag, then hard-block with an update prompt (SWX c19 §4).
+4. Never break an old binary mid-cycle. Announce, nag, then hard-block with an update prompt.
 5. Removing a live feature, a system or a public endpoint is **human-gated**. The agent gathers usage and drafts the plan.
 6. Exempted from the long window: pre-GA surfaces, security removal, and provider retirement.
-7. ⚠️ No corpus measurement of header adoption exists (SWX c18 gaps). Do not claim a share of clients that honour SUNSET.
+7. ⚠️ No corpus measurement of header adoption exists. Do not claim a share of clients that honour SUNSET.
 
 ## Procedure
 
@@ -32,10 +32,10 @@ status: seedling
 2. Write the retirement plan: what goes, what replaces it, the date ladder.
 3. Set the notice window: one year for an external surface; shorter only for a listed exception.
 4. Add the machine-readable signal:
- ```http
- Deprecation: @1688169599
- Sunset: Sat, 01 Nov 2026 00:00:00 GMT
- ```
+   ```http
+   Deprecation: @1688169599
+   Sunset: Sat, 01 Nov 2026 00:00:00 GMT
+   ```
 5. Announce: what changes, the date, the migration steps, and the support contact.
 6. Ship the replacement behind a flag (out of scope for this leaf: flag mechanics).
 7. Report usage at each review point. A plan nobody measures never reaches zero.

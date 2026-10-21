@@ -11,7 +11,7 @@ status: seedling
 ## Standard
 
 - **XP spike solution** (http://www.extremeprogramming.org/rules/spike.html): a very simple program to explore a potential solution. Most spikes are not good enough to keep, so expect to throw the code away. The goal is to reduce the risk of a technical problem or to make an estimate reliable.
-- **Time-box norms** (gap dossier G-SE5): Scrum Alliance puts a spike at a maximum of one sprint; XP guidance is a week or two for a pair.
+- **Time-box norms**: Scrum Alliance puts a spike at a maximum of one sprint; XP guidance is a week or two for a pair.
 - **Exit artefact** is the answer, not the code (G-SE5): a finding, a number, a decision, a revised estimate.
 - **Spikes may be demonstrated** (https://framework.scaledagile.com/spikes): the result is shown, the code is not kept.
 
@@ -35,12 +35,12 @@ status: seedling
 6. At the halfway point, decide whether the question is already answered. Early stop is allowed.
 7. Stop at the box even if the answer is "unknown so far".
 8. Write the answer:
- ```markdown
- ## Spike: can X hold 500 req/s at a 300 ms p99?
- Result: yes, 720 req/s, p99 210 ms, one worker.
- Friction: no batch API; one call per row.
- Cost: 3 h. Verdict: adopt, batch via the job queue.
- ```
+   ```markdown
+   ## Spike: can X hold 500 req/s at a 300 ms p99?
+   Result: yes, 720 req/s, p99 210 ms, one worker.
+   Friction: no batch API; one call per row.
+   Cost: 3 h. Verdict: adopt, batch via the job queue.
+   ```
 9. If the answer is yes, hand the numbers to the estimate and the design (out of scope for this leaf: estimation and the decision record).
 10. Delete the spike branch. Keep the finding, not the code.
 

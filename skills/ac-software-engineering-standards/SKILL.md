@@ -1,8 +1,9 @@
 ---
 name: ac-software-engineering-standards
+description: "Software-engineering standards reference: which standard exists and which edition is current — SWEBOK v4, ISO/IEC 25010, ISO/IEC/IEEE 29148, SemVer, Conventional Commits, WCAG 2.2, NIST SSDF SP 800-218, IEC 62304, DO-178C — plus definitions of done per lifecycle activity and the map that places security activities in lifecycle phases. Use when asking \"what is the standard for\", \"which SWEBOK/SSDF practice applies\", \"where does security fit in our process\", \"definition of done for X\", \"map our process to SSDF\", \"shift-left or shield-right\". Not for doing the governed work itself — writing the spec, hardening the endpoint, designing the schema; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Software-engineering standards reference: which standard exists and which edition is current — SWEBOK v4, ISO/IEC 25010, ISO/IEC/IEEE 29148, SemVer, Conventional Commits, WCAG 2.2, NIST SSDF SP 800-218, IEC 62304, DO-178C — plus definitions of done per lifecycle activity and the map that places security activities in lifecycle phases. Use when asking "what is the standard for", "which SWEBOK/SSDF practice applies", "where does security fit in our process", "definition of done for X", "map our process to SSDF", "shift-left or shield-right". Not for doing the governed work itself — writing the spec, hardening the endpoint, designing the schema; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Software Engineering Standards

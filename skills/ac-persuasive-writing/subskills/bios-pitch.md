@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **The investor reads the memo, not the deck.** Build for the memo: weight filings over informal sources, surface contradictions, link claims to evidence and keep figures consistent across documents (<https://aiadvisoryboard.me/blog/fundraising-data-room-ai-prep>).
-- **Numbers reconcile to audited sources.** An assistant promotes small nice-sounding facts to headlines unless told what stays small (same file §2). The scale of every figure is fixed before drafting.
-- **Generic output registers as sameness.** A generic deck reads as sameness in about 30 seconds. The founder hand-writes the thesis-fit hook line, because fully drafted outreach reads smooth but generic (same file §1, §3).
-- **The narrative follows a fixed spine.** A two-page executive summary carries problem, solution, model and unit economics, traction, team, market and why now (same file §2). It states the raise and the use of proceeds.
+- **Numbers reconcile to audited sources.** An assistant promotes small nice-sounding facts to headlines unless told what stays small. The scale of every figure is fixed before drafting.
+- **Generic output registers as sameness.** A generic deck reads as sameness in about 30 seconds. The founder hand-writes the thesis-fit hook line, because fully drafted outreach reads smooth but generic. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
+- **The narrative follows a fixed spine.** A two-page executive summary carries problem, solution, model and unit economics, traction, team, market and why now. It states the raise and the use of proceeds.
 - **The founder story follows the customer story rules.** The protagonist is a real customer or founder, and the story opens on the problem in the customer's own words (<https://blueoceansolutions.ai/blog/b2b-case-studies-that-convert-social-proof>). Proof is shown rather than asserted.
-- **A bio is a routing document, not a life.** One person, one relevance claim, one verifiable credential; named authors and real-entity signals signal authority (same file §7).
+- **A bio is a routing document, not a life.** One person, one relevance claim, one verifiable credential; named authors and real-entity signals signal authority.
 
 ## Decision rules
 

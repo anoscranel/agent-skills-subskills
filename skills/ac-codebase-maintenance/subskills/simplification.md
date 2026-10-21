@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Complexity measures**: cyclomatic complexity (McCabe, IEEE TSE 1976) counts decision points; cognitive complexity (SonarSource, G. Ann Campbell, 2017) penalises nesting and broken flow (vault SWX c03 §5).
-- Single metrics link weakly to defects (Shepperd 2008). Use them as trends inside one codebase, not as absolute bars (SWX c03 §5; vault SCQ 02 §4).
-- **Deep modules** hide complexity behind simple interfaces (Ousterhout 2018; SWX c03 §3).
-- **YAGNI/KISS** (XP canon, Beck; SWX c11 §4).
+- **Complexity measures**: cyclomatic complexity (McCabe, IEEE TSE 1976) counts decision points; cognitive complexity (SonarSource, G. Ann Campbell, 2017) penalises nesting and broken flow.
+- Single metrics link weakly to defects (Shepperd 2008). Use them as trends inside one codebase, not as absolute bars.
+- **Deep modules** hide complexity behind simple interfaces (Ousterhout 2018).
+- **YAGNI/KISS** (XP canon, Beck).
 - Behaviour must stay the same. The test suite is the proof.
 
 ## Decision rules
@@ -32,10 +32,10 @@ status: seedling
 ## Procedure
 
 1. Measure before:
- ```bash
- radon cc -s -a src/ # Python cyclomatic
- lizard src/ # many languages
- ```
+   ```bash
+   radon cc -s -a src/          # Python cyclomatic
+   lizard src/                  # many languages
+   ```
  Or the cognitive score from your linter (e.g. SonarLint, `eslint-plugin-sonarjs`).
 2. Run the full test suite. It must be green.
 3. Find dead code: `vulture` (Python), `ts-prune` or `knip` (TS), compiler unused warnings. Delete it in its own commit.
@@ -50,8 +50,8 @@ status: seedling
 - Clever one-liners that are harder to read.
 - DRY applied to two coincidentally similar blocks.
 - Changing behaviour in a cleanup PR.
-- Chasing a metric number instead of reader clarity (Goodhart; SWX c11 §2).
-- Cleanup that grows into scope creep (SWX c03 §7).
+- Chasing a metric number instead of reader clarity (Goodhart).
+- Cleanup that grows into scope creep.
 
 ## Done checklist
 

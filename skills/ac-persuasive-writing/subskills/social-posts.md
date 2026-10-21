@@ -12,12 +12,12 @@ status: seedling
 ## Standard
 
 - **The hook decides everything.** It drives thread-click rate. Seven patterns recur: a specific number, a contrarian claim, confession plus pivot, a numbered promise, a question, a specific outcome with mystery, a counter-intuitive opening (<https://mediafa.st/x-engagement-thread-hooks-2026>).
-- **Keep hooks under 200 characters.** Early velocity — about 20 reposts, 40 replies, 150 likes in 30 minutes — triggers secondary distribution (same file §1). ⚠️ Practitioner benchmarks, not platform-published rules.
-- **Each post must feel incomplete alone.** Every line opens a small question the next answers while a bigger one looms. A thin payoff triggers backlash (same file §2).
+- **Keep hooks under 200 characters.** Early velocity — about 20 reposts, 40 replies, 150 likes in 30 minutes — triggers secondary distribution. ⚠️ Practitioner benchmarks, not platform-published rules.
+- **Each post must feel incomplete alone.** Every line opens a small question the next answers while a bigger one looms. A thin payoff triggers backlash.
 - **Platform limits are hard constraints.** X: 280 characters, links counting 23; LinkedIn: 3,000 characters; Bluesky: 300 graphemes; Threads: 500 characters (<https://github.com/marian-kamenistak/linkedin-post-writing-skill>; https://help.x.com/en/using-x/types-of-posts; https://www.linkedin.com/help/linkedin/answer/a528176).
-- **Voice calibration beats drafting from nothing.** Feed 5–10 of the author's best posts and extract tone, sentence patterns, signature phrases and banned phrases (same file §3). Do this before generating.
+- **Voice calibration beats drafting from nothing.** Feed 5–10 of the author's best posts and extract tone, sentence patterns, signature phrases and banned phrases. Do this before generating.
 - **Repurposing is re-shaping, never shortening.**
- A blog section becomes a carousel, a thread, a video script — genuinely different shapes from the richest source material (same file §4).
+ A blog section becomes a carousel, a thread, a video script — genuinely different shapes from the richest source material.
 
 ## Decision rules
 

@@ -10,11 +10,11 @@ status: seedling
 
 ## Standard
 
-All facts are vendor-primary for their own tool (job-003 G-SE3).
+All facts are vendor-primary for their own tool.
 
 - **Playwright locators**: prefer user-facing attributes — `getByRole`, `getByText`, `getByLabel`, `getByPlaceholder`, `getByAltText`, `getByTitle`, then `getByTestId`. Avoid CSS-class and DOM-path selectors. Locators are strict: an action throws if more than one element matches (https://playwright.dev/docs/locators; https://playwright.dev/docs/best-practices).
 - **Auto-wait**: before an action Playwright checks the element is visible, stable, receives events and is enabled (https://playwright.dev/docs/actionability).
-- **Web-first assertions**: `await expect(locator).toBeVisible`, not `expect(await locator.isVisible).toBe(true)` (best-practices).
+- **Web-first assertions**: `await expect(locator).toBeVisible()`, not `expect(await locator.isVisible()).toBe(true)` (best-practices).
 - **Retries** default to 0; fail-then-pass is labelled "flaky". Trace option `on-first-retry` is the documented CI setting (https://playwright.dev/docs/test-retries; https://playwright.dev/docs/trace-viewer-intro).
 - **Cypress**: select with `data-*` attributes (`data-cy`); never `cy.wait(Number)`; wait on route aliases or assertions (https://docs.cypress.io/app/core-concepts/best-practices).
 - **Chrome DevTools Protocol**: `Runtime.consoleAPICalled`, `Runtime.exceptionThrown`, `Network.responseReceived`, `Network.loadingFailed` (https://chromedevtools.github.io/devtools-protocol/).
@@ -35,23 +35,23 @@ All facts are vendor-primary for their own tool (job-003 G-SE3).
 1. Name the journey and its success signal (URL, heading, toast, row in a table).
 2. Seed data through the API in a fixture.
 3. Write the test:
- ```ts
- import { test, expect } from '@playwright/test';
+   ```ts
+   import { test, expect } from '@playwright/test';
 
- test('user can log in', async ({ page }) => {
- const errors: string[] = [];
- page.on('pageerror', e => errors.push(e.message));
- page.on('console', m => { if (m.type === 'error') errors.push(m.text); });
- page.on('response', r => { if (r.status >= 500) errors.push(`${r.status} ${r.url}`); });
+   test('user can log in', async ({ page }) => {
+     const errors: string[] = [];
+     page.on('pageerror', e => errors.push(e.message));
+     page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
+     page.on('response', r => { if (r.status() >= 500) errors.push(`${r.status()} ${r.url()}`); });
 
- await page.goto('/login');
- await page.getByLabel('Email').fill('a@example.com');
- await page.getByLabel('Password').fill('pw');
- await page.getByRole('button', { name: 'Sign in' }).click;
- await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible;
- expect(errors).toEqual([]);
- });
- ```
+     await page.goto('/login');
+     await page.getByLabel('Email').fill('a@example.com');
+     await page.getByLabel('Password').fill('pw');
+     await page.getByRole('button', { name: 'Sign in' }).click();
+     await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
+     expect(errors).toEqual([]);
+   });
+   ```
 4. Config: `retries: process.env.CI ? 2 : 0`, `use: { trace: 'on-first-retry' }`.
 5. Run 20 times locally (`--repeat-each=20`) before merging.
 6. On failure, open the trace (`npx playwright show-trace`) and read actions, DOM snapshot, console and network at the failing step.

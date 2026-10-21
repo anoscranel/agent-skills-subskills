@@ -1,8 +1,9 @@
 ---
 name: ac-academic-writing
+description: "Scholarly writing: structuring an IMRaD paper or a thesis chapter, choosing the reporting guideline by study type, managing submission and the response to reviewers; narrative and systematic literature reviews with search, screening, synthesis and PRISMA conduct. Use when asking \"structure this paper\", \"IMRaD\", \"thesis chapter\", \"pick a reporting guideline\", \"respond to reviewers\", \"write a lit review\", \"systematic review\", \"PRISMA\", \"synthesise these studies\". Not for running the literature search that finds the study set, nor for verifying that individual citations resolve; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Scholarly writing: structuring an IMRaD paper or a thesis chapter, choosing the reporting guideline by study type, managing submission and the response to reviewers; narrative and systematic literature reviews with search, screening, synthesis and PRISMA conduct. Use when asking "structure this paper", "IMRaD", "thesis chapter", "pick a reporting guideline", "respond to reviewers", "write a lit review", "systematic review", "PRISMA", "synthesise these studies". Not for running the literature search that finds the study set, nor for verifying that individual citations resolve; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Academic Writing

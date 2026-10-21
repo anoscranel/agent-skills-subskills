@@ -10,11 +10,11 @@ status: seedling
 
 ## Standard
 
-- **Scientific debugging** (Zeller, *Why Programs Fail*): observe → hypothesise → predict → experiment → conclude, repeated. Four reasoning modes: deduction, observation, induction, experimentation (vault STD 01-DOMAIN-MAP §4).
-- **Loop**: reproduce → minimise → hypothesise → instrument → fix → regression test (vault SDP 017 §4).
-- **Vocabulary**: IEEE 1044 separates failure (observed wrong behaviour), fault or defect (the code flaw) and problem (the report) (https://standards.ieee.org/ieee/1044/1526; STD §4).
-- **Sanitizers**: ASan (memory errors), TSan (data races), UBSan (undefined behaviour), MSan (uninitialised reads) (STD §4). ⚠️ Slowdown figures are single-source; measure per workload.
-- **Agent fixes**: about 7.8% of patches that pass a tool's own checks fail the full developer suite; 29.6% diverge from the human fix (arXiv 2503.15223; SDP 017 §3).
+- **Scientific debugging** (Zeller, *Why Programs Fail*): observe → hypothesise → predict → experiment → conclude, repeated. Four reasoning modes: deduction, observation, induction, experimentation.
+- **Loop**: reproduce → minimise → hypothesise → instrument → fix → regression test.
+- **Vocabulary**: IEEE 1044 separates failure (observed wrong behaviour), fault or defect (the code flaw) and problem (the report) (https://standards.ieee.org/ieee/1044/1526).
+- **Sanitizers**: ASan (memory errors), TSan (data races), UBSan (undefined behaviour), MSan (uninitialised reads). ⚠️ Slowdown figures are single-source; measure per workload.
+- **Agent fixes**: about 7.8% of patches that pass a tool's own checks fail the full developer suite; 29.6% diverge from the human fix (arXiv 2503.15223).
 
 ## Decision rules
 
@@ -27,7 +27,7 @@ status: seedling
 7. The fix lands with a test that fails before and passes after. Run the full suite, not only that test.
 8. Never "fix" by deleting, skipping or loosening the failing test.
 9. Two failed fix attempts in a row → stop patching. Re-read the evidence; your model of the bug is wrong.
-10. An agent's "the cause is X" is a hypothesis. A human confirms the cause before the fix merges (SDP 017 §3).
+10. An agent's "the cause is X" is a hypothesis. A human confirms the cause before the fix merges.
 
 ## Procedure
 
@@ -36,10 +36,10 @@ status: seedling
 3. Minimise: halve input and steps until removing anything makes it pass.
 4. Localise: binary-search the code path with logs or breakpoints; check inputs and outputs at each boundary.
 5. For memory or undefined-behaviour symptoms:
- ```bash
- cc -fsanitize=address,undefined -g -O1 app.c &&./a.out
- go test -race./...
- ```
+   ```bash
+   cc -fsanitize=address,undefined -g -O1 app.c && ./a.out
+   go test -race ./...
+   ```
 6. State the hypothesis and run the experiment that could refute it.
 7. Confirmed → write the smallest fix at the right layer.
 8. Run the new test (now green) and the full suite.

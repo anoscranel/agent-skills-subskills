@@ -40,15 +40,14 @@ earn its cost (<https://developers.openai.com/api/docs/guides/prompt-engineering
  tool (lookup, side effect), retrieval (missing facts). Logic that is pure branching
  goes to code.
 4. Draw the handoffs between steps as data: typed fields, not prose summaries, where
- possible (vault agent-ops 03 handoff contracts).
+ possible.
 5. Prompt only the judgment steps. Write each of those as its own small prompt.
 6. Add the fallback per step: what the step emits when it cannot answer (abstain,
  escalate, retry once).
 
 ## Anti-patterns
 
-- One mega-prompt doing retrieve-plus-decide-plus-format (the classic failure shape,
- Craft §5 step 5).
+- One mega-prompt doing retrieve-plus-decide-plus-format (the classic failure shape).
 - Decomposing into steps whose outputs nobody can check.
 - Stuffing edge cases into the prompt instead of fixing the classifier or tool call.
 - if-else chains in prose where a lookup table in code is cheaper and exact.

@@ -10,16 +10,16 @@ status: seedling
 
 ## Standard
 
-- **The axis is access patterns, not hype** (SDP 011 §2.1): schema-on-write versus schema-on-read. A relational store enforces structure at write time and catches bad data at insertion; a document store enforces later, in application code, and pays for a new query pattern with a new table.
-- **Constraints are the backbone** (SDP 011 §2.3): unique prevents duplicate processing, foreign keys hold referential integrity, NOT NULL and check hold domain rules. Integrity sits closest to the data.
+- **The axis is access patterns, not hype**: schema-on-write versus schema-on-read. A relational store enforces structure at write time and catches bad data at insertion; a document store enforces later, in application code, and pays for a new query pattern with a new table.
+- **Constraints are the backbone**: unique prevents duplicate processing, foreign keys hold referential integrity, NOT NULL and check hold domain rules. Integrity sits closest to the data.
 - **Keys**: a surrogate key is stable and opaque; a natural key is readable but changes with the world.
 - **Normalisation** removes update anomalies; denormalisation buys a read. Denormalise only for a measured pattern, with the update path written down.
 
 ## Decision rules
 
-1. Start relational. A single Postgres instance serves millions of rows, so "NoSQL because it scales" is premature (SDP 011 §2.1). ⚠️ Vendor capacity figures are single-sourced.
+1. Start relational. A single Postgres instance serves millions of rows, so "NoSQL because it scales" is premature. ⚠️ Vendor capacity figures are single-sourced.
 2. Every mutable write crosses a layer where a constraint and a validation both run.
-3. A retried mutation carries a durable, client-derived idempotency key with a uniqueness constraint (SDP 011 §2.3). A key generated in memory turns a safe retry into a duplicate.
+3. A retried mutation carries a durable, client-derived idempotency key with a uniqueness constraint. A key generated in memory turns a safe retry into a duplicate.
 4. Name things in one tense: plural tables, singular columns, timestamps ending in `_at`.
 5. Nullable means "unknown is a real state". If a value is required, add NOT NULL.
 6. Money is an integer of minor units or a numeric type, never a float.
@@ -33,19 +33,19 @@ status: seedling
 2. Draw the relationships and pick each key.
 3. Mark each column: type, nullability, default, constraint.
 4. Draft the DDL:
- ```sql
- CREATE TABLE orders (
- id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
- customer_id bigint NOT NULL REFERENCES customers(id),
- status text NOT NULL CHECK (status IN ('open','paid','shipped')),
- total_minor bigint NOT NULL CHECK (total_minor >= 0)
-);
- CREATE UNIQUE INDEX ON orders (idempotency_key);
- ```
+   ```sql
+   CREATE TABLE orders (
+     id          bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+     customer_id bigint NOT NULL REFERENCES customers(id),
+     status      text   NOT NULL CHECK (status IN ('open','paid','shipped')),
+     total_minor bigint NOT NULL CHECK (total_minor >= 0)
+   );
+   CREATE UNIQUE INDEX ON orders (idempotency_key);
+   ```
 5. Add an index for every query you can name now.
 6. Test the constraints with rows that must be rejected.
-7. Route reads and writes through one tested data layer (SDP 011 §2.4).
-8. Record the schema review: what changed, what coexists, what the rollback is (SDP 011 §4.1).
+7. Route reads and writes through one tested data layer.
+8. Record the schema review: what changed, what coexists, what the rollback is.
 9. Commit the schema as a versioned migration (subskills/schema-migrations.md).
 10. Prove the restore path before the first production write.
 

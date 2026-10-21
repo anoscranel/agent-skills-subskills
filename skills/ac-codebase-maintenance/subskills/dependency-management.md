@@ -10,19 +10,19 @@ status: seedling
 
 ## Standard
 
-- **Lockfile discipline** (SWX c05 §9): commit the lockfile, pin transitive dependencies, verify hashes. The lockfile is part of the release artifact.
-- **Two update bots** (SWX c05 §9): Dependabot (native to GitHub, zero setup) and Renovate (configurable, self-hostable). Neither is authoritative; the guardrails are.
-- **Bus factor is the attack surface**: the xz-utils backdoor (CVE-2024-3094; https://www.cisa.gov/news-events/alerts/2024/03/29/reported-supply-chain-compromise-affecting-xz-utils-data-compression-library-cve-2024-3094) was a social-engineered maintainer insertion over two years, and build provenance would not have caught it (SWX c05 §9).
-- **License intake** (SWX c08 §5): SPDX expressions identify licenses; copyleft code sits behind a process boundary and gets a legal review before shipping.
-- **Scorecard** (https://scorecard.dev): OpenSSF grades a repository on pinned dependencies, branch protection, fuzzing and maintenance signals. ⚠️ The thresholds below are practitioner guidance, not a published standard (SWX c21 §6).
+- **Lockfile discipline**: commit the lockfile, pin transitive dependencies, verify hashes. The lockfile is part of the release artifact.
+- **Two update bots**: Dependabot (native to GitHub, zero setup) and Renovate (configurable, self-hostable). Neither is authoritative; the guardrails are.
+- **Bus factor is the attack surface**: the xz-utils backdoor (CVE-2024-3094; https://www.cisa.gov/news-events/alerts/2024/03/29/reported-supply-chain-compromise-affecting-xz-utils-data-compression-library-cve-2024-3094) was a social-engineered maintainer insertion over two years, and build provenance would not have caught it.
+- **License intake**: SPDX expressions identify licenses; copyleft code sits behind a process boundary and gets a legal review before shipping.
+- **Scorecard** (https://scorecard.dev): OpenSSF grades a repository on pinned dependencies, branch protection, fuzzing and maintenance signals. ⚠️ The thresholds below are practitioner guidance, not a published standard.
 
 ## Decision rules
 
 1. No new dependency for something the standard library does in a few lines.
 2. Before adding: check maintenance signals, license, download count and transitive count. A one-function package with twelve dependencies is a bad trade.
 3. Commit the lockfile. Any hand edit re-runs the resolver.
-4. Auto-merge patches and minors only, with the full suite green (SWX c21 §8). Majors ride a reviewed PR.
-5. Refuse a Scorecard below 5, review 5 to 7, adopt 7 and above (SWX c21 §6). ⚠️ Practitioner thresholds.
+4. Auto-merge patches and minors only, with the full suite green. Majors ride a reviewed PR.
+5. Refuse a Scorecard below 5, review 5 to 7, adopt 7 and above. ⚠️ Practitioner thresholds.
 6. A single-maintainer dependency is a risk. Record it, and prefer the alternative.
 7. Removing a dependency means removing its configuration and its transitive lock entries.
 8. An incompatible license is **human-gated**: legal review precedes the merge.
@@ -33,15 +33,15 @@ status: seedling
 2. Check the package: last release, open issue count, maintainer count, license.
 3. Read the transitive tree before committing: `npm ls --all`.
 4. Add it pinned and commit the lockfile:
- ```bash
- npm install left-pad@1.3.0 --save-exact
- ```
+   ```bash
+   npm install left-pad@1.3.0 --save-exact
+   ```
 5. Record the license as an SPDX expression.
 6. Add the package to the SBOM step (out of scope for this leaf: SBOM policy itself).
 7. Configure the bot:
- ```json
- { "extends": ["config:recommended"], "rangeStrategy": "pin" }
- ```
+   ```json
+   { "extends": ["config:recommended"], "rangeStrategy": "pin" }
+   ```
 8. Set auto-merge to patches and minors with a green suite; majors by hand.
 9. Review each dependency PR: version diff, license change, transitive additions.
 10. Audit quarterly: unused, abandoned, and versions behind by a year.

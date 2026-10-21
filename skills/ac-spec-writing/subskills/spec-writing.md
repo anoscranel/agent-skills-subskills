@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- Google design docs and Uber-style RFCs: a short written proposal reviewed before code. It names context, goals, non-goals, the design, alternatives and open questions (vault SWX c01 §10).
-- A written proposal with a mandatory alternatives section invites dissent before commit (SWX c11 §9).
-- For agent-built code, requirement detail is a measured lever. Vague inputs can cancel the benefit of refinement (arXiv:2604.25862, via vault SDP 001 §3).
-- Decision weight: one-way-door choices get slow review; two-way-door choices get a short doc (Bezos 2015 letter, SWX c11 §10).
+- Google design docs and Uber-style RFCs: a short written proposal reviewed before code. It names context, goals, non-goals, the design, alternatives and open questions.
+- A written proposal with a mandatory alternatives section invites dissent before commit.
+- For agent-built code, requirement detail is a measured lever. Vague inputs can cancel the benefit of refinement (arXiv:2604.25862).
+- Decision weight: one-way-door choices get slow review; two-way-door choices get a short doc (Bezos 2015 letter).
 
 ## Decision rules
 
@@ -29,26 +29,26 @@ status: seedling
 ## Procedure
 
 1. Copy this template into `docs/specs/NNNN-<slug>.md`:
- ```markdown
- # <Title>
- Status: Draft | In review | Approved | Superseded
- Author, reviewers, date
- ## Context — the problem and why now
- ## Goals — measurable, linked to REQ IDs
- ## Non-goals
- ## Design — data flow, interfaces, data model, failure modes
- ## Alternatives considered — each with why rejected
- ## Risks and mitigations
- ## Rollout and rollback
- ## Test plan
- ## Open questions — owner, due date
- ```
+   ```markdown
+   # <Title>
+   Status: Draft | In review | Approved | Superseded
+   Author, reviewers, date
+   ## Context — the problem and why now
+   ## Goals — measurable, linked to REQ IDs
+   ## Non-goals
+   ## Design — data flow, interfaces, data model, failure modes
+   ## Alternatives considered — each with why rejected
+   ## Risks and mitigations
+   ## Rollout and rollback
+   ## Test plan
+   ## Open questions — owner, due date
+   ```
 2. Write Context and Goals first. Link each goal to requirement IDs.
 3. Write the Design at the level a reviewer needs to find flaws. Show interfaces and data shapes. Skip code.
 4. List failure modes: dependency down, bad input, partial write, retry storm.
 5. Write Alternatives honestly, with the trade-off each loses on.
 6. Write Rollout and rollback. Name the flag, migration order and kill switch.
-7. Run a pre-mortem: "it shipped and failed — why?" Add each cause to Risks (Klein, SWX c11 §9).
+7. Run a pre-mortem: "it shipped and failed — why?" Add each cause to Risks (Klein).
 8. Circulate. Record decisions in the doc. Set Status to Approved only after the human sign-off.
 
 ## Anti-patterns

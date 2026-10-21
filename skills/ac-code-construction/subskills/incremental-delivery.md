@@ -10,23 +10,23 @@ status: seedling
 
 ## Standard
 
-- **Small batches**: DORA ties small batches and trunk integration at least daily to higher delivery performance; integration cost grows with branch lifetime (https://dora.dev/capabilities/trunk-based-development/; vault SDP 039 §2.3).
-- **Atomic commit**: one stable, independent unit of change that builds and passes tests on its own (GitHub Blog, "Write Better Commits"; SDP 039 §2.1).
-- **Walking skeleton**: the thinnest end-to-end path through all layers, deployed early (Cockburn; vault SWX c01 §2).
+- **Small batches**: DORA ties small batches and trunk integration at least daily to higher delivery performance; integration cost grows with branch lifetime (https://dora.dev/capabilities/trunk-based-development/).
+- **Atomic commit**: one stable, independent unit of change that builds and passes tests on its own (GitHub Blog, "Write Better Commits").
+- **Walking skeleton**: the thinnest end-to-end path through all layers, deployed early (Cockburn).
 - **Branch by abstraction / Parallel Change** for changes that cannot land in one step. Parallel Change = expand, migrate, contract (Danilo Sato, 13 May 2014, https://martinfowler.com/bliki/ParallelChange.html).
-- **Feature flags** hide unfinished work on main (SDP 039 §2.7).
-- Trunk-based work *correlates* with higher performance (*Accelerate*, 2018). Not proven causal (job-002 §E B-12).
+- **Feature flags** hide unfinished work on main.
+- Trunk-based work *correlates* with higher performance (*Accelerate*, 2018). Not proven causal.
 
 ## Decision rules
 
 1. Each step leaves main buildable, green and deployable.
-2. One step = one reason to change. A refactor and a behaviour change are two steps (SDP 039 §2.1).
+2. One step = one reason to change. A refactor and a behaviour change are two steps.
 3. Order inside a task: (a) failing test or characterization test, (b) structure change if needed, (c) behaviour change, (d) cleanup.
 4. A step that cannot be green in about an hour gets split. ⚠️ House heuristic.
 5. Incomplete user-facing work ships dark behind a flag, default off.
 6. A change that touches a contract other code depends on uses Parallel Change: add new, move callers, remove old, each as its own commit.
 7. Verify after every step: run the tests that cover the change, plus the fast suite.
-8. Stop and reslice when a step's diff passes about 400 changed lines. ⚠️ House threshold, aligned to review size limits (job-003 G-SE11).
+8. Stop and reslice when a step's diff passes about 400 changed lines. ⚠️ House threshold, aligned to review size limits.
 
 ## Procedure
 

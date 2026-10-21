@@ -12,9 +12,9 @@ status: seedling
 ## Standard
 
 - **Revision is where the volume is not, and where the argument moves.** Author self-revision is light and local. Median sentence update ratio is 19.0% across 751 aligned arXiv papers, with 3.7% almost completely rewritten. Peer review reaches much further into what is claimed (<https://arxiv.org/abs/2210.15067>). 60.2% of primary claims are touched between preprint and publication across 72,644 abstract pairs. Keep the units apart; neither number sizes the other.
-- **What a revision pass buys.** Technical editing between acceptance and publication improves readability only slightly. It improves reference accuracy and abstract quality (JAMA 2002; 285:2215, https://jamanetwork.com/journals/jama/fullarticle/194990, cited in the same file §1). The systematic review's own verdict is that "remarkably little is known" about which processes contribute most.
-- **Outlining buys translation time.** Gains appear by letting writers spend composition time on translating rather than planning (Kellogg 1988, same file §4). They attach to inexperienced writers, not experienced ones writing routine documents.
-- **Pass placement.** Compress, tighten and language polish are automatable (same file §9). Outline and argument architecture, the contribution claim, limitations, and what the data does not show are the human seat.
+- **What a revision pass buys.** Technical editing between acceptance and publication improves readability only slightly. It improves reference accuracy and abstract quality (JAMA 2002; 285:2215, https://jamanetwork.com/journals/jama/fullarticle/194990). The systematic review's own verdict is that "remarkably little is known" about which processes contribute most.
+- **Outlining buys translation time.** Gains appear by letting writers spend composition time on translating rather than planning (Kellogg 1988). They attach to inexperienced writers, not experienced ones writing routine documents.
+- **Pass placement.** Compress, tighten and language polish are automatable. Outline and argument architecture, the contribution claim, limitations, and what the data does not show are the human seat.
 
 ## Decision rules
 

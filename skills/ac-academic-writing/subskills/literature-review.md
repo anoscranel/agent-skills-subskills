@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **Narrative and systematic are different instruments.** A systematic review needs a pre-registered protocol, an exhaustive search, dual independent screening and a structured synthesis. A narrative review organises a topic by argument.
-- **PRISMA 2020 is the reporting standard.** It has 27 items in seven sections plus a 12-item abstract checklist (Page et al., *BMJ* 2021;372:n71, https://doi.org/10.1136/bmj.n71) (same file §1). Items 8, 9 and 11 require "details of automation tools used".
-- **Registration is the record-irreversible act.** PROSPERO requires a full protocol before registering, and "submissions must be made before data extraction commences (from October 2019)" (same file §5). Once processed, it locks.
-- **Dual independent review is a conduct requirement about people.** Cochrane requires at least two people working independently on full-text selection. A review can be PRISMA-compliant while violating this (same file §3).
-- **Certainty is a judgement with eight named domains.** GRADE rates each critical outcome high, moderate, low or very low across five downgrade and three upgrade domains (same file §2).
-- **Automation belongs on the mechanical side.** Flow-diagram arithmetic, per-source search completeness and registration timestamps are checkable (same file §6). Eligibility adequacy, synthesis choice and every rating are judgement.
+- **PRISMA 2020 is the reporting standard.** It has 27 items in seven sections plus a 12-item abstract checklist (Page et al., *BMJ* 2021; 372:n71, https://doi.org/10.1136/bmj.n71). Items 8, 9 and 11 require "details of automation tools used".
+- **Registration is the record-irreversible act.** PROSPERO requires a full protocol before registering, and "submissions must be made before data extraction commences (from October 2019)". Once processed, it locks.
+- **Dual independent review is a conduct requirement about people.** Cochrane requires at least two people working independently on full-text selection. A review can be PRISMA-compliant while violating this.
+- **Certainty is a judgement with eight named domains.** GRADE rates each critical outcome high, moderate, low or very low across five downgrade and three upgrade domains.
+- **Automation belongs on the mechanical side.** Flow-diagram arithmetic, per-source search completeness and registration timestamps are checkable. Eligibility adequacy, synthesis choice and every rating are judgement.
 
 ## Decision rules
 

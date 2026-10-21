@@ -23,7 +23,7 @@ Load-bearing rules get restated at the end of long prompts (recency pinning).
 
 Message roles carry authority: OpenAI's Model Spec orders platform and developer
 messages above user messages, though production models do not fully reflect the chain,
-so never treat ordering as armor (OpenAI Model Spec, cited in vault agent-ops 03).
+so never treat ordering as armor (OpenAI Model Spec).
 Assemble context in authority order: immutable authority and policy first; task, goal,
 and stop conditions; typed tools and permissions; examples; then retrieved, user, and
 memory material last (<https://model-spec.openai.com/2026-08-18.html>).

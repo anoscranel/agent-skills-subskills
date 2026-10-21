@@ -19,7 +19,7 @@ keep the prompt simple, give the goal and constraints, and do not add chain-of-t
 wording; OpenAI states it "may not enhance performance (and can sometimes hinder it)"
 (https://developers.openai.com/api/docs/guides/reasoning-best-practices). Anthropic's
 extended-thinking doc likewise prefers general instructions over prescriptive thinking
-steps. For reproducibility, run temperature 0 and pin a dated model snapshot (<https://platform.openai.com/docs/guides/gpt-5-prompting>). On Gemini 3.x, keep
+steps. For reproducibility, pin a dated model snapshot (<https://developers.openai.com/api/docs/guides/prompt-engineering>). ⚠️ Temperature 0 cuts variance but is not documented as deterministic. On Gemini 3.x, keep
 temperature, topP, and topK at defaults; changing them degrades complex reasoning
 (<https://ai.google.dev/gemini-api/docs/prompting-strategies>).
 
@@ -41,13 +41,12 @@ temperature, topP, and topK at defaults; changing them degrades complex reasonin
 4. On reasoning models, delete all chain-of-thought wording; keep goal, constraints,
  output contract.
 5. On upgrades: run old-model and new-model on the same fixed cases before touching the
- prompt, so model drift and prompt drift never confound (vault agent-ops 02,
- behavioral change control).
+ prompt, so model drift and prompt drift never confound (behavioral change
+ control).
 
 ## Anti-patterns
 
-- Carrying wording tuned on one model family to another; micro-copy does not transfer
- (Craft §5 step 7).
+- Carrying wording tuned on one model family to another; micro-copy does not transfer.
 - Twiddling samplers to fix an information problem; add the missing fact instead.
 - Paying reasoning effort for a task a cheap instruction model passes at ceiling.
 - Running comparisons unpinned; you measured the model calendar, not your edit.

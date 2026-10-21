@@ -1,8 +1,9 @@
 ---
 name: ac-news-writing
+description: "News and announcement writing: the inverted-pyramid news story, the lede, feature structure, attribution, libel check, plus the organisation's own voice — press releases, media statements, holding lines and boilerplate. Use when asking \"write this news story\", \"news lede\", \"feature structure\", \"attribution\", \"libel check\", \"write a press release\", \"media statement\", \"holding line\". Not for memos to an internal reader or long-form narrative storytelling; that work sits outside this skill."
 license: MIT
-domain: writing
-description: News and announcement writing: the inverted-pyramid news story, the lede, feature structure, attribution, libel check, plus the organisation's own voice — press releases, media statements, holding lines and boilerplate. Use when asking "write this news story", "news lede", "feature structure", "attribution", "libel check", "write a press release", "media statement", "holding line". Not for memos to an internal reader or long-form narrative storytelling; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # News Writing

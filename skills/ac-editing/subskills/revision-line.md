@@ -11,10 +11,12 @@ status: seedling
 
 ## Standard
 
+⚠️ The primary standard is paywalled; these points come from secondary sources and the public summary.
+
 - **The line pass, defined by trade.** "Detailed editing of a manuscript—line by line … but not necessarily correcting all fine points of grammar, punctuation, or style, which is the task of copyediting" (CMOS Q&A: https://www.chicagomanualofstyle.org/qanda/data/faq/topics/ManuscriptPreparation/faq0218.html). A line edit may change emphasis and rhythm; a copyedit may not.
-- **CMOS itself concedes the boundary is crossed in practice.** "A copyedit will typically involve some line editing also—for example, to fix an awkward sentence—a thorough line edit is best done as a separate step at an earlier stage" (same source).
+- **CMOS itself concedes the boundary is crossed in practice.** "A copyedit will typically involve some line editing also—for example, to fix an awkward sentence—a thorough line edit is best done as a separate step at an earlier stage".
 - **Countable sentence targets (GOV.UK).** Split sentences over 25 words. Paragraphs hold no more than five sentences. Use the short word: "buy" not "purchase", "help" not "assist", "about" not "approximately". Word-endings "-ion" and "-ment" lengthen sentences (https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/).
-- **Active voice is the default with two named exceptions** (same source): where the outcome matters more than the agent, and where the writing is user-centred.
+- **Active voice is the default with two named exceptions**: where the outcome matters more than the agent, and where the writing is user-centred.
 - **Microsoft's mechanical tips.** Contractions, verb-first statements, cut "you can", avoid "there is / there are" (https://learn.microsoft.com/en-us/style-guide/top-10-tips-style-voice).
 - **Measured effect of style recasting.** One step along a traditional→accessible continuum gave readability +2.91% (CI 1.79–4.03) and 1.08× odds of correct understanding (Frey, *Front Psychol* 2021, https://frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.714321/full).
 

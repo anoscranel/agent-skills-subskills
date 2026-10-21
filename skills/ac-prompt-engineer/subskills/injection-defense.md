@@ -16,7 +16,7 @@ an action (<https://genai.owasp.org/download/52117/>).
 Prompt injection is OWASP LLM01, the top LLM risk (OWASP Top 10 for LLM Applications
 2025, https://genai.owasp.org/), and indirect injection through retrieved content is a
 named agentic threat (OWASP Agentic AI Threats & Mitigations 2025-2026). Enforce from
-the strongest layer outward (agent-ops 05):
+the strongest layer outward:
 
 1. Effect-time schema validation plus a deterministic policy engine.
 2. Sandboxing with filesystem and network egress boundaries.
@@ -50,7 +50,7 @@ hardening is never a security boundary.
 4. Strip or quote-delimit untrusted content so instruction-looking text stays inert.
 5. Validate every downstream action against policy in deterministic code before it
  runs.
-6. Add canary secrets to untrusted sources so exfiltration trips an alarm (agent-ops 05).
+6. Add canary secrets to untrusted sources so exfiltration trips an alarm.
 
 ## Anti-patterns
 

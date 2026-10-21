@@ -10,22 +10,22 @@ status: seedling
 
 ## Standard
 
-- **Trunk-based development**: small batches merged to trunk at least daily, three or fewer active branches, main always green (https://dora.dev/capabilities/trunk-based-development/; https://trunkbaseddevelopment.com; vault SDP 039 §2.3).
-- Trunk-based work *correlates* with higher delivery performance (*Accelerate*, 2018). Not causal (job-002 §E B-12).
-- **GitFlow** (Driessen 2010) fits versioned, packaged releases; its author later advised against it for continuous delivery (⚠️ secondary, vault SDP 005).
+- **Trunk-based development**: small batches merged to trunk at least daily, three or fewer active branches, main always green (https://dora.dev/capabilities/trunk-based-development/; https://trunkbaseddevelopment.com).
+- Trunk-based work *correlates* with higher delivery performance (*Accelerate*, 2018). Not causal.
+- **GitFlow** (Driessen 2010) fits versioned, packaged releases; its author later advised against it for continuous delivery (⚠️ secondary).
 - **GitHub flow**: short branch → PR → merge (https://docs.github.com/en/get-started).
-- **Merge queues**: GitHub merge queue GA 2023; Google and Meta ran them for years (vault SWX c16 §8).
-- **CODEOWNERS** maps paths to owners for auto-review requests (https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners; SWX c16 §4).
+- **Merge queues**: GitHub merge queue GA 2023; Google and Meta ran them for years.
+- **CODEOWNERS** maps paths to owners for auto-review requests (https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 
 ## Decision rules
 
 1. Default: trunk-based with short-lived branches (hours to one day) and feature flags.
-2. Add a thin release branch only for versioned libraries, mobile apps or supported old versions (SDP 005).
-3. Protect main: require PR, required status checks, linear history or squash, no force-push, no direct push. An agent never pushes to main (SDP 039 §4).
+2. Add a thin release branch only for versioned libraries, mobile apps or supported old versions.
+3. Protect main: require PR, required status checks, linear history or squash, no force-push, no direct push. An agent never pushes to main.
 4. Add a merge queue when main breaks from semantically conflicting merges, or when more than a few PRs merge per hour. ⚠️ House trigger.
 5. Every directory has an owner in CODEOWNERS. Owners are teams, not one person.
-6. Monorepo when changes often cross projects, libraries are shared and CI can test affected targets only. Polyrepo when compliance fences, open-source surfaces or very different toolchains apply. Past ~500 engineers expect a hybrid (SWX c16 §10; ⚠️ secondary).
-7. Monorepo CI tests affected targets only (`nx affected`, `turbo --filter`, Bazel rdeps) (SWX c16 §8).
+6. Monorepo when changes often cross projects, libraries are shared and CI can test affected targets only. Polyrepo when compliance fences, open-source surfaces or very different toolchains apply. Past ~500 engineers expect a hybrid (⚠️ secondary).
+7. Monorepo CI tests affected targets only (`nx affected`, `turbo --filter`, Bazel rdeps).
 8. Merging into protected main is **human-gated**.
 
 ## Procedure
@@ -37,11 +37,11 @@ status: seedling
  - require linear history or squash merge;
  - block force-push and deletion.
 3. Create `.github/CODEOWNERS`:
- ```text
- * @org/platform
- /services/billing/ @org/billing
- /docs/adr/ @org/architects
- ```
+   ```text
+   *                @org/platform
+   /services/billing/ @org/billing
+   /docs/adr/       @org/architects
+   ```
  Turn on "require review from code owners".
 4. If rule 4 applies, enable the merge queue and add the `merge_group` event to required workflows.
 5. Set a stale-branch rule: list branches older than the limit each week (`git for-each-ref --sort=committerdate refs/remotes`). Merge, flag or delete them (delete with the owner's OK).

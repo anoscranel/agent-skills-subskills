@@ -1,8 +1,9 @@
 ---
 name: ac-quality-verification
+description: "Quality models and verification-and-validation work: ISO/IEC 25010 quality attributes with numbers, V&V plans, bidirectional traceability matrices, the formal-methods ladder from assertions to provers, and lifecycle evidence for regulated software — IEC 62304, DO-178C, agile inside a QMS. Use when asking \"write a V&V plan\", \"build a traceability matrix\", \"regulator wants proof every requirement is verified\", \"IEC 62304 evidence\", \"DO-178C objectives\", \"ISO 25010 quality model\". Not for the general test portfolio, running an outage, or release governance; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Quality models and verification-and-validation work: ISO/IEC 25010 quality attributes with numbers, V&V plans, bidirectional traceability matrices, the formal-methods ladder from assertions to provers, and lifecycle evidence for regulated software — IEC 62304, DO-178C, agile inside a QMS. Use when asking "write a V&V plan", "build a traceability matrix", "regulator wants proof every requirement is verified", "IEC 62304 evidence", "DO-178C objectives", "ISO 25010 quality model". Not for the general test portfolio, running an outage, or release governance; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Quality Verification

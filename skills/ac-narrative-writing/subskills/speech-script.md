@@ -12,11 +12,11 @@ status: seedling
 ## Standard
 
 - **Announce the shape, out loud, early.** Advance organisers move application at 0.77 while barely touching factual recall at 0.09, and aural organisers beat written ones (<https://doi.org/10.3102/00028312017002211>). Spoken cues raised noted points by 39% and details by 35%.
-- **Load-bearing content does not go in the opening.** In a 1982 lecture study, first-part material was recalled significantly worse (F = 19.52, p <.0001) (same file §1 ⚠️ single study, unreplicated). The best-remembered material fell between minutes 15 and 30.
-- **The opening is an impression slot, not a memory slot.** Engagement ratings become highly predictive of the final evaluation within the first 10 seconds (same file §1 ⚠️ author-hosted PDF, venue unconfirmed). The effect is faster when nonverbal only.
+- **Load-bearing content does not go in the opening.** In a 1982 lecture study, first-part material was recalled significantly worse (F = 19.52, p <.0001) (⚠️ single study, unreplicated). The best-remembered material fell between minutes 15 and 30.
+- **The opening is an impression slot, not a memory slot.** Engagement ratings become highly predictive of the final evaluation within the first 10 seconds (⚠️ author-hosted PDF, venue unconfirmed). The effect is faster when nonverbal only.
 - **No study contrasts opening typologies or talk length.**
- No trial compares question, anecdote, statistic or provocation openings; any ranked list is ⚠️ unsourced (same file §1, §3).
-- **Build causal chains, not parallel lists.** Events with many causal connections are recalled more (same file §8). Three factors explained 32–65% of variance in event recall, while the connective word itself is worth about 1.5%.
+ No trial compares question, anecdote, statistic or provocation openings; any ranked list is ⚠️ unsourced.
+- **Build causal chains, not parallel lists.** Events with many causal connections are recalled more. Three factors explained 32–65% of variance in event recall, while the connective word itself is worth about 1.5%. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
 - **Speaking rate is a reading ceiling, not a published standard.** BBC subtitle guidelines set news subtitling "up to a subtitling speed of around 160-180wpm" (https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/). The working script norm is about 150 words per minute conversational (⚠️ no broadcaster publishes a normative rate).
 
 ## Decision rules

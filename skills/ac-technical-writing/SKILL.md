@@ -1,8 +1,9 @@
 ---
 name: ac-technical-writing
+description: "Product and process documentation: the docs set — README, tutorial, how-to, explanation, reference — procedures, SOPs, runbooks and KB articles, release notes, and the in-product strings users meet: button labels, error messages, empty states. Use when asking \"write a README\", \"tutorial or how-to\", \"structure the docs\", \"write a procedure\", \"SOP\", \"runbook\", \"KB article\", \"release notes\", \"write this error message\", \"button label\", \"empty state\". Not for designing the interface itself or laying the strings into a component; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Product and process documentation: the docs set — README, tutorial, how-to, explanation, reference — procedures, SOPs, runbooks and KB articles, release notes, and the in-product strings users meet: button labels, error messages, empty states. Use when asking "write a README", "tutorial or how-to", "structure the docs", "write a procedure", "SOP", "runbook", "KB article", "release notes", "write this error message", "button label", "empty state". Not for designing the interface itself or laying the strings into a component; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Technical Writing

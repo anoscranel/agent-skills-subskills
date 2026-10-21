@@ -10,23 +10,23 @@ status: seedling
 
 ## Standard
 
-- **Never merge unreviewed agent output** (SWX c10 §6). The defect profile is invented APIs, fabricated packages, and requirement conflicts that still compile — plausible, not correct.
-- **Functionally correct ≠ policy-conformant**: repo-policy violations appear in 43.1 % of correct patches, about half in intermediate steps, so the conformance check belongs inside the implementation lane (AWC 99 §1, arXiv 2610.06193v1 ⚠️ single paper).
-- **Provenance log** (SWX c25 §9): model, prompt version, output hash, reviewer — an SBOM for prompts.
-- **License hygiene** (SWX c25 §3): a 2026 audit found licence conflicts in 68 % of 947 codebases. Scan every diff. ⚠️ Vendor-sourced figure.
-- **Doe v. GitHub** (9th Cir., 16 Sep 2026) rejected the DMCA §1202(b) output theory, but output can still infringe, and contract and strict-liability exposure still runs against the deployer (SWX c25 §1, §9).
-- **Authorship** needs documented human control; prompts alone never establish it (SWX c25 §5). ⚠️ Practitioner rung.
+- **Never merge unreviewed agent output**. The defect profile is invented APIs, fabricated packages, and requirement conflicts that still compile — plausible, not correct.
+- **Functionally correct ≠ policy-conformant**: repo-policy violations appear in 43.1 % of correct patches, about half in intermediate steps, so the conformance check belongs inside the implementation lane (arXiv 2610.06193v1 ⚠️ single paper).
+- **Provenance log**: model, prompt version, output hash, reviewer — an SBOM for prompts.
+- **License hygiene**: a 2026 audit found licence conflicts in 68 % of 947 codebases. Scan every diff. ⚠️ Vendor-sourced figure.
+- **Doe v. GitHub** (9th Cir., 16 Sep 2026) rejected the DMCA §1202(b) output theory, but output can still infringe, and contract and strict-liability exposure still runs against the deployer.
+- **Authorship** needs documented human control; prompts alone never establish it. ⚠️ Practitioner rung.
 
 ## Decision rules
 
-1. Every agent change arrives with a review packet: diff, test report, eval result, provenance, rollback note (AWC 99 §3).
+1. Every agent change arrives with a review packet: diff, test report, eval result, provenance, rollback note.
 2. Green tests are evidence, not verdict. Validate the tests themselves: same-signature failure clustering, mutation floor, changed-line coverage (out of scope for this leaf: test-adequacy method).
-3. Weak tests are never adjusted to pass (SWX c10 §6). Characterization tests are pinned before the agent starts.
-4. License scans block at merge, not after release (SWX c25 §9).
+3. Weak tests are never adjusted to pass. Characterization tests are pinned before the agent starts.
+4. License scans block at merge, not after release.
 5. Reviewer identity is recorded. Unattributed agent output is unmergeable.
 6. Merging and publishing are **human-gated**, as is any authorship or compliance claim.
-7. Gates must resist habituation: track approvals and spot-audit a sample (AWC 99 §3).
-8. ⚠️ The METR result (19 % slower while believing they were faster) stands; never quote it bare (AWC 99 §4).
+7. Gates must resist habituation: track approvals and spot-audit a sample.
+8. ⚠️ The METR result (19 % slower while believing they were faster) stands; never quote it bare.
 
 ## Procedure
 

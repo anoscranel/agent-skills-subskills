@@ -1,8 +1,9 @@
 ---
 name: ac-git-workflow
+description: "Version-control craft: branching models and trunk-based development, branch protection, merge queues, CODEOWNERS and monorepo layout, plus commit messages, Conventional Commits, rebase versus merge, history repair and changelog generation. Use when asking \"which branching model\", \"trunk-based or GitFlow\", \"set up branch protection\", \"add a merge queue\", \"set up CODEOWNERS\", \"write a commit message\", \"rebase or merge\", \"fix my git history\", \"which commit broke this\". Not for preparing or judging a pull request, finding the defect a commit introduced, or pipeline job design; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Version-control craft: branching models and trunk-based development, branch protection, merge queues, CODEOWNERS and monorepo layout, plus commit messages, Conventional Commits, rebase versus merge, history repair and changelog generation. Use when asking "which branching model", "trunk-based or GitFlow", "set up branch protection", "add a merge queue", "set up CODEOWNERS", "write a commit message", "rebase or merge", "fix my git history", "which commit broke this". Not for preparing or judging a pull request, finding the defect a commit introduced, or pipeline job design; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Git Workflow

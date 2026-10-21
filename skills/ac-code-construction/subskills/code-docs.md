@@ -10,11 +10,11 @@ status: seedling
 
 ## Standard
 
-- **Docs-as-code** (SWX c08 §1): prose lives in the repository as Markdown, is reviewed in a PR, and is built and versioned with the release. Google's tech-writing canon is the reference (https://developers.google.com/tech-writing).
-- **Comments explain why, not what** (SWX c03 §10). The code says what it does; the comment records the constraint, the bug, or why the obvious fix was wrong.
-- **Generated reference beats hand-written**: reference pages come from the spec or the source, because hand-written pages drift (SWX c08 §1, c18 §8).
+- **Docs-as-code**: prose lives in the repository as Markdown, is reviewed in a PR, and is built and versioned with the release. Google's tech-writing canon is the reference (https://developers.google.com/tech-writing).
+- **Comments explain why, not what**. The code says what it does; the comment records the constraint, the bug, or why the obvious fix was wrong.
+- **Generated reference beats hand-written**: reference pages come from the spec or the source, because hand-written pages drift.
 - **Diátaxis** (https://diataxis.fr): each page answers exactly one need — tutorial, how-to, reference or explanation.
-- **Docs in the same PR** (SWX c08 §1): a change that alters behaviour updates its docs in the same change.
+- **Docs in the same PR**: a change that alters behaviour updates its docs in the same change.
 
 ## Decision rules
 
@@ -31,25 +31,25 @@ status: seedling
 
 1. For each public surface, check the docstring against the current signature.
 2. Write or fix it:
- ```python
- def charge(amount_minor: int, idem_key: str) -> Receipt:
- """Charge a card.
+   ```python
+   def charge(amount_minor: int, idem_key: str) -> Receipt:
+       """Charge a card.
 
- Args:
- amount_minor: positive amount in minor units.
- idem_key: durable client key; the same key replays the result.
+       Args:
+           amount_minor: positive amount in minor units.
+           idem_key: durable client key; the same key replays the result.
 
- Raises:
- CardDeclined: the payment method was refused.
- """
- ```
+       Raises:
+           CardDeclined: the payment method was refused.
+       """
+   ```
 3. Replace any comment that repeats the line below it.
 4. Move decision prose into a decision record (out of scope for this leaf: the record format).
 5. Generate the reference from the spec: `npx @redocly/cli build-docs openapi.yaml -o docs/api.html`.
 6. Build the docs in CI, so a broken page fails like broken code.
 7. Add a docs checkbox to the PR template.
 8. Audit the doc tree: merge duplicates, delete orphans.
-9. Run one generated example against the live API, to prove the samples work (SWX c08 §1).
+9. Run one generated example against the live API, to prove the samples work.
 
 ## Anti-patterns
 

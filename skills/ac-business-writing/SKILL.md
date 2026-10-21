@@ -1,8 +1,9 @@
 ---
 name: ac-business-writing
+description: "Workplace communication: the one-ask email and its follow-up, the memo, the status report, the board update and the executive summary. Use when asking \"write this email\", \"reply to this thread\", \"follow up on this thread\", \"one-ask email\", \"write a memo\", \"status report\", \"executive summary\", \"board update\". Not for managing or sorting an inbox, and not for scored bids, grant narratives or press statements; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Workplace communication: the one-ask email and its follow-up, the memo, the status report, the board update and the executive summary. Use when asking "write this email", "reply to this thread", "follow up on this thread", "one-ask email", "write a memo", "status report", "executive summary", "board update". Not for managing or sorting an inbox, and not for scored bids, grant narratives or press statements; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Business Writing

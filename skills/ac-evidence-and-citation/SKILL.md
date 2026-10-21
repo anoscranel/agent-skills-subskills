@@ -1,8 +1,9 @@
 ---
 name: ac-evidence-and-citation
+description: "Evidence and citation craft for a document being written: finding and judging sources, logging them, checking a document's claims against them, verifying quotes, catching plagiarism risk, and binding claims to checkable citations in a chosen style. Use when asking \"cite this\", \"add references\", \"which citation style\", \"is this plagiarism\", \"check my sources\", \"find evidence for this\", \"verify these quotes\", \"where did this number come from\", \"check my citations resolve\". Not for open-ended research that answers a question rather than defining the record for a document, and not for the AI-disclosure decision; that work sits outside this skill."
 license: MIT
-domain: writing
-description: Evidence and citation craft for a document being written: finding and judging sources, logging them, checking a document's claims against them, verifying quotes, catching plagiarism risk, and binding claims to checkable citations in a chosen style. Use when asking "cite this", "add references", "which citation style", "is this plagiarism", "check my sources", "find evidence for this", "verify these quotes", "where did this number come from", "check my citations resolve". Not for open-ended research that answers a question rather than defining the record for a document, and not for the AI-disclosure decision; that work sits outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Evidence and Citation

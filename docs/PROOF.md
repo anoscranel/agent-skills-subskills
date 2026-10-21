@@ -1,32 +1,28 @@
----
-id: proof-ledger
-status: verified
-created: 2026-10-20
----
+# Proof ledger
 
-# Proof ledger (what ran against this pack before it shipped)
+What was checked before this release, what passed, and what was not checked. Re-run the first three rows yourself; commands are given.
 
-## Quality gates (every skill, every file)
+## Gates you can re-run (v0.2.0)
 
-| Gate | Tool | Result |
+| Gate | Command (from the repo root) | Result |
 |---|---|---|
-| Structure lint | `lint_tree.py` (subskills family linter, this repo) | 36 PASS; domain chains checked, unique scopes, no leaf over 600 words (machine rule) |
-| Adversarial scan | `skill_scan.py` (self-contained scanner, this repo) | 36 PASS; no delegation/cross-skill instruction lines |
-| Install gate | `skill-install` scan (hosts install); script-only profile for the meta-skill | 36 PASS |
-| Integrity lock | `skill-install verify` against the recorded tree hash | 36 of 36 OK after repair |
+| Structure lint | `python3 -B skills/ac-subskills-author/scripts/lint_tree.py skills/<name>` | 33 of 33 PASS |
+| Security scan | `python3 -B skills/ac-subskills-author/scripts/skill_scan.py skills/<name>` | 33 of 33 PASS |
+| Spec frontmatter | Strict YAML parse; `name` matches dir and `^[a-z0-9]+(-[a-z0-9]+)*$`; `description` 1–1024 chars; only spec keys (`name`, `description`, `license`, `metadata`) | 33 of 33 PASS |
 
-## Independent audit (findings/job-004-audit-report.md)
+The skill's own domain lives in `metadata.domain`, per the [Agent Skills spec](https://agentskills.io/specification), which reserves top-level keys.
 
-A fresh-context validator checked name/dir parity, staged-vs-installed equality, license declarations, citation integrity, human-gating, section rules, and domain-collision safety. Eleven defects were returned (names D1–D11) and resolved; the repair log is job-005.
+## Checks run before release (evidence not shipped)
 
-## Routing evaluation (findings/job-004a/…; the frozen scores)
+- **Routing evaluation, 31 of 33 skills.** A blind router saw only each skill's name and description, among about 150 installed skills, and picked a skill for each of 60 pre-registered tasks. Result: 58 of 60 correct at top 1. The 2 misses sit on contested boundaries with third-party skills. All 9 out-of-scope tasks were correctly routed to no skill. A second test routed tasks to leaves inside the software and writing suites: 24 of 24 and 24 of 24.
+- **Not routing-tested:** `ac-prompt-engineer` and `ac-subskills-author`. Since that test, descriptions were re-quoted for strict YAML, and `ac-subskills-author`'s description was reworded.
+- **Independent audits.** Two fresh-context auditors reviewed the pack before and after the first release. The second audit found 28 defects: false README claims, code samples with stripped `()` and indentation, private references, and non-strict YAML. v0.2.0 fixes them; see [CHANGELOG.md](../CHANGELOG.md).
 
-Every published skill's SKILL.md description went through a sealed router task stack (60 prompts per suite). The router sees only name + description; the label set is pre-registered and hash-frozen. Final test run: **58/60 correct first choice** against the full installed catalog (150 skills, including strong third-party applicants). The two misses are contested boundary takes (documented in that op board) rather than defects.
+The routing and audit records live in the author's private notes. Treat these results as the author's report, not as reproducible evidence.
 
-The publish set here targets names that the router test proved win their declared entrance phrases.
+## Limits
 
-## What is NOT claimed
-
-- No claim of upstream endorsements; this pack is independently authored.
-- ⚠️ Paywalled primary standards (ISO / CMOS / APA proprietary text) carry the ⚠️ note inside the leaves that cite them.
-- Two skills were deliberately excluded from this subject pack: `ac-deep-researcher` and `ac-security-engineer`/`ac-ac-security-standards` — they live in the same system but publish under a fragment/later release.
+- Leaves cite public sources. Paywalled standards (ISO, CMOS, APA and similar) are cited, not quoted, and carry a ⚠️.
+- A spot check of 18 load-bearing claims against primary sources found 11 exact matches, 2 arithmetic slips (fixed), 1 dead link (replaced), 1 broken code sample (fixed) and 3 that could not be checked (paywall or blocked page).
+- No upstream endorsement is claimed.
+- The longest leaf is 613 words; no linter caps length.

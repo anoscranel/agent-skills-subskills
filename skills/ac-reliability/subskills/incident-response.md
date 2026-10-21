@@ -10,21 +10,21 @@ status: seedling
 
 ## Standard
 
-- **Roles** (SWX c07 §6): an incident commander holds decision authority, a comms lead speaks outward, a scribe keeps the record. The roles are activities, not job titles.
+- **Roles**: an incident commander holds decision authority, a comms lead speaks outward, a scribe keeps the record. The roles are activities, not job titles.
 - **Blameless postmortem**: introduced by John Allspaw at Etsy and adopted by Google SRE; focus on system conditions, not on whose fault it was (https://sre.google/workbook/postmortem-culture/).
-- **Action items** are typed Investigate, Mitigate, Repair, Detect, Prevent, and each needs a named owner (SDD 34 §5).
-- **Status communication** is a three-act shape: acknowledge, update hourly while live, then resolve with a postmortem (SDP 028 §2.4).
-- **Severity ladder**: SEV1 pages now, SEV2 major, SEV3 minor, SEV4 cosmetic (SWX c07 §6). ⚠️ Numbering varies by org; write your own mapping.
+- **Action items** are typed Investigate, Mitigate, Repair, Detect, Prevent, and each needs a named owner.
+- **Status communication** is a three-act shape: acknowledge, update hourly while live, then resolve with a postmortem.
+- **Severity ladder**: SEV1 pages now, SEV2 major, SEV3 minor, SEV4 cosmetic. ⚠️ Numbering varies by org; write your own mapping.
 
 ## Decision rules
 
-1. Severity selects the response path. If two tiers trigger the same action, merge them (SDP 028 §2.2).
-2. Set timeboxes you can hold. An SLA you cannot meet is a lie that erodes trust (SDP 028 §4).
-3. When in doubt, roll back before debugging forward. A revert is reversible; a pressured fix is not (SDD 34 §5).
-4. One incident, one commander, even when the team is one person (SDD 34 §5).
+1. Severity selects the response path. If two tiers trigger the same action, merge them.
+2. Set timeboxes you can hold. An SLA you cannot meet is a lie that erodes trust.
+3. When in doubt, roll back before debugging forward. A revert is reversible; a pressured fix is not.
+4. One incident, one commander, even when the team is one person.
 5. External status claims are **human-gated**. The agent drafts boilerplate; a human owns every claim about what broke.
-6. Every user-visible event gets at least one P0 or P1 action item (SDD 34 §5).
-7. A postmortem closes within three to five business days (SDD 34 §5).
+6. Every user-visible event gets at least one P0 or P1 action item.
+7. A postmortem closes within three to five business days.
 
 ## Procedure
 
@@ -38,13 +38,13 @@ status: seedling
 8. Update the status page hourly while impact is live.
 9. Keep the timeline in order, with times.
 10. Write the postmortem within five business days:
- ```markdown
- Impact: <who, how long, what they saw>
- Timeline: <times, events, decisions>
- Root cause + contributing factors:
- What went well / what went badly:
- Action items (owner, due date, type):
- ```
+    ```markdown
+    Impact: <who, how long, what they saw>
+    Timeline: <times, events, decisions>
+    Root cause + contributing factors:
+    What went well / what went badly:
+    Action items (owner, due date, type):
+    ```
 11. Give every action item an owner and a tracked home.
 12. Publish internally. External publication is **human-gated**.
 

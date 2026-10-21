@@ -1,8 +1,9 @@
 ---
 name: ac-prompt-engineer
+description: "Engineers prompts for LLMs and agents: instruction lines, structure, examples, named techniques, model and sampler choices, context budget, grounding, injection resistance, and proof that a change helped. Use when the user wants to tune a prompt or the standing instructions an agent runs under, get a model to follow a format or stop refusing, add few-shot examples, pick between reasoning and instruction models, set temperature or reasoning effort, shrink a bloated instruction set, ground answers on retrieved documents, harden a prompt against injection, organize a prompt library, rewrite an agent's tool or handoff sections, prompt image or video models, or check whether a prompt edit actually improved anything. Not for one-off chat messages, model training or fine-tuning, choosing an AI product to buy, or building attack payloads."
 license: MIT
-description: Engineers prompts for LLMs and agents: instruction lines, structure, examples, named techniques, model and sampler choices, context budget, grounding, injection resistance, and proof that a change helped. Use when the user wants to tune a prompt or the standing instructions an agent runs under, get a model to follow a format or stop refusing, add few-shot examples, pick between reasoning and instruction models, set temperature or reasoning effort, shrink a bloated instruction set, ground answers on retrieved documents, harden a prompt against injection, organize a prompt library, rewrite an agent's tool or handoff sections, prompt image or video models, or check whether a prompt edit actually improved anything. Not for one-off chat messages, model training or fine-tuning, choosing an AI product to buy, or building attack payloads.
-domain: prompt-engineering
+metadata:
+  domain: prompt-engineering
 ---
 
 # ac-prompt-engineer — the craft of prompting models and agents
@@ -65,5 +66,4 @@ engineering essay
 (https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents),
 Google's Gemini prompt design strategies
 (https://ai.google.dev/gemini-api/docs/prompting-strategies), and the OWASP GenAI LLM
-Top 10 (https://genai.owasp.org/). The vault dossiers behind every leaf are cited inline
-per leaf.
+Top 10 (https://genai.owasp.org/). Each leaf cites its own primary sources inline.

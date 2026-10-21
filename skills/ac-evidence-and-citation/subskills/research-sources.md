@@ -14,7 +14,7 @@ status: seedling
 - **Institutional checking practice.** *The New Yorker* runs independent checkers who build corroboration binders and read factual assertions back to sources.
  *Der Spiegel* runs Europe's largest checking unit (~70 researchers) with metadata audits, image geotag checks and on-site spot checks.
  *ProPublica* runs dual-track review and has senior data editors replicate statistical code before release (<https://www.newyorker.com/>).
-- **Source tier ladder** (same file): Tier 1 court dockets, sworn depositions, SEC filings, server logs → Tier 2 agency responses, contemporaneous memos → Tier 3 trade press, corporate PR → Tier 4 single-source tips. Tier 1 outranks everything below it.
+- **Source tier ladder**: Tier 1 court dockets, sworn depositions, SEC filings, server logs → Tier 2 agency responses, contemporaneous memos → Tier 3 trade press, corporate PR → Tier 4 single-source tips. Tier 1 outranks everything below it.
 - **Attribution tiers** (AP / Washington Post conventions): on the record, on background, deep background, off the record. Ground rules are struck before disclosure.
 - **Fabricated references are now common.** An audit of ~2.5M papers and 97.1M references found 4,046 references to studies that do not exist (Topaz et al., *The Lancet* 2026, https://doi.org/10.1016/S0140-6736(26)00603-3). The share of affected papers rose 1-in-2,828 (2023) → 1-in-458 (2025) → 1-in-277 (early 2026), and 98.4% were never corrected.
 
@@ -31,9 +31,9 @@ status: seedling
 ## Procedure
 
 1. List the claims the document must support, one per row:
- ```markdown
- | Claim | Source (title, publisher, date, URL) | Tier | Locator | Retrieved | Status |
- ```
+   ```markdown
+   | Claim | Source (title, publisher, date, URL) | Tier | Locator | Retrieved | Status |
+   ```
 2. Status is one of: supported, contested, my inference, unverified. Only "supported" rows leave this leaf.
 3. Search the exact figure in quotes, plus "source". Search the first 8–10 words of a quote verbatim.
 4. Open every supplied URL. A link that 404s or leads elsewhere fails the claim.

@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Test doubles (Meszaros, via Fowler)**: dummy (fills a parameter), stub (canned answers), spy (records calls), mock (pre-set expectations, verifies interaction), fake (light working version, such as an in-memory DB) (vault SDP 019 §2.2; https://martinfowler.com/articles/mocksArentStubs.html).
-- **Hermetic tests**: no shared external state, no network, no uncontrolled clocks, no order dependence (Google Testing Blog, "Hermetic Testing"; vault SWX c04 §8).
-- **Test data**: fixtures for read-only reference data; factories for per-test objects; API seeding for later journey steps; ephemeral databases (Testcontainers) for real-infrastructure integration (SDP 019 §2.1; SWX c04 §8).
-- **Contract tests**: consumer-driven contracts (Pact) check real interactions; OpenAPI schema checks shape only (SWX c04 §7).
+- **Test doubles (Meszaros, via Fowler)**: dummy (fills a parameter), stub (canned answers), spy (records calls), mock (pre-set expectations, verifies interaction), fake (light working version, such as an in-memory DB) (https://martinfowler.com/articles/mocksArentStubs.html).
+- **Hermetic tests**: no shared external state, no network, no uncontrolled clocks, no order dependence (Google Testing Blog, "Hermetic Testing").
+- **Test data**: fixtures for read-only reference data; factories for per-test objects; API seeding for later journey steps; ephemeral databases (Testcontainers) for real-infrastructure integration.
+- **Contract tests**: consumer-driven contracts (Pact) check real interactions; OpenAPI schema checks shape only.
 
 ## Decision rules
 
@@ -33,15 +33,15 @@ status: seedling
 1. Name the behaviour and its edge cases: empty, one, many, boundary, invalid, error path.
 2. Pick the level: pure logic → unit; database, queue or HTTP seam → integration; service boundary → contract.
 3. Build data with a factory:
- ```python
- def make_user(**over):
- return User(**{"email": "a@example.com", "active": True, **over})
+   ```python
+   def make_user(**over):
+       return User(**{"email": "a@example.com", "active": True, **over})
 
- def test_inactive_user_cannot_login(db):
- user = db.add(make_user(active=False))
- result = login(user.email, "pw")
- assert result.error == "inactive"
- ```
+   def test_inactive_user_cannot_login(db):
+       user = db.add(make_user(active=False))
+       result = login(user.email, "pw")
+       assert result.error == "inactive"
+   ```
 4. Replace only boundary dependencies with doubles. Prefer a fake you can reuse.
 5. For integration, start a container per test session; reset state per test (transaction rollback or truncate).
 6. Run the test. Then break the code under test and confirm the test fails. Restore.
@@ -53,7 +53,7 @@ status: seedling
 - Mocking everything; tests pass while production fails.
 - Asserting "getUser was called" instead of the result.
 - Shared mutable fixtures across tests.
-- `sleep` to wait for async work.
+- `sleep()` to wait for async work.
 - In-memory SQLite standing in for Postgres.
 
 ## Done checklist

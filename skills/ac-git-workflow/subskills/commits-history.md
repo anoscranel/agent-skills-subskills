@@ -10,12 +10,12 @@ status: seedling
 
 ## Standard
 
-- **Conventional Commits 1.0.0** (https://www.conventionalcommits.org/en/v1.0.0/): `<type>(scope)!: description`. `fix` → PATCH, `feat` → MINOR, `BREAKING CHANGE` footer or `!` → MAJOR (vault SDP 039 §2.2).
-- **SemVer 2.0.0** (https://semver.org) and **Keep a Changelog 1.1.0** (https://keepachangelog.com/en/1.1.0/) (vault SWX c01 §9).
-- **Atomic commit**: builds and passes tests alone; one reason to exist (GitHub Blog, "Write Better Commits"; SDP 039 §2.1).
+- **Conventional Commits 1.0.0** (https://www.conventionalcommits.org/en/v1.0.0/): `<type>(scope)!: description`. `fix` → PATCH, `feat` → MINOR, `BREAKING CHANGE` footer or `!` → MAJOR.
+- **SemVer 2.0.0** (https://semver.org) and **Keep a Changelog 1.1.0** (https://keepachangelog.com/en/1.1.0/).
+- **Atomic commit**: builds and passes tests alone; one reason to exist (GitHub Blog, "Write Better Commits").
 - **git bisect** binary-searches for the commit that introduced a bug. It needs atomic, small commits (https://git-scm.com/docs/git-bisect).
-- Generators: semantic-release, release-please, git-cliff (vault SDP 005 §4).
-- ⚠️ The maintainability benefit of strict conventions is claimed, not measured (SDP 039 §5).
+- Generators: semantic-release, release-please, git-cliff.
+- ⚠️ The maintainability benefit of strict conventions is claimed, not measured.
 
 ## Decision rules
 
@@ -25,7 +25,7 @@ status: seedling
 4. One reason per commit. Split with `git add -p`.
 5. Rebase your own unpushed or unshared commits freely. Never rewrite history others have pulled.
 6. Merge method on main: squash for single-purpose PRs; rebase-merge when each commit is atomic and worth keeping. Keep main linear so bisect stays reliable.
-7. Squash agent exploration commits into one clean commit per logical change before merge (SDP 039 §2.8).
+7. Squash agent exploration commits into one clean commit per logical change before merge.
 8. Undo on shared branches with `git revert`, not reset.
 9. Force-push to a shared branch is **human-gated**. Use `--force-with-lease`, never bare `--force`.
 10. Agent-written commits carry a trailer naming the agent, e.g. `Co-authored-by:` or `Assisted-by:`. ⚠️ Trailer name is house convention. The human who merges vouches for the change.
@@ -34,22 +34,22 @@ status: seedling
 
 1. Stage one reason: `git add -p`.
 2. Write the message:
- ```text
- fix(checkout): reject expired coupons
+   ```text
+   fix(checkout): reject expired coupons
 
- Expired coupons were applied because the check used local time.
- Compare in UTC against coupon.expires_at.
+   Expired coupons were applied because the check used local time.
+   Compare in UTC against coupon.expires_at.
 
- Refs: REQ-014
- ```
+   Refs: REQ-014
+   ```
 3. Before opening a PR, clean local history: `git rebase -i origin/main`. Use `fixup`/`squash` to fold noise; `reword` to fix messages.
 4. Check each commit builds: `git rebase -x "make test" origin/main`.
 5. To find a regression:
- ```bash
- git bisect start <bad> <good>
- git bisect run./scripts/repro.sh # exit 0 good, 1 bad, 125 skip
- git bisect reset
- ```
+   ```bash
+   git bisect start <bad> <good>
+   git bisect run ./scripts/repro.sh   # exit 0 good, 1 bad, 125 skip
+   git bisect reset
+   ```
 6. To undo a merged change: `git revert <sha>`; the message states why.
 7. To recover lost work: `git reflog`, then `git branch rescue <sha>`.
 8. Lint messages in CI with commitlint.

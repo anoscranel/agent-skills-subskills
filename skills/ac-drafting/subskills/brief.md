@@ -29,14 +29,14 @@ status: seedling
 ## Procedure
 
 1. Write the brief in this shape:
- ```markdown
- Reader (one person, their decision):
- Purpose (one sentence, verb):
- Use (where it is read, on what device, in what context):
- Success test (what the reader does next):
- Venue rules (limits, structure, style, citations, deadline, approvers):
- Known constraints (facts that cannot be claimed):
- ```
+   ```markdown
+   Reader (one person, their decision):
+   Purpose (one sentence, verb):
+   Use (where it is read, on what device, in what context):
+   Success test (what the reader does next):
+   Venue rules (limits, structure, style, citations, deadline, approvers):
+   Known constraints (facts that cannot be claimed):
+   ```
 2. List the three questions the reader will ask first. Those become the outline's first sections (subskills/outline-structure.md).
 3. Mark any claim the brief cannot support yet. It becomes a research task (out of scope for this leaf: finding and judging sources).
 4. Send the brief back to the requester when reader or success test is missing. Do not guess both.

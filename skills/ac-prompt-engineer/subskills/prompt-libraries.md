@@ -16,17 +16,17 @@ frontmatter: identifier, version, category, tags, provenance with source and lic
 and a recorded eval score. Categories work
 best as a verb taxonomy (`analyze_paper`, `extract_wisdom`), because verbs are mutually
 exclusive where topics overlap. Co-locate tests with each prompt: at least three eval
-cases in a sibling config, plus a regression baseline (library-systems §2). Treat
+cases in a sibling config, plus a regression baseline. Treat
 prompts like code: immutable versions, human-readable aliases (prod, staging) as the
 only moving pointers, rollbacks as alias switches. Distribute through open formats: an
 Agent Skills folder for capability sharing, or the MCP Prompts primitive so any client
-discovers the library without code changes (library-systems §3).
+discovers the library without code changes.
 
 ## Meta-prompting, safely
 
 A strong model can audit a prompt for contradictions, dead rules, and invalid tool
 calls; OpenAI's GPT-5 prompting guide recommends exactly this audit pattern
-(https://platform.openai.com/docs/guides/gpt-5-prompting). The audit is a draft, not a
+(https://developers.openai.com/cookbook/examples/gpt-5/gpt-5_prompting_guide). The audit is a draft, not a
 verdict: adopt a suggested change only after it moves the golden set (see this skill's
 eval leaf). Otherwise you have automated folklore generation.
 

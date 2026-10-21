@@ -10,10 +10,10 @@ status: seedling
 
 ## Standard
 
-- **Property-based testing**: QuickCheck (Claessen & Hughes, ICFP 2000). State an invariant, generate inputs, shrink failures to a minimal counterexample. Tools: Hypothesis (Python), fast-check (JS), jqwik (JVM), proptest (Rust), FsCheck (.NET) (vault SWX c04 §4).
-- **Mutation testing**: DeMillo, Lipton & Sayward (1978). Mutation score = share of seeded mutants killed. Tools: PIT (Java), Stryker (JS/.NET/Scala), mutmut and cosmic-ray (Python). Runs cost 10–100× a normal suite (SWX c04 §6).
-- **Fuzzing**: coverage-guided fuzzing via AFL++, libFuzzer, Go native fuzzing (Go 1.18+), cargo-fuzz, ClusterFuzzLite; OSS-Fuzz at scale (SWX c04 §5).
-- **Why**: line coverage proves reach, not assertion strength. Mutation score is the more honest signal (SWX c04 §6, §9). One study: a green suite detected 8.7% of mutants (vault SDP 016 §2). ⚠️ Single study.
+- **Property-based testing**: QuickCheck (Claessen & Hughes, ICFP 2000). State an invariant, generate inputs, shrink failures to a minimal counterexample. Tools: Hypothesis (Python), fast-check (JS), jqwik (JVM), proptest (Rust), FsCheck (.NET).
+- **Mutation testing**: DeMillo, Lipton & Sayward (1978). Mutation score = share of seeded mutants killed. Tools: PIT (Java), Stryker (JS/.NET/Scala), mutmut and cosmic-ray (Python). Runs cost 10–100× a normal suite.
+- **Fuzzing**: coverage-guided fuzzing via AFL++, libFuzzer, Go native fuzzing (Go 1.18+), cargo-fuzz, ClusterFuzzLite; OSS-Fuzz at scale.
+- **Why**: line coverage proves reach, not assertion strength. Mutation score is the more honest signal. One study: a green suite detected 8.7% of mutants. ⚠️ Single study.
 
 ## Decision rules
 
@@ -30,29 +30,29 @@ status: seedling
 
 1. Pick the target: the module where escaped defects cluster, or the newest parser.
 2. Property test:
- ```python
- from hypothesis import given, strategies as st
+   ```python
+   from hypothesis import given, strategies as st
 
- @given(st.lists(st.integers))
- def test_sort_is_ordered_and_permutation(xs):
- out = my_sort(xs)
- assert all(a <= b for a, b in zip(out, out[1:]))
- assert sorted(xs) == out
- ```
+   @given(st.lists(st.integers()))
+   def test_sort_is_ordered_and_permutation(xs):
+       out = my_sort(xs)
+       assert all(a <= b for a, b in zip(out, out[1:]))
+       assert sorted(xs) == out
+   ```
 3. Mutation run (scoped):
- ```bash
- mutmut run --paths-to-mutate src/billing/
- mutmut results
- npx stryker run --mutate "src/billing/**/*.ts"
- ```
+   ```bash
+   mutmut run --paths-to-mutate src/billing/
+   mutmut results
+   npx stryker run --mutate "src/billing/**/*.ts"
+   ```
  For each survivor on changed lines: add or sharpen an assertion, or mark equivalent.
 4. Fuzz target (Go example):
- ```go
- func FuzzParse(f *testing.F) {
- f.Add([]byte("a=1"))
- f.Fuzz(func(t *testing.T, b []byte) { _, _ = Parse(b) })
- }
- ```
+   ```go
+   func FuzzParse(f *testing.F) {
+       f.Add([]byte("a=1"))
+       f.Fuzz(func(t *testing.T, b []byte) { _, _ = Parse(b) })
+   }
+   ```
  Run `go test -fuzz=FuzzParse -fuzztime=60s`. Commit the corpus; keep crashers as regression inputs.
 5. Record results: mutation score per module, open survivors, fuzz crashes found and fixed.
 6. Wire scoped mutation and short fuzz runs into the nightly pipeline.

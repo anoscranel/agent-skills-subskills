@@ -1,8 +1,9 @@
 ---
 name: ac-performance
+description: "Making software fast, server and browser: measure-first performance budgets, percentile targets, profiling and flame graphs, load and soak tests, N+1 and caching fixes, plus Core Web Vitals — LCP, INP, CLS — bundle cost and field versus lab data. Use when asking \"this is slow\", \"profile this\", \"p99 latency is too high\", \"set a performance budget\", \"load test this API\", \"improve LCP\", \"fix layout shift\", \"pass Core Web Vitals\", \"the bundle is too big\". Not for SLO definition, alerting, outage response, or UI structure; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Making software fast, server and browser: measure-first performance budgets, percentile targets, profiling and flame graphs, load and soak tests, N+1 and caching fixes, plus Core Web Vitals — LCP, INP, CLS — bundle cost and field versus lab data. Use when asking "this is slow", "profile this", "p99 latency is too high", "set a performance budget", "load test this API", "improve LCP", "fix layout shift", "pass Core Web Vitals", "the bundle is too big". Not for SLO definition, alerting, outage response, or UI structure; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Performance

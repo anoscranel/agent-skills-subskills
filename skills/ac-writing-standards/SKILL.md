@@ -1,8 +1,9 @@
 ---
 name: ac-writing-standards
+description: "Writing-standards reference: which standard, style guide or reporting guideline exists, which edition is current, and what each governs - ISO 24495-1 and 24495-2, CMOS, AP Stylebook, APA, MLA, CSE, the Microsoft guide, the Plain Writing Act, WCAG text criteria, PRISMA and the EQUATOR reporting-guideline family - plus done criteria for each stage of the editorial sequence, and the lifecycle frame itself: which editorial pass is allowed to change meaning. Use when asking \"which style guide exists for this\", \"what does ISO 24495-1 / CMOS / AP say\", \"what makes a document done\", \"which editorial pass changes meaning\", \"the editorial sequence\". Not for doing the work itself: writing the brief, drafting, revising, editing or publishing. Those are craft tasks outside this skill."
 license: MIT
-domain: writing
-description: Writing-standards reference: which standard, style guide or reporting guideline exists, which edition is current, and what each governs - ISO 24495-1 and 24495-2, CMOS, AP Stylebook, APA, MLA, CSE, the Microsoft guide, the Plain Writing Act, WCAG text criteria, PRISMA and the EQUATOR reporting-guideline family - plus done criteria for each stage of the editorial sequence, and the lifecycle frame itself: which editorial pass is allowed to change meaning. Use when asking "which style guide exists for this", "what does ISO 24495-1 / CMOS / AP say", "what makes a document done", "which editorial pass changes meaning", "the editorial sequence". Not for doing the work itself: writing the brief, drafting, revising, editing or publishing. Those are craft tasks outside this skill.
+metadata:
+  domain: writing
 ---
 
 # Writing Standards

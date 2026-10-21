@@ -10,11 +10,11 @@ status: seedling
 
 ## Standard
 
-- **Deployment pipeline** (Humble & Farley, *Continuous Delivery*, 2010): commit stage → automated acceptance → manual or exploratory → release. Every commit leaves main releasable (vault SWX c05 §1).
-- **Stages for a small team**: `lint → test → build → deploy → verify`, one linear chain (vault SDD 32 §2).
-- **Build once**: build one artifact, pass it by digest between jobs; never rebuild per job (SDD 32 §2).
-- **Hardening** after real incidents (tj-actions, CVE-2025-30066): pin actions to a full commit SHA; default `permissions: contents: read`; never `pull_request_target` with an untrusted checkout; namespace caches per trigger (SDD 32 §4).
-- **Cloud auth** from CI uses short-lived OIDC tokens, not stored long-lived keys (SDD 32 §3).
+- **Deployment pipeline** (Humble & Farley, *Continuous Delivery*, 2010): commit stage → automated acceptance → manual or exploratory → release. Every commit leaves main releasable.
+- **Stages for a small team**: `lint → test → build → deploy → verify`, one linear chain.
+- **Build once**: build one artifact, pass it by digest between jobs; never rebuild per job.
+- **Hardening** after real incidents (tj-actions, CVE-2025-30066): pin actions to a full commit SHA; default `permissions: contents: read`; never `pull_request_target` with an untrusted checkout; namespace caches per trigger.
+- **Cloud auth** from CI uses short-lived OIDC tokens, not stored long-lived keys.
 
 ## Decision rules
 
@@ -31,26 +31,28 @@ status: seedling
 ## Procedure
 
 1. Write the workflow:
- ```yaml
- name: ci
- on: { pull_request: {}, push: { branches: [main] } }
- permissions: { contents: read }
- concurrency: { group: ci-${{ github.ref }}, cancel-in-progress: true }
- jobs:
- check:
- runs-on: ubuntu-latest
- steps:
- - uses: actions/checkout@<full-sha> # pin by SHA
- with: { persist-credentials: false }
- - uses: actions/setup-node@<full-sha>
- with: { node-version: 22, cache: npm }
- - run: npm ci
- - run: npm run lint && npm run typecheck
- - run: npm test -- --coverage
- - run: npm run build
- - uses: actions/upload-artifact@<full-sha>
- with: { name: dist, path: dist }
- ```
+   ```yaml
+   name: ci
+   on: { pull_request: {}, push: { branches: [main] } }
+   permissions: { contents: read }
+   concurrency:
+     group: ci-${{ github.ref }}
+     cancel-in-progress: true
+   jobs:
+     check:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@<full-sha>   # pin by SHA
+           with: { persist-credentials: false }
+         - uses: actions/setup-node@<full-sha>
+           with: { node-version: 22, cache: npm }
+         - run: npm ci
+         - run: npm run lint && npm run typecheck
+         - run: npm test -- --coverage
+         - run: npm run build
+         - uses: actions/upload-artifact@<full-sha>
+           with: { name: dist, path: dist }
+   ```
 2. Add later jobs that download the same artifact; they never rebuild.
 3. Turn on required status checks for main in branch protection.
 4. Measure p50 and p95 pipeline time, slowest jobs, cache hit rate, flake rate.

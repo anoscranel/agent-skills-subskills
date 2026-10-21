@@ -11,12 +11,12 @@ status: seedling
 ## Standard
 
 - **SWEBOK v4** Software Construction KA (https://www.computer.org/education/bodies-of-knowledge/software-engineering/topics).
-- **Names** reveal intent and use domain terms (Martin, *Clean Code*, 2008; Evans, *DDD*, 2003 ubiquitous language; vault SWX c03 §10).
-- **Comments** explain why, not what (SWX c03 §10; Ousterhout 2018).
-- **Formatter as law**: gofmt, Black, Prettier, rustfmt; EditorConfig for the rest (SWX c03 §6).
-- **Linters and types**: ESLint v9 flat config, Ruff, Clippy, Semgrep; `tsc --noEmit`, mypy/pyright, `cargo check` (SWX c03 §4; vault SCQ 02 §2).
-- **Error handling**: OWASP Top 10:2025 adds A10 "Mishandling of Exceptional Conditions" (https://owasp.org/Top10; SCQ 02 §3).
-- **Local gates** at commit via pre-commit (https://pre-commit.com; SCQ 02 §2).
+- **Names** reveal intent and use domain terms (Martin, *Clean Code*, 2008; Evans, *DDD*, 2003 ubiquitous language).
+- **Comments** explain why, not what (Ousterhout 2018).
+- **Formatter as law**: gofmt, Black, Prettier, rustfmt; EditorConfig for the rest.
+- **Linters and types**: ESLint v9 flat config, Ruff, Clippy, Semgrep; `tsc --noEmit`, mypy/pyright, `cargo check`.
+- **Error handling**: OWASP Top 10:2025 adds A10 "Mishandling of Exceptional Conditions" (https://owasp.org/Top10).
+- **Local gates** at commit via pre-commit (https://pre-commit.com).
 
 ## Decision rules
 
@@ -32,8 +32,8 @@ status: seedling
 5. Make illegal states unrepresentable: enums or sealed types over string flags.
 6. Pure logic separate from I/O, so tests need no mocks.
 7. New modules get strict type checking. Legacy may stay relaxed, with a budget for ignores.
-8. Every lint suppression carries a reason on the same line (SCQ 02 §2 rule 2).
-9. Do not adopt a numeric complexity threshold as a hard gate; the evidence is weak (Shepperd 2008; SWX c03 §5). Track it as a trend.
+8. Every lint suppression carries a reason on the same line.
+9. Do not adopt a numeric complexity threshold as a hard gate; the evidence is weak (Shepperd 2008). Track it as a trend.
 
 ## Procedure
 
@@ -41,16 +41,16 @@ status: seedling
 2. Write the signature and types first. Name inputs, outputs and errors.
 3. Write the happy path. Then each failure path from rule 3.
 4. Run the gates locally:
- ```yaml
- #.pre-commit-config.yaml (example)
- repos:
- - repo: https://github.com/astral-sh/ruff-pre-commit
- rev: <pinned-tag>
- hooks: [{id: ruff}, {id: ruff-format}]
- - repo: https://github.com/gitleaks/gitleaks
- rev: <pinned-tag>
- hooks: [{id: gitleaks}]
- ```
+   ```yaml
+   # .pre-commit-config.yaml (example)
+   repos:
+     - repo: https://github.com/astral-sh/ruff-pre-commit
+       rev: <pinned-tag>
+       hooks: [{id: ruff}, {id: ruff-format}]
+     - repo: https://github.com/gitleaks/gitleaks
+       rev: <pinned-tag>
+       hooks: [{id: gitleaks}]
+   ```
  Then `pre-commit run --all-files` and the type checker.
 5. Fix every new warning. Suppress only with a reason.
 6. Add a why-comment where a choice is not obvious from the code.

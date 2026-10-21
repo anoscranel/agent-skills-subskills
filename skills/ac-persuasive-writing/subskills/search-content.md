@@ -17,7 +17,7 @@ status: seedling
 - **Volume without value violates policy.** Generating "many pages without adding value for users may violate Google's spam policy on scaled content abuse" (https://developers.google.com/search/docs/fundamentals/using-gen-ai-content, updated 2026-10-01). Method is neutral; intent to manipulate is not.
 - **A citation is a fresh draw, not a position held.** Across four independent longitudinal datasets, roughly two-thirds of cited URLs are replaced within four weeks. The identical cited set recurs only 0.06% of the time on ChatGPT and never above 2.5% on any engine (<https://matthewbertram.com/blog/ai-answer-variance-study>).
 - **The durable asset is the entity, not the citation.**
- Brand-name presence agrees across repeat asks at 0.832 while citation lists agree at 0.309 (same file §3).
+ Brand-name presence agrees across repeat asks at 0.832 while citation lists agree at 0.309. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
 
 ## Decision rules
 

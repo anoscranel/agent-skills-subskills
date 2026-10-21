@@ -10,12 +10,12 @@ status: seedling
 
 ## Standard
 
-- **Google "Small CLs"**: "100 lines is usually a reasonable size for a CL, and 1000 lines is usually too large." File spread counts too. Right size = one self-contained change, with its tests (https://google.github.io/eng-practices/review/developer/small-cls.html; job-003 G-SE11).
-- ⚠️ SmartBear/Cisco study: review 200–400 LOC at a time, in 60–90 minutes. Vendor rung, c. 2006 (job-003 G-SE11).
-- Reviewers should respond within one business day at most (https://google.github.io/eng-practices/review/reviewer/speed.html; job-002 desk settlement).
-- Review mainly spreads knowledge and improves code; defect finding is lower than assumed (Bacchelli & Bird, ICSE 2013; vault SWX c03 §9).
-- **Stacked PRs**: small dependent changes reviewed in order (Graphite, Gerrit, Phabricator; SWX c01 §9).
-- **Review packet**: diff + test report + eval result + provenance + rollback note (vault SWX c12 §7).
+- **Google "Small CLs"**: "100 lines is usually a reasonable size for a CL, and 1000 lines is usually too large." File spread counts too. Right size = one self-contained change, with its tests (https://google.github.io/eng-practices/review/developer/small-cls.html).
+- ⚠️ SmartBear/Cisco study: review 200–400 LOC at a time, in 60–90 minutes. Vendor rung, c. 2006.
+- Reviewers should respond within one business day at most (https://google.github.io/eng-practices/review/reviewer/speed.html).
+- Review mainly spreads knowledge and improves code; defect finding is lower than assumed (Bacchelli & Bird, ICSE 2013).
+- **Stacked PRs**: small dependent changes reviewed in order (Graphite, Gerrit, Phabricator).
+- **Review packet**: diff + test report + eval result + provenance + rollback note.
 
 ## Decision rules
 
@@ -34,20 +34,20 @@ status: seedling
 2. Read your own diff in the review tool, top to bottom. Remove debug code, stray files, commented-out code.
 3. Count size: `git diff --stat origin/main`. Over the limit → split with rule 3, or stack.
 4. Write the description:
- ```markdown
- ## What
- One paragraph.
- ## Why
- Problem and link (REQ, issue, spec, ADR).
- ## How
- Key design points; anything surprising.
- ## Testing
- Tests added or run; manual steps with results.
- ## Risk and rollback
- Blast radius; flag name; how to revert.
- ## Reviewer notes
- Where to start; what to look at hardest.
- ```
+   ```markdown
+   ## What
+   One paragraph.
+   ## Why
+   Problem and link (REQ, issue, spec, ADR).
+   ## How
+   Key design points; anything surprising.
+   ## Testing
+   Tests added or run; manual steps with results.
+   ## Risk and rollback
+   Blast radius; flag name; how to revert.
+   ## Reviewer notes
+   Where to start; what to look at hardest.
+   ```
 5. For agent-written code add: agent and model used, prompt or task file link, eval/test report, files the agent was told not to touch.
 6. Add screenshots or recordings for UI changes.
 7. Request reviewers from CODEOWNERS. Mark draft if not ready.

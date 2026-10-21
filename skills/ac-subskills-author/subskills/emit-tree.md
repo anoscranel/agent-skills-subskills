@@ -18,7 +18,7 @@ Every leaf file carries the mandatory routing header:
 ```markdown
 ---
 name: <slug>
-domain: <parent-chain>/<this-segment> # strict prefix-extension of the parent
+domain: <parent-chain>/<this-segment>   # strict prefix-extension of the parent
 trigger: <when to use — one line, pushy>
 anti_trigger: <when NOT to use — one line>
 scope: <the single thing this file governs, uniquely claimed>
@@ -43,12 +43,12 @@ The precedence rule (Rule 4) — write this sentence into every SKILL.md:
 
 ## Decision rules
 
-The description (the only Level-1 routing signal — the loader sees only it at startup, SPEC-subskills §7):
+The description (the only Level-1 routing signal — the loader sees only it at startup):
 
 1. It is third person: "Writes…", "Reviews…", never "I" or "you".
 2. It names concrete trigger phrases a user would actually say.
 3. It says when NOT to use the skill, as tasks that are out of scope. It never names
- another skill as the handler.
+   another skill as the handler.
 4. It stays at or under 1024 characters.
 
 routing-eval.md (step 5b) measures whether the description works. Write it to pass that test.
@@ -83,8 +83,9 @@ rule 5). The SKILL.md "when NOT to use" lines name out-of-scope tasks, never a h
 ## Done checklist
 
 - List every file written (paths). The next step lints them — do not hand to the human
- until lint-tree and security-vet pass.
+  until lint-tree and security-vet pass.
 
 ## Sources
 
-- SPEC-subskills (the subskills-architecture spec; internal), §7; SPEC-rsi-skills §7 (internal).
+- House standard for skills-with-subskills (unpublished).
+- SPEC-rsi-skills §7: https://github.com/anoscranel/rsi-skills

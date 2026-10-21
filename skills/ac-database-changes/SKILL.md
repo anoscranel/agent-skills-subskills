@@ -1,8 +1,9 @@
 ---
 name: ac-database-changes
+description: "Database schema design and zero-downtime schema change: tables, keys, constraints, normalisation trade-offs, expand-migrate-contract, backfills, renames and drops without locking production. Use when asking \"design the tables\", \"what primary key\", \"normalise this schema\", \"should this be NoSQL\", \"add a column with no downtime\", \"rename this column\", \"backfill a table\", \"the migration locked the database\". Not for the first-pass API resource shapes, retiring a public API, feature removal, or backup-and-restore mechanics; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Database schema design and zero-downtime schema change: tables, keys, constraints, normalisation trade-offs, expand-migrate-contract, backfills, renames and drops without locking production. Use when asking "design the tables", "what primary key", "normalise this schema", "should this be NoSQL", "add a column with no downtime", "rename this column", "backfill a table", "the migration locked the database". Not for the first-pass API resource shapes, retiring a public API, feature removal, or backup-and-restore mechanics; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # Database Changes

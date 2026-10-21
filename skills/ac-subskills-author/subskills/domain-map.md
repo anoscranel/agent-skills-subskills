@@ -23,25 +23,25 @@ now: `<skill-domain>`; every leaf's `domain:` is a strict prefix-extension of it
 
 1. **Stay in-domain** — decompose by *its own* domain's knowledge, never cross-field.
 2. **Atomic scopes** — each leaf is one thing a user can want independently. If two scopes
- share a trigger, they are one leaf. If one scope has two unrelated triggers, split it.
+   share a trigger, they are one leaf. If one scope has two unrelated triggers, split it.
 3. **Keep Level 2 in SKILL.md** — overview, when-to-use/when-not, the precedence rule,
- the index, and See Also stay in the body. Only instructional content becomes leaves.
+   the index, and See Also stay in the body. Only instructional content becomes leaves.
 4. **Out of scope, never dropped** — subdomains that are not task-triggerable (foundations,
- theory) are each declared out of scope with a one-line reason; never dropped silently.
+   theory) are each declared out of scope with a one-line reason; never dropped silently.
 
 ## Procedure
 
 1. Enumerate every distinct, independently-triggerable want in the domain → one candidate
- leaf each.
+   leaf each.
 2. Write the uniqueness check down — for any pair that looks adjacent, state in one line
- why they are distinct.
+   why they are distinct.
 3. **Self-contained, never delegated:** before you claim scopes, list the installed
- skills (`ls -d ~/.agents/skills/*/ ~/.agents/skills/*/*/`). Use the names only to find
- coverage gaps and collisions, never to copy. If another skill covers a subdomain,
- re-research that subdomain from primary sources (standards, official docs, the
- research dossier) and write it in this skill's own words. Never open or read another
- skill's files while authoring: that risks a derivative copy and a licence breach
- (self-contained rebuild intake, rules R1–R2). The new skill depends on no other skill.
+   skills (list the skills directory two levels deep, e.g. `ls -d <skills-dir>/*/ <skills-dir>/*/*/`). Use the names only to find
+   coverage gaps and collisions, never to copy. If another skill covers a subdomain,
+   re-research that subdomain from primary sources (standards, official docs, the
+   research dossier) and write it in this skill's own words. Never open or read another
+   skill's files while authoring: that risks a derivative copy and a licence breach
+   (self-contained rebuild intake, rules R1–R2). The new skill depends on no other skill.
 4. Record the leaf **count** — it drives flat-or-nest.
 
 ## Anti-patterns
@@ -60,5 +60,4 @@ table is the input to flat-or-nest and emit-tree.
 
 ## Sources
 
-- Subskills-architecture research findings (internal), decomposition taxonomy D0; the
- self-contained rebuild intake (rules R1–R2, internal).
+- House standard for skills-with-subskills (unpublished).

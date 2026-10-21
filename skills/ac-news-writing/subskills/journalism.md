@@ -12,12 +12,12 @@ status: seedling
 ## Standard
 
 - **The lede carries the story, not the chronology.** News structure follows the inverted pyramid — the most newsworthy facts first — because editors cut from the bottom up (<https://www.the-efa.org/>).
-- **The diamond shape governs long-form.** An anecdotal lede, a nut graf in paragraphs 3–6 carrying the thesis and the urgency, a body of systemic evidence, then a return to the opening subject (same file §1).
-- **Pace by the triad.** Scene about 50%, summary about 30%, exposition about 20%, cycling up and down the ladder of abstraction every 2–3 paragraphs (same file §1).
-- **Reconstruction has hard rules.** Composite characters, fabricated quotes and assumed interiority are banned (same file §1). Interiority needs contemporaneous journals or sworn testimony, and physical scenes need two independent witnesses.
-- **Attribution is a ladder with ground rules struck first.** On the record, on background, deep background, off the record — never published (same file §3). The rules are agreed before the disclosure.
-- **Fact-checking is institutional, not personal.** Independent checkers corroborate against documents and read back factual assertions rather than whole drafts (same file §2).
-- **Libel elements are stated, and fault standards differ.** Publication of an unprivileged false factual assertion causing reputational injury to an identifiable party (same file §5). Public figures must prove actual malice; most states require only negligence for private figures.
+- **The diamond shape governs long-form.** An anecdotal lede, a nut graf in paragraphs 3–6 carrying the thesis and the urgency, a body of systemic evidence, then a return to the opening subject.
+- **Pace by the triad.** Scene about 50%, summary about 30%, exposition about 20%, cycling up and down the ladder of abstraction every 2–3 paragraphs. ⚠️ Source not cited inline; check the Sources list before relying on this figure.
+- **Reconstruction has hard rules.** Composite characters, fabricated quotes and assumed interiority are banned. Interiority needs contemporaneous journals or sworn testimony, and physical scenes need two independent witnesses.
+- **Attribution is a ladder with ground rules struck first.** On the record, on background, deep background, off the record — never published. The rules are agreed before the disclosure.
+- **Fact-checking is institutional, not personal.** Independent checkers corroborate against documents and read back factual assertions rather than whole drafts.
+- **Libel elements are stated, and fault standards differ.** Publication of an unprivileged false factual assertion causing reputational injury to an identifiable party. Public figures must prove actual malice; most states require only negligence for private figures.
 
 ## Decision rules
 

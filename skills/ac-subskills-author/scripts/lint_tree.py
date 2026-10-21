@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""lint_tree.py — deterministic linter for skills-with-subskills (SPEC-subskills §3).
+"""lint_tree.py — deterministic linter for skills-with-subskills (house standard, rules 1-4).
 
 Checks the 4 enforceable rules + the bidirectional index-vs-disk check,
-plus the self-contained rule (no Delegate or hand-off line; INTAKE R1).
+plus the self-contained rule (no Delegate or hand-off line).
 Exit 0 = PASS, 1 = FAIL. Prints one line per violation, plus warnings and
 manual-review flags.
 
@@ -35,7 +35,7 @@ VERB_INITIAL = re.compile(
 )
 
 
-# ---- self-contained rule (INTAKE R1). skill_scan.py carries the same
+# ---- self-contained rule. skill_scan.py carries the same
 # patterns; keep the two copies identical.
 _DVERBS = (r"(?:load|use|invoke|call|run|open|consult|apply|follow|read|see|"
            r"delegate\s+to|defer\s+to|switch\s+to|"
@@ -65,7 +65,7 @@ DELEG_STOP = {
 }
 
 
-# ---- A-1 (job-006): a delegation line wrapped across two physical lines
+# ---- a delegation line wrapped across two physical lines
 # matched nothing, because every pattern ran one line at a time, and R1 is
 # the law the rebuild enforces. Join a line that ends without terminal
 # punctuation with the next line of the same paragraph, then match on the
@@ -153,7 +153,7 @@ def parse_frontmatter(text):
     body = text[end + 4:]
     fm = {}
     for line in block.splitlines():
-        # RC-11: accept an optionally quoted key; strip one pair of matching
+        # accept an optionally quoted key; strip one pair of matching
         # quotes from the value.
         m = re.match(r"""^(["']?)([A-Za-z_]+)\1:\s*(.*)$""", line)
         if m:
@@ -171,7 +171,7 @@ def count_table_rows(body):
     lines = body.splitlines()
     for i, ln in enumerate(lines):
         s = ln.strip()
-        # RC-04: a line is a table row when it starts with "|" (no trailing
+        # a line is a table row when it starts with "|" (no trailing
         # "|" required)
         if not s.startswith("|"):
             continue
@@ -193,7 +193,7 @@ def count_table_rows(body):
     return max(0, rows - headers)
 
 
-# RC-06 (R2): small confusables map (Cyrillic/Greek lowercase lookalikes ->
+# small confusables map (Cyrillic/Greek lowercase lookalikes ->
 # Latin), applied after casefold. NFKC alone does not fold these.
 CONFUSABLES = str.maketrans({
     "\u0430": "a", "\u0435": "e", "\u043e": "o", "\u0440": "p",
@@ -205,7 +205,7 @@ CONFUSABLES = str.maketrans({
 
 
 def norm_scope(s):
-    """RC-06: NFKC, casefold, fold confusables, strip one pair of matching outer
+    """NFKC, casefold, fold confusables, strip one pair of matching outer
     quotes, collapse all Unicode whitespace and U+200B to one space, strip
     trailing .;,"""
     s = unicodedata.normalize("NFKC", s).strip()
@@ -225,11 +225,11 @@ def is_pure_toc(body):
         s = ln.strip()
         if not s:
             continue
-        if s.startswith("#"):  # heading: RC-05 verb test on the heading text
+        if s.startswith("#"):  # heading: verb test on the heading text
             if VERB_INITIAL.match(s.lstrip("#").strip()):
                 return False, s
             continue
-        if s.startswith("|"):  # table row: RC-05 verb test on every cell
+        if s.startswith("|"):  # table row: verb test on every cell
             for cell in s.strip("|").split("|"):
                 if VERB_INITIAL.match(cell.strip()):
                     return False, s
@@ -262,14 +262,23 @@ def main():
     # ---- parent domain chain ---------------------------------------------
     try:
         ptext = open(skill_md, encoding="utf-8").read()
-    except OSError as e:  # RC-12
+    except OSError as e:
         print("FAIL: read: SKILL.md unreadable (%s)" % e)
         return 1
-    except UnicodeDecodeError as e:  # A-2 (job-006): fail closed, no traceback
+    except UnicodeDecodeError as e:  # fail closed, no traceback
         print("FAIL: read: SKILL.md is not valid UTF-8 (%s) — fail-closed" % e)
         return 1
     pfm, pbody = parse_frontmatter(ptext)
     parent_domain = (pfm or {}).get("domain", "")
+    # Agent Skills spec: non-spec keys belong under `metadata:`. Accept
+    # `metadata:\n  domain: x` as well as a legacy top-level `domain:`.
+    if pfm is not None and not parent_domain:
+        mm = re.search(r"^metadata:[ \t]*\n((?:[ \t]+[^\n]*\n?)*)", ptext.split("\n---", 1)[0], re.M)
+        if mm:
+            dm = re.search(r"^[ \t]+domain:[ \t]*[\"']?([^\"'\n]+?)[\"']?[ \t]*$", mm.group(1), re.M)
+            if dm:
+                parent_domain = dm.group(1).strip()
+                pfm["domain"] = parent_domain
     # FAIL-CLOSED: a SKILL.md with no frontmatter or no domain cannot anchor the
     # domain chain — every parent-level check (enum, rsi guard, prefix rule) is
     # meaningless without it. Reject rather than skip (closes the pre-existing
@@ -280,7 +289,7 @@ def main():
     elif not parent_domain:
         fail("header: SKILL.md frontmatter missing required 'domain:' — the "
              "domain chain cannot be checked without it", errs)
-    # RC-07: SPEC §0 defines a Skill by name and description.
+    # the Agent Skills spec defines a Skill by name and description.
     if pfm:
         for f in ("name", "description"):
             if not pfm.get(f):
@@ -298,10 +307,10 @@ def main():
     if os.path.isfile(vocab):
         try:
             vtext = open(vocab, encoding="utf-8").read()
-        except OSError as e:  # RC-12
+        except OSError as e:
             fail("read: domain-vocabulary.md unreadable (%s)" % e, errs)
             vtext = ""
-        except UnicodeDecodeError as e:  # A-2 (job-006): fail closed
+        except UnicodeDecodeError as e:  # fail closed
             fail("read: domain-vocabulary.md is not valid UTF-8 (%s) — "
                  "fail-closed" % e, errs)
             vtext = ""
@@ -319,7 +328,7 @@ def main():
     # skill (no sibling vocab) skips the enum check. But when the vocab exists
     # and yields nothing, that is a broken closed-enum -> fail closed.
     vocab_present = os.path.isfile(vocab)
-    # RC-08: no vocabulary beside the linter -> fail closed unless --no-enum.
+    # no vocabulary beside the linter -> fail closed unless --no-enum.
     if not vocab_present:
         if no_enum:
             warns.append("closed-enum check SKIPPED (no vocabulary beside the "
@@ -332,7 +341,7 @@ def main():
              "(missing '## The enum' table or format drift) — closed enum is "
              "void; failing closed", errs)
 
-    # RC-05: reject any domain segment that is empty, ".", "..", or outside
+    # reject any domain segment that is empty, ".", "..", or outside
     # [a-z0-9-].
     def bad_segments(d):
         return [g for g in d.split("/")
@@ -354,10 +363,10 @@ def main():
     # schema), AND zero subskills/ leaves (the core is a flat skill). Any OTHER
     # skill whose SKILL.md declares `domain: rsi` is smuggling its whole tree
     # under the reserved segment (which would disable the per-leaf prefix check)
-    # -> lint error (SPEC §8). A bare `name: rsi` + empty marker file fails the
+    # -> lint error. A bare `name: rsi` + empty marker file fails the
     # content check; since R2 a file holding the single token `task_outcome`
     # padded past 200 bytes fails too (word-boundary + word-count fingerprint,
-    # job-001 E12). A forgery written as real prose still passes: the manual
+    # an earlier audit). A forgery written as real prose still passes: the manual
     # review in audit-skill stage 5 is the binding check.
     if parent_domain and parent_domain.split("/")[0] == "rsi":
         parent_name = (pfm or {}).get("name", "")
@@ -366,15 +375,15 @@ def main():
         if os.path.isfile(marker):
             try:
                 mtext = open(marker, encoding="utf-8").read()
-                # content fingerprint (RC-09, R2): a real schema names
+                # content fingerprint: a real schema names
                 # task_outcome as a whole word and is written prose (>= 20
                 # whitespace-separated words, > 200 bytes). A 2-byte marker or
                 # a single token padded past 200 bytes fails.
-                marker_ok = (bool(re.search(r"\btask_outcome\b", mtext))
+                marker_ok = (bool(re.search(r"\btask_outcome\b|\bcallID\b.*\boutcome\b", mtext, re.S))
                              and len(mtext.split()) >= 20 and len(mtext) > 200)
             except OSError:
                 marker_ok = False
-            except UnicodeDecodeError:  # A-2 (job-006): fail closed
+            except UnicodeDecodeError:  # fail closed
                 marker_ok = False
         has_leaves = os.path.isdir(sub_root) and any(
             fn.endswith(".md")
@@ -398,12 +407,12 @@ def main():
             if "INDEX.md" in filenames and depth > 1:
                 fail("R1 depth: INDEX.md at depth %d (>2): %s"
                      % (depth + 1, dirpath), errs)
-            # RC-03: subskills/<group>/<leaf>.md is the deepest legal form.
+            # subskills/<group>/<leaf>.md is the deepest legal form.
             for fn in filenames:
                 if fn.endswith(".md") and depth + 1 > 2:
                     fail("R1 depth: %s has %d path segments under subskills/ "
                          "(max 2)" % (os.path.join(rel, fn), depth + 1), errs)
-            # RC-03: a group directory that holds leaves needs an INDEX.md.
+            # a group directory that holds leaves needs an INDEX.md.
             if depth >= 1 and "INDEX.md" not in filenames and any(
                     fn.endswith(".md") for fn in filenames):
                 fail("R1 group: %s holds leaves but no INDEX.md" % rel, errs)
@@ -412,7 +421,7 @@ def main():
     md_files = []
     if has_subs:
         for dirpath, dirnames, filenames in os.walk(sub_root):
-            # RC-12: FAIL any symlink under subskills/ (files and directories).
+            # FAIL any symlink under subskills/ (files and directories).
             for n in dirnames + filenames:
                 p = os.path.join(dirpath, n)
                 if os.path.islink(p):
@@ -424,21 +433,21 @@ def main():
                 p = os.path.join(dirpath, fn)
                 if os.path.islink(p):
                     continue
-                # TD-29 (R2): no file named SKILL.md under subskills/ --
+                # no file named SKILL.md under subskills/ --
                 # opencode's skills/**/SKILL.md glob would register it as a
                 # global skill.
                 if fn.lower() == "skill.md":
                     fail("skillmd: %s is a SKILL.md under subskills/ (opencode's "
                          "skills/**/SKILL.md glob would register it as a global "
                          "skill)" % os.path.relpath(p, root), errs)
-                # RC-01: every file under subskills/ must end in lowercase .md.
+                # every file under subskills/ must end in lowercase .md.
                 if not fn.endswith(".md"):
                     fail("non-md: %s under subskills/ does not end in lowercase "
                          ".md" % os.path.relpath(p, root), errs)
                     continue
                 md_files.append(p)
 
-    # RC-04 (R2, DECISIONS TD-19/R design calls): flat is preferred, not
+    # flat is preferred, not
     # mandatory. A tree with <= 60 leaves that still uses a group directory
     # gets a WARN, never a FAIL (60 is a house number, not measured).
     if has_subs:
@@ -463,7 +472,7 @@ def main():
             fail("R2 index ceiling: %s has %d rows (> %d)" % (src, rows, MAX_ROWS), errs)
         elif rows > WARN_ROWS:
             warns.append("R2 warn: %s has %d rows (> %d)" % (src, rows, WARN_ROWS))
-        # RC-10: collect index targets only from table rows outside HTML
+        # collect index targets only from table rows outside HTML
         # comments; accept `subskills/...md` and ](subskills/...md) forms.
         nocomment = re.sub(r"<!--.*?-->", "", body, flags=re.DOTALL)
         for ln in nocomment.splitlines():
@@ -473,7 +482,7 @@ def main():
                     r"`(subskills/[^`]+?\.md)`|\]\((subskills/[^)\s]+?\.md)\)", ln):
                 indexed_targets.add(m.group(1) or m.group(2))
 
-    # RC-02: resolve every relative markdown link and backticked relative path
+    # resolve every relative markdown link and backticked relative path
     # (a backticked token starting with ./ or ../) against the file's own
     # directory; FAIL when the target is missing or resolves outside the root.
     real_root = os.path.realpath(root)
@@ -519,13 +528,13 @@ def main():
         rel = os.path.relpath(path, root)
         try:
             text = open(path, encoding="utf-8").read()
-        except (OSError, UnicodeDecodeError) as e:  # RC-12, A-2 (job-006)
+        except (OSError, UnicodeDecodeError) as e:
             fail("read: %s is not valid UTF-8 (%s) — fail-closed" % (rel, e), errs)
             continue
         fm, body = parse_frontmatter(text)
         base = os.path.basename(path)
         is_index = base == "INDEX.md"
-        check_links(body, path, text[:len(text) - len(body)].count("\n"))  # RC-02
+        check_links(body, path, text[:len(text) - len(body)].count("\n"))
         for n, why in delegation_hits(text, self_name):  # R1 self-contained
             fail("R1 self-contained: %s line %d: %s (a leaf holds its full "
                  "procedure; no hand-off to another skill)" % (rel, n, why), errs)
@@ -547,7 +556,7 @@ def main():
         # Rule 4: unique scope
         sc = fm.get("scope", "")
         if sc:
-            key = norm_scope(sc)  # RC-06
+            key = norm_scope(sc)
             if key in scopes:
                 fail("R4 unique-scope: scope claimed twice: '%s' in %s and '%s' "
                      "in %s" % (scopes[key][1], scopes[key][0], sc, rel), errs)
@@ -557,10 +566,10 @@ def main():
         # Rule 3 / in-domain: domain must be a strict prefix-extension of parent.
         # EXCEPTION: the reserved `rsi` segment is exempt from the prefix rule (an
         # RSI leaf observes its parent, it does not join the parent's chain), but is
-        # held to a STRICTER template check (SPEC-rsi-skills §8): only a leaf named
+        # held to a STRICTER template check: only a leaf named
         # `00-rsi` with the template anti_trigger may claim `domain: rsi`.
         dom = fm.get("domain", "")
-        if dom and bad_segments(dom):  # RC-05
+        if dom and bad_segments(dom):
             fail("R3 domain: %s domain '%s' has an illegal segment (empty, '.', "
                  "'..', or outside [a-z0-9-])" % (rel, dom), errs)
         is_rsi = dom.split("/")[0] == "rsi" if dom else False
@@ -579,13 +588,13 @@ def main():
             if anti != required_anti:
                 fail("R3 rsi: %s anti_trigger must be the RSI template "
                      "('%s')" % (rel, required_anti), errs)
-            # SPEC §8(c): scope must claim THIS skill only. Positive requirement:
+            # (c): scope must claim THIS skill only. Positive requirement:
             # the scope must anchor to a single skill (the word "this" + "skill"),
             # AND must not claim multiple/all skills (broad synonym net). The
             # manual review backstops novel phrasings; lint is the speed bump.
             sc = fm.get("scope", "")
             low = sc.lower()
-            # RC-09: whole-word anchor
+            # whole-word anchor
             has_single_anchor = bool(re.search(r"\bthis skill\b", low))
             # phrase-with-spaces patterns (not bare substrings) so the legit
             # phrase "no other skill" does NOT trip "other skills".
@@ -594,7 +603,7 @@ def main():
                 "across skills", "any skill", "all the skills", "every leaf",
                 "all leaves", "every subskill", "all subskills",
                 "whole pipeline", "all pipeline", "every pipeline"))
-            # RC-09: any plural "skills", or every/each/any/other/sibling before
+            # any plural "skills", or every/each/any/other/sibling before
             # "skill" not preceded by "no ", is multi-skill.
             if re.search(r"\bskills\b", low) or re.search(
                     r"(?<!\bno )\b(?:every|each|any|other|sibling)\s+skill\b",
@@ -602,11 +611,11 @@ def main():
                 multi = True
             if multi:
                 fail("R3 rsi: %s scope claims multiple/all skills ('%s') — an "
-                     "RSI leaf observes THIS skill only (SPEC §8c)"
+                     "RSI leaf observes THIS skill only (house rule)"
                      % (rel, sc), errs)
             elif not has_single_anchor:
                 fail("R3 rsi: %s scope must anchor to a single skill (contain "
-                     "'this ... skill'); got '%s' (SPEC §8c)" % (rel, sc), errs)
+                     "'this ... skill'); got '%s' (house rule)" % (rel, sc), errs)
 
         # Closed enum: the top segment of the domain must be in the enum
         if dom and enum_ok:
@@ -628,7 +637,7 @@ def main():
     if pname and not re.match(r"^[a-z0-9][a-z0-9-]{0,63}$", pname):
         fail("header: SKILL.md name '%s' must match ^[a-z0-9][a-z0-9-]{0,63}$ "
              "(it becomes the install directory)" % pname, errs)
-    # TD-29 widened: no file named SKILL.md (any case) anywhere in the tree
+    # no file named SKILL.md (any case) anywhere in the tree
     # except the root one. Under subskills/ the walk above already reports it.
     for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames

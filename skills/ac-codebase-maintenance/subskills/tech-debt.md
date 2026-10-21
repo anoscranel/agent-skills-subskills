@@ -10,18 +10,18 @@ status: seedling
 
 ## Standard
 
-- **Metaphor**: Ward Cunningham, 1992: a little debt speeds delivery if paid back promptly (vault SDP 014 §2).
-- **Technical Debt Quadrant** (Fowler, https://martinfowler.com/bliki/TechnicalDebtQuadrant.html): deliberate/inadvertent × reckless/prudent. It classifies origin, not repair (SWX c03 §7).
-- Manage debt as a ledger with explicit acceptance decisions (Kruchten et al., ICSE 2012; SWX c03 §8).
-- **Hotspots**: change frequency × complexity finds the costly code (CodeScene method; vault SDP 014 §1). Change effort tracks churn and coupling (Nagappan & Ball, ICSE 2005; SWX c03 §5).
-- Developers undervalue future cost, so repayment must be scheduled (arXiv:1901.07024; SDP 014 §2).
-- ⚠️ Cost figures such as Stripe's ~33 % of time on debt are vendor-funded (SWX c03 §8).
+- **Metaphor**: Ward Cunningham, 1992: a little debt speeds delivery if paid back promptly.
+- **Technical Debt Quadrant** (Fowler, https://martinfowler.com/bliki/TechnicalDebtQuadrant.html): deliberate/inadvertent × reckless/prudent. It classifies origin, not repair.
+- Manage debt as a ledger with explicit acceptance decisions (Kruchten et al., ICSE 2012).
+- **Hotspots**: change frequency × complexity finds the costly code (CodeScene method). Change effort tracks churn and coupling (Nagappan & Ball, ICSE 2005).
+- Developers undervalue future cost, so repayment must be scheduled (arXiv:1901.07024).
+- ⚠️ Cost figures such as Stripe's ~33 % of time on debt are vendor-funded.
 
 ## Decision rules
 
 1. Debt that matters is debt in code you change often. Cold code with high complexity can wait.
 2. Priority score = interest (extra hours per month it costs) ÷ principal (hours to fix). Fix highest first.
-3. Do not pay debt when the code is low-churn, slated for deletion, or when repayment costs more than the interest over its remaining life (SWX c03 §8).
+3. Do not pay debt when the code is low-churn, slated for deletion, or when repayment costs more than the interest over its remaining life.
 4. Every deliberate shortcut gets a register entry at the time it is taken.
 5. Reserve a fixed share of each cycle for debt. ⚠️ The share (often 10–20 %) is practitioner convention, not a standard.
 6. Legacy entry: understand before changing. Add tests at seams, then change (Feathers).
@@ -31,16 +31,16 @@ status: seedling
 
 1. Size the codebase: `scc` or `tokei` or `cloc.` for lines by language.
 2. Find churn: 
- ```bash
- git log --since=12.months --name-only --format= | sort | uniq -c | sort -rn | head -30
- ```
+   ```bash
+   git log --since=12.months --name-only --format= | sort | uniq -c | sort -rn | head -30
+   ```
 3. Find complexity per file: `lizard -s cyclomatic_complexity src/` or `radon cc`.
 4. Cross the two lists. Files high on both are hotspots.
-5. Find knowledge risk: `git shortlog -sn -- <path>`. A hotspot with one author is bus-factor debt (target ≥3 people who know it; ⚠️ practitioner target, SWX c11 §5).
+5. Find knowledge risk: `git shortlog -sn -- <path>`. A hotspot with one author is bus-factor debt (target ≥3 people who know it; ⚠️ practitioner target).
 6. Create or update `docs/debt.md`:
- ```markdown
- | ID | Where | What | Quadrant | Interest/mo | Principal | Score | Trigger to pay | Owner |
- ```
+   ```markdown
+   | ID | Where | What | Quadrant | Interest/mo | Principal | Score | Trigger to pay | Owner |
+   ```
 7. Score with rule 2. Pick the top items for the reserved share.
 8. For each chosen item, plan the fix as refactoring steps under tests.
 9. For legacy entry: run the app, read entry points, write characterization tests at the seams you will touch, then change.

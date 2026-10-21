@@ -11,6 +11,8 @@ status: seedling
 
 ## Standard
 
+⚠️ The primary standard is paywalled; these points come from secondary sources and the public summary.
+
 The lifecycle frame first: the editorial sequence, in order, and which passes may change what a document says. Then one line per stage: the conditions under which that stage counts as done. The conditions are generic; each document's craft work decides how to meet them.
 
 The sequence: brief → research and sources → outline → draft → structural revision → line edit → copyedit → proofread → publish.

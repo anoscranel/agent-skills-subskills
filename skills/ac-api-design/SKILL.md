@@ -1,8 +1,9 @@
 ---
 name: ac-api-design
+description: "Public API contracts, their first shape and their evolution: REST, GraphQL or gRPC style choice, resource and error models, RFC 9457 problem details, pagination, idempotency keys, OpenAPI specs, breaking-change judgement, versioning schemes, Deprecation and Sunset headers. Use when asking \"design this endpoint\", \"REST or GraphQL or gRPC\", \"what should the error response look like\", \"add pagination\", \"make this POST safe to retry\", \"write the OpenAPI spec\", \"is this a breaking change\", \"do we need v2\", \"add a Sunset header\", \"deprecate this endpoint\". Not for internal module boundaries or retiring a whole feature or system; those sit outside this skill."
 license: MIT
-domain: software-engineering
-description: Public API contracts, their first shape and their evolution: REST, GraphQL or gRPC style choice, resource and error models, RFC 9457 problem details, pagination, idempotency keys, OpenAPI specs, breaking-change judgement, versioning schemes, Deprecation and Sunset headers. Use when asking "design this endpoint", "REST or GraphQL or gRPC", "what should the error response look like", "add pagination", "make this POST safe to retry", "write the OpenAPI spec", "is this a breaking change", "do we need v2", "add a Sunset header", "deprecate this endpoint". Not for internal module boundaries or retiring a whole feature or system; those sit outside this skill.
+metadata:
+  domain: software-engineering
 ---
 
 # API Design
