@@ -20,17 +20,17 @@ Format: each `SKILL.md` is a routing index over its leaves. Every leaf carries a
 
 ### `ac-subskills-author` — the meta-skill
 
-Builds and audits skill trees to this pack's own rules: research-gate, the closed-enum domain map, flat-or-nest routing rule (depth-1, 60-leaf budget), the delegation-free lint gate, staging → `skill-install local ×the fail-closed gate→ ~/.agents/skills`, and a routing evaluation per tree.
+Builds and audits skill trees to this pack's own rules: research-gate, the closed-enum domain map, flat-or-nest routing rule (depth-1, 60-leaf budget), the delegation-free lint gate, staging behind a fail-closed install gate (you supply the installer; nothing is copied in by hand), and a routing evaluation per tree. It ships four stdlib-only Python checkers in `scripts/`: `lint_tree.py`, `skill_scan.py`, `route_score.py` and `tree_hash.py`.
 
-### Software engineering (17 clusters)
+### Software engineering (18 clusters)
 
-spec-writing · task-planning · architecture · module-design · database-changes · code-construction · codebase-maintenance · testing · code-review · ci-and-release · reliability · performance · frontend-ui · debugging · api-design · git-workflow · agent-coding-governance · quality-verification · software-engineering-standards
+spec-writing · task-planning · architecture · database-changes · code-construction · codebase-maintenance · testing · code-review · ci-and-release · reliability · performance · frontend-ui · debugging · api-design · git-workflow · agent-coding-governance · quality-verification · software-engineering-standards
 
 Each covers the model professional's craft X with decision rules, a procedure, anti-patterns, and a done-checklist — sourced from SWEBOK v4, SWEBOK-aligned operations, Google's eng-practices set, SLSA's public specs, and the OWASP/ASVS lines, independently audited.
 
 ### Writer (13 clusters)
 
-drafting · plain-language · style-and-voice · technical-writing · business-writing · persuasive-writing · proposal-writing · news-writing · narrative-writing · academic-writing · editing · evidence-and-citation · writing-standards
+drafting · plain-language · voice-and-style · technical-writing · business-writing · persuasive-writing · proposal-writing · news-writing · narrative-writing · academic-writing · editing · evidence-and-citation · writing-standards
 
 ### `ac-prompt-engineer`
 
@@ -38,13 +38,13 @@ A 12-leaf working skill: decompose-the-task, instruction-form/topology, model kn
 
 ## Install
 
-Each skill is a self-contained directory. Install one per your harness's skills garden. In opencode / any Agent-Skills-compatible harness:
+Each skill is a self-contained directory. In opencode or any harness that reads Agent Skills:
 
 1. Pick the skill directory from `skills/ac-*/`.
-2. Put it in your skills collection (commonly `~/.agents/skills/<skill-name>/` or a project-local `.agents/skills/` equivalent — consult the harness's docs. Termux/opencode accepts `~/.agents/skills/`).
-3. Confirm: `opencode --agents` (or your harness's equivalent) shows the skill and its leaves route on its description's trigger phrases.
+2. Copy it into your harness's skills directory (commonly `~/.agents/skills/<skill-name>/` or a project-local `.agents/skills/`; check your harness's docs).
+3. Restart the harness and confirm the skill is listed (opencode: `opencode debug skill`).
 
-No third-party dependency: leaves are all markdown, frontmatter is plain YAML, and nothing is installed by an executable path. The pack carries no code anywhere — no scripts, no hooks (other harness skills may ship scripts; ours don't).
+No third-party dependency: leaves are markdown with plain-YAML frontmatter. The only code is the four checker scripts in `skills/ac-subskills-author/scripts/`, which use the Python standard library only and run only when you call them. No skill ships hooks or install scripts.
 
 ## License
 
