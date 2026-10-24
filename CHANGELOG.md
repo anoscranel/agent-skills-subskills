@@ -2,6 +2,11 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.2.2 — 2026-10-24
+
+### Changed
+- PROOF: `ac-prompt-engineer` and `ac-subskills-author` are now routing-tested (12 of 12 and 10 of 10 top-1, 2 of 2 negatives). All 33 skills have a routing result.
+
 ## 0.2.1 — 2026-10-22
 
 ### Added
