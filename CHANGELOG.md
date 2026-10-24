@@ -2,6 +2,11 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.2.1 — 2026-10-22
+
+### Added
+- `lint_tree.py` now FAILs when a markdown file shows the 0.1.0 publish-damage signature (a `def` with no parens, a method call with no parens, or a JS arrow with empty pseudo-parens), so the corruption is caught at audit time.
+
 ## 0.2.0 — 2026-10-22
 
 Fixes from an independent audit of 0.1.0.

@@ -663,6 +663,28 @@ def main():
         if t not in indexed_targets:
             fail("bidirectional: file on disk not indexed: %s" % t, errs)
 
+    # ---- Code-damage guard ------------------------------------------------
+    # The 2026-10-21 publish lost every empty () and code indentation in the
+    # family (release-audit A-20). Fail any leftover instance.
+    dmg_rx = [
+        (re.compile(r"def [A-Za-z_]\w*:\s*$", re.M), "python def with no parens"),
+        (re.compile(r"\.(click|analyze|getClient|isVisible|toBeVisible|integers)\s*;"), "method call with no parens"),
+        (re.compile(r"\(\s*=>|\{ ?=>"), "JS arrow with empty pseudo-parens"),
+    ]
+    for dpath, _, filenames in os.walk(root):
+        for fn in filenames:
+            if not fn.endswith(".md"):
+                continue
+            pth = os.path.join(dpath, fn)
+            try:
+                txt = open(pth, encoding="utf-8").read()
+            except (OSError, UnicodeDecodeError):
+                continue  # unreadable files are already failed elsewhere
+            for rx, msg in dmg_rx:
+                if rx.search(txt):
+                    fail("damage: %s looks publish-stripped (%s)"
+                         % (os.path.relpath(pth, root), msg), errs)
+
     # ---- manual-review flag (the half the linter cannot check) ------------
     manual.append("manual review: confirm no leaf widens an ancestor's "
                   "prohibition (Rule 4 narrow-only half is not mechanical).")
