@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-35 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, and one meta-skill that builds and audits skills like these.
+38 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -9,14 +9,16 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Suite | Skills | Leaves |
 |---|---|---|
 | Software engineering | 19 | 60 |
-| Writing | 14 | 48 |
+| Writing | 15 | 56 |
 | Prompt engineering (`ac-prompt-engineer`) | 1 | 12 |
 | Skill authoring (`ac-subskills-author`) | 1 | 10 |
-| **Total** | **35** | **130** |
+| Security hardening (`ac-security-engineer`) | 1 | 29 |
+| Research operations (`ac-deep-researcher`) | 1 | 13 |
+| **Total** | **38** | **180** |
 
 **Software engineering:** agent-coding-governance · api-design · architecture · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · frontend-ui · git-workflow · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing · design-taste
 
-**Writing:** academic-writing · business-writing · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks
+**Writing:** academic-writing · business-writing · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks · dataviz
 
 Every skill name carries the `ac-` prefix (for example `ac-testing`).
 

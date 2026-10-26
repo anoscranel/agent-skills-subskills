@@ -2,6 +2,16 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.4.0 — 2026-10-26
+
+### Added
+- `ac-dataviz` (writing): chart judgment — claim-first design, chart selection by comparison type, perceptual accuracy, colour and accessibility, annotation, small multiples, misleading patterns, a pre-publish chart review. 8 leaves.
+- `ac-security-engineer` (security-hardening, 29 leaves): threat modelling through incident response, OWASP/ASVS-anchored, with its private research references removed for publication.
+- `ac-deep-researcher` (research-operations, 13 leaves): question scoping, plan, retrieval, claim verification, evidence cards and incremental archiving.
+- All three passed a sealed blind routing run (8 of 8, 7 of 8, 5 of 6 content tasks at top 1; 4 of 4 out-of-scope tasks answered `none`) before release.
+
+The pack is now 38 skills, 180 leaves.
+
 ## 0.3.1 — 2026-10-26
 
 ### Changed
