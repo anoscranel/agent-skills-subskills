@@ -1,10 +1,10 @@
 ---
 name: rag-prompts
 domain: prompt-engineering/rag-prompts
-trigger: When a prompt must answer strictly from retrieved documents, cite them, and refuse cleanly when they are silent.
-anti_trigger: The model may use its own training knowledge freely.
-scope: Prompting grounded question-answering over retrieved documents: grounding clauses, citation demands, abstain behavior, and source-first ordering.
-status: seedling
+trigger: "When a prompt must answer strictly from retrieved documents, cite them, and refuse cleanly when they are silent."
+anti_trigger: "The model may use its own training knowledge freely."
+scope: "Prompting grounded question-answering over retrieved documents: grounding clauses, citation demands, abstain behavior, and source-first ordering."
+status: "seedling"
 ---
 
 # RAG prompts: grounded answers

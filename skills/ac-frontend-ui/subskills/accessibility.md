@@ -1,11 +1,12 @@
 ---
 name: accessibility
 domain: software-engineering/accessibility
-trigger: "Is this accessible", "meet WCAG 2.2 AA", "keyboard users can't reach this", "fix contrast", "add ARIA", "screen reader test".
-anti_trigger: Building the component itself (subskills/frontend-ui.md); writing inclusive prose for readers is out of scope for this tree; legal conformance sign-off is a human decision.
-scope: Building and checking to WCAG 2.2 AA: semantics, keyboard, contrast, screen reader
-status: seedling
+trigger: "\"Is this accessible\", \"meet WCAG 2.2 AA\", \"keyboard users can't reach this\", \"fix contrast\", \"add ARIA\", \"screen reader test\"."
+anti_trigger: "Building the component itself (subskills/frontend-ui.md); writing inclusive prose for readers is out of scope for this tree; legal conformance sign-off is a human decision."
+scope: "Building and checking to WCAG 2.2 AA: semantics, keyboard, contrast, screen reader"
+status: "seedling"
 ---
+
 # Accessibility
 
 ## Standard

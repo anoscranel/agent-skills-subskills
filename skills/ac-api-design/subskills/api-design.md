@@ -1,11 +1,12 @@
 ---
 name: api-design
 domain: software-engineering/api-design
-trigger: "Design this endpoint", "REST or GraphQL or gRPC", "what should the error response look like", "add pagination", "make this POST safe to retry", "write the OpenAPI spec".
-anti_trigger: Changing or retiring a contract that clients already use (subskills/api-versioning.md); internal module interfaces; authN/authZ controls (out of this tree).
-scope: Public API style, resource and error model, pagination, idempotency, OpenAPI
-status: seedling
+trigger: "\"Design this endpoint\", \"REST or GraphQL or gRPC\", \"what should the error response look like\", \"add pagination\", \"make this POST safe to retry\", \"write the OpenAPI spec\"."
+anti_trigger: "Changing or retiring a contract that clients already use (subskills/api-versioning.md); internal module interfaces; authN/authZ controls (out of this tree)."
+scope: "Public API style, resource and error model, pagination, idempotency, OpenAPI"
+status: "seedling"
 ---
+
 # API Design
 
 ## Standard

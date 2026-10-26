@@ -1,11 +1,12 @@
 ---
 name: browser-e2e-testing
 domain: software-engineering/browser-e2e-testing
-trigger: "Write a Playwright test", "add a Cypress test", "test the checkout flow end to end", "check the console for errors", "assert no failed network requests".
-anti_trigger: Unit and integration test design (subskills/writing-tests.md); random failures in any suite (subskills/flaky-tests.md); WCAG conformance; Core Web Vitals.
-scope: End-to-end and browser tests: selectors, waits, traces, DevTools checks
-status: seedling
+trigger: "\"Write a Playwright test\", \"add a Cypress test\", \"test the checkout flow end to end\", \"check the console for errors\", \"assert no failed network requests\"."
+anti_trigger: "Unit and integration test design (subskills/writing-tests.md); random failures in any suite (subskills/flaky-tests.md); WCAG conformance; Core Web Vitals."
+scope: "End-to-end and browser tests: selectors, waits, traces, DevTools checks"
+status: "seedling"
 ---
+
 # Browser and End-to-End Testing
 
 ## Standard

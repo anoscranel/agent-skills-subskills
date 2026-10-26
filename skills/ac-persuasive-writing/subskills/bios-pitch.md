@@ -1,10 +1,10 @@
 ---
 name: bios-pitch
 domain: writing/bios-pitch
-trigger: "write my bio", "about page", "founder story", "investor pitch narrative", "executive summary for investors", "pitch deck outline".
-anti_trigger: Self-presentation for a selector's form; the objection structure itself (subskills/persuasion.md); a bid a buyer scores.
-scope: Bios, about pages, investor-pitch narrative
-status: seedling
+trigger: "\"write my bio\", \"about page\", \"founder story\", \"investor pitch narrative\", \"executive summary for investors\", \"pitch deck outline\"."
+anti_trigger: "Self-presentation for a selector's form; the objection structure itself (subskills/persuasion.md); a bid a buyer scores."
+scope: "Bios, about pages, investor-pitch narrative"
+status: "seedling"
 ---
 
 # Bios & pitch

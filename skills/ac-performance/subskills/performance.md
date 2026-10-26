@@ -1,11 +1,12 @@
 ---
 name: performance
 domain: software-engineering/performance
-trigger: "This is slow", "profile this", "p99 latency is too high", "set a performance budget", "load test this API", "is this N+1", "will this scale".
-anti_trigger: Browser-side Core Web Vitals, bundle and render cost (subskills/web-performance.md); setting SLOs and alerts; instrumenting traces.
-scope: Measure-first latency/throughput work: budgets, profiling, flame graphs, load tests
-status: seedling
+trigger: "\"This is slow\", \"profile this\", \"p99 latency is too high\", \"set a performance budget\", \"load test this API\", \"is this N+1\", \"will this scale\"."
+anti_trigger: "Browser-side Core Web Vitals, bundle and render cost (subskills/web-performance.md); setting SLOs and alerts; instrumenting traces."
+scope: "Measure-first latency/throughput work: budgets, profiling, flame graphs, load tests"
+status: "seedling"
 ---
+
 # Performance
 
 ## Standard

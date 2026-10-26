@@ -1,10 +1,10 @@
 ---
 name: journalism
 domain: writing/journalism
-trigger: "write this news story", "news lede", "feature structure", "attribution", "libel check", "fact-check this piece".
-anti_trigger: An organisation's own announcement (subskills/press-release.md); long-form story structure; an internal reader's memo.
-scope: News and feature structure, attribution, verification, libel
-status: seedling
+trigger: "\"write this news story\", \"news lede\", \"feature structure\", \"attribution\", \"libel check\", \"fact-check this piece\"."
+anti_trigger: "An organisation's own announcement (subskills/press-release.md); long-form story structure; an internal reader's memo."
+scope: "News and feature structure, attribution, verification, libel"
+status: "seedling"
 ---
 
 # Journalism

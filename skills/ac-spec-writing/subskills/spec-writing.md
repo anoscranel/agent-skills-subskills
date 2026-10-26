@@ -1,11 +1,12 @@
 ---
 name: spec-writing
 domain: software-engineering/spec-writing
-trigger: "Write a spec", "draft a design doc", "write an RFC for this change", "what should the design doc cover", "spec this before we code".
-anti_trigger: Wording single requirements or acceptance criteria (subskills/requirements.md); recording one decision already made; slicing into tasks.
-scope: Writing a design/spec doc before code: goals, non-goals, alternatives, open questions
-status: seedling
+trigger: "\"Write a spec\", \"draft a design doc\", \"write an RFC for this change\", \"what should the design doc cover\", \"spec this before we code\"."
+anti_trigger: "Wording single requirements or acceptance criteria (subskills/requirements.md); recording one decision already made; slicing into tasks."
+scope: "Writing a design/spec doc before code: goals, non-goals, alternatives, open questions"
+status: "seedling"
 ---
+
 # Spec Writing
 
 ## Standard

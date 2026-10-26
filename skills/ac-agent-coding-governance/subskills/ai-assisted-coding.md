@@ -1,11 +1,12 @@
 ---
 name: ai-assisted-coding
 domain: software-engineering/ai-assisted-coding
-trigger: "review AI-generated code", "the agent wrote this patch", "govern agent-written code", "who is liable for generated code".
-anti_trigger: Setting up the agent's instruction file (subskills/agent-context.md); designing the tests that gate output; the human review pass; CI gate order; control selection.
-scope: Governing agent-written code: gates, review packet, provenance, liability
-status: seedling
+trigger: "\"review AI-generated code\", \"the agent wrote this patch\", \"govern agent-written code\", \"who is liable for generated code\"."
+anti_trigger: "Setting up the agent's instruction file (subskills/agent-context.md); designing the tests that gate output; the human review pass; CI gate order; control selection."
+scope: "Governing agent-written code: gates, review packet, provenance, liability"
+status: "seedling"
 ---
+
 # AI-Assisted Coding
 
 ## Standard

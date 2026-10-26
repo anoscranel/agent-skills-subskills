@@ -1,11 +1,12 @@
 ---
 name: incident-response
 domain: software-engineering/incident-response
-trigger: "prod is down", "we have an outage", "run the incident", "write the postmortem", "who declares SEV1".
-anti_trigger: Defining the SLO or alert thresholds (subskills/slo-reliability.md); adding telemetry (subskills/observability.md); rollback and release mechanics; user-facing prose beyond status updates.
-scope: Running an active outage and its blameless postmortem
-status: seedling
+trigger: "\"prod is down\", \"we have an outage\", \"run the incident\", \"write the postmortem\", \"who declares SEV1\"."
+anti_trigger: "Defining the SLO or alert thresholds (subskills/slo-reliability.md); adding telemetry (subskills/observability.md); rollback and release mechanics; user-facing prose beyond status updates."
+scope: "Running an active outage and its blameless postmortem"
+status: "seedling"
 ---
+
 # Incident Response
 
 ## Standard

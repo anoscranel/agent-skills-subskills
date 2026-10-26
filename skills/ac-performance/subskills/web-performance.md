@@ -1,11 +1,12 @@
 ---
 name: web-performance
 domain: software-engineering/web-performance
-trigger: "Improve LCP", "INP is poor", "fix layout shift", "pass Core Web Vitals", "the bundle is too big", "Lighthouse score dropped", "page loads slowly on mobile".
-anti_trigger: Server or API latency, profiling and load tests (subskills/performance.md); UI structure and state; browser functional tests.
-scope: Core Web Vitals targets, bundle and render cost, field vs lab data
-status: seedling
+trigger: "\"Improve LCP\", \"INP is poor\", \"fix layout shift\", \"pass Core Web Vitals\", \"the bundle is too big\", \"Lighthouse score dropped\", \"page loads slowly on mobile\"."
+anti_trigger: "Server or API latency, profiling and load tests (subskills/performance.md); UI structure and state; browser functional tests."
+scope: "Core Web Vitals targets, bundle and render cost, field vs lab data"
+status: "seedling"
 ---
+
 # Web Performance
 
 ## Standard

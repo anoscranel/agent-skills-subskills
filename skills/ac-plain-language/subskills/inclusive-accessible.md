@@ -1,10 +1,10 @@
 ---
 name: inclusive-accessible
 domain: writing/inclusive-accessible
-trigger: "is this biased", "inclusive-language pass", "alt text", "accessible version", "easy read".
-anti_trigger: General plain-language rewriting (subskills/plain-language.md); scoring readability (subskills/readability-measures.md).
-scope: Bias-free terms, alt text, link text, heading order, reading-level for access
-status: seedling
+trigger: "\"is this biased\", \"inclusive-language pass\", \"alt text\", \"accessible version\", \"easy read\"."
+anti_trigger: "General plain-language rewriting (subskills/plain-language.md); scoring readability (subskills/readability-measures.md)."
+scope: "Bias-free terms, alt text, link text, heading order, reading-level for access"
+status: "seedling"
 ---
 
 # Inclusive & accessible text

@@ -1,11 +1,12 @@
 ---
 name: writing-tests
 domain: software-engineering/writing-tests
-trigger: "Write tests for this", "should I mock this", "how do I set up test data", "add an integration test", "add a contract test", "these tests are brittle".
-anti_trigger: Picking the overall portfolio and gates (subskills/test-strategy.md); test-first workflow (subskills/tdd.md); browser-level tests (subskills/browser-e2e-testing.md); random failures (subskills/flaky-tests.md).
-scope: Unit and integration test design: doubles, fixtures, test data, contract tests
-status: seedling
+trigger: "\"Write tests for this\", \"should I mock this\", \"how do I set up test data\", \"add an integration test\", \"add a contract test\", \"these tests are brittle\"."
+anti_trigger: "Picking the overall portfolio and gates (subskills/test-strategy.md); test-first workflow (subskills/tdd.md); browser-level tests (subskills/browser-e2e-testing.md); random failures (subskills/flaky-tests.md)."
+scope: "Unit and integration test design: doubles, fixtures, test data, contract tests"
+status: "seedling"
 ---
+
 # Writing Tests
 
 ## Standard

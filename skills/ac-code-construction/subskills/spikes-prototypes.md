@@ -1,11 +1,12 @@
 ---
 name: spikes-prototypes
 domain: software-engineering/spikes-prototypes
-trigger: "quick prototype to test this", "can we even do this", "spike this for two days", "throwaway demo".
-anti_trigger: Shipping the experiment as a step of real work (subskills/incremental-delivery.md); measuring a shipped system against a target; reducing risk in a plan or estimate; recording the decision.
-scope: Time-boxed throwaway experiments that answer one question
-status: seedling
+trigger: "\"quick prototype to test this\", \"can we even do this\", \"spike this for two days\", \"throwaway demo\"."
+anti_trigger: "Shipping the experiment as a step of real work (subskills/incremental-delivery.md); measuring a shipped system against a target; reducing risk in a plan or estimate; recording the decision."
+scope: "Time-boxed throwaway experiments that answer one question"
+status: "seedling"
 ---
+
 # Spikes & Prototypes
 
 ## Standard

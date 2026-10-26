@@ -1,10 +1,10 @@
 ---
 name: procedures-sops
 domain: writing/procedures-sops
-trigger: "write a procedure", "SOP", "runbook", "KB article", "release notes".
-anti_trigger: Choosing the doc set's types and README (subskills/technical-docs.md); in-product strings (subskills/ui-microcopy.md).
-scope: Step-by-step instructions, SOPs, knowledge-base articles, release-note prose
-status: seedling
+trigger: "\"write a procedure\", \"SOP\", \"runbook\", \"KB article\", \"release notes\"."
+anti_trigger: "Choosing the doc set's types and README (subskills/technical-docs.md); in-product strings (subskills/ui-microcopy.md)."
+scope: "Step-by-step instructions, SOPs, knowledge-base articles, release-note prose"
+status: "seedling"
 ---
 
 # Procedures & SOPs

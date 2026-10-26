@@ -1,11 +1,12 @@
 ---
 name: commits-history
 domain: software-engineering/commits-history
-trigger: "Write a commit message", "squash these commits", "rebase or merge", "fix my git history", "find which commit broke this with bisect", "generate the changelog".
-anti_trigger: Branch model, protection and CODEOWNERS (subskills/git-workflow.md); PR description; release-note prose for users (out of this tree).
-scope: Commit messages, Conventional Commits, rebase vs merge, history repair, changelog generation
-status: seedling
+trigger: "\"Write a commit message\", \"squash these commits\", \"rebase or merge\", \"fix my git history\", \"find which commit broke this with bisect\", \"generate the changelog\"."
+anti_trigger: "Branch model, protection and CODEOWNERS (subskills/git-workflow.md); PR description; release-note prose for users (out of this tree)."
+scope: "Commit messages, Conventional Commits, rebase vs merge, history repair, changelog generation"
+status: "seedling"
 ---
+
 # Commits and History
 
 ## Standard

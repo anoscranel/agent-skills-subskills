@@ -1,11 +1,12 @@
 ---
 name: deployment
 domain: software-engineering/deployment
-trigger: "Deploy safely", "set up a canary", "blue-green deploy", "roll back the release", "add post-deploy checks", "GitOps with Argo CD".
-anti_trigger: Exposure switches after deploy (subskills/feature-flags.md); version cut and launch checklist (subskills/release-launch.md); infrastructure and containers (subskills/environments-config.md); live schema changes.
-scope: Progressive delivery: canary, blue-green, health gates, rollback
-status: seedling
+trigger: "\"Deploy safely\", \"set up a canary\", \"blue-green deploy\", \"roll back the release\", \"add post-deploy checks\", \"GitOps with Argo CD\"."
+anti_trigger: "Exposure switches after deploy (subskills/feature-flags.md); version cut and launch checklist (subskills/release-launch.md); infrastructure and containers (subskills/environments-config.md); live schema changes."
+scope: "Progressive delivery: canary, blue-green, health gates, rollback"
+status: "seedling"
 ---
+
 # Deployment
 
 ## Standard

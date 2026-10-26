@@ -1,10 +1,10 @@
 ---
 name: style-guides
 domain: writing/style-guides
-trigger: "which style guide", "AP or Chicago", "build a style sheet", "make it match house style", "our house rules".
-anti_trigger: Applying the sheet during the consistency pass; inclusive-language term choices inside the sheet.
-scope: Picking AP/CMOS/APA/house guide; building a project style sheet
-status: seedling
+trigger: "\"which style guide\", \"AP or Chicago\", \"build a style sheet\", \"make it match house style\", \"our house rules\"."
+anti_trigger: "Applying the sheet during the consistency pass; inclusive-language term choices inside the sheet."
+scope: "Picking AP/CMOS/APA/house guide; building a project style sheet"
+status: "seedling"
 ---
 
 # Style guides & style sheet

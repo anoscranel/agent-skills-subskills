@@ -1,10 +1,10 @@
 ---
 name: copyedit
 domain: writing/copyedit
-trigger: "copyedit this", "make it consistent", "apply house style", "run the style sheet over this".
-anti_trigger: Sentence-level rewrites that may move meaning (subskills/revision-line.md); hunting last-pass errors in the final artifact (subskills/proofread-publish.md).
-scope: Consistency and correctness against a style sheet, meaning unchanged
-status: seedling
+trigger: "\"copyedit this\", \"make it consistent\", \"apply house style\", \"run the style sheet over this\"."
+anti_trigger: "Sentence-level rewrites that may move meaning (subskills/revision-line.md); hunting last-pass errors in the final artifact (subskills/proofread-publish.md)."
+scope: "Consistency and correctness against a style sheet, meaning unchanged"
+status: "seedling"
 ---
 
 # Copyedit

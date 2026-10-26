@@ -1,11 +1,12 @@
 ---
 name: standards-map
 domain: software-engineering/standards-map
-trigger: "what is the standard for", "which standard applies", "which edition is current", "which SWEBOK/SSDF practice applies".
-anti_trigger: Doing the governed task itself — designing, coding, testing, shipping, hardening — is out of scope for this leaf. This leaf names the authority, never the procedure.
-scope: The standards that govern the software domain: names, editions, dates, what each governs
-status: seedling
+trigger: "\"what is the standard for\", \"which standard applies\", \"which edition is current\", \"which SWEBOK/SSDF practice applies\"."
+anti_trigger: "Doing the governed task itself — designing, coding, testing, shipping, hardening — is out of scope for this leaf. This leaf names the authority, never the procedure."
+scope: "The standards that govern the software domain: names, editions, dates, what each governs"
+status: "seedling"
 ---
+
 # Standards Map
 
 ## Standard

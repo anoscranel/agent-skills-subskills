@@ -1,10 +1,10 @@
 ---
 name: academic-papers
 domain: writing/academic-papers
-trigger: "structure this paper", "IMRaD", "thesis chapter", "pick a reporting guideline", "respond to reviewers".
-anti_trigger: A synthesis of others' studies (subskills/literature-review.md); the claim-evidence grammar; disclosure policy by venue.
-scope: IMRaD papers, theses, reporting guidelines, submission and reviewer response
-status: seedling
+trigger: "\"structure this paper\", \"IMRaD\", \"thesis chapter\", \"pick a reporting guideline\", \"respond to reviewers\"."
+anti_trigger: "A synthesis of others' studies (subskills/literature-review.md); the claim-evidence grammar; disclosure policy by venue."
+scope: "IMRaD papers, theses, reporting guidelines, submission and reviewer response"
+status: "seedling"
 ---
 
 # Academic papers

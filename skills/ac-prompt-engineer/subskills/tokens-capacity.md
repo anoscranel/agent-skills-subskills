@@ -1,10 +1,10 @@
 ---
 name: tokens-capacity
 domain: prompt-engineering/tokens-capacity
-trigger: When a prompt is long, costs too much, forgets earlier content, or needs caching or compaction designed.
-anti_trigger: Choosing techniques for output quality, or hardening against hostile input.
-scope: Budgeting the context window: attention economics, stable-prefix caching, placement rules, compaction, and just-in-time retrieval.
-status: seedling
+trigger: "When a prompt is long, costs too much, forgets earlier content, or needs caching or compaction designed."
+anti_trigger: "Choosing techniques for output quality, or hardening against hostile input."
+scope: "Budgeting the context window: attention economics, stable-prefix caching, placement rules, compaction, and just-in-time retrieval."
+status: "seedling"
 ---
 
 # Tokens and capacity

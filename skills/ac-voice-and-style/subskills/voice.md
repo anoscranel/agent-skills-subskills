@@ -1,10 +1,10 @@
 ---
 name: voice
 domain: writing/voice
-trigger: "keep my voice", "write this in our brand voice", "sounds generic", "voice guide".
-anti_trigger: Choosing tone for one tense message (subskills/tone.md); fixing machine-sounding prose (subskills/de-slop.md).
-scope: Defining and keeping an author or brand voice across documents
-status: seedling
+trigger: "\"keep my voice\", \"write this in our brand voice\", \"sounds generic\", \"voice guide\"."
+anti_trigger: "Choosing tone for one tense message (subskills/tone.md); fixing machine-sounding prose (subskills/de-slop.md)."
+scope: "Defining and keeping an author or brand voice across documents"
+status: "seedling"
 ---
 
 # Voice

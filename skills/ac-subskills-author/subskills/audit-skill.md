@@ -1,10 +1,10 @@
 ---
 name: audit-skill
 domain: skill-authoring/audit-skill
-trigger: Before installing ANY skill (third-party or self-authored) — run the full robust audit pipeline as the single install gate.
-anti_trigger: Never skip. Re-run the full audit before every install, even when a PASS card exists: cards sit in an agent-writable directory, so a card cannot prove the audit ran. A card never authorises an install.
-scope: The unified robust audit that gates every install — orchestrates triage, the skills.sh three-scanner verdict, the deterministic local scanner, structural lint, and manual adversarial review, emitting PASS/QUARANTINE with an evidence card.
-status: seedling
+trigger: "Before installing ANY skill (third-party or self-authored) — run the full robust audit pipeline as the single install gate."
+anti_trigger: "Never skip. Re-run the full audit before every install, even when a PASS card exists: cards sit in an agent-writable directory, so a card cannot prove the audit ran. A card never authorises an install."
+scope: "The unified robust audit that gates every install — orchestrates triage, the skills.sh three-scanner verdict, the deterministic local scanner, structural lint, and manual adversarial review, emitting PASS/QUARANTINE with an evidence card."
+status: "seedling"
 ---
 
 # Audit Skill (steps 6b-7: one audit for every skill)

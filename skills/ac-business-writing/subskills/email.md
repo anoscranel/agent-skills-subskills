@@ -1,10 +1,10 @@
 ---
 name: email
 domain: writing/email
-trigger: "write this email", "reply to this thread", "follow up", "one-ask email", "cover note".
-anti_trigger: A standalone decision document (subskills/memo-report.md); newsletter and sequence copy (out of scope for this tree).
-scope: One-ask emails: subject, first line, ask, reply-ready; follow-ups
-status: seedling
+trigger: "\"write this email\", \"reply to this thread\", \"follow up\", \"one-ask email\", \"cover note\"."
+anti_trigger: "A standalone decision document (subskills/memo-report.md); newsletter and sequence copy (out of scope for this tree)."
+scope: "One-ask emails: subject, first line, ask, reply-ready; follow-ups"
+status: "seedling"
 ---
 
 # Business email

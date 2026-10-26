@@ -2,6 +2,12 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.3.1 — 2026-10-26
+
+### Changed
+- Every frontmatter block in the pack now parses as strict YAML. In the 103 rewritten files `description`, `trigger`, `anti_trigger`, `scope` and `status` are quoted scalars, and wrapped continuation lines are joined. 103 files changed; no prose changed. In 52 of them the only body difference is one blank line after the closing `---`.
+- `lint_tree.py` still reads leaf headers line by line, so nothing about routing or the domain chain changed.
+
 ## 0.3.0 — 2026-10-26
 
 ### Added

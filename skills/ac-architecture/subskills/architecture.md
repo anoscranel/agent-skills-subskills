@@ -1,11 +1,12 @@
 ---
 name: architecture
 domain: software-engineering/architecture
-trigger: "How should we structure this system", "monolith or microservices", "draw the architecture", "which architecture style", "will this scale", "C4 diagram".
-anti_trigger: Writing down a decision already made (subskills/adr.md); boundaries inside one codebase (subskills/module-design.md); the external API contract.
-scope: System structure, styles and quality-attribute trade-offs, C4 views
-status: seedling
+trigger: "\"How should we structure this system\", \"monolith or microservices\", \"draw the architecture\", \"which architecture style\", \"will this scale\", \"C4 diagram\"."
+anti_trigger: "Writing down a decision already made (subskills/adr.md); boundaries inside one codebase (subskills/module-design.md); the external API contract."
+scope: "System structure, styles and quality-attribute trade-offs, C4 views"
+status: "seedling"
 ---
+
 # Architecture
 
 ## Standard

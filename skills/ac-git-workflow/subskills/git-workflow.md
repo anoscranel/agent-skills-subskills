@@ -1,11 +1,12 @@
 ---
 name: git-workflow
 domain: software-engineering/git-workflow
-trigger: "Which branching model", "trunk-based or GitFlow", "set up branch protection", "add a merge queue", "set up CODEOWNERS", "monorepo or polyrepo".
-anti_trigger: Writing or repairing individual commits (subskills/commits-history.md); preparing one PR; pipeline job design.
-scope: Branching model, trunk-based work, merge queues, CODEOWNERS, monorepo layout
-status: seedling
+trigger: "\"Which branching model\", \"trunk-based or GitFlow\", \"set up branch protection\", \"add a merge queue\", \"set up CODEOWNERS\", \"monorepo or polyrepo\"."
+anti_trigger: "Writing or repairing individual commits (subskills/commits-history.md); preparing one PR; pipeline job design."
+scope: "Branching model, trunk-based work, merge queues, CODEOWNERS, monorepo layout"
+status: "seedling"
 ---
+
 # Git Workflow
 
 ## Standard

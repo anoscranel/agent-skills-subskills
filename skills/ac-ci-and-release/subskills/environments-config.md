@@ -1,11 +1,12 @@
 ---
 name: environments-config
 domain: software-engineering/environments-config
-trigger: "containerize this", "write the Terraform", "set up staging", "move config out of the code", "works on my machine only".
-anti_trigger: Pushing to production hosts (subskills/deployment.md); pipeline gates and runners (subskills/ci-pipeline.md); where security checks sit; live schema changes.
-scope: IaC, containers, config and environment parity for running the app
-status: seedling
+trigger: "\"containerize this\", \"write the Terraform\", \"set up staging\", \"move config out of the code\", \"works on my machine only\"."
+anti_trigger: "Pushing to production hosts (subskills/deployment.md); pipeline gates and runners (subskills/ci-pipeline.md); where security checks sit; live schema changes."
+scope: "IaC, containers, config and environment parity for running the app"
+status: "seedling"
 ---
+
 # Environments & Config
 
 ## Standard

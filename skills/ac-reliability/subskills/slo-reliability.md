@@ -1,11 +1,12 @@
 ---
 name: slo-reliability
 domain: software-engineering/slo-reliability
-trigger: "set an SLO", "how much downtime is allowed", "write the alert rule", "backup and DR plan".
-anti_trigger: Adding telemetry (subskills/observability.md); running the outage and postmortem (subskills/incident-response.md); rollback and ramp mechanics; load testing a latency budget.
-scope: SLIs, SLOs, error budgets, alert rules, backup and DR targets
-status: seedling
+trigger: "\"set an SLO\", \"how much downtime is allowed\", \"write the alert rule\", \"backup and DR plan\"."
+anti_trigger: "Adding telemetry (subskills/observability.md); running the outage and postmortem (subskills/incident-response.md); rollback and ramp mechanics; load testing a latency budget."
+scope: "SLIs, SLOs, error budgets, alert rules, backup and DR targets"
+status: "seedling"
 ---
+
 # SLO & Reliability
 
 ## Standard

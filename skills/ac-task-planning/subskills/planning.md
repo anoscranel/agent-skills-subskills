@@ -1,11 +1,12 @@
 ---
 name: planning
 domain: software-engineering/planning
-trigger: "How long will this take", "estimate this", "when can we ship", "Scrum or Kanban", "what are the risks", "should we build or buy this".
-anti_trigger: Cutting the work into tasks (subskills/task-breakdown.md); choosing the system structure; picking a library version.
-scope: Estimates, forecasts, process and cadence choice, risk list, build-vs-buy
-status: seedling
+trigger: "\"How long will this take\", \"estimate this\", \"when can we ship\", \"Scrum or Kanban\", \"what are the risks\", \"should we build or buy this\"."
+anti_trigger: "Cutting the work into tasks (subskills/task-breakdown.md); choosing the system structure; picking a library version."
+scope: "Estimates, forecasts, process and cadence choice, risk list, build-vs-buy"
+status: "seedling"
 ---
+
 # Planning
 
 ## Standard

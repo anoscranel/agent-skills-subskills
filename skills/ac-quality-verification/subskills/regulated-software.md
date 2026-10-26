@@ -1,11 +1,12 @@
 ---
 name: regulated-software
 domain: software-engineering/regulated-software
-trigger: "medical device software", "write the design history file", "IEC 62304 evidence", "DO-178C objectives", "auditor wants the trace matrix".
-anti_trigger: General quality attributes and the V&V plan (subskills/quality-vv.md); security controls and threat models; delivery metrics and SLOs; general release governance.
-scope: Lifecycle evidence for regulated domains: IEC 62304, DO-178C, regulated agile
-status: seedling
+trigger: "\"medical device software\", \"write the design history file\", \"IEC 62304 evidence\", \"DO-178C objectives\", \"auditor wants the trace matrix\"."
+anti_trigger: "General quality attributes and the V&V plan (subskills/quality-vv.md); security controls and threat models; delivery metrics and SLOs; general release governance."
+scope: "Lifecycle evidence for regulated domains: IEC 62304, DO-178C, regulated agile"
+status: "seedling"
 ---
+
 # Regulated Software
 
 ## Standard

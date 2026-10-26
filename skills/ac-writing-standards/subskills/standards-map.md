@@ -1,10 +1,10 @@
 ---
 name: standards-map
 domain: writing/standards-map
-trigger: "which style guide exists for this", "which standard applies", "which edition is current", "what does ISO 24495-1 say", "does CMOS or AP govern this".
-anti_trigger: Doing the governed task itself — briefing, drafting, revising, copyediting, proofreading, publishing — is out of scope for this leaf. This leaf names the authority, never the procedure.
-scope: The standards and guides that govern the writing domain: names, editions, dates, what each governs
-status: seedling
+trigger: "\"which style guide exists for this\", \"which standard applies\", \"which edition is current\", \"what does ISO 24495-1 say\", \"does CMOS or AP govern this\"."
+anti_trigger: "Doing the governed task itself — briefing, drafting, revising, copyediting, proofreading, publishing — is out of scope for this leaf. This leaf names the authority, never the procedure."
+scope: "The standards and guides that govern the writing domain: names, editions, dates, what each governs"
+status: "seedling"
 ---
 
 # Standards Map

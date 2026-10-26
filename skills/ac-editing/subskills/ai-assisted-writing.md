@@ -1,10 +1,10 @@
 ---
 name: ai-assisted-writing
 domain: writing/ai-assisted-writing
-trigger: "disclose AI use", "can I use AI for this", "AI disclosure statement", "is this allowed".
-anti_trigger: Removing machine tells from finished text; verifying claims to sources.
-scope: Where AI may touch text, verification duty, disclosure rules by venue
-status: seedling
+trigger: "\"disclose AI use\", \"can I use AI for this\", \"AI disclosure statement\", \"is this allowed\"."
+anti_trigger: "Removing machine tells from finished text; verifying claims to sources."
+scope: "Where AI may touch text, verification duty, disclosure rules by venue"
+status: "seedling"
 ---
 
 # AI-assisted writing

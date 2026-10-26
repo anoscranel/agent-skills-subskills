@@ -1,11 +1,12 @@
 ---
 name: pr-authoring
 domain: software-engineering/pr-authoring
-trigger: "Open a PR", "write the PR description", "this PR is too big", "prepare this for review", "stack these PRs", "self-review my diff".
-anti_trigger: Reviewing someone else's diff (subskills/code-review.md); commit message wording and history repair; branch protection.
-scope: Preparing a change for review: size, description, self-review, review packet
-status: seedling
+trigger: "\"Open a PR\", \"write the PR description\", \"this PR is too big\", \"prepare this for review\", \"stack these PRs\", \"self-review my diff\"."
+anti_trigger: "Reviewing someone else's diff (subskills/code-review.md); commit message wording and history repair; branch protection."
+scope: "Preparing a change for review: size, description, self-review, review packet"
+status: "seedling"
 ---
+
 # PR Authoring
 
 ## Standard

@@ -1,11 +1,12 @@
 ---
 name: task-breakdown
 domain: software-engineering/task-breakdown
-trigger: "Break this into tasks", "slice this feature", "what order should we build this in", "make a task list from the spec", "split this epic".
-anti_trigger: Estimating cost or choosing cadence (subskills/planning.md); deciding what to build; step size while coding.
-scope: Slicing a spec into ordered, vertical, independently shippable tasks
-status: seedling
+trigger: "\"Break this into tasks\", \"slice this feature\", \"what order should we build this in\", \"make a task list from the spec\", \"split this epic\"."
+anti_trigger: "Estimating cost or choosing cadence (subskills/planning.md); deciding what to build; step size while coding."
+scope: "Slicing a spec into ordered, vertical, independently shippable tasks"
+status: "seedling"
 ---
+
 # Task Breakdown
 
 ## Standard

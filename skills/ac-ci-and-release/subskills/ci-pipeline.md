@@ -1,11 +1,12 @@
 ---
 name: ci-pipeline
 domain: software-engineering/ci-pipeline
-trigger: "Set up CI", "add a GitHub Actions workflow", "speed up the pipeline", "which checks should be required", "cache dependencies in CI", "pin our actions".
-anti_trigger: A red pipeline to triage; rollout to production (subskills/deployment.md); branch protection and merge queues; which tests to run.
-scope: Pipeline-as-code, gate order, caching, required checks
-status: seedling
+trigger: "\"Set up CI\", \"add a GitHub Actions workflow\", \"speed up the pipeline\", \"which checks should be required\", \"cache dependencies in CI\", \"pin our actions\"."
+anti_trigger: "A red pipeline to triage; rollout to production (subskills/deployment.md); branch protection and merge queues; which tests to run."
+scope: "Pipeline-as-code, gate order, caching, required checks"
+status: "seedling"
 ---
+
 # CI Pipeline
 
 ## Standard

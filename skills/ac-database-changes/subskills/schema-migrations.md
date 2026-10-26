@@ -1,11 +1,12 @@
 ---
 name: schema-migrations
 domain: software-engineering/schema-migrations
-trigger: "add a column with no downtime", "rename this column", "backfill a table", "drop this table safely", "the migration locked the database".
-anti_trigger: First design of the schema (subskills/data-modeling.md); retiring an API surface and moving consumers; restore from backup; feature removal.
-scope: Changing a live schema or data with no downtime: expand-migrate-contract
-status: seedling
+trigger: "\"add a column with no downtime\", \"rename this column\", \"backfill a table\", \"drop this table safely\", \"the migration locked the database\"."
+anti_trigger: "First design of the schema (subskills/data-modeling.md); retiring an API surface and moving consumers; restore from backup; feature removal."
+scope: "Changing a live schema or data with no downtime: expand-migrate-contract"
+status: "seedling"
 ---
+
 # Schema Migrations
 
 ## Standard

@@ -1,11 +1,12 @@
 ---
 name: module-design
 domain: software-engineering/module-design
-trigger: "Where should this code live", "this module does too much", "split this package", "reduce coupling", "design the interface between these modules".
-anti_trigger: Whole-system structure and service splits (subskills/architecture.md); public HTTP/RPC contracts; line-level cleanup.
-scope: Internal module boundaries, coupling, cohesion, deep vs shallow modules
-status: seedling
+trigger: "\"Where should this code live\", \"this module does too much\", \"split this package\", \"reduce coupling\", \"design the interface between these modules\"."
+anti_trigger: "Whole-system structure and service splits (subskills/architecture.md); public HTTP/RPC contracts; line-level cleanup."
+scope: "Internal module boundaries, coupling, cohesion, deep vs shallow modules"
+status: "seedling"
 ---
+
 # Module Design
 
 ## Standard

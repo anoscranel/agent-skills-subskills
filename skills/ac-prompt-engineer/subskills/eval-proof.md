@@ -1,10 +1,10 @@
 ---
 name: eval-proof
 domain: prompt-engineering/eval-proof
-trigger: When you must know whether a prompt edit, model swap, or retrieval change actually improved anything.
-anti_trigger: Triaging one specific failing output right now — that is debugging, not measurement.
-scope: Proving a prompt change helped: golden sets, oracle hierarchy, judge limits, statistical gates, and CI wiring.
-status: seedling
+trigger: "When you must know whether a prompt edit, model swap, or retrieval change actually improved anything."
+anti_trigger: "Triaging one specific failing output right now — that is debugging, not measurement."
+scope: "Proving a prompt change helped: golden sets, oracle hierarchy, judge limits, statistical gates, and CI wiring."
+status: "seedling"
 ---
 
 # Evals and plays: prove the prompt got better

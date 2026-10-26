@@ -1,10 +1,10 @@
 ---
 name: literature-review
 domain: writing/literature-review
-trigger: "write a lit review", "systematic review", "PRISMA", "screening criteria", "synthesise these studies", "protocol registration".
-anti_trigger: Reporting an original study (subskills/academic-papers.md); finding and judging sources before drafting; binding claims to checkable sources.
-scope: Narrative vs systematic reviews; search, screen, synthesise, PRISMA
-status: seedling
+trigger: "\"write a lit review\", \"systematic review\", \"PRISMA\", \"screening criteria\", \"synthesise these studies\", \"protocol registration\"."
+anti_trigger: "Reporting an original study (subskills/academic-papers.md); finding and judging sources before drafting; binding claims to checkable sources."
+scope: "Narrative vs systematic reviews; search, screen, synthesise, PRISMA"
+status: "seedling"
 ---
 
 # Literature review

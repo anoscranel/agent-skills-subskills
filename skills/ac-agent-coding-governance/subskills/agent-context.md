@@ -1,11 +1,12 @@
 ---
 name: agent-context
 domain: software-engineering/agent-context
-trigger: "set up an AGENTS.md", "the agent ignores the repo rules", "write the agent instructions", "compact the rules file".
-anti_trigger: Governing the agent's output (subskills/ai-assisted-coding.md); human-facing docs, docstrings and API reference; a README written for people; testing whether instructions worked; in-code conventions.
-scope: Writing AGENTS.md and rules files; context budget, retrieval, compaction for coding agents
-status: seedling
+trigger: "\"set up an AGENTS.md\", \"the agent ignores the repo rules\", \"write the agent instructions\", \"compact the rules file\"."
+anti_trigger: "Governing the agent's output (subskills/ai-assisted-coding.md); human-facing docs, docstrings and API reference; a README written for people; testing whether instructions worked; in-code conventions."
+scope: "Writing AGENTS.md and rules files; context budget, retrieval, compaction for coding agents"
+status: "seedling"
 ---
+
 # Agent Context
 
 ## Standard

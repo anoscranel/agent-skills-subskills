@@ -1,10 +1,10 @@
 ---
 name: applications
 domain: writing/applications
-trigger: "write a cover letter", "personal statement", "admissions essay", "statement of purpose".
-anti_trigger: A bid a buyer scores (subskills/proposals.md); a funder-scored grant (subskills/grants.md); a bio or pitch.
-scope: Cover letters, personal statements, admissions essays
-status: seedling
+trigger: "\"write a cover letter\", \"personal statement\", \"admissions essay\", \"statement of purpose\"."
+anti_trigger: "A bid a buyer scores (subskills/proposals.md); a funder-scored grant (subskills/grants.md); a bio or pitch."
+scope: "Cover letters, personal statements, admissions essays"
+status: "seedling"
 ---
 
 # Applications

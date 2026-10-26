@@ -1,10 +1,10 @@
 ---
 name: outline-structure
 domain: writing/outline-structure
-trigger: "outline this", "how should I order this", "is my structure right", "write headings", "this reads like a wall".
-anti_trigger: Deciding the purpose, reader and success test (subskills/brief.md); rewriting sentences inside the sections.
-scope: Answer-first order, sections, action headings, Minto/BLUF
-status: seedling
+trigger: "\"outline this\", \"how should I order this\", \"is my structure right\", \"write headings\", \"this reads like a wall\"."
+anti_trigger: "Deciding the purpose, reader and success test (subskills/brief.md); rewriting sentences inside the sections."
+scope: "Answer-first order, sections, action headings, Minto/BLUF"
+status: "seedling"
 ---
 
 # Outline & structure

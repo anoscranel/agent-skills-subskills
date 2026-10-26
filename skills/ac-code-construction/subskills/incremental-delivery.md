@@ -1,11 +1,12 @@
 ---
 name: incremental-delivery
 domain: software-engineering/incremental-delivery
-trigger: "Build it step by step", "start with a walking skeleton", "keep main green", "this change is getting too big", "how do I land this in pieces".
-anti_trigger: Planning the task list; throwaway experiments (subskills/spikes-prototypes.md); branch policy.
-scope: Building in small verified steps: walking skeleton, one change per commit, always green
-status: seedling
+trigger: "\"Build it step by step\", \"start with a walking skeleton\", \"keep main green\", \"this change is getting too big\", \"how do I land this in pieces\"."
+anti_trigger: "Planning the task list; throwaway experiments (subskills/spikes-prototypes.md); branch policy."
+scope: "Building in small verified steps: walking skeleton, one change per commit, always green"
+status: "seedling"
 ---
+
 # Incremental Delivery
 
 ## Standard

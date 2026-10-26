@@ -1,11 +1,12 @@
 ---
 name: flaky-tests
 domain: software-engineering/flaky-tests
-trigger: "This test fails randomly", "passes locally fails in CI", "passes alone fails in parallel", "should we quarantine this", "just add a retry".
-anti_trigger: A deterministic product bug; a red pipeline from infra or config; browser waits and selectors (subskills/browser-e2e-testing.md).
-scope: Finding, quarantining and fixing nondeterministic tests
-status: seedling
+trigger: "\"This test fails randomly\", \"passes locally fails in CI\", \"passes alone fails in parallel\", \"should we quarantine this\", \"just add a retry\"."
+anti_trigger: "A deterministic product bug; a red pipeline from infra or config; browser waits and selectors (subskills/browser-e2e-testing.md)."
+scope: "Finding, quarantining and fixing nondeterministic tests"
+status: "seedling"
 ---
+
 # Flaky Tests
 
 ## Standard

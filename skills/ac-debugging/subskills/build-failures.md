@@ -1,11 +1,12 @@
 ---
 name: build-failures
 domain: software-engineering/build-failures
-trigger: "CI is red", "the build is broken", "main is broken", "works on my machine but not in CI", "the pipeline started failing overnight", "dependency install fails".
-anti_trigger: A product bug that tests catch correctly (subskills/debugging.md); one test failing at random; designing the pipeline itself.
-scope: Triage of a broken build or red pipeline: classify, isolate, restore green
-status: seedling
+trigger: "\"CI is red\", \"the build is broken\", \"main is broken\", \"works on my machine but not in CI\", \"the pipeline started failing overnight\", \"dependency install fails\"."
+anti_trigger: "A product bug that tests catch correctly (subskills/debugging.md); one test failing at random; designing the pipeline itself."
+scope: "Triage of a broken build or red pipeline: classify, isolate, restore green"
+status: "seedling"
 ---
+
 # Build Failures
 
 ## Standard

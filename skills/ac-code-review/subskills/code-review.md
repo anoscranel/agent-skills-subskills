@@ -1,11 +1,12 @@
 ---
 name: code-review
 domain: software-engineering/code-review
-trigger: "Review this PR", "look over my diff", "is this change OK to merge", "what should I check in this review", "approve or request changes".
-anti_trigger: Preparing your own change for review (subskills/pr-authoring.md); governing agent-written code as a whole; security sign-off on a control is out of scope for this tree.
-scope: Reviewing someone's diff: what to check, comment labels, response time, approve rules
-status: seedling
+trigger: "\"Review this PR\", \"look over my diff\", \"is this change OK to merge\", \"what should I check in this review\", \"approve or request changes\"."
+anti_trigger: "Preparing your own change for review (subskills/pr-authoring.md); governing agent-written code as a whole; security sign-off on a control is out of scope for this tree."
+scope: "Reviewing someone's diff: what to check, comment labels, response time, approve rules"
+status: "seedling"
 ---
+
 # Code Review
 
 ## Standard

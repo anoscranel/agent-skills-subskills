@@ -1,10 +1,10 @@
 ---
 name: memo-report
 domain: writing/memo-report
-trigger: "write a memo", "status report", "executive summary", "board update", "weekly report".
-anti_trigger: A one-ask message (subskills/email.md); a scored bid; a grant narrative.
-scope: Decision memos, status reports, executive summaries
-status: seedling
+trigger: "\"write a memo\", \"status report\", \"executive summary\", \"board update\", \"weekly report\"."
+anti_trigger: "A one-ask message (subskills/email.md); a scored bid; a grant narrative."
+scope: "Decision memos, status reports, executive summaries"
+status: "seedling"
 ---
 
 # Memo, report & executive summary

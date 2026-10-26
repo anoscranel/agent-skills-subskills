@@ -1,11 +1,12 @@
 ---
 name: test-strategy
 domain: software-engineering/test-strategy
-trigger: "What should we test", "write a test plan", "pyramid or trophy", "set a coverage target", "which tests gate CI", "our suite is too slow to trust".
-anti_trigger: Designing one test (subskills/writing-tests.md); test-first cycle (subskills/tdd.md); mutation, property or fuzz work (subskills/test-adequacy.md); pipeline wiring.
-scope: Choosing the test portfolio, levels, coverage policy and CI test gates
-status: seedling
+trigger: "\"What should we test\", \"write a test plan\", \"pyramid or trophy\", \"set a coverage target\", \"which tests gate CI\", \"our suite is too slow to trust\"."
+anti_trigger: "Designing one test (subskills/writing-tests.md); test-first cycle (subskills/tdd.md); mutation, property or fuzz work (subskills/test-adequacy.md); pipeline wiring."
+scope: "Choosing the test portfolio, levels, coverage policy and CI test gates"
+status: "seedling"
 ---
+
 # Test Strategy
 
 ## Standard

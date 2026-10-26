@@ -1,10 +1,10 @@
 ---
 name: grants
 domain: writing/grants
-trigger: "write this grant section", "specific aims page", "grant narrative", "budget justification".
-anti_trigger: A buyer-scored business proposal (subskills/proposals.md).
-scope: Grant narrative to funder criteria: aims, need, method, budget justification
-status: seedling
+trigger: "\"write this grant section\", \"specific aims page\", \"grant narrative\", \"budget justification\"."
+anti_trigger: "A buyer-scored business proposal (subskills/proposals.md)."
+scope: "Grant narrative to funder criteria: aims, need, method, budget justification"
+status: "seedling"
 ---
 
 # Grants

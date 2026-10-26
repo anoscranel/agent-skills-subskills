@@ -1,10 +1,10 @@
 ---
 name: social-posts
 domain: writing/social-posts
-trigger: "write a thread", "write a post for X", "LinkedIn post", "caption", "short-form post", "turn this article into posts".
-anti_trigger: A page built to convert (subskills/marketing-copy.md); a page built for search engines (subskills/search-content.md); a talk script.
-scope: Short-form and thread posts per platform
-status: seedling
+trigger: "\"write a thread\", \"write a post for X\", \"LinkedIn post\", \"caption\", \"short-form post\", \"turn this article into posts\"."
+anti_trigger: "A page built to convert (subskills/marketing-copy.md); a page built for search engines (subskills/search-content.md); a talk script."
+scope: "Short-form and thread posts per platform"
+status: "seedling"
 ---
 
 # Social posts

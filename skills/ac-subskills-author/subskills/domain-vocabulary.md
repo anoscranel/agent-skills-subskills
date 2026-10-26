@@ -1,10 +1,10 @@
 ---
 name: domain-vocabulary
 domain: skill-authoring/domain-vocabulary
-trigger: When minting a new top-level domain: segment for a skill, or checking a segment is legal.
-anti_trigger: The skill's domain chain reuses an existing top segment already in this enum.
-scope: The closed enum of legal top-level domain: segments; the only file allowed to define them.
-status: seedling
+trigger: "When minting a new top-level domain: segment for a skill, or checking a segment is legal."
+anti_trigger: "The skill's domain chain reuses an existing top segment already in this enum."
+scope: "The closed enum of legal top-level domain: segments; the only file allowed to define them."
+status: "seedling"
 ---
 
 # Domain Vocabulary (the closed enum)

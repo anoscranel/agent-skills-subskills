@@ -1,11 +1,12 @@
 ---
 name: refactoring
 domain: software-engineering/refactoring
-trigger: "Refactor this", "extract this into a class", "move this method", "split this module safely", "add tests before refactoring legacy code", "strangler fig".
-anti_trigger: Free-form cleanup with no named recipe (subskills/simplification.md); choosing which debt to pay first (subskills/tech-debt.md); new behaviour.
-scope: Named refactorings in safe steps, under characterization tests
-status: seedling
+trigger: "\"Refactor this\", \"extract this into a class\", \"move this method\", \"split this module safely\", \"add tests before refactoring legacy code\", \"strangler fig\"."
+anti_trigger: "Free-form cleanup with no named recipe (subskills/simplification.md); choosing which debt to pay first (subskills/tech-debt.md); new behaviour."
+scope: "Named refactorings in safe steps, under characterization tests"
+status: "seedling"
 ---
+
 # Refactoring
 
 ## Standard

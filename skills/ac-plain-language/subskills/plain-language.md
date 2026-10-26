@@ -1,10 +1,10 @@
 ---
 name: plain-language
 domain: writing/plain-language
-trigger: "make this plainer", "write for the public", "this is too dense", "plain-language version".
-anti_trigger: Scoring or measuring the result (subskills/readability-measures.md); choosing the style guide.
-scope: ISO 24495-1 principles: relevant, findable, understandable, usable
-status: seedling
+trigger: "\"make this plainer\", \"write for the public\", \"this is too dense\", \"plain-language version\"."
+anti_trigger: "Scoring or measuring the result (subskills/readability-measures.md); choosing the style guide."
+scope: "ISO 24495-1 principles: relevant, findable, understandable, usable"
+status: "seedling"
 ---
 
 # Plain language

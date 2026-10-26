@@ -1,11 +1,12 @@
 ---
 name: deprecation
 domain: software-engineering/deprecation
-trigger: "remove this feature", "retire this system", "sunset this endpoint", "we are shutting down that module", "move users off the old path".
-anti_trigger: Versioning and breaking-change rules for a live API contract; dropping a database column or table; release-note wording and README prose; the git mechanics of history clean-up.
-scope: Retiring a feature, system or internal API and moving its users
-status: seedling
+trigger: "\"remove this feature\", \"retire this system\", \"sunset this endpoint\", \"we are shutting down that module\", \"move users off the old path\"."
+anti_trigger: "Versioning and breaking-change rules for a live API contract; dropping a database column or table; release-note wording and README prose; the git mechanics of history clean-up."
+scope: "Retiring a feature, system or internal API and moving its users"
+status: "seedling"
 ---
+
 # Deprecation
 
 ## Standard

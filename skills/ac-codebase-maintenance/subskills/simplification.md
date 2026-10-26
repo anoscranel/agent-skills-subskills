@@ -1,11 +1,12 @@
 ---
 name: simplification
 domain: software-engineering/simplification
-trigger: "Simplify this", "this is too complicated", "reduce nesting", "remove dead code", "make this easier to read", "clean up this function".
-anti_trigger: Applying a named refactoring recipe such as Extract Class (subskills/refactoring.md); deciding which debt to pay (subskills/tech-debt.md); changing behaviour.
-scope: Cutting complexity in working code with behaviour unchanged; complexity measures
-status: seedling
+trigger: "\"Simplify this\", \"this is too complicated\", \"reduce nesting\", \"remove dead code\", \"make this easier to read\", \"clean up this function\"."
+anti_trigger: "Applying a named refactoring recipe such as Extract Class (subskills/refactoring.md); deciding which debt to pay (subskills/tech-debt.md); changing behaviour."
+scope: "Cutting complexity in working code with behaviour unchanged; complexity measures"
+status: "seedling"
 ---
+
 # Simplification
 
 ## Standard

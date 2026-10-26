@@ -1,10 +1,10 @@
 ---
 name: narrative-nonfiction
 domain: writing/narrative-nonfiction
-trigger: "add a story arc", "case story", "narrative lede", "scene in a business document", "founder story", "customer story".
-anti_trigger: Words written for the ear (subskills/speech-script.md); the standalone decision document; the argument grammar.
-scope: Story structure in true writing: scene, arc, case story
-status: seedling
+trigger: "\"add a story arc\", \"case story\", \"narrative lede\", \"scene in a business document\", \"founder story\", \"customer story\"."
+anti_trigger: "Words written for the ear (subskills/speech-script.md); the standalone decision document; the argument grammar."
+scope: "Story structure in true writing: scene, arc, case story"
+status: "seedling"
 ---
 
 # Narrative nonfiction

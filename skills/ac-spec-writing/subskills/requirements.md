@@ -1,11 +1,12 @@
 ---
 name: requirements
 domain: software-engineering/requirements
-trigger: "Write the user story", "add acceptance criteria", "is this requirement testable", "write the NFRs", "turn this request into requirements".
-anti_trigger: A whole design document with goals and alternatives (subskills/spec-writing.md); slicing work into tasks.
-scope: Writing stories, acceptance criteria and NFR statements that pass the 29148 quality test
-status: seedling
+trigger: "\"Write the user story\", \"add acceptance criteria\", \"is this requirement testable\", \"write the NFRs\", \"turn this request into requirements\"."
+anti_trigger: "A whole design document with goals and alternatives (subskills/spec-writing.md); slicing work into tasks."
+scope: "Writing stories, acceptance criteria and NFR statements that pass the 29148 quality test"
+status: "seedling"
 ---
+
 # Requirements
 
 ## Standard

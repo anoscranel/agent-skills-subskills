@@ -1,10 +1,10 @@
 ---
 name: marketing-copy
 domain: writing/marketing-copy
-trigger: "write sales copy", "landing page", "ad copy", "hero section", "write a VSL script", "write this ad".
-anti_trigger: A page written for search engines and answer engines (subskills/search-content.md); the cross-genre persuasion structure (subskills/persuasion.md); feed posts (subskills/social-posts.md).
-scope: Landing pages, ads, sales copy; claims and urgency law
-status: seedling
+trigger: "\"write sales copy\", \"landing page\", \"ad copy\", \"hero section\", \"write a VSL script\", \"write this ad\"."
+anti_trigger: "A page written for search engines and answer engines (subskills/search-content.md); the cross-genre persuasion structure (subskills/persuasion.md); feed posts (subskills/social-posts.md)."
+scope: "Landing pages, ads, sales copy; claims and urgency law"
+status: "seedling"
 ---
 
 # Marketing copy

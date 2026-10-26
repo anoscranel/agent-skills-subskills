@@ -1,10 +1,10 @@
 ---
 name: revision-line
 domain: writing/revision-line
-trigger: "tighten this prose", "the rhythm is off", "make it flow", "this paragraph is clumsy".
-anti_trigger: Reordering sections or cutting content (subskills/revision-structural.md); mechanical consistency against a style sheet (subskills/copyedit.md).
-scope: Sentence-level revision: rhythm, concision, emphasis, transitions
-status: seedling
+trigger: "\"tighten this prose\", \"the rhythm is off\", \"make it flow\", \"this paragraph is clumsy\"."
+anti_trigger: "Reordering sections or cutting content (subskills/revision-structural.md); mechanical consistency against a style sheet (subskills/copyedit.md)."
+scope: "Sentence-level revision: rhythm, concision, emphasis, transitions"
+status: "seedling"
 ---
 
 # Line edit

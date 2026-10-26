@@ -1,11 +1,12 @@
 ---
 name: definition-of-done
 domain: software-engineering/definition-of-done
-trigger: "definition of done for", "what does good look like", "when is this change done", "set the done criteria".
-anti_trigger: Doing the activity itself, or building its detailed checklists. This leaf states the finish line, not the race.
-scope: Done criteria per lifecycle activity: what must be true before the activity counts as complete
-status: seedling
+trigger: "\"definition of done for\", \"what does good look like\", \"when is this change done\", \"set the done criteria\"."
+anti_trigger: "Doing the activity itself, or building its detailed checklists. This leaf states the finish line, not the race."
+scope: "Done criteria per lifecycle activity: what must be true before the activity counts as complete"
+status: "seedling"
 ---
+
 # Definition of Done
 
 ## Standard

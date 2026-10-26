@@ -1,10 +1,10 @@
 ---
 name: feedback-editing
 domain: writing/feedback-editing
-trigger: "give editorial notes", "review their draft", "write an editorial letter", "comment on this".
-anti_trigger: Revising your own text (subskills/revision-structural.md); the consistency pass after agreement (subskills/copyedit.md).
-scope: Reviewing another's draft: queries, editorial letter, prioritised notes
-status: seedling
+trigger: "\"give editorial notes\", \"review their draft\", \"write an editorial letter\", \"comment on this\"."
+anti_trigger: "Revising your own text (subskills/revision-structural.md); the consistency pass after agreement (subskills/copyedit.md)."
+scope: "Reviewing another's draft: queries, editorial letter, prioritised notes"
+status: "seedling"
 ---
 
 # Feedback & editing

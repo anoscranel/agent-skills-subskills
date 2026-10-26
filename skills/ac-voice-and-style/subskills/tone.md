@@ -1,10 +1,10 @@
 ---
 name: tone
 domain: writing/tone
-trigger: "this sounds cold", "how do I say no", "soften this", "apology email", "deliver bad news".
-anti_trigger: Keeping a brand voice across documents (subskills/voice.md); sentence-level rewriting.
-scope: Tone to reader and stakes: politeness, bad news, apology, refusal
-status: seedling
+trigger: "\"this sounds cold\", \"how do I say no\", \"soften this\", \"apology email\", \"deliver bad news\"."
+anti_trigger: "Keeping a brand voice across documents (subskills/voice.md); sentence-level rewriting."
+scope: "Tone to reader and stakes: politeness, bad news, apology, refusal"
+status: "seedling"
 ---
 
 # Tone

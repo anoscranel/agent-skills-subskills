@@ -1,10 +1,10 @@
 ---
 name: readability-measures
 domain: writing/readability-measures
-trigger: "is this readable", "what grade level is this", "run a readability score", "test this with readers".
-anti_trigger: Applying plain-language principles while writing (subskills/plain-language.md); tools that claim to judge tone or authorship.
-scope: When formulas help or mislead; user testing of text
-status: seedling
+trigger: "\"is this readable\", \"what grade level is this\", \"run a readability score\", \"test this with readers\"."
+anti_trigger: "Applying plain-language principles while writing (subskills/plain-language.md); tools that claim to judge tone or authorship."
+scope: "When formulas help or mislead; user testing of text"
+status: "seedling"
 ---
 
 # Readability measures

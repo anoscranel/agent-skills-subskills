@@ -1,11 +1,12 @@
 ---
 name: construction
 domain: software-engineering/construction
-trigger: "Implement this", "write the function", "how should I name this", "how should this handle errors", "set up the linter and formatter", "add type checking".
-anti_trigger: Order and size of steps (subskills/incremental-delivery.md); cleaning up working code; test design.
-scope: Writing new code: naming, error handling, lint and static-analysis gates
-status: seedling
+trigger: "\"Implement this\", \"write the function\", \"how should I name this\", \"how should this handle errors\", \"set up the linter and formatter\", \"add type checking\"."
+anti_trigger: "Order and size of steps (subskills/incremental-delivery.md); cleaning up working code; test design."
+scope: "Writing new code: naming, error handling, lint and static-analysis gates"
+status: "seedling"
 ---
+
 # Construction
 
 ## Standard

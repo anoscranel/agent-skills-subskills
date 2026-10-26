@@ -1,10 +1,10 @@
 ---
 name: revision-structural
 domain: writing/revision-structural
-trigger: "restructure this", "the argument doesn't hold", "cut this down", "does this do its job", "the order is wrong".
-anti_trigger: Sentence-level rewrites that leave meaning fixed (subskills/revision-line.md); comment style on someone else's draft (subskills/feedback-editing.md).
-scope: Meaning-level self-revision: purpose, structure, argument, cuts
-status: seedling
+trigger: "\"restructure this\", \"the argument doesn't hold\", \"cut this down\", \"does this do its job\", \"the order is wrong\"."
+anti_trigger: "Sentence-level rewrites that leave meaning fixed (subskills/revision-line.md); comment style on someone else's draft (subskills/feedback-editing.md)."
+scope: "Meaning-level self-revision: purpose, structure, argument, cuts"
+status: "seedling"
 ---
 
 # Developmental edit

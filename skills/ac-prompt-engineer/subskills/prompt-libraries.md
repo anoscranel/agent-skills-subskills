@@ -1,10 +1,10 @@
 ---
 name: prompt-libraries
 domain: prompt-engineering/prompt-libraries
-trigger: When prompts multiply past a handful and need versioning, testing, distribution, or meta-prompt maintenance.
-anti_trigger: A single prompt under active drafting, or evaluating one specific change.
-scope: Running a prompt library: folder-per-prompt layout, metadata, co-located tests, CI gates, distribution formats, and meta-prompt audits.
-status: seedling
+trigger: "When prompts multiply past a handful and need versioning, testing, distribution, or meta-prompt maintenance."
+anti_trigger: "A single prompt under active drafting, or evaluating one specific change."
+scope: "Running a prompt library: folder-per-prompt layout, metadata, co-located tests, CI gates, distribution formats, and meta-prompt audits."
+status: "seedling"
 ---
 
 # Meta-prompt libraries and prompt lifecycle

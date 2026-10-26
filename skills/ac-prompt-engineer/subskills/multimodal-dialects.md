@@ -1,10 +1,10 @@
 ---
 name: multimodal-dialects
 domain: prompt-engineering/multimodal-dialects
-trigger: When prompting image, video, or music generation models whose syntax and fields differ per family and version.
-anti_trigger: Text-LLM prompting (that is the rest of this skill), or choosing which generation vendor to buy.
-scope: Prompting image and video generation models: per-model dialects, negative-field cases, seeds, budgets, and dialect churn.
-status: seedling
+trigger: "When prompting image, video, or music generation models whose syntax and fields differ per family and version."
+anti_trigger: "Text-LLM prompting (that is the rest of this skill), or choosing which generation vendor to buy."
+scope: "Prompting image and video generation models: per-model dialects, negative-field cases, seeds, budgets, and dialect churn."
+status: "seedling"
 ---
 
 # Multimodal prompt dialects

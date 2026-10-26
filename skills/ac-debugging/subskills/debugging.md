@@ -1,11 +1,12 @@
 ---
 name: debugging
 domain: software-engineering/debugging
-trigger: "Why does this fail", "fix this bug", "it crashes when", "this returns the wrong value", "race condition", "deadlock", "the agent's fix broke something else".
-anti_trigger: Finding the defect class or introducing commit behind a fixed bug (subskills/root-cause.md); red CI from config or infra (subskills/build-failures.md); nondeterministic tests; slowness.
-scope: Reproduce, minimise, hypothesise, test: the scientific debugging loop incl. concurrency bugs
-status: seedling
+trigger: "\"Why does this fail\", \"fix this bug\", \"it crashes when\", \"this returns the wrong value\", \"race condition\", \"deadlock\", \"the agent's fix broke something else\"."
+anti_trigger: "Finding the defect class or introducing commit behind a fixed bug (subskills/root-cause.md); red CI from config or infra (subskills/build-failures.md); nondeterministic tests; slowness."
+scope: "Reproduce, minimise, hypothesise, test: the scientific debugging loop incl. concurrency bugs"
+status: "seedling"
 ---
+
 # Debugging
 
 ## Standard

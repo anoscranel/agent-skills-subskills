@@ -1,10 +1,10 @@
 ---
 name: argument
 domain: writing/argument
-trigger: "argue this", "how strong a claim can I make", "is this overstated", "handle the counter-argument", "should I hedge this".
-anti_trigger: Attaching the checkable source for each claim; persuasive structure across a whole document (subskills/persuasion.md).
-scope: Claim-evidence-warrant, calibrated hedging, counter-argument
-status: seedling
+trigger: "\"argue this\", \"how strong a claim can I make\", \"is this overstated\", \"handle the counter-argument\", \"should I hedge this\"."
+anti_trigger: "Attaching the checkable source for each claim; persuasive structure across a whole document (subskills/persuasion.md)."
+scope: "Claim-evidence-warrant, calibrated hedging, counter-argument"
+status: "seedling"
 ---
 
 # Argument

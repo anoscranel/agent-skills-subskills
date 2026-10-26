@@ -1,11 +1,12 @@
 ---
 name: quality-vv
 domain: software-engineering/quality-vv
-trigger: "write a V&V plan", "set quality goals", "build a traceability matrix", "should we model-check this".
-anti_trigger: Running the outage; regulator evidence (subskills/regulated-software.md); the test portfolio; proving a defect class; delivery metrics.
-scope: Quality model (ISO 25010), V&V plan, traceability, formal-methods ladder
-status: seedling
+trigger: "\"write a V&V plan\", \"set quality goals\", \"build a traceability matrix\", \"should we model-check this\"."
+anti_trigger: "Running the outage; regulator evidence (subskills/regulated-software.md); the test portfolio; proving a defect class; delivery metrics."
+scope: "Quality model (ISO 25010), V&V plan, traceability, formal-methods ladder"
+status: "seedling"
 ---
+
 # Quality & V&V
 
 ## Standard

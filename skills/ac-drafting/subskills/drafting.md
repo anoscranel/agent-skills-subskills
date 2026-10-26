@@ -1,10 +1,10 @@
 ---
 name: drafting
 domain: writing/drafting
-trigger: "get a first draft down", "beat the blank page", "turn my notes into prose", "I'm stuck on paragraph one".
-anti_trigger: Reordering or cutting an existing draft; fixing sentences after the draft exists.
-scope: Notes and outline to a first full draft; beating the blank page
-status: seedling
+trigger: "\"get a first draft down\", \"beat the blank page\", \"turn my notes into prose\", \"I'm stuck on paragraph one\"."
+anti_trigger: "Reordering or cutting an existing draft; fixing sentences after the draft exists."
+scope: "Notes and outline to a first full draft; beating the blank page"
+status: "seedling"
 ---
 
 # Drafting

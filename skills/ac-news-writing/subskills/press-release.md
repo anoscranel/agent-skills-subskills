@@ -1,10 +1,10 @@
 ---
 name: press-release
 domain: writing/press-release
-trigger: "write a press release", "media statement", "holding line", "company announcement", "dateline and boilerplate".
-anti_trigger: Independent reporting and reporting structure (subskills/journalism.md); a crisis statement drafted after an incident; investor updates; one-ask email.
-scope: News releases and media statements
-status: seedling
+trigger: "\"write a press release\", \"media statement\", \"holding line\", \"company announcement\", \"dateline and boilerplate\"."
+anti_trigger: "Independent reporting and reporting structure (subskills/journalism.md); a crisis statement drafted after an incident; investor updates; one-ask email."
+scope: "News releases and media statements"
+status: "seedling"
 ---
 
 # Press release

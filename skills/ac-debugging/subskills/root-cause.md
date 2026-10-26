@@ -1,11 +1,12 @@
 ---
 name: root-cause
 domain: software-engineering/root-cause
-trigger: "Find the root cause", "which commit broke this", "git bisect this", "shrink this failing input", "why do we keep getting this bug", "fix the class, not the instance".
-anti_trigger: Reproducing and fixing a single bug (subskills/debugging.md); a red pipeline (subskills/build-failures.md); writing an incident postmortem.
-scope: Finding the cause behind a defect: bisect, delta debugging, 5-whys limits, fix-the-class
-status: seedling
+trigger: "\"Find the root cause\", \"which commit broke this\", \"git bisect this\", \"shrink this failing input\", \"why do we keep getting this bug\", \"fix the class, not the instance\"."
+anti_trigger: "Reproducing and fixing a single bug (subskills/debugging.md); a red pipeline (subskills/build-failures.md); writing an incident postmortem."
+scope: "Finding the cause behind a defect: bisect, delta debugging, 5-whys limits, fix-the-class"
+status: "seedling"
 ---
+
 # Root Cause
 
 ## Standard

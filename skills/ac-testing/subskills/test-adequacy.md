@@ -1,11 +1,12 @@
 ---
 name: test-adequacy
 domain: software-engineering/test-adequacy
-trigger: "Are my tests good enough", "coverage is high but bugs escape", "run mutation testing", "add property-based tests", "fuzz this parser".
-anti_trigger: Setting coverage policy and gates (subskills/test-strategy.md); writing one example test (subskills/writing-tests.md); nondeterministic failures (subskills/flaky-tests.md).
-scope: Property-based, mutation and fuzz testing to find what coverage misses
-status: seedling
+trigger: "\"Are my tests good enough\", \"coverage is high but bugs escape\", \"run mutation testing\", \"add property-based tests\", \"fuzz this parser\"."
+anti_trigger: "Setting coverage policy and gates (subskills/test-strategy.md); writing one example test (subskills/writing-tests.md); nondeterministic failures (subskills/flaky-tests.md)."
+scope: "Property-based, mutation and fuzz testing to find what coverage misses"
+status: "seedling"
 ---
+
 # Test Adequacy
 
 ## Standard

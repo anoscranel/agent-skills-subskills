@@ -1,11 +1,12 @@
 ---
 name: release-launch
 domain: software-engineering/release-launch
-trigger: "cut a release", "bump the version", "launch checklist", "ship to the App Store", "stage this rollout".
-anti_trigger: Pushing to production hosts (subskills/deployment.md); flipping exposure after deploy (subskills/feature-flags.md); commit messages and changelog text; running the outage; retiring a feature.
-scope: SemVer release cut, launch-readiness checklist, staged and mobile-store rollout
-status: seedling
+trigger: "\"cut a release\", \"bump the version\", \"launch checklist\", \"ship to the App Store\", \"stage this rollout\"."
+anti_trigger: "Pushing to production hosts (subskills/deployment.md); flipping exposure after deploy (subskills/feature-flags.md); commit messages and changelog text; running the outage; retiring a feature."
+scope: "SemVer release cut, launch-readiness checklist, staged and mobile-store rollout"
+status: "seedling"
 ---
+
 # Release & Launch
 
 ## Standard

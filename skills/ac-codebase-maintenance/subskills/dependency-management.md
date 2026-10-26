@@ -1,11 +1,12 @@
 ---
 name: dependency-management
 domain: software-engineering/dependency-management
-trigger: "add this library", "upgrade dependencies", "this package is abandoned", "should we vendor it", "check the licence".
-anti_trigger: Where security checks sit in the lifecycle; signing and SBOM policy; schema and ORM migration mechanics; CI gate order.
-scope: Adding, pinning, upgrading and removing dependencies; lockfiles, bots, licence intake
-status: seedling
+trigger: "\"add this library\", \"upgrade dependencies\", \"this package is abandoned\", \"should we vendor it\", \"check the licence\"."
+anti_trigger: "Where security checks sit in the lifecycle; signing and SBOM policy; schema and ORM migration mechanics; CI gate order."
+scope: "Adding, pinning, upgrading and removing dependencies; lockfiles, bots, licence intake"
+status: "seedling"
 ---
+
 # Dependency Management
 
 ## Standard

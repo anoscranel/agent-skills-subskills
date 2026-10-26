@@ -1,11 +1,12 @@
 ---
 name: tdd
 domain: software-engineering/tdd
-trigger: "Do it test-first", "use TDD", "red-green-refactor", "write the failing test before the fix", "is TDD worth it here".
-anti_trigger: Designing a single test's doubles and data (subskills/writing-tests.md); choosing the whole test portfolio (subskills/test-strategy.md); named refactorings.
-scope: Red-green-refactor cycle, when TDD pays, test-first for bug fixes
-status: seedling
+trigger: "\"Do it test-first\", \"use TDD\", \"red-green-refactor\", \"write the failing test before the fix\", \"is TDD worth it here\"."
+anti_trigger: "Designing a single test's doubles and data (subskills/writing-tests.md); choosing the whole test portfolio (subskills/test-strategy.md); named refactorings."
+scope: "Red-green-refactor cycle, when TDD pays, test-first for bug fixes"
+status: "seedling"
 ---
+
 # Test-Driven Development
 
 ## Standard

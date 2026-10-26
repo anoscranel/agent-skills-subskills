@@ -1,11 +1,12 @@
 ---
 name: data-modeling
 domain: software-engineering/data-modeling
-trigger: "design the tables", "what should the primary key be", "should this be NoSQL", "normalise this schema".
-anti_trigger: Changing a live schema (subskills/schema-migrations.md); public API resource and error shape; internal module boundaries.
-scope: Schema design, keys, constraints, normalisation trade-offs
-status: seedling
+trigger: "\"design the tables\", \"what should the primary key be\", \"should this be NoSQL\", \"normalise this schema\"."
+anti_trigger: "Changing a live schema (subskills/schema-migrations.md); public API resource and error shape; internal module boundaries."
+scope: "Schema design, keys, constraints, normalisation trade-offs"
+status: "seedling"
 ---
+
 # Data Modeling
 
 ## Standard

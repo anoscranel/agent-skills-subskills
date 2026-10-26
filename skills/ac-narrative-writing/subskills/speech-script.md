@@ -1,10 +1,10 @@
 ---
 name: speech-script
 domain: writing/speech-script
-trigger: "write a talk script", "keynote outline", "demo narration", "video script", "podcast script", "toast".
-anti_trigger: Words for the page only (subskills/narrative-nonfiction.md); a report the reader studies alone; the argument grammar.
-scope: Words for the ear: talks, demo, video and podcast scripts
-status: seedling
+trigger: "\"write a talk script\", \"keynote outline\", \"demo narration\", \"video script\", \"podcast script\", \"toast\"."
+anti_trigger: "Words for the page only (subskills/narrative-nonfiction.md); a report the reader studies alone; the argument grammar."
+scope: "Words for the ear: talks, demo, video and podcast scripts"
+status: "seedling"
 ---
 
 # Speech script

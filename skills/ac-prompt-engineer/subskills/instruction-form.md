@@ -1,10 +1,10 @@
 ---
 name: instruction-form
 domain: prompt-engineering/instruction-form
-trigger: When writing, tightening, or reviewing any single instruction line in a prompt.
-anti_trigger: Choosing among named techniques (few-shot, chain-of-thought, role lines) — that is the patterns decision, not line form.
-scope: Writing a single instruction line that adds information: the information test, positive checkable constraints, placement, and the instruction budget.
-status: seedling
+trigger: "When writing, tightening, or reviewing any single instruction line in a prompt."
+anti_trigger: "Choosing among named techniques (few-shot, chain-of-thought, role lines) — that is the patterns decision, not line form."
+scope: "Writing a single instruction line that adds information: the information test, positive checkable constraints, placement, and the instruction budget."
+status: "seedling"
 ---
 
 # Instruction form

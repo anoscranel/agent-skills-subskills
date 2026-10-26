@@ -1,10 +1,10 @@
 ---
 name: proofread-publish
 domain: writing/proofread-publish
-trigger: "proofread this", "is it ready to publish", "when do I stop editing", "give this a final check".
-anti_trigger: Consistency sweeps against a style sheet (subskills/copyedit.md); rewrites that still change meaning (subskills/revision-line.md).
-scope: Last-pass error hunt, two-reader estimate, when to stop, publish gate
-status: seedling
+trigger: "\"proofread this\", \"is it ready to publish\", \"when do I stop editing\", \"give this a final check\"."
+anti_trigger: "Consistency sweeps against a style sheet (subskills/copyedit.md); rewrites that still change meaning (subskills/revision-line.md)."
+scope: "Last-pass error hunt, two-reader estimate, when to stop, publish gate"
+status: "seedling"
 ---
 
 # Proofread & stop rule

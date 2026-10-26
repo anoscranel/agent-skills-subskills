@@ -1,10 +1,10 @@
 ---
 name: debug-prompt
 domain: prompt-engineering/debug-prompt
-trigger: When a prompt underperforms, the model refuses, quality drops after an edit, or an agent misbehaves.
-anti_trigger: The output is fine and the job is to prove it stays fine — that is evaluation work.
-scope: The ordered triage of a failing prompt: read the raw output first, wording last.
-status: seedling
+trigger: "When a prompt underperforms, the model refuses, quality drops after an edit, or an agent misbehaves."
+anti_trigger: "The output is fine and the job is to prove it stays fine — that is evaluation work."
+scope: "The ordered triage of a failing prompt: read the raw output first, wording last."
+status: "seedling"
 ---
 
 # Debug a failing prompt

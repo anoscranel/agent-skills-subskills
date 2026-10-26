@@ -1,11 +1,12 @@
 ---
 name: frontend-ui
 domain: software-engineering/frontend-ui
-trigger: "Build this UI", "make this component", "where should this state live", "make it responsive", "use our design tokens", "this component is a mess".
-anti_trigger: WCAG conformance checks (subskills/accessibility.md); Core Web Vitals and bundle cost; browser tests; native mobile UI craft is out of scope for this tree.
-scope: Component structure, state, responsive layout, design-system use
-status: seedling
+trigger: "\"Build this UI\", \"make this component\", \"where should this state live\", \"make it responsive\", \"use our design tokens\", \"this component is a mess\"."
+anti_trigger: "WCAG conformance checks (subskills/accessibility.md); Core Web Vitals and bundle cost; browser tests; native mobile UI craft is out of scope for this tree."
+scope: "Component structure, state, responsive layout, design-system use"
+status: "seedling"
 ---
+
 # Frontend UI
 
 ## Standard

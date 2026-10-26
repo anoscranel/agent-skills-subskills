@@ -1,10 +1,10 @@
 ---
 name: de-slop
 domain: writing/de-slop
-trigger: "this sounds like AI", "de-slop this", "make it sound human".
-anti_trigger: Building a positive brand voice (subskills/voice.md); AI-use policy and disclosure.
-scope: Spotting and removing AI tells; restoring specificity and stance
-status: seedling
+trigger: "\"this sounds like AI\", \"de-slop this\", \"make it sound human\"."
+anti_trigger: "Building a positive brand voice (subskills/voice.md); AI-use policy and disclosure."
+scope: "Spotting and removing AI tells; restoring specificity and stance"
+status: "seedling"
 ---
 
 # De-slop

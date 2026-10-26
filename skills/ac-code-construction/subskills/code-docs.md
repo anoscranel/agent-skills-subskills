@@ -1,11 +1,12 @@
 ---
 name: code-docs
 domain: software-engineering/code-docs
-trigger: "document this function", "add docstrings", "generate the API reference", "docs drifted from the code".
-anti_trigger: The decision record; user-facing prose such as READMEs, tutorials and release notes; agent instruction files; a design spec written before code.
-scope: Docs-as-code inside the repo: comments, docstrings, generated API reference, docs-in-same-PR
-status: seedling
+trigger: "\"document this function\", \"add docstrings\", \"generate the API reference\", \"docs drifted from the code\"."
+anti_trigger: "The decision record; user-facing prose such as READMEs, tutorials and release notes; agent instruction files; a design spec written before code."
+scope: "Docs-as-code inside the repo: comments, docstrings, generated API reference, docs-in-same-PR"
+status: "seedling"
 ---
+
 # Code Docs
 
 ## Standard

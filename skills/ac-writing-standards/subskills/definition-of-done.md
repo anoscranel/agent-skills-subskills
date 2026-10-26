@@ -1,10 +1,10 @@
 ---
 name: definition-of-done
 domain: writing/definition-of-done
-trigger: "what makes a document done", "definition of done for", "which editorial pass changes meaning", "the editorial sequence", "when is this document finished".
-anti_trigger: Performing any pass, or writing the procedure for it. This leaf states the order and the finish line, not the how.
-scope: The editorial lifecycle frame and done criteria per stage: what must be true before a stage counts as complete
-status: seedling
+trigger: "\"what makes a document done\", \"definition of done for\", \"which editorial pass changes meaning\", \"the editorial sequence\", \"when is this document finished\"."
+anti_trigger: "Performing any pass, or writing the procedure for it. This leaf states the order and the finish line, not the how."
+scope: "The editorial lifecycle frame and done criteria per stage: what must be true before a stage counts as complete"
+status: "seedling"
 ---
 
 # Definition of Done

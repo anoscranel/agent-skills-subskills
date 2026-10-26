@@ -1,11 +1,12 @@
 ---
 name: feature-flags
 domain: software-engineering/feature-flags
-trigger: "Put it behind a flag", "add a kill switch", "dark launch this", "roll out to 10% of users", "clean up old flags", "use OpenFeature".
-anti_trigger: Traffic-level canary and blue-green rollout (subskills/deployment.md); A/B experiment statistics are out of scope for this tree; cutting a version (subskills/release-launch.md).
-scope: Decoupling deploy from release; flag types, owner, expiry, cleanup
-status: seedling
+trigger: "\"Put it behind a flag\", \"add a kill switch\", \"dark launch this\", \"roll out to 10% of users\", \"clean up old flags\", \"use OpenFeature\"."
+anti_trigger: "Traffic-level canary and blue-green rollout (subskills/deployment.md); A/B experiment statistics are out of scope for this tree; cutting a version (subskills/release-launch.md)."
+scope: "Decoupling deploy from release; flag types, owner, expiry, cleanup"
+status: "seedling"
 ---
+
 # Feature Flags
 
 ## Standard

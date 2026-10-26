@@ -1,11 +1,12 @@
 ---
 name: secure-sdlc
 domain: software-engineering/secure-sdlc
-trigger: "where does security fit in our process", "set up the secure SDLC", "map our process to SSDF", "shift-left or shield-right".
-anti_trigger: Selecting or implementing a control such as auth, input validation, crypto or secrets; threat modelling a design; CVE triage; SBOM and signing policy. Any of those is security-controls work outside this tree, not this leaf.
-scope: Which security activity sits in which lifecycle phase (SSDF map); not the controls
-status: seedling
+trigger: "\"where does security fit in our process\", \"set up the secure SDLC\", \"map our process to SSDF\", \"shift-left or shield-right\"."
+anti_trigger: "Selecting or implementing a control such as auth, input validation, crypto or secrets; threat modelling a design; CVE triage; SBOM and signing policy. Any of those is security-controls work outside this tree, not this leaf."
+scope: "Which security activity sits in which lifecycle phase (SSDF map); not the controls"
+status: "seedling"
 ---
+
 # Secure SDLC
 
 ## Standard

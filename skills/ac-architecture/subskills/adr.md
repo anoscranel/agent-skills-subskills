@@ -1,11 +1,12 @@
 ---
 name: adr
 domain: software-engineering/adr
-trigger: "Write an ADR", "record this decision", "why did we choose X", "supersede the old decision", "set up a decision log".
-anti_trigger: Making the architecture choice itself (subskills/architecture.md); wording a full design proposal; code comments and generated reference.
-scope: Writing, numbering and superseding Architecture Decision Records
-status: seedling
+trigger: "\"Write an ADR\", \"record this decision\", \"why did we choose X\", \"supersede the old decision\", \"set up a decision log\"."
+anti_trigger: "Making the architecture choice itself (subskills/architecture.md); wording a full design proposal; code comments and generated reference."
+scope: "Writing, numbering and superseding Architecture Decision Records"
+status: "seedling"
 ---
+
 # ADR
 
 ## Standard

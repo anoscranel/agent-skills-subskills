@@ -1,10 +1,10 @@
 ---
 name: injection-defense
 domain: prompt-engineering/injection-defense
-trigger: When untrusted content (user input, retrieved documents, tool output, memory, another agent's messages) can reach the model.
-anti_trigger: Benign single-user prompts with no untrusted content path.
-scope: Prompt-layer defense against prompt injection: trust boundaries, the enforcement order, least-privilege tools, and approval gates.
-status: seedling
+trigger: "When untrusted content (user input, retrieved documents, tool output, memory, another agent's messages) can reach the model."
+anti_trigger: "Benign single-user prompts with no untrusted content path."
+scope: "Prompt-layer defense against prompt injection: trust boundaries, the enforcement order, least-privilege tools, and approval gates."
+status: "seedling"
 ---
 
 # Prompt injection defenses

@@ -1,10 +1,10 @@
 ---
 name: technical-docs
 domain: writing/technical-docs
-trigger: "write a README", "structure the docs", "tutorial or how-to", "docs are a mess".
-anti_trigger: One procedure or SOP (subskills/procedures-sops.md); in-product strings (subskills/ui-microcopy.md).
-scope: Diátaxis types: tutorial, how-to, reference, explanation; README
-status: seedling
+trigger: "\"write a README\", \"structure the docs\", \"tutorial or how-to\", \"docs are a mess\"."
+anti_trigger: "One procedure or SOP (subskills/procedures-sops.md); in-product strings (subskills/ui-microcopy.md)."
+scope: "Diátaxis types: tutorial, how-to, reference, explanation; README"
+status: "seedling"
 ---
 
 # Technical docs — types

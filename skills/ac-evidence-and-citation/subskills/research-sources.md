@@ -1,10 +1,10 @@
 ---
 name: research-sources
 domain: writing/research-sources
-trigger: "check my sources", "find evidence for this", "where did this number come from", "verify these quotes", "what can I say".
-anti_trigger: Binding the finished source list into the text as citations (subskills/citation-grounding.md); searching literature for a review's study set.
-scope: Finding, judging and logging sources and quotes before drafting
-status: seedling
+trigger: "\"check my sources\", \"find evidence for this\", \"where did this number come from\", \"verify these quotes\", \"what can I say\"."
+anti_trigger: "Binding the finished source list into the text as citations (subskills/citation-grounding.md); searching literature for a review's study set."
+scope: "Finding, judging and logging sources and quotes before drafting"
+status: "seedling"
 ---
 
 # Research & sources

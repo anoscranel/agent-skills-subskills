@@ -1,11 +1,12 @@
 ---
 name: api-versioning
 domain: software-engineering/api-versioning
-trigger: "Is this a breaking change", "do we need v2", "how do we version this API", "add a Sunset header", "deprecate this endpoint", "check the OpenAPI diff".
-anti_trigger: First design of a new contract (subskills/api-design.md); retiring a whole feature or system; library release numbers.
-scope: Versioning, breaking-change rules, Hyrum's law, sunset and deprecation headers
-status: seedling
+trigger: "\"Is this a breaking change\", \"do we need v2\", \"how do we version this API\", \"add a Sunset header\", \"deprecate this endpoint\", \"check the OpenAPI diff\"."
+anti_trigger: "First design of a new contract (subskills/api-design.md); retiring a whole feature or system; library release numbers."
+scope: "Versioning, breaking-change rules, Hyrum's law, sunset and deprecation headers"
+status: "seedling"
 ---
+
 # API Versioning
 
 ## Standard

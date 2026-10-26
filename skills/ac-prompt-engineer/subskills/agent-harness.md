@@ -1,10 +1,10 @@
 ---
 name: agent-harness
 domain: prompt-engineering/agent-harness
-trigger: When writing or restructuring the standing instructions an agent runs under (the root developer message), its tool rules, memory rules, or handoff format.
-anti_trigger: A one-shot user prompt, or securing against hostile content in the input.
-scope: The anatomy of an agent's root instructions: the identity-first skeleton, tool contracts, memory lifecycle, handoff contracts, and refusal handling.
-status: seedling
+trigger: "When writing or restructuring the standing instructions an agent runs under (the root developer message), its tool rules, memory rules, or handoff format."
+anti_trigger: "A one-shot user prompt, or securing against hostile content in the input."
+scope: "The anatomy of an agent's root instructions: the identity-first skeleton, tool contracts, memory lifecycle, handoff contracts, and refusal handling."
+status: "seedling"
 ---
 
 # Harness and agent prompt mechanics

@@ -1,10 +1,10 @@
 ---
 name: brief
 domain: writing/brief
-trigger: "who is this for", "write this for me", "what should this say", "before you start writing", "what are the rules for this document".
-anti_trigger: Finding and judging sources; ordering the answer once the brief exists (subskills/outline-structure.md).
-scope: Purpose, reader, venue rules and success test before writing
-status: seedling
+trigger: "\"who is this for\", \"write this for me\", \"what should this say\", \"before you start writing\", \"what are the rules for this document\"."
+anti_trigger: "Finding and judging sources; ordering the answer once the brief exists (subskills/outline-structure.md)."
+scope: "Purpose, reader, venue rules and success test before writing"
+status: "seedling"
 ---
 
 # Brief

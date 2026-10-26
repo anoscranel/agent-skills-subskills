@@ -1,10 +1,10 @@
 ---
 name: search-content
 domain: writing/search-content
-trigger: "write for search", "get cited by ChatGPT", "E-E-A-T", "answer engine optimization", "make this page citable".
-anti_trigger: A page written to convert a visitor (subskills/marketing-copy.md); site engineering, schema markup or crawl configuration; feed posts (subskills/social-posts.md).
-scope: Search- and answer-engine-facing pages: intent, E-E-A-T, citability
-status: seedling
+trigger: "\"write for search\", \"get cited by ChatGPT\", \"E-E-A-T\", \"answer engine optimization\", \"make this page citable\"."
+anti_trigger: "A page written to convert a visitor (subskills/marketing-copy.md); site engineering, schema markup or crawl configuration; feed posts (subskills/social-posts.md)."
+scope: "Search- and answer-engine-facing pages: intent, E-E-A-T, citability"
+status: "seedling"
 ---
 
 # Search content

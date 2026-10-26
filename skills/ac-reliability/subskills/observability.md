@@ -1,11 +1,12 @@
 ---
 name: observability
 domain: software-engineering/observability
-trigger: "add tracing", "nobody knows why prod behaves like this", "set up structured logging", "instrument this service".
-anti_trigger: Setting an SLO, an error budget or an alert threshold (subskills/slo-reliability.md); running the outage and the postmortem (subskills/incident-response.md); browser-side vitals and render cost; back-end latency budgets and load tests.
-scope: Logs, metrics, traces with OpenTelemetry; what to instrument
-status: seedling
+trigger: "\"add tracing\", \"nobody knows why prod behaves like this\", \"set up structured logging\", \"instrument this service\"."
+anti_trigger: "Setting an SLO, an error budget or an alert threshold (subskills/slo-reliability.md); running the outage and the postmortem (subskills/incident-response.md); browser-side vitals and render cost; back-end latency budgets and load tests."
+scope: "Logs, metrics, traces with OpenTelemetry; what to instrument"
+status: "seedling"
 ---
+
 # Observability
 
 ## Standard

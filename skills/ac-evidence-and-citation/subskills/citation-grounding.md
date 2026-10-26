@@ -1,10 +1,10 @@
 ---
 name: citation-grounding
 domain: writing/citation-grounding
-trigger: "cite this", "add references", "is this plagiarism", "which citation style", "did I copy this".
-anti_trigger: Finding and judging the source itself (subskills/research-sources.md); the journal's disclosure rules for AI use.
-scope: Binding every claim to a checkable source; citation styles; text reuse and plagiarism
-status: seedling
+trigger: "\"cite this\", \"add references\", \"is this plagiarism\", \"which citation style\", \"did I copy this\"."
+anti_trigger: "Finding and judging the source itself (subskills/research-sources.md); the journal's disclosure rules for AI use."
+scope: "Binding every claim to a checkable source; citation styles; text reuse and plagiarism"
+status: "seedling"
 ---
 
 # Citation & grounding

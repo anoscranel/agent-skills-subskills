@@ -1,11 +1,12 @@
 ---
 name: tech-debt
 domain: software-engineering/tech-debt
-trigger: "Where is our tech debt", "what should we fix first", "start a debt register", "we inherited this legacy code", "find the hotspots", "how big is this codebase".
-anti_trigger: Executing a refactoring recipe (subskills/refactoring.md); cutting complexity in one function (subskills/simplification.md); upgrading libraries (subskills/dependency-management.md).
-scope: Debt register, interest-based priority, legacy-code entry, codebase metrics
-status: seedling
+trigger: "\"Where is our tech debt\", \"what should we fix first\", \"start a debt register\", \"we inherited this legacy code\", \"find the hotspots\", \"how big is this codebase\"."
+anti_trigger: "Executing a refactoring recipe (subskills/refactoring.md); cutting complexity in one function (subskills/simplification.md); upgrading libraries (subskills/dependency-management.md)."
+scope: "Debt register, interest-based priority, legacy-code entry, codebase metrics"
+status: "seedling"
 ---
+
 # Tech Debt
 
 ## Standard

@@ -1,10 +1,10 @@
 ---
 name: proposals
 domain: writing/proposals
-trigger: "answer this RFP", "write a proposal", "bid response", "compliance matrix", "win themes".
-anti_trigger: A funder-scored grant narrative (subskills/grants.md); a one-ask email.
-scope: Business proposals and RFP responses scored by a buyer
-status: seedling
+trigger: "\"answer this RFP\", \"write a proposal\", \"bid response\", \"compliance matrix\", \"win themes\"."
+anti_trigger: "A funder-scored grant narrative (subskills/grants.md); a one-ask email."
+scope: "Business proposals and RFP responses scored by a buyer"
+status: "seedling"
 ---
 
 # Proposals & RFPs

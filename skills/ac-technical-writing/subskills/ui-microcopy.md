@@ -1,10 +1,10 @@
 ---
 name: ui-microcopy
 domain: writing/ui-microcopy
-trigger: "write this error message", "button label", "empty state", "form hint".
-anti_trigger: Full doc pages and READMEs (subskills/technical-docs.md); procedures and runbooks (subskills/procedures-sops.md).
-scope: Buttons, errors, empty states, form hints, microcopy tests and word limits
-status: seedling
+trigger: "\"write this error message\", \"button label\", \"empty state\", \"form hint\"."
+anti_trigger: "Full doc pages and READMEs (subskills/technical-docs.md); procedures and runbooks (subskills/procedures-sops.md)."
+scope: "Buttons, errors, empty states, form hints, microcopy tests and word limits"
+status: "seedling"
 ---
 
 # UI microcopy

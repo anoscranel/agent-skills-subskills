@@ -1,10 +1,10 @@
 ---
 name: persuasion
 domain: writing/persuasion
-trigger: "handle objections", "structure this pitch", "should I hedge this", "counter-argument", "persuasion plan".
-anti_trigger: The claim-evidence grammar and hedging (subskills/argument.md); ad and landing-page form plus claims law (subskills/marketing-copy.md); a scored bid.
-scope: Ethical persuasion structure and pre-empting objections in any genre
-status: seedling
+trigger: "\"handle objections\", \"structure this pitch\", \"should I hedge this\", \"counter-argument\", \"persuasion plan\"."
+anti_trigger: "The claim-evidence grammar and hedging (subskills/argument.md); ad and landing-page form plus claims law (subskills/marketing-copy.md); a scored bid."
+scope: "Ethical persuasion structure and pre-empting objections in any genre"
+status: "seedling"
 ---
 
 # Persuasion
