@@ -2,6 +2,16 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.3.0 — 2026-10-26
+
+### Added
+- `ac-design-taste` (software-engineering): judging and critiquing UI quality — critique protocol, typography, spacing, color and WCAG contrast math, heuristic evaluation, AI-slop anti-patterns, a 0-10 rubric, a taste practice loop. 8 leaves.
+- `ac-slide-decks` (writing): slide-deck craft — brief and audience, narrative spine, slide grammar, chart-per-claim, density and reading, type and media for projection, exported-deck accessibility, pre-send QA. 8 leaves.
+- Both passed a sealed blind routing run (10/10 and 8/8 top-1, 3/4 negatives) before release.
+- Leaf frontmatter in the new skills is strict YAML (`trigger`, `anti_trigger`, `scope` quoted).
+
+The pack is now 35 skills, 130 leaves.
+
 ## 0.2.2 — 2026-10-24
 
 ### Changed

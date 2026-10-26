@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-33 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, and one meta-skill that builds and audits skills like these.
+35 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -8,15 +8,15 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 | Suite | Skills | Leaves |
 |---|---|---|
-| Software engineering | 18 | 52 |
-| Writing | 13 | 40 |
+| Software engineering | 19 | 60 |
+| Writing | 14 | 48 |
 | Prompt engineering (`ac-prompt-engineer`) | 1 | 12 |
 | Skill authoring (`ac-subskills-author`) | 1 | 10 |
-| **Total** | **33** | **114** |
+| **Total** | **35** | **130** |
 
-**Software engineering:** agent-coding-governance · api-design · architecture · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · frontend-ui · git-workflow · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing
+**Software engineering:** agent-coding-governance · api-design · architecture · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · frontend-ui · git-workflow · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing · design-taste
 
-**Writing:** academic-writing · business-writing · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards
+**Writing:** academic-writing · business-writing · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks
 
 Every skill name carries the `ac-` prefix (for example `ac-testing`).
 
@@ -43,7 +43,7 @@ Restart the harness, then confirm the skill is listed (opencode: `opencode debug
 
 ## Code in this repo
 
-The only code is four Python checkers in `skills/ac-subskills-author/scripts/`. They use the standard library only, make no network calls and write no files. They run only when you call them:
+The only executable code is four Python checkers in `skills/ac-subskills-author/scripts/`; leaves may show illustrative snippets that nothing runs. The four checkers use the standard library only, make no network calls and write no files, and run only when you call them:
 
 | Script | What it does |
 |---|---|
