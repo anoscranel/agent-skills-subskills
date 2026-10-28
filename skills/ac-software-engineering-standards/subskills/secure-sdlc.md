@@ -11,7 +11,7 @@ status: "seedling"
 
 ## Standard
 
-- **NIST SSDF SP 800-218 v1.1** (Final, 3 Feb 2022): four practice groups — Prepare the Organization, Protect the Software, Produce Well-Secured Software, Respond to Vulnerabilities (G-SE15; https://csrc.nist.gov/pubs/sp/800/218/final). v1.2 is a draft with comments closed 30 Jan 2026.
+- **NIST SSDF SP 800-218 v1.1** (Final, 3 Feb 2022): four practice groups — Prepare the Organization, Protect the Software, Produce Well-Secured Software, Respond to Vulnerabilities (https://csrc.nist.gov/pubs/sp/800/218/final). v1.2 is a draft with comments closed 30 Jan 2026.
 - **Microsoft SDL** is the phase-gate ancestor — training, requirements, design with threat modelling, static analysis, verification, release, response — and **OWASP Top 10** is awareness, not a test plan; ASVS Level 1/2/3 is the verifiable set.
 - **Shift-left versus shield-right**: pre-merge tooling catches known-bad patterns cheaply and misses authorisation and chained flaws, which surface at runtime or in a pentest.
 - **US driver**: EO 14028 (May 2021) drove vendor self-attestation; OMB M-26-05 (Jan 2026) replaced it with a risk-based approach.
@@ -61,5 +61,4 @@ status: "seedling"
 
 - <https://csrc.nist.gov/pubs/sp/800/218/final>
 - <https://www.wiley.law/alert-OMB-Rescinds-Secure-Software-Development-Mandate-in-Favor-of-a-Risk-Based-Approach>
-- G-SE15
 - https://csrc.nist.gov/pubs/sp/800/218/final

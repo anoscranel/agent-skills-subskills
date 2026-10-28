@@ -41,7 +41,7 @@ status: "seedling"
 - An author signing their own verification record.
 - SOUP upgraded with no register change.
 - An audit package with no requirement-to-test chain.
-- Citing an edition that is not published (G-SE10).
+- Citing an edition that is not published.
 
 ## Done checklist
 

@@ -76,6 +76,5 @@ status: "seedling"
 ## Sources
 
 - https://martinfowler.com/articles/feature-toggles.html · https://openfeature.dev/specification/
-- G-SE14
 - <https://launchdarkly.com/blog/what-are-feature-flags>
 - <https://www.ainformat.com/detail/2777>

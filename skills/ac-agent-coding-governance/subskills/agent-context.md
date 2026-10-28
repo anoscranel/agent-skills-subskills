@@ -11,10 +11,10 @@ status: "seedling"
 
 ## Standard
 
-- **AGENTS.md is plain Markdown with no version and no required fields** (https://agents.md/). It is stewarded by the Agentic AI Foundation under the Linux Foundation, alongside MCP and goose (G-SE13).
-- **Closest-file-wins**: the nearest instruction file to the file being edited governs, and an explicit user prompt overrides everything (https://agents.md/). OpenAI's own repository ships 88 nested files (CE §2).
-- **Length limits**: Anthropic recommends a conventions file under 200 lines, because longer files cut adherence; Codex caps project docs at 32 KiB (CE §2).
-- **Context rot is measured**: accuracy falls from about 95 % to 60–70 % as context grows, even on trivial tasks (CE §4, Chroma).
+- **AGENTS.md is plain Markdown with no version and no required fields** (https://agents.md/). It is stewarded by the Agentic AI Foundation under the Linux Foundation, alongside MCP and goose.
+- **Closest-file-wins**: the nearest instruction file to the file being edited governs, and an explicit user prompt overrides everything (https://agents.md/).
+- **Length limits**: Anthropic recommends a conventions file under 200 lines, because longer files cut adherence; Codex caps project docs at 32 KiB. ⚠️ corpus-sourced guidance
+- **Context rot is measured**: accuracy falls from about 95 % to 60–70 % as context grows, even on trivial tasks (Chroma research). ⚠️ single-vendor research
 - **Budget rules**: pointers, not contents. Supply skeleton maps and fetch bodies just in time.
 
 ## Decision rules
@@ -62,7 +62,6 @@ status: "seedling"
 
 ## Sources
 
-- G-SE13
 - <https://agents.md/>
 - <https://agenticweb.wiki/protocols/agents-md>
 - https://agents.md/

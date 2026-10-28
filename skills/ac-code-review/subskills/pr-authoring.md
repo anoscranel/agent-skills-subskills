@@ -78,4 +78,3 @@ status: "seedling"
 - https://google.github.io/eng-practices/review/developer/small-cls.html
 - https://google.github.io/eng-practices/review/reviewer/speed.html
 
-- G-SE11

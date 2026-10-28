@@ -64,6 +64,5 @@ status: "seedling"
 ## Sources
 
 - <https://agilebrandguide.com/wiki/models/jobs-to-be-done-jtbd>
-- G-SE8
 - https://www.iso.org/obp/ui#iso:std:iso-iec-ieee:29148:ed-2:v1:en (29148:2018)
 - https://cucumber.io/docs/gherkin/

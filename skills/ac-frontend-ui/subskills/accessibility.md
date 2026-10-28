@@ -64,6 +64,5 @@ status: "seedling"
 ## Sources
 
 - https://www.w3.org/TR/WCAG22/ · https://www.w3.org/WAI/standards-guidelines/wcag/
-- G-SE6
 - <https://unicode-org.github.io/icu/userguide/format_parse/messages/>
 - <https://www.w3.org/TR/WCAG22>

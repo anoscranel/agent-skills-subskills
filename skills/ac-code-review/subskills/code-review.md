@@ -65,4 +65,3 @@ status: "seedling"
 - Google eng-practices URLs and conventionalcomments.org, as cited above
 - <https://go.dev/blog>
 - <https://google.github.io/eng-practices/review/reviewer/looking-for.html>
-- G-SE11

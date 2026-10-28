@@ -78,5 +78,4 @@ status: "seedling"
 ## Sources
 
 - https://react.dev/learn/choosing-the-state-structure · https://www.designtokens.org/TR/2025.10/format/
-- G-SE4
 - <https://www.nngroup.com/articles/design-systems-101/>

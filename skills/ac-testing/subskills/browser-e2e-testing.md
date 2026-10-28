@@ -76,6 +76,5 @@ All facts are vendor-primary for their own tool.
 
 ## Sources
 
-- G-SE3
 - <https://contextqa.com/blog/self-healing-test-automation/>
 - https://playwright.dev/docs/best-practices · https://docs.cypress.io/app/core-concepts/best-practices

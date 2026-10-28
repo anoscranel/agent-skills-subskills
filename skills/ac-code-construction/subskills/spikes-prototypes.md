@@ -13,7 +13,7 @@ status: "seedling"
 
 - **XP spike solution** (http://www.extremeprogramming.org/rules/spike.html): a very simple program to explore a potential solution. Most spikes are not good enough to keep, so expect to throw the code away. The goal is to reduce the risk of a technical problem or to make an estimate reliable.
 - **Time-box norms**: Scrum Alliance puts a spike at a maximum of one sprint; XP guidance is a week or two for a pair.
-- **Exit artefact** is the answer, not the code (G-SE5): a finding, a number, a decision, a revised estimate.
+- **Exit artefact** is the answer, not the code: a finding, a number, a decision, a revised estimate.
 - **Spikes may be demonstrated** (https://framework.scaledagile.com/spikes): the result is shown, the code is not kept.
 
 ## Decision rules
@@ -64,5 +64,4 @@ status: "seedling"
 
 ## Sources
 
-- G-SE5
 - http://www.extremeprogramming.org/rules/spike.html
