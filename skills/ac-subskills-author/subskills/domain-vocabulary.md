@@ -30,8 +30,8 @@ violation a linter error instead of a judgment call.
 | `rsi` | RESERVED — self-improvement observe/propose leaves (`00-rsi`) + the shared `ac-rsi` core; never a task/action domain | SPEC-rsi-skills (github.com/anoscranel/rsi-skills) |
 | `software-engineering` | software lifecycle practice: requirements, design, construction, testing, delivery, operations, maintenance | ac-software-engineer pack |
 | `writing` | non-fiction and professional writing process and genres, above sentence level | ac-writer pack |
-| `collaboration` | transferring work between people, sessions, and agents: handoff artifacts, context selection, resumption checks | ac-handoff (v0.5.0) |
-| `critical-thinking` | interrogating ideas, plans, and claims before commitment: assumption surfacing, failure mapping, evidence tests, alternatives, close-out | ac-interrogation (v0.5.0) |
+| `collaboration` | transferring work between people, sessions, and agents: handoff artifacts, context selection, resumption checks, incoming-queue triage and dispatch | ac-handoff, ac-inbound-triage (v0.7.0) |
+| `critical-thinking` | interrogating ideas, plans, and claims before commitment, and generating options for them: assumption surfacing, failure mapping, evidence tests, alternatives, close-out, idea generation, divergence, convergence | ac-interrogation, ac-ideation (v0.7.0) |
 
 The meta-skill's own chain is `skill-authoring`; the pilot's is `security-hardening`.
 
