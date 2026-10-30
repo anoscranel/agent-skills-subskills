@@ -23,7 +23,7 @@ violation a linter error instead of a judgment call.
 
 | top segment | governs | minted for |
 |-------------|---------|-----------|
-| `skill-authoring` | creating/decomposing/linting/vetting/install-gating skills-with-subskills | this meta-skill |
+| `skill-authoring` | creating/decomposing/linting/vetting/install-gating/publishing skills-with-subskills | this meta-skill |
 | `security-hardening` | application security, OWASP, privacy, supply-chain, LLM-security | ac-security-engineer (RSI pilot successor) |
 | `research-operations` | multi-source deep-research: planning, retrieval, verification, synthesis, reporting | ac-deep-researcher |
 | `prompt-engineering` | the craft of prompting models and agents: instruction design, patterns, evaluation, robustness, injection defense | ac-prompt-engineer |
