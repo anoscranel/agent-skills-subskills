@@ -29,7 +29,7 @@ violation a linter error instead of a judgment call.
 | `prompt-engineering` | the craft of prompting models and agents: instruction design, patterns, evaluation, robustness, injection defense | ac-prompt-engineer |
 | `rsi` | RESERVED — self-improvement observe/propose leaves (`00-rsi`) + the shared `ac-rsi` core; never a task/action domain | SPEC-rsi-skills (github.com/anoscranel/rsi-skills) |
 | `software-engineering` | software lifecycle practice: requirements, design, construction, testing, delivery, operations, maintenance, and authoring agent-tool servers over open protocols | ac-software-engineer pack, ac-mcp-authoring (v0.8.0) |
-| `writing` | non-fiction and professional writing process and genres, above sentence level, plus codifying and auditing a brand's voice and style rules across a document corpus | ac-writer pack, ac-brand-guidelines (v0.9.0) |
+| `writing` | non-fiction and professional writing process and genres, above sentence level, plus codifying and auditing a brand's voice and style rules across a document corpus, and co-authoring structured documents through a staged authoring workflow | ac-writer pack, ac-brand-guidelines, ac-doc-coauthoring (v0.10.0) |
 | `collaboration` | transferring work between people, sessions, and agents: handoff artifacts, context selection, resumption checks, incoming-queue triage and dispatch | ac-handoff, ac-inbound-triage (v0.7.0) |
 | `critical-thinking` | interrogating ideas, plans, and claims before commitment, and generating options for them: assumption surfacing, failure mapping, evidence tests, alternatives, close-out, idea generation, divergence, convergence | ac-interrogation, ac-ideation (v0.7.0) |
 
