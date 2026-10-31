@@ -23,12 +23,12 @@ violation a linter error instead of a judgment call.
 
 | top segment | governs | minted for |
 |-------------|---------|-----------|
-| `skill-authoring` | creating/decomposing/linting/vetting/install-gating/publishing skills-with-subskills | this meta-skill |
+| `skill-authoring` | creating/decomposing/linting/vetting/install-gating/publishing skills-with-subskills, and discovering/evaluating/adopting third-party skills | ac-subskills-author, ac-release-publish, ac-skill-adoption (v0.8.0) |
 | `security-hardening` | application security, OWASP, privacy, supply-chain, LLM-security | ac-security-engineer (RSI pilot successor) |
 | `research-operations` | multi-source deep-research: planning, retrieval, verification, synthesis, reporting | ac-deep-researcher |
 | `prompt-engineering` | the craft of prompting models and agents: instruction design, patterns, evaluation, robustness, injection defense | ac-prompt-engineer |
 | `rsi` | RESERVED — self-improvement observe/propose leaves (`00-rsi`) + the shared `ac-rsi` core; never a task/action domain | SPEC-rsi-skills (github.com/anoscranel/rsi-skills) |
-| `software-engineering` | software lifecycle practice: requirements, design, construction, testing, delivery, operations, maintenance | ac-software-engineer pack |
+| `software-engineering` | software lifecycle practice: requirements, design, construction, testing, delivery, operations, maintenance, and authoring agent-tool servers over open protocols | ac-software-engineer pack, ac-mcp-authoring (v0.8.0) |
 | `writing` | non-fiction and professional writing process and genres, above sentence level | ac-writer pack |
 | `collaboration` | transferring work between people, sessions, and agents: handoff artifacts, context selection, resumption checks, incoming-queue triage and dispatch | ac-handoff, ac-inbound-triage (v0.7.0) |
 | `critical-thinking` | interrogating ideas, plans, and claims before commitment, and generating options for them: assumption surfacing, failure mapping, evidence tests, alternatives, close-out, idea generation, divergence, convergence | ac-interrogation, ac-ideation (v0.7.0) |

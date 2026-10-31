@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.8.0 — 2026-10-31
+
+### Added
+- `ac-skill-adoption` (skill-authoring, 7 leaves): consumer-side governance for third-party skills — registries and trust signals, security vetting, provenance and licenses, staged install gating, build-vs-adopt, post-install lifecycle.
+- `ac-mcp-authoring` (software-engineering, 7 leaves): authoring Model Context Protocol servers — protocol model, tool design, resources and prompts, transports, security, testing, versioning.
+- Both passed a sealed blind routing run (18 pre-registered tasks over a 72-entry catalog): 7 of 7 and 7 of 7 at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed.
+
+### Changed
+- The `skill-authoring` and `software-engineering` domain rows in the authoring vocabulary now cover third-party adoption and agent-tool server authoring.
+
+The pack is now 47 skills, 238 leaves.
+
 ## 0.7.0 — 2026-10-30
 
 ### Added
