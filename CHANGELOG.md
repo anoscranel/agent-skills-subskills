@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.11.0 — 2026-11-01
+
+### Added
+- `ac-multi-agent-orchestration` (collaboration, 7 leaves): running more than one agent on one job — when-to-split, role-and-scope, context-budget, delegation-prompts, verification-loops, failure-and-recovery, ledger-and-leverage.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 75-entry catalog): 14 of 14 at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed. An earlier task-set draft failed 10 of 14 and was redesigned before scoring; both runs are documented.
+
+### Changed
+- The `collaboration` domain row in the authoring vocabulary now covers designing and supervising multi-agent work.
+
+The pack is now 50 skills, 259 leaves.
+
 ## 0.10.0 — 2026-10-31
 
 ### Added
