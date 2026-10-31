@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.9.0 — 2026-10-31
+
+### Added
+- `ac-brand-guidelines` (writing, 7 leaves): codifying a brand's voice and style rules across a document corpus — brand specification, style-sheet intake, checklist construction, corpus audit, slip detection, remediation pass, sign-off and reporting.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 73-entry catalog): 14 of 14 content tasks at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed.
+
+### Changed
+- The `writing` domain row in the authoring vocabulary now covers codifying and auditing a brand's voice and style rules across a document corpus.
+
+The pack is now 48 skills, 245 leaves.
+
 ## 0.8.0 — 2026-10-31
 
 ### Added
