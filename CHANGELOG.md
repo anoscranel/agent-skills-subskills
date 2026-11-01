@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.13.0 — 2026-11-01
+
+### Added
+- `ac-architecture-survey` (software-engineering, 7 leaves): read-only, evidence-backed whole-repository survey — survey-scope, evidence-versus-judgment, structural-smells, candidate-formation, ranking-criteria, report-discipline, follow-up-boundary. Produces a prioritized report of bounded improvement candidates and stops there; the only permitted write is the report.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 77-entry catalog): 14 of 14 at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed.
+
+### Changed
+- The `software-engineering` domain row in the authoring vocabulary now covers read-only evidence-ranked architecture surveys of existing codebases.
+
+The pack is now 52 skills, 273 leaves.
+
 ## 0.12.0 — 2026-11-01
 
 ### Added
