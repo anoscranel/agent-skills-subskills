@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.12.0 — 2026-11-01
+
+### Added
+- `ac-llm-api-integration` (software-engineering, 7 leaves): calling model APIs from application code, provider-agnostic — provider-and-endpoint, request-shape, streaming-and-timeouts, tool-use-loop, caching-and-batching, error-and-resilience, evaluation-and-migration.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 76-entry catalog): 14 of 14 at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed.
+
+### Changed
+- The `software-engineering` domain row in the authoring vocabulary now covers integrating model APIs into application code.
+
+The pack is now 51 skills, 266 leaves.
+
 ## 0.11.0 — 2026-11-01
 
 ### Added
