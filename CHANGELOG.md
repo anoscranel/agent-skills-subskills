@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.14.0 — 2026-11-02
+
+### Added
+- `ac-domain-modeling` (software-engineering, 7 leaves): the craft of modeling a business domain — ubiquitous-language, bounded-contexts, aggregates-and-consistency, domain-events, repositories-and-ports, value-objects-and-entities, model-evolution.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 78-entry catalog): 14 of 14 at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed.
+
+### Changed
+- The `software-engineering` domain row in the authoring vocabulary now covers modeling business domains: ubiquitous language, bounded contexts, aggregates, domain events.
+
+The pack is now 53 skills, 280 leaves.
+
 ## 0.13.0 — 2026-11-01
 
 ### Added
