@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.15.0 — 2026-11-03
+
+### Added
+- `ac-crypto-trading-discipline` (crypto-trading, 7 leaves — new domain): the documented decision process of discretionary crypto trading — pre-trade-memo, risk-budget, position-sizing, invalidation-and-kill, journal-and-review, behavioral-rails, desk-routine. The skill records decisions; it never recommends an asset, a direction, a size, or a timing.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 79-entry catalog): 14 of 14 at top 1; 4 of 4 out-of-scope tasks answered `none`; zero alternates needed.
+
+### Changed
+- New `crypto-trading` domain row added to the authoring vocabulary (first new domain since v0.7.0).
+
+The pack is now 54 skills, 287 leaves.
+
 ## 0.14.0 — 2026-11-02
 
 ### Added
