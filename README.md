@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-54 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+75 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -16,8 +16,9 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Research operations | 2 | 19 |
 | Critical thinking | 2 | 15 |
 | Collaboration | 3 | 21 |
-| Crypto trading | 1 | 7 |
-| **Total** | **54** | **287** |
+| Crypto trading | 16 | 112 |
+| Investing | 6 | 42 |
+| **Total** | **75** | **434** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
@@ -27,11 +28,13 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 **Collaboration:** handoff · inbound-triage · multi-agent-orchestration
 
-**Crypto trading:** crypto-trading-discipline
+**Crypto trading:** cascade-forensics · crypto-trading-discipline · derivatives-instrument-selection · funding-and-basis · liquidation-hunt-analysis · liquidation-risk-management · market-data-collection · onchain-flow-analysis · order-execution · perp-venue-diligence · portfolio-construction · stablecoin-collateral-risk · token-diligence · trading-agent-desk · trading-operations-runbook · backtest-integrity
+
+**Investing:** behavioral-investing · equity-research · fixed-income-and-rates · investment-policy-statement · trading-records-and-tax · valuation
 
 **Security hardening:** ac-security-engineer · ac-security-standards
 
-**Software engineering:** agent-coding-governance · api-design · architecture · architecture-survey · ci-and-release · code-construction · code-construction · code-review · codebase-maintenance · database-changes · debugging · frontend-ui · git-workflow · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing · design-taste · llm-api-integration · mcp-authoring
+**Software engineering:** agent-coding-governance · api-design · architecture · architecture-survey · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · design-taste · domain-modeling · frontend-ui · git-workflow · llm-api-integration · mcp-authoring · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing
 
 **Writing:** academic-writing · business-writing · brand-guidelines · doc-coauthoring · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks · dataviz
 

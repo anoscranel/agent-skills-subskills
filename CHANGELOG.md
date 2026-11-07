@@ -2,6 +2,45 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.24.0 — 2026-11-07
+
+### Added
+Twenty-one skills in two new domains, all routing-tested.
+
+**crypto-trading (15):**
+- `ac-liquidation-hunt-analysis` — reading a hunt set-up: cascade anatomy, folklore audit, what has evidence, forensics, venue backstop risk, risk posture, measurement layer.
+- `ac-perp-venue-diligence` — liquidity realism, fee and clearance structure, backstop and continuity, data transparency, jurisdiction and access, counterparty and custody, venue scorecard.
+- `ac-cascade-forensics` — fill-log reading, branching ratio, participation, proxies and tape, evidence standards, report writing, case anatomy.
+- `ac-market-data-collection` — collector design, watermarks and gaps, survivorship and universe, series design, source tiering, storage integrity, study readiness.
+- `ac-backtest-integrity` — multiple testing, look-ahead and leakage, sample and regime, cost and execution, placebo and null, pre-registration, verdict and kill.
+- `ac-funding-and-basis` — funding mechanics, funding as positioning, basis trade, carry economics, open-interest reading, funding and cascade, carry risk register.
+- `ac-liquidation-risk-management` — liquidation geometry, margin modes, leverage bands, hedge and basis risk, cascade exposure, margin monitoring, post-liquidation recovery.
+- `ac-order-execution` — order types, execution in cascades, slippage and impact, placement tactics, slicing and timing, execution record, failure modes.
+- `ac-stablecoin-collateral-risk` — collateral quality, depeg mechanics, haircuts and liquidation distance, custody versus collateral, cross-collateral contagion, monitoring, depeg playbook.
+- `ac-trading-agent-desk` — division of labour, verifiable outputs, sandbox and trifecta, regime blindness, herd amplification, desk cadence, agent failure modes.
+- `ac-derivatives-instrument-selection` — instrument landscape, perp versus dated, options as hedges, horizon matching, collateral and margin fit, liquidity and execution fit, selection record.
+- `ac-portfolio-construction` — risk budgeting across strategies, correlation regimes, drawdown budgeting, capital allocation, concentration and single points, rebalancing and drift, portfolio review.
+- `ac-token-diligence` — supply and unlocks, holder concentration, treasury and runway, governance and control, liquidity and market structure, red flags, diligence record.
+- `ac-trading-operations-runbook` — preflight checks, order and position reconciliation, venue outage response, stuck and partial orders, liquidation and ADL verification, incident log and postmortem, automation safety.
+- `ac-onchain-flow-analysis` — data sources and labels, exchange flows, holder cohorts, whale-watching limits, stablecoin and liquidity flows, flow signals and failures, on-chain record.
+
+**investing (6):**
+- `ac-equity-research` — filings and sources, financial statements, ratio analysis, moat and competitive position, management and capital allocation, equity red flags, equity diligence record.
+- `ac-valuation` — valuation methods, DCF construction, multiples, terminal value and growth, discount rate, scenarios and sensitivity, valuation record.
+- `ac-investment-policy-statement` — goals and horizon, risk capacity and tolerance, constraints register, asset allocation policy, rebalancing policy, monitoring and review, IPS record.
+- `ac-behavioral-investing` — bias inventory, decision journals, precommitment devices, information diet, drawdown psychology, social and herd, behavioural review.
+- `ac-fixed-income-and-rates` — yield and price mechanics, duration and convexity, yield curve, credit spreads, inflation-linked, liquidity and vehicles, rates record.
+- `ac-trading-records-and-tax` — record keeping, cost-basis methods, reconciliation for tax, jurisdiction frames, crypto tax issues, tax pack assembly, tax record audit.
+
+### Changed
+- New `crypto-trading` and `investing` domain rows in the authoring vocabulary.
+- Fixed a duplicated entry in the README's software-engineering cluster list.
+
+### Routing evidence
+- Each of the 21 skills passed its own sealed blind run (18 pre-registered tasks each; 14 or better at top 1, 4 of 4 out-of-scope tasks answered `none`).
+
+The pack is now 75 skills, 434 leaves.
+
 ## 0.15.0 — 2026-11-03
 
 ### Added
