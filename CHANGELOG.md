@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.35.0 — 2026-11-08
+
+### Added
+- `ac-fx-options` (investing, 7 leaves): option conventions, delta conventions, volatility quotes, exercise and delivery, barriers and digitals, hedging, and the record.
+- `ac-rates-options` (investing, 7 leaves): swaptions and caps, normal versus lognormal volatility, exercise styles, the volatility cube, hedging, liquidity and clearing, and the record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 123-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all twenty-seven investing skills.
+
+These two add the option layer to venues that already had a futures or spot skill. The generic greeks and structures remain in `ac-options-and-volatility`; these cover the quoting conventions each market actually uses.
+
+The pack is now 98 skills, 594 leaves.
+
 ## 0.34.0 — 2026-11-08
 
 ### Added
