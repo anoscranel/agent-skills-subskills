@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.33.0 — 2026-11-08
+
+### Added
+- `ac-rates-trading` (investing, 7 leaves): bond futures basics, DV01 and hedging, cheapest-to-deliver and basis, repo and financing, curve trades, central-bank and event calendars, and the rates trading record.
+- `ac-equity-index-futures` (investing, 7 leaves): contract specifications, fair value and basis, roll and expiry, the overnight session, hedging with contracts, futures versus ETF, and the record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 120-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all twenty-four investing skills.
+
+The pack is now 95 skills, 573 leaves.
+
 ## 0.32.0 — 2026-11-08
 
 ### Added
