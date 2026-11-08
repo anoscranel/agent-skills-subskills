@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.31.0 — 2026-11-08
+
+### Added
+- `ac-portfolio-leverage` (investing, 7 leaves): margin mechanics, the cost of leverage, forced-sale mechanics, securities-backed lending, leverage and drawdown, leverage sizing, and the leverage record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 115-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all nineteen investing skills.
+
+The pack is now 90 skills, 538 leaves.
+
 ## 0.30.0 — 2026-11-08
 
 ### Added
