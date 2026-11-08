@@ -2,6 +2,21 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.30.0 — 2026-11-08
+
+### Added
+- `ac-exchange-account-security` (crypto-trading, 7 leaves): key and permission hygiene, withdrawal controls, authentication and second factors, phishing and social engineering, compromise response, custody of secrets, and the account-security record.
+- `ac-broker-and-custody-selection` (investing, 7 leaves): custody structure, broker insolvency, the fee stack, execution quality, conflicts and incentives, access and transfer, and the provider record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 114-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- `ac-trading-operations-runbook` pointed at `ac-exchange-account-security` for key and account compromise; that skill now exists and the reference resolves.
+
+### Changed
+- The `crypto-trading` and `investing` domain rows now name the two new skills.
+
+The pack is now 89 skills, 531 leaves.
+
 ## 0.29.0 — 2026-11-08
 
 ### Added
