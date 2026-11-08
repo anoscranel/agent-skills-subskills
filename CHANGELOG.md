@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.36.0 — 2026-11-09
+
+### Added
+- `ac-commodity-options` (investing, 7 leaves): options on futures, American exercise, commodity volatility skew, seasonal volatility, average and spread options, physical hedging, and the record.
+- `ac-equity-options` (investing, 7 leaves): single-name versus index, expiry and settlement, dividends and early exercise, borrow and put parity, index volatility and dispersion, corporate actions, and the record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 125-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all twenty-nine investing skills.
+
+The pack reaches 100 skills. Option conventions now exist per asset class for FX, rates, commodities and equities, on top of the market-agnostic greeks and structures skill.
+
+The pack is now 100 skills, 608 leaves.
+
 ## 0.35.0 — 2026-11-08
 
 ### Added
