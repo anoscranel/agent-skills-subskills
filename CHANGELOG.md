@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.34.0 — 2026-11-08
+
+### Added
+- `ac-credit-derivatives` (investing, 7 leaves): CDS mechanics, spread DV01, credit indices, the CDS-bond basis, credit events, liquidity and terms, and the credit trading record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 121-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all twenty-five investing skills.
+
+Credit was the last asset class without a trading-venue skill. The pack now covers equities, FX, commodities, rates, index futures and credit as venues, alongside the exposure and portfolio skills.
+
+The pack is now 96 skills, 580 leaves.
+
 ## 0.33.0 — 2026-11-08
 
 ### Added
