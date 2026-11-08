@@ -2,6 +2,21 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.32.0 — 2026-11-08
+
+### Added
+- `ac-stock-trading` (investing, 7 leaves): session structure, single-name liquidity, earnings and event risk, halts and news, index and flow events, borrow and short constraints, and the stock trading record.
+- `ac-forex-trading` (investing, 7 leaves): quoting and pip value, venues and spreads, rollover and swap, sessions and liquidity, leverage and margin, the trade process, and the FX trading record.
+- `ac-commodities-trading` (investing, 7 leaves): contract specifications, curve shape and carry, storage and convenience yield, seasonality and inventory, margin and delivery risk, spreads, and the commodity trading record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 118-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all twenty-two investing skills.
+
+The three cover the asset-class venues rather than the exposures: FX risk in a portfolio, commodity allocation, and equity market structure remain separate skills with their own boundaries.
+
+The pack is now 93 skills, 559 leaves.
+
 ## 0.31.0 — 2026-11-08
 
 ### Added
