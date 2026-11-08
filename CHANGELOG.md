@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.29.0 — 2026-11-08
+
+### Added
+- `ac-structured-products` (investing, 7 leaves): payoff architecture, autocalls and reverse convertibles, capital protection, issuer and embedded derivative, pricing and decomposition, suitability and mis-selling, and the product record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 112-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all seventeen investing skills.
+
+The pack is now 87 skills, 517 leaves.
+
 ## 0.28.0 — 2026-11-08
 
 ### Added
