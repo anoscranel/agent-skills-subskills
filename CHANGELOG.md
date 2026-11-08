@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.38.0 — 2026-11-09
+
+### Added
+- `ac-crypto-options` (crypto-trading, 7 leaves): inverse and linear contracts, expiry and settlement, the volatility surface, venues and RFQ, margin and liquidation, yield selling and its tail, and the record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 127-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `crypto-trading` domain row now names all nineteen crypto skills.
+
+With this release the futures-and-options matrix is complete for every market the pack covers: equities, index futures, FX, commodities, rates, credit and crypto each have both a venue skill and an option-conventions skill.
+
+The pack is now 102 skills, 622 leaves.
+
 ## 0.37.0 — 2026-11-09
 
 ### Added
