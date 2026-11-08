@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.27.0 — 2026-11-08
+
+### Added
+- `ac-options-and-volatility` (crypto-trading, 7 leaves): greeks, implied volatility and the surface, structures, the volatility risk premium, hedging, execution and assignment, and the record.
+- `ac-insurance-and-risk-transfer` (investing, 7 leaves): what to insure, coverage and deductibles, policy terms, insurer strength, insurance in the portfolio, claims and records, and the coverage record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 110-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `crypto-trading` and `investing` domain rows now name the options and insurance skills respectively.
+
+The pack is now 85 skills, 504 leaves.
+
 ## 0.26.0 — 2026-11-08
 
 ### Added
