@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.26.0 — 2026-11-08
+
+### Added
+- Three investing skills, each a 7-leaf tree: `ac-bank-and-credit-analysis` (bank balance sheet, net interest margin, credit quality, capital and liquidity, bank valuation, corporate credit, record), `ac-retirement-and-drawdown` (decumulation arithmetic, sequence of returns, withdrawal policy, allocation in drawdown, longevity and inflation, account ordering, record), `ac-fund-selection` (cost stack, tracking difference, index methodology, structure and counterparty, liquidity, tax efficiency, record).
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 108-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all fourteen investing skills.
+
+The pack is now 83 skills, 490 leaves.
+
 ## 0.25.0 — 2026-11-07
 
 ### Added
