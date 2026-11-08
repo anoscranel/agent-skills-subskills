@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.28.0 — 2026-11-08
+
+### Added
+- `ac-estate-and-succession` (investing, 6 leaves): beneficiary designations, titling and transfer, estate liquidity, account succession, executor checklist, and the succession record. It prepares the questions and the record; it does not practice law or compute tax.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 111-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all sixteen investing skills.
+
+The pack is now 86 skills, 510 leaves.
+
 ## 0.27.0 — 2026-11-08
 
 ### Added
