@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.37.0 — 2026-11-09
+
+### Added
+- `ac-credit-options` (investing, 7 leaves): CDS option mechanics, credit spread volatility, index options and tranches, settlement into protection, dealer liquidity, hedging with credit options, and the record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 126-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all thirty investing skills.
+
+Credit was the last asset class without an option skill. Futures and options now each exist per market: equities, FX, commodities, rates, index futures, and credit.
+
+The pack is now 101 skills, 615 leaves.
+
 ## 0.36.0 — 2026-11-09
 
 ### Added
