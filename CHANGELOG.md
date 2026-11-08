@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.25.0 — 2026-11-07
+
+### Added
+- Five investing skills, each a 7-leaf tree: `ac-alternatives-and-real-assets`, `ac-equity-market-structure`, `ac-corporate-actions`, `ac-currency-and-fx-risk`, `ac-macro-and-policy-reading`.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 105-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row in the authoring vocabulary now names all eleven investing skills.
+
+The pack is now 80 skills, 469 leaves.
+
 ## 0.24.0 — 2026-11-07
 
 ### Added
