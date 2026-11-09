@@ -2,6 +2,21 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.39.0 — 2026-11-09
+
+### Added
+- `ac-institutional-positioning` (investing, 7 leaves): holdings disclosures, insider transactions, short interest and fails, Commitments of Traders, blocks and activist stakes, ownership reconstruction, and the positioning record.
+- `ac-institutional-order-flow` (investing, 7 leaves): block prints and crossings, trade-size clustering, order-book imbalance, volume profile and VWAP, relative volume, auction and rebalance flows, and the footprint record.
+- `ac-institutional-operations` (investing, 8 leaves): order lifecycle, prime brokerage, clearing and CCPs, settlement and fails, margin and collateral, custody and segregation, securities lending, and the operations record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 130-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all thirty-three investing skills.
+
+The three cover what institutions must disclose, what their execution leaves in the tape, and the plumbing that moves their orders. None of them infers intent: the positioning skill reads filings with their lags, the order-flow skill records an alternative explanation beside every observation, and the operations skill maps obligations rather than recommending trades.
+
+The pack is now 105 skills, 644 leaves.
+
 ## 0.38.0 — 2026-11-09
 
 ### Added
