@@ -2,6 +2,27 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.44.0 — 2026-11-09
+
+### Added
+- Ten investing skills across three tiers:
+  - `ac-securitisation-and-tranches` (8 leaves): SPV and true sale, waterfall and subordination, credit enhancement, tranche attachment, triggers and amortisation, servicer operations, prepayment and WAL, structure record.
+  - `ac-fund-reporting-and-metrics` (6): IRR assumptions, TVPI/DPI/RVPI, the J-curve, vintage and peer benchmarks, dry powder, reporting record.
+  - `ac-liability-driven-investing` (7): funding ratio and surplus, liability discounting, duration and key-rate matching, immunisation conditions, de-risking glide path, contribution and benefit policy, LDI record.
+  - `ac-transaction-cost-analysis` (7): implementation shortfall, VWAP and participation benchmarks, cost decomposition, broker scorecards, transition management, research payment governance, cost record.
+  - `ac-credit-rating-mechanics` (7): what a rating measures, agency methodologies, outlooks and watches, migration and default tables, fallen angels, contract triggers, rating record.
+  - `ac-trade-policy-and-restrictions` (7): tariff incidence, export controls, sanctions reach, investment screening, local content and transfer pricing, resource nationalism, policy exposure record.
+  - `ac-insurance-linked-securities` (7): trigger design, collateral and SPV, expected loss and spread, modelled versus realised, perils and correlation, seasonality and reset, ILS record.
+  - `ac-investment-oversight-and-ocio` (7): oversight function, mandate design, compliance monitoring, board reporting, OCIO conflicts, fee oversight, oversight record.
+  - `ac-direct-real-estate` (7): net operating income, lease structure and tenant credit, cap rates, appraisal, capex and deferred maintenance, property debt, property record.
+  - `ac-forensic-accounting` (7): related-party transactions, off-balance-sheet entities, round-tripping, capitalised costs, segment disclosure, cash conversion forensics, forensic record.
+- All ten passed sealed blind routing on the first attempt: 14 of 14 at top 1 each, 4 of 4 out-of-scope tasks answering `none`, across three combined runs over a 160-entry catalog.
+
+### Changed
+- The `investing` domain row now names all sixty-three investing skills.
+
+The pack is now 135 skills, 855 leaves.
+
 ## 0.43.0 — 2026-11-09
 
 ### Added
