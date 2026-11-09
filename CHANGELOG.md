@@ -2,6 +2,29 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.43.0 — 2026-11-09
+
+### Added
+Ten investing skills, each a 7-leaf tree except manager diligence at 8:
+
+- `ac-convertible-and-hybrid-capital` — parity and premium, bond floor, yield to worst, busted and distressed, contingent capital, perpetuals, record.
+- `ac-capital-return-policy` — buyback execution, accelerated repurchases, dividend sustainability, specials, buyback timing, debt-funded buybacks, record.
+- `ac-private-credit` — direct lending structure, unitranche splits, covenants, PIK, sponsor dynamics, marks, record.
+- `ac-shareholder-activism` — campaign archetypes, 13D, settlements, proxy arithmetic, proposals, campaign economics, record.
+- `ac-climate-and-transition-risk` — emissions scopes, disclosure regimes, scenarios, transition by sector, physical risk, stranded assets, record.
+- `ac-manager-and-vehicle-diligence` — questionnaire, operational diligence, fee stack, side letters and MFN, key person, governance, liquidity and gates, record.
+- `ac-securities-litigation` — class action mechanics, claims and funds, opting out, damages, funding, D&O, record.
+- `ac-emerging-market-access` — depositary receipts, local channels, capital controls, settlement and custody, index flows, currency access, record.
+- `ac-portfolio-financing` — subscription lines, NAV loans, continuation funds, LP secondaries, conflicts, fund leverage, record.
+- `ac-trade-finance` — letters of credit, collections, title documents, prepayment, inventory finance, fraud patterns, record.
+
+Every skill passed a sealed blind routing run over a 150-entry catalog: all ten at or above 12 of 14 top-1 matches, negatives 4 of 4. Two descriptions were corrected after a first pass and re-verified on a fresh catalog.
+
+### Changed
+- The `investing` domain row now names all fifty-three investing skills.
+
+The pack is now 125 skills, 785 leaves.
+
 ## 0.42.0 — 2026-11-09
 
 ### Added
