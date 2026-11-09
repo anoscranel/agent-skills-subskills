@@ -2,6 +2,28 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.45.0 — 2026-11-10
+
+### Added
+Nine investing skills, each with a written record leaf:
+
+- `ac-distressed-and-restructuring` (8 leaves): priority and waterfall, fulcrum determination, out-of-court exchange, DIP and priming, automatic stay, claims trading, plan and cramdown, record.
+- `ac-equity-capital-markets` (7): bookbuilding, greenshoe and stabilisation, lock-up expiry, follow-on and blocks, rights issues, direct listings and SPACs, record.
+- `ac-municipal-bonds` (7): GO versus revenue, tax-equivalent yield, calls and refunding, insurer wraps, disclosure, pension and OPEB liabilities, record.
+- `ac-fund-structures-and-wrappers` (7): open versus closed end, European wrappers, US registered funds, ETF creation, BDC and listed vehicles, eligibility and distribution, record.
+- `ac-share-based-compensation` (7): grant types and vesting, expense and add-back, fully diluted count, buyback offset, dilution per year, performance and market conditions, record.
+- `ac-corporate-treasury` (7): liquidity policy, counterparty limits, hedging programme design, hedge accounting, maturity ladder, facility covenants, record.
+- `ac-pension-risk-transfer` (7): buy-in versus buy-out, insurer pricing, longevity swaps, partial and phased transfers, member options, settlement accounting, record.
+- `ac-infrastructure-and-project-finance` (7): concession and handback, availability versus demand, DSCR and lock-up, capex lifecycle, tariff and inflation linkage, refinancing and equity return, record.
+- `ac-sovereign-debt` (7): sovereign versus corporate, collective action clauses, restructuring process, local versus foreign law, holdouts and enforcement, recovery and exit yield, record.
+
+Each passed a sealed blind routing run. Runs 83-85 were combined (46, 60 and 32 tasks) over a 169-entry catalog: **all nine scored 14 of 14 at top 1 on the first attempt**, with 4 of 4 out-of-scope tasks answered `none` in each run. No description corrections were required.
+
+### Changed
+- The `investing` domain row now names all seventy-two investing skills.
+
+The pack is now 144 skills, 919 leaves.
+
 ## 0.44.0 — 2026-11-09
 
 ### Added

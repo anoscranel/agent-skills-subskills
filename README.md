@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-135 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+144 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -17,8 +17,8 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Critical thinking | 2 | 15 |
 | Collaboration | 3 | 21 |
 | Crypto trading | 19 | 133 |
-| Investing | 63 | 442 |
-| **Total** | **135** | **855** |
+| Investing | 72 | 506 |
+| **Total** | **144** | **919** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
@@ -30,7 +30,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 **Crypto trading:** cascade-forensics · crypto-trading-discipline · derivatives-instrument-selection · funding-and-basis · liquidation-hunt-analysis · liquidation-risk-management · market-data-collection · onchain-flow-analysis · order-execution · perp-venue-diligence · portfolio-construction · stablecoin-collateral-risk · token-diligence · trading-agent-desk · trading-operations-runbook · backtest-integrity
 
-**Investing:** activism · capital-return · credit-rating-mechanics · direct-real-estate · forensic-accounting · fund-reporting-and-metrics · insurance-linked-securities · investment-oversight-and-ocio · liability-driven-investing · securitisation-and-tranches · trade-policy-and-restrictions · transaction-cost-analysis · climate · convertible-and-hybrid-capital · emerging-market-access · litigation · manager-diligence · portfolio-financing · private-credit · trade-finance · alternatives-and-real-assets · bank-and-credit-analysis · broker-and-custody-selection · commodity-options · commodity-trading · credit-derivatives · credit-options · equity-options · equity-index-futures · forex-trading · fx-options · rates-options · rates-trading · portfolio-leverage · estate-and-succession · insurance-and-risk-transfer · structured-products · behavioral-investing · corporate-actions · currency-and-fx-risk · equity-market-structure · equity-research · fixed-income-and-rates · investment-policy-statement · trading-records-and-tax · valuation
+**Investing:** activism · capital-return · corporate-treasury · credit-rating-mechanics · distressed-and-restructuring · equity-capital-markets · direct-real-estate · forensic-accounting · fund-structures-and-wrappers · fund-reporting-and-metrics · infrastructure-and-project-finance · insurance-linked-securities · investment-oversight-and-ocio · liability-driven-investing · municipal-bonds · pension-risk-transfer · securitisation-and-tranches · share-based-compensation · sovereign-debt · trade-policy-and-restrictions · transaction-cost-analysis · climate · convertible-and-hybrid-capital · emerging-market-access · litigation · manager-diligence · portfolio-financing · private-credit · trade-finance · alternatives-and-real-assets · bank-and-credit-analysis · broker-and-custody-selection · commodity-options · commodity-trading · credit-derivatives · credit-options · equity-options · equity-index-futures · forex-trading · fx-options · rates-options · rates-trading · portfolio-leverage · estate-and-succession · insurance-and-risk-transfer · structured-products · behavioral-investing · corporate-actions · currency-and-fx-risk · equity-market-structure · equity-research · fixed-income-and-rates · investment-policy-statement · trading-records-and-tax · valuation
 
 **Security hardening:** ac-security-engineer · ac-security-standards
 
