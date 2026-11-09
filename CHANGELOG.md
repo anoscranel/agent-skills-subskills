@@ -2,6 +2,22 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.40.0 — 2026-11-09
+
+### Added
+- `ac-performance-measurement` (investing, 7 leaves): time- versus money-weighted returns, benchmark selection, Brinson attribution, risk-adjusted ratios, drawdown depth and duration, peer-group traps, and the performance record.
+- `ac-earnings-quality` (investing, 7 leaves): accruals and cash flow, cash conversion, non-GAAP bridges, revenue recognition, recurring one-offs, guidance and consensus, and the quality record.
+- `ac-special-situations` (investing, 7 leaves): merger spread arithmetic, deal timeline and risk, spin-off mechanics, tender and odd-lot, rights issues, index deletion flows, and the event record.
+- `ac-tax-aware-investing` (investing, 7 leaves): asset location, loss harvesting, gain deferral, charitable routes, rebalancing with tax, withdrawal ordering, and the tax-aware policy.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 134-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all thirty-seven investing skills.
+
+These four close gaps the pack had left open: how a result is measured, how reported earnings are read, how corporate events are priced, and how tax constrains a decision. None of them gives advice; each ends in a record of what was measured and what remains a question for a professional.
+
+The pack is now 109 skills, 672 leaves.
+
 ## 0.39.0 — 2026-11-09
 
 ### Added
