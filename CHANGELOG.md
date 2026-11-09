@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.42.0 — 2026-11-09
+
+### Added
+- `ac-credit-curve` (investing, 7 leaves): curve shape, spread versus risk-free, roll and carry in credit, curve trade structure, inversion and stress, cross-issuer relative value, and the credit curve record.
+- `ac-index-methodology-design` (investing, 7 leaves): eligibility and selection, weighting schemes, rebalancing and buffers, concentration caps, inclusion arbitrage, methodology integrity, and the index design record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 140-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all forty-three investing skills.
+
+Tier 3 completes the ten-skill brainstorm. Across the three tiers the pack gained measurement (performance, liquidity, stress, data quality), forensics (earnings quality), event arithmetic (special situations), decision framing (tax, factors, credit curve, index design).
+
+The pack is now 115 skills, 714 leaves.
+
 ## 0.41.0 — 2026-11-09
 
 ### Added
