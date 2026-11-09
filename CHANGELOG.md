@@ -2,6 +2,22 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.41.0 — 2026-11-09
+
+### Added
+- `ac-liquidity-risk` (investing, 7 leaves): market versus funding liquidity, days to liquidate, the liquidity ladder, fire-sale discounts, margin calls as liquidity events, stress liquidity, and the liquidity record.
+- `ac-factor-investing` (investing, 7 leaves): what a factor is, factor construction, standardisation and neutralisation, sorts and regressions, capacity and crowding, factor timing, and the factor record.
+- `ac-scenario-and-stress-testing` (investing, 7 leaves): reverse stress testing, historical versus hypothetical, correlation breakdown, severity calibration, pass and fail criteria, scenario construction, and the scenario record.
+- `ac-alternative-data` (investing, 7 leaves): provenance and vendor claims, point-in-time integrity, coverage and representativeness, signal decay, licensing and permitted use, cost and build, and the vendor record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 138-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `investing` domain row now names all forty-one investing skills.
+
+Tier 2 of the brainstormed backlog. Each of these measures something the pack could previously only assert: how fast a portfolio becomes cash, how a factor is actually built, what would break the book, and whether a dataset is what its vendor says.
+
+The pack is now 113 skills, 700 leaves.
+
 ## 0.40.0 — 2026-11-09
 
 ### Added
