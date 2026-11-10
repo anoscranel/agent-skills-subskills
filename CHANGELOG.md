@@ -2,6 +2,26 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.47.1 — 2026-11-10
+
+### Fixed
+A re-audit of the sixty skills shipped between v0.39.0 and v0.47.0 found three defects that every
+prior gate review had passed:
+
+- `ac-index-methodology-design`: the description carried no `Not for` boundary. Three named
+  boundaries added; 820 characters, strict YAML.
+- `ac-insurance-linked-securities`: the description carried no `Not for` boundary. Three named
+  boundaries added; 926 characters, strict YAML.
+- `ac-trade-finance`: `subskills/inventory-and-receivables-finance.md` was missing its
+  `## Done checklist` section, and two paragraphs had been stranded inside `## Anti-patterns`.
+  The section was added and the paragraphs moved into `## Standard`.
+
+### Changed
+- The gate review log now records the auditing model in every section heading. A new auditor
+  identity policy binds sections from this release onward.
+
+No skill count changed. The pack remains 162 skills, 1045 leaves.
+
 ## 0.47.0 — 2026-11-10
 
 ### Added
