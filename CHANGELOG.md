@@ -2,6 +2,28 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.47.0 — 2026-11-10
+
+### Added
+Nine software-engineering skills, each with a written record leaf:
+
+- `ac-graphql-and-streaming-apis` (7): schema shape and nullability, N+1 and batching, query cost and depth, federation and ownership, cursor pagination, subscriptions and SSE, interface record.
+- `ac-retrieval-and-vector-systems` (7): chunking strategy, embedding models, vector index types, hybrid search and reranking, freshness and rebuilds, relevance evaluation, retrieval record.
+- `ac-multitenancy-and-isolation` (7): tenancy models, isolation levels, tenant context propagation, noisy neighbour, quotas and limits, row-level security, isolation record.
+- `ac-resilience-budgets` (7): timeout budgets, retry budgets, backoff and jitter, circuit breaking, bulkheads and pools, load shedding, resilience record.
+- `ac-durable-execution` (7): workflow state and checkpoints, sagas and compensation, idempotent activities, activity timeouts and heartbeats, workflow versioning, human in the loop, workflow record.
+- `ac-platform-engineering` (7): golden path, service catalogue, self-service and guardrails, toil measurement, on-call design, developer experience metrics, platform record.
+- `ac-data-contracts` (7): contract schema and semantics, freshness and completeness, schema evolution rules, ownership and escalation, quality checks at the boundary, contract enforcement, contract record.
+- `ac-webhook-and-async-delivery` (7): delivery contract, at-least-once and dedup, signature and replay, ordering guarantees, endpoint health and disabling, consumer-side idempotency, delivery record.
+- `ac-sdk-and-client-library-design` (7): public surface, error types, defaults and timeouts, configuration and credentials, versioning and deprecation, idiom and packaging, SDK record.
+
+Routing runs 89-91 were combined (46 tasks each) over a 187-entry catalog. Runs 89 and 91 scored 14 of 14 for every skill; run 90 scored 13 of 14 for resilience and durable execution and 14 of 14 for platform engineering, within the pass threshold, with both misses also correct at top 2.
+
+### Fixed
+- The `software-engineering` domain row named 22 of its 41 skills. All 41 are now listed.
+
+The pack is now 162 skills, 1045 leaves.
+
 ## 0.46.0 — 2026-11-10
 
 ### Added
