@@ -45,6 +45,14 @@ Rules 3–4 become trivially checkable because every scope claim lives in one fi
 The decision (FLAT or NESTED), the leaf count, and a one-paragraph rationale, recorded
 and shown to the operator at hand-off.
 
+The deciding question is not size but whether a reader would ever need one leaf without the others: a set of leaves that are always consulted together is a document, and one whose leaves are consulted alone is a tree. Counting leaves answers a question nobody asked.
+
+The practical test is to ask what the index would have to say if the leaves were flattened: if it would be a list of headings with no argument between them, the nesting was doing nothing and the leaves should merge. If it would be a paragraph of routing decisions, the tree is carrying information the flat file would lose.
+
+
+A third consideration is the cost of a wrong choice in each direction: a flat file that should have been a tree is annoying but readable, while a tree that should have been flat hides its content behind a navigation step that nobody takes. When the evidence is ambiguous, the flatter form fails more gently.
+
+
 ## Sources
 
 - House standard for skills-with-subskills (unpublished).

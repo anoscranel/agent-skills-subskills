@@ -55,6 +55,8 @@ Zero failures in n trials only bounds the failure rate near 3/n at 95% confidenc
 - [ ] The grading mix follows the oracle hierarchy.
 - [ ] The decision bar was declared before the run.
 
+The proof needs a held-out set that was never inspected while the prompt was being edited, because a prompt tuned against a visible set has learned that set rather than the task. The size of the held-out set matters less than the discipline of not looking at it.
+
 ## Sources
 
 - <https://ai.google.dev/gemini-api/docs/prompting-strategies>; <https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents>; <https://www.braintrust.dev/articles/llm-evaluation-guide>; <https://developers.openai.com/api/docs/guides/prompt-engineering>

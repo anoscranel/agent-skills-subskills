@@ -56,3 +56,5 @@ status: "seedling"
 - The write history shows incremental appends, not one final dump.
 - Frontmatter status matches the study's real state.
 - No duplicate of the study exists outside the research root.
+
+The archive should record what was not saved as well as what was, because a corpus with gaps looks complete from the inside and the missing pages are discovered exactly when a claim needs them. A line stating the coverage limit is cheaper than a re-run.

@@ -61,3 +61,5 @@ status: "seedling"
 - Out-of-scope list exists.
 - Deliverable shape is named.
 - Assumptions are flagged, not hidden.
+
+The question worth writing down before any search is what would make the answer wrong, because a question with no possible disconfirming evidence will still produce a report and the report will look like research. Framing the falsifier first is what separates a scope from a topic.

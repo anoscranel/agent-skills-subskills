@@ -37,3 +37,10 @@ proposals are the default; additive proposals get the strictest review.
 Log-only. No proposals yet. This leaf exists to build the trustworthy, independently-
 recorded log the Stage-1 gate requires (SPEC-rsi-skills.md §0 house-set thresholds, not derived from prior art: ≥100 events, ≥95% independent outcomes,
 intact append-only, ≥30 days).
+
+The observation should record the decision the leaf drove, not only the fault it exhibited: a leaf that produced a correct outcome for the wrong reason is a latent fault, and only the decision record distinguishes the two. That distinction is what makes the log worth reading later.
+
+The log is also the input to a later decision about whether the leaf should be split, merged, or retired, and that decision is only possible if the observations accumulate against the same leaf identity across sessions. Stable naming is what makes the log a series rather than a set of unrelated notes.
+
+A related distinction is between an observation that describes the leaf and one that describes the situation the leaf was applied to: the second is only useful if the situation recurs, and mixing the two makes the log's statistics describe the world rather than the leaf. Separating them costs one field and preserves the signal.
+

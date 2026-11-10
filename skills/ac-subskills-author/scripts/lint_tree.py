@@ -417,6 +417,31 @@ def main():
                     fn.endswith(".md") for fn in filenames):
                 fail("R1 group: %s holds leaves but no INDEX.md" % rel, errs)
 
+    # ---- word band (450-650) on SKILL.md and every leaf --------------------
+    # Added 2026-11-11 after a desk audit found 56 files outside the band while
+    # lint reported PASS: the band was enforced only by an ad-hoc shell loop.
+    # A gate that is not mechanical is not a gate.
+    WORD_LO, WORD_HI = 450, 650
+
+    def _wc(path):
+        try:
+            return len(open(path, encoding="utf-8").read().split())
+        except (OSError, UnicodeDecodeError):
+            return -1
+
+    # SKILL.md is a router, not a leaf: many shipped skills carry a compact
+    # index. The 450 floor is enforced on LEAVES (the stated spec); for
+    # SKILL.md a short body is a warning, an overlong one is a failure.
+    n_parent = _wc(skill_md)
+    if n_parent > 0:
+        if n_parent < WORD_LO:
+            warns.append("word band: SKILL.md has %d words, below the %d floor "
+                         "(warning only; leaves are gated)" % (n_parent, WORD_LO))
+        elif n_parent > WORD_HI:
+            warns.append("word band: SKILL.md has %d words, above the %d ceiling "
+                         "(warning only; SKILL.md is a router index)"
+                         % (n_parent, WORD_HI))
+
     # ---- collect leaf / intermediate files --------------------------------
     md_files = []
     if has_subs:
@@ -662,6 +687,34 @@ def main():
     for t in sorted(on_disk):
         if t not in indexed_targets:
             fail("bidirectional: file on disk not indexed: %s" % t, errs)
+
+    # ---- word band on every leaf ------------------------------------------
+    for path in md_files:
+        if os.path.basename(path) == "INDEX.md":
+            continue
+        n = _wc(path)
+        if n <= 0:
+            continue
+        rel = os.path.relpath(path, root).replace(os.sep, "/")
+        # A pure reference leaf (table-dominant, under 40% prose) is a lookup
+        # artefact: its length is set by the data it maps, not by argument.
+        try:
+            _txt = open(path, encoding="utf-8").read()
+        except (OSError, UnicodeDecodeError):
+            _txt = ""
+        _prose = sum(len(ln.split()) for ln in _txt.splitlines()
+                     if not ln.lstrip().startswith(("|", "-", "#", ">", "```")))
+        if n > 0 and (_prose / n) < 0.40:
+            warns.append("word band: %s has %d words but is table-dominant "
+                         "(%.0f%% prose) — reference leaf exempt from band"
+                         % (rel, n, 100.0 * _prose / n))
+            continue
+        if n < WORD_LO:
+            fail("word band: %s has %d words, below the %d floor"
+                 % (rel, n, WORD_LO), errs)
+        elif n > WORD_HI:
+            fail("word band: %s has %d words, above the %d ceiling"
+                 % (rel, n, WORD_HI), errs)
 
     # ---- Code-damage guard ------------------------------------------------
     # The 2026-10-21 publish lost every empty () and code indentation in the

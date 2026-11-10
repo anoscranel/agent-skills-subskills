@@ -58,7 +58,6 @@ Pick the row by the trigger phrase. Cite the edition the table carries; ⚠️-f
 
 ## Anti-patterns
 
-- Stating an edition or date not in the table.
 - Quoting the standard's procedures or checklists here.
 
 ## Done checklist

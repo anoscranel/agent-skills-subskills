@@ -53,6 +53,8 @@ status: seedling
 - [ ] Canon entries have written reasons.
 - [ ] Reference set re-scored this quarter.
 
+Development is comparative rather than absolute: the useful exercise is to place two artefacts side by side and say which is better and why, because the reason is the taste and the preference is only its symptom. A practice that collects preferences without reasons collects nothing.
+
 ## Sources
 
 - https://doi.org/10.1037/0033-295X.100.3.363

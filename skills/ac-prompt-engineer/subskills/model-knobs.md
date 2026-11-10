@@ -57,3 +57,5 @@ temperature, topP, and topK at defaults; changing them degrades complex reasonin
 - [ ] Snapshot and temperature recorded beside the prompt.
 - [ ] Reasoning-model prompts carry no step-by-step wording.
 - [ ] Every upgrade goes through the old-vs-new paired run first.
+
+The knob that most often matters is the one that is not a number: whether the model is asked to reason before answering changes the output more than a temperature adjustment does, and the setting is usually a structural choice rather than a parameter. Recording which structural choice was made is more useful than recording the sampler values.

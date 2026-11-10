@@ -60,3 +60,5 @@ status: "seedling"
 - Every load-bearing claim has two-index resolution or an explicit flag.
 - Every verified claim has a verbatim span on disk.
 - No claim stands on a single lineage without the ⚠️ mark.
+
+The verification should also record the version of the source, because a live document changes and a claim verified against last quarter's revision is unverified against this quarter's. For anything load-bearing, archiving the copy that was read is the difference between a citation and a memory.

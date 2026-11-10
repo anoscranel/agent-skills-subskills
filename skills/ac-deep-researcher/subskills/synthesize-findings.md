@@ -58,6 +58,8 @@ status: "seedling"
 - Disagreements appear as disagreements, with rival sources named.
 - The confidence labels never exceed the best rung (source-triage ladder).
 
+The synthesis should state which findings rest on a single lineage and which on several, because a document that presents both with equal weight has flattened the difference between a corroborated result and one source's assertion. That distinction is the synthesis, not a caveat appended to it.
+
 ## Sources
 
 - SWiM reporting guideline: Campbell et al., BMJ 2020, https://doi.org/10.1136/bmj.m2734 (item 8 is the reporting standard for synthesis links).

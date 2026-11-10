@@ -56,6 +56,8 @@ status: "seedling"
 - The run log covers every query and every retry.
 - An auditor can check any claim with grep, no network needed.
 
+The ledger's value appears when a claim is challenged, because the challenge is answered by the line rather than by re-reading the corpus, and a ledger without line-level pointers reduces to a reading list. The pointer is the work; the claim is the summary of it.
+
 ## Sources
 
 - PRISMA-S: Rethlefsen et al., Systematic Reviews 2021, https://doi.org/10.1186/s13643-020-01542-z (item 1 is the reporting standard for the search record).

@@ -11,11 +11,11 @@ status: "seedling"
 
 ## Standard
 
-A hardening pass is done when its evidence exists, not when its effort stops. The universal record — every pass, any size:
+A hardening pass is done when its evidence exists, not when effort stops. The universal record:
 
-- **The verification target written down**: the ASVS 5.0 level chosen (L1, L2, or L3) and the reason, recorded somewhere durable (a decision record or the review notes). An app holding personal or payment data is not done below L2.
-- **The change list**: what was modified, mapped to the requirement or finding each change closes. An unmapped fix is an unverified fix.
-- **The evidence bundle**: test results, scan outputs, and the review note, kept with the change — not in chat.
+- **The verification target**: the ASVS 5.0 level chosen (L1, L2, L3) and the reason, recorded durably. Personal or payment data is not done below L2.
+- **The change list**: each modification mapped to the requirement or finding it closes. An unmapped fix is an unverified fix.
+- **The evidence bundle**: test results, scan outputs, review note, kept with the change.
 - **The residual-risk statement**: findings accepted rather than fixed, each with severity, owner, and expiry or review date. ⚠️ "Accepted-risk expiry" is practice convention; no single standard mandates one.
 
 ## Decision rules
@@ -44,7 +44,6 @@ Pick the task class below; "done" means its items plus the universal record. Whe
 
 ## Anti-patterns
 
-- Declaring done on effort: "we spent two weeks on it."
 - Evidence kept in chat or memory instead of with the change.
 - Accepted risks without owner or review date.
 

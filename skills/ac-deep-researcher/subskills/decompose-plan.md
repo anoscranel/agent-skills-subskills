@@ -57,6 +57,8 @@ status: "seedling"
 - The coverage matrix has no empty rows.
 - Round boundaries name what changes the next round.
 
+The plan also needs a stopping rule attached to each branch, not only to the whole study: a sub-question that keeps producing new sub-questions is a sign the decomposition is following the literature rather than the question, and the branch should be closed with what it established rather than split again.
+
 ## Sources
 
 - arXiv 2608.05263 (cascade radius vs depth).

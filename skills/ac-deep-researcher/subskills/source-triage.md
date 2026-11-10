@@ -58,3 +58,5 @@ status: "seedling"
 - Every number carries a population label.
 - Every load-bearing claim names its lineage count.
 - Every single-source claim carries ⚠️ plus the source name.
+
+The triage decision should record what would change the rung, because a vendor claim becomes a primary source the moment the underlying data is published and a peer-reviewed paper drops a rung when its sample is shown to be unrepresentative. A rung assigned once and never revisited is a label rather than an assessment.

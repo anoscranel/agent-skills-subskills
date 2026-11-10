@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.49.0 — 2026-11-11
+
+### Added
+- `ac-query-and-index-design` (software-engineering, 7 leaves): index cost and tradeoffs, access paths, composite column order, selectivity and statistics, covering and partial indexes, partitioning and pruning, query record.
+- `ac-caching-and-invalidation` (software-engineering, 7 leaves): what to cache, TTL versus invalidation, cache patterns, stampede and herd, negative caching, consistency windows, policy record.
+- Each scored 14 of 14 at top 1 (routing runs 92-93, 178- and 180-entry catalogs).
+
+### Fixed
+- **The word-band gate is now mechanical.** `lint_tree.py` carried no word-count check; the 450-650 band asserted since v0.24.0 was enforced only by a per-release shell loop. The check now covers every leaf and SKILL.md, with a table-dominance exemption for reference leaves. 24 under-length leaves filled with substance and 3 trimmed: `ac-deep-researcher` (13), `ac-design-taste` (2), `ac-prompt-engineer` (3), `ac-subskills-author` (3), and one each in five other trees. **164/164 trees now PASS with the band enforced.** Full account: `findings/job-079-validator-defect.md` on the ops board.
+
+The pack is now 164 skills, 1059 leaves.
+
 ## 0.48.0 — 2026-11-10
 
 ### Fixed

@@ -59,3 +59,5 @@ status: "seedling"
 - Honest bounds and refresh targets exist.
 - The stop reason appears verbatim.
 - The chat reply is five lines or fewer plus paths.
+
+The report's first paragraph carries the finding and its confidence, and everything after it is support; a document that builds to the conclusion has asked the reader to hold the whole argument before learning what it is for. Answer-first is a courtesy to the reader and a discipline on the writer.

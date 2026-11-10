@@ -61,6 +61,8 @@ status: "seedling"
  reason it could not is stated.
 - The refresh-target list exists, even if short.
 
+The pass is more useful when it is aimed at the conclusion the author is most confident in rather than the one that feels weakest, since the confident conclusion is the one that received the least scrutiny on the way in. An attack that only finds faults in the hedged claims has found the hedging, not the error.
+
 ## Sources
 
 - MisKnow benchmark, 2025 (⚠️ preprint; cite the version you check, not this line).

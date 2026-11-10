@@ -53,3 +53,8 @@ eval leaf). Otherwise you have automated folklore generation.
 - [ ] Each prompt folder carries its own test fixtures and baseline.
 - [ ] CI blocks a merge that drops the golden-set pass rate.
 - [ ] Rollback is an alias switch, tested once per quarter.
+
+The library's organising principle should be the task rather than the model, because a prompt written for one model's quirks becomes misleading when the model changes and the task description outlives the quirk. Filing by task is what lets an entry be re-tested rather than retired.
+
+A library also needs a retirement rule, because an entry that has never been re-tested since a model change is a record of what used to work, and a growing library of untested entries is worse than a short one that has been checked. The date of the last evaluation belongs beside the prompt.
+

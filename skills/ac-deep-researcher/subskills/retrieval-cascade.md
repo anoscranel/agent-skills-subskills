@@ -61,3 +61,5 @@ checking before a bulk run.
 - Every fetch names its tier.
 - Every throttle got its wait-and-retry before escalation.
 - Every retrieved source is on disk the moment it is retrieved.
+
+The cascade's cost is also a variable worth recording: a query answered at the first tier costs seconds, one that reaches the fourth costs minutes, and a plan that assumes the cheap tier will succeed will overrun whenever it does not. Recording the tier that actually produced the answer is what makes the next plan's budget honest.

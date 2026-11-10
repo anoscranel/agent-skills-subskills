@@ -54,6 +54,8 @@ record, intact append-only, ≥30 days (SPEC-rsi-skills.md §0 house-set thresho
 - One jsonl line per routing event, schema-conformant, appended, never rewritten.
 - Proposals surface as evidence cards only; zero self-applied edits.
 
+The proposal is only actionable when it names the line it would change, because a proposal at the level of intent cannot be reviewed and cannot be safely rejected. Line-level proposals are cheap to evaluate and cheap to discard, which is what makes an optimisation pass tolerable.
+
 ## Sources
 
 - SPEC-rsi-skills §0/§4/§6/§7: https://github.com/anoscranel/rsi-skills/blob/main/docs/SPEC-rsi-skills.md

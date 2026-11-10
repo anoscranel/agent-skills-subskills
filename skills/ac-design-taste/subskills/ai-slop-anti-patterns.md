@@ -51,6 +51,8 @@ status: seedling
 - [ ] One accent per view.
 - [ ] The logo-swap test shows a distinctive composition.
 
+The reliable tell is not any single choice but the absence of a decision: default shadows, evenly spaced everything, and a palette assembled from a framework's tokens all indicate that nothing was chosen against an alternative. Naming the alternative that was rejected is what turns a style into a taste.
+
 ## Sources
 
 - https://github.com/anthropics/skills/tree/main/skills/frontend-design

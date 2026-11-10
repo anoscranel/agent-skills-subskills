@@ -43,7 +43,6 @@ In practice: `[12]`, `see S3`, and `(above)` are three styles and one pattern: `
 ## Anti-patterns
 
 - **Search and replace across the tree.** It edits sentences nobody reviewed. Fix: one finding, one exact string.
-- **Repairing from memory of the finding.** The detail drifts. Fix: keep the finding open on screen.
 - **One sweep treated as complete.** Three passes in a row can each miss a tag style. Fix: a second pattern from a second hand.
 - **The auditor repairing.** The finder hides its own fix. Fix: writer repairs, third read audits the delta.
 
