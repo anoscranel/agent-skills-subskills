@@ -15,7 +15,7 @@ A fund's liquidity terms define when an investor can ask for money back and what
 
 The important reading is the interaction. A fund with a one-year lockup and a quarterly gate can take considerably longer than a year to exit if others redeem first, and the investor's position in the queue is determined by mechanics rather than by need. Recording the terms as a timeline under a stress assumption, rather than as a list of provisions, is what shows the actual exit horizon.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -59,6 +59,6 @@ The side-pocket treatment is where the timeline most often lengthens without war
 
 ## Sources
 
-- Fund redemption disclosure: <https://www.sec.gov/about/about-securities>
+- Fund redemption disclosure: <https://www.sec.gov/investor>
 - Investment management standards: <https://www.cfainstitute.org/>
 - Fund governance research: <https://www.nber.org/>

@@ -15,7 +15,7 @@ Option contracts are adjusted when the underlying changes. A split multiplies th
 
 The risk is that the adjusted contract is not the contract the trader thought they held. An option that delivers a mixed basket, or that settles in cash at a value determined by the deal terms, has different liquidity and different hedging behaviour from the original, and its price may no longer be comparable with the standard contract. Reading the adjustment notice is the only way to know what the position became.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The adjustment also changes the option's hedging behaviour: an adjusted contract
 ## Sources
 
 - Exchange adjustment notices and rules: <https://www.cboe.com/>
-- Corporate action disclosure: <https://www.sec.gov/about/about-securities>
+- Corporate action disclosure: <https://www.sec.gov/investor>
 - Investor education on corporate actions: <https://www.investor.gov/introduction-investing>

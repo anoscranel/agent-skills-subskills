@@ -15,7 +15,7 @@ A campaign is an investment with a budget. The costs are legal, solicitation, pu
 
 The arithmetic also constrains behaviour. A sponsor with a fund approaching the end of its life needs a faster outcome, which is one reason campaigns against companies with long resolution cycles are rarer. Recorded costs and a stated holding period convert a public-relations narrative into a return calculation, and the calculation is what makes a settlement acceptable or not.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The cost side also includes the position's own risk: a campaign typically involv
 
 ## Sources
 
-- Activist position and expense disclosure: <https://www.sec.gov/about/about-securities>
+- Activist position and expense disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Market data: <https://fred.stlouisfed.org/>

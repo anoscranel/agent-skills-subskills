@@ -15,7 +15,7 @@ An earnings release replaces information with a new distribution in a single mom
 
 The decision has three branches, and each should be chosen deliberately. Reduce the position before the event; hold it and accept the gap risk; or hedge it with options, which costs the premium. What is not a plan is holding at full size because the thesis is strong, since the event can be right on the business and wrong on the price. The record states which branch was chosen, the implied move at the time, and the resulting exposure in currency.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Company disclosure and event filings: <https://www.sec.gov/about/about-securities>
+- Company disclosure and event filings: <https://www.sec.gov/investor>
 - Trading and options guidance: <https://www.finra.org/>
 - Investor education on event risk: <https://www.investor.gov/introduction-investing>

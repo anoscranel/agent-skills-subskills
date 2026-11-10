@@ -56,4 +56,4 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on risk tolerance and capacity: <https://www.investor.gov/introduction-investing>
 - Investment-policy reference material: <https://www.cfainstitute.org/>
-- Regulatory context for suitability and disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for suitability and disclosure: <https://www.sec.gov/investor>

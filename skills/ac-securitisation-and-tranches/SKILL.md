@@ -15,7 +15,7 @@ A securitisation pools assets into a special-purpose vehicle and issues claims a
 
 This skill covers that structure: how the vehicle is separated from its originator, how cash moves through the waterfall, how enhancement is built from subordination and overcollateralisation, what triggers change the distribution, and why the servicer's behaviour is a risk the documents address but cannot eliminate. It is about reading a structure, not about choosing a tranche.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## When to use
 

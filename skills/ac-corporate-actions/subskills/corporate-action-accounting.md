@@ -15,7 +15,7 @@ Every corporate action creates an accounting question: what basis the new positi
 
 The facts are consistent across jurisdictions: the original basis and purchase date, the terms of the action, the ratio or consideration, the fair value at the relevant date, and the amounts received. A record containing those can be answered by a professional; one missing them requires reconstruction, and reconstruction understates basis as often as it overstates it.
 
-Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-sec
 ## Sources
 
 - Tax administration guidance on basis and reorganisations: <https://www.irs.gov/>
-- Regulatory context for issuer terms: <https://www.sec.gov/about/about-securities>
+- Regulatory context for issuer terms: <https://www.sec.gov/investor>
 - Investor education on cost basis: <https://www.investor.gov/introduction-investing>
 
 The value of carrying the original basis forward is that every later question can be answered from it: the gain on a sale, the allocation in a spin-off, the treatment of a return of capital. Losing it after a reorganisation is the single most common basis error, and it is unrecoverable without the original broker records.

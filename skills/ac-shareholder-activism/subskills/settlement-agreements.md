@@ -15,7 +15,7 @@ Most campaigns end in a settlement rather than a vote. The typical package gives
 
 The details that matter are the standstill length, the ownership cap, the voting commitment for the seats granted, and the confidentiality provisions. A short standstill returns the activist to the table quickly; a long one buys the company time. Nominees who must be approved by the board, or who are allocated to a committee with no authority, may be seats in name only.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The settlement's durability also depends on what happens after the standstill ex
 
 ## Sources
 
-- Settlement agreement filings: <https://www.sec.gov/about/about-securities>
+- Settlement agreement filings: <https://www.sec.gov/investor>
 - Governance analysis standards: <https://www.cfainstitute.org/>
 - Governance research: <https://www.nber.org/>

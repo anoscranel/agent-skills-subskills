@@ -15,7 +15,7 @@ The issuance record states the terms of the issue, the supply it creates, and th
 
 The dilution section is what distinguishes it from a trade note. An issue changes the share count, and the change is not only the new shares sold: options, warrants, convertibles, and the greenshoe all add to the fully diluted count, and the difference between basic and diluted is the number that matters for per-share arithmetic afterwards. Recording it at the issue means the later comparison has a starting point.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The record should also note what the issue does to the existing holders' positio
 
 ## Sources
 
-- Issuance disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Issuance disclosure requirements: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Market practice guidance: <https://www.finra.org/>

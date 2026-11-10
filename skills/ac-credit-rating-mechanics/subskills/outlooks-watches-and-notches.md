@@ -15,7 +15,7 @@ An outlook is the agency's view of the direction of a rating over one to two yea
 
 The distinction matters operationally because a watch signals that a committee is already engaged. A negative watch on a name near an investment-grade threshold is therefore a live risk for any mandate that references the threshold, not a distant possibility, and the record should treat it as a scheduled event rather than as an opinion. Outlooks, by contrast, often resolve to stable without any rating change.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The timing asymmetry is the part worth recording: outlooks frequently resolve to
 
 ## Sources
 
-- Rating agency actions and disclosure: <https://www.sec.gov/about/about-securities>
+- Rating agency actions and disclosure: <https://www.sec.gov/investor>
 - Regulatory framework for ratings: <https://www.bis.org/>
 - Investor education on credit risk: <https://www.investor.gov/introduction-investing>

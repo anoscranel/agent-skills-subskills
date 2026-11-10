@@ -15,7 +15,7 @@ The advertised commission is one line of a longer bill. The rest arrives as spre
 
 Currency conversion is the most commonly underestimated. A provider that quotes a commission-free trade may apply a margin to the exchange rate on every purchase and sale of a foreign asset, and that margin repeats with each transaction. Expressed annually, it can exceed the commission it replaced, which is why the record converts every fee into the same units: basis points per year at the account's actual activity level.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The comparison is only fair when both providers are costed at the same activity 
 ## Sources
 
 - Investor education on account costs: <https://www.investor.gov/introduction-investing>
-- Broker-dealer disclosure context: <https://www.sec.gov/about/about-securities>
+- Broker-dealer disclosure context: <https://www.sec.gov/investor>
 - Exchange-rate and inflation data: <https://fred.stlouisfed.org/>

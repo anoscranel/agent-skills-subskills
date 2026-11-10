@@ -15,7 +15,7 @@ A key-person clause suspends or alters the manager's rights if a named individua
 
 The clause is also an admission. A fund that names two people as key persons has told you where its process lives, and the succession arrangements show whether that dependence has been addressed or merely documented. A clause that pauses new investment but leaves the portfolio to be managed by whoever remains is a different protection from one that triggers a wind-down or a fee reduction.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -59,6 +59,6 @@ A further test is whether the named persons know they are named: a clause listin
 
 ## Sources
 
-- Fund documentation: <https://www.sec.gov/about/about-securities>
+- Fund documentation: <https://www.sec.gov/investor>
 - Investment management standards: <https://www.cfainstitute.org/>
 - Governance research: <https://www.nber.org/>

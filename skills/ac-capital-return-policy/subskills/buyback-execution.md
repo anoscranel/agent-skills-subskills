@@ -15,7 +15,7 @@ An authorisation is not a buyback. A company announces a programme, and then buy
 
 Execution quality has two tests. The first is whether the shares were bought when they were cheap relative to the company's own cash flows, which is testable after the fact against the price history. The second is whether the programme was completed at all: a recurring pattern of announcing large authorisations while purchasing a small fraction is a signal about intent, and it is visible in the share count over several years rather than in any single filing.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The cost of a repurchase is also the opportunity cost of the price paid, which i
 
 ## Sources
 
-- Share repurchase disclosure: <https://www.sec.gov/about/about-securities>
+- Share repurchase disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Market data for price comparison: <https://fred.stlouisfed.org/>

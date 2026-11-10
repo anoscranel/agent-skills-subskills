@@ -15,7 +15,7 @@ A company consolidates entities it controls, and the definition of control is pr
 
 The questions to document are the ones the boundary raises. What is the company's maximum exposure to an unconsolidated entity, and is it disclosed? Does the company provide liquidity support, guarantees, or management services? Has the entity's consolidation status changed between periods, and if so, what did that change do to the reported figures? Each is answerable from the filings, and each bears on whether the leverage in the group is visible.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ The arrangement that most often escapes notice is the ordinary commercial one ra
 
 ## Sources
 
-- Disclosure requirements for consolidation: <https://www.sec.gov/about/about-securities>
+- Disclosure requirements for consolidation: <https://www.sec.gov/investor>
 - Research on accounting and disclosure: <https://www.nber.org/>
 - Investor education on filings: <https://www.investor.gov/introduction-investing>

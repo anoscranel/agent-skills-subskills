@@ -15,7 +15,7 @@ A fund's wrapper determines who is permitted to hold it, and that permission is 
 
 Distribution rules follow the same logic. A fund marketed across borders must be registered or notified in each jurisdiction, and a fund that is not registered cannot be advertised even if a resident could legally buy it on request. That is why two investors in different countries can face different available products from the same manager, and why a fund's marketing material usually carries a jurisdictional legend rather than a single global claim.
 
-Primary sources: <https://www.esma.europa.eu/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.esma.europa.eu/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The practical consequence is that a wrapper decision is often made by the invest
 ## Sources
 
 - European distribution and passport rules: <https://www.esma.europa.eu/>
-- United States securities registration: <https://www.sec.gov/about/about-securities>
+- United States securities registration: <https://www.sec.gov/investor>
 - Investor education on fund eligibility: <https://www.investor.gov/introduction-investing>

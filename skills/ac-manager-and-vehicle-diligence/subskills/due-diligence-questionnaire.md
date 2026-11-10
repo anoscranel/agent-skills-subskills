@@ -15,7 +15,7 @@ A due diligence questionnaire is a structured document the manager completes abo
 
 Its limits are structural. The answers are self-reported, the questions are set by the industry rather than by the allocator, and the sections that would be most informative — how the process failed, what the manager would do in a scenario it has not experienced, how the team handled a disagreement — are the ones a questionnaire format tends to omit. Reading one means recording what it answers and then asking separately what it does not.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The most informative section of a completed DDQ is usually the one that describe
 
 ## Sources
 
-- Manager disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Manager disclosure requirements: <https://www.sec.gov/investor>
 - Investment management standards: <https://www.cfainstitute.org/>
 - Fund governance research: <https://www.nber.org/>

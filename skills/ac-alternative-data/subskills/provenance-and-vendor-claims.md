@@ -15,7 +15,7 @@ Provenance is the chain from the original observation to the delivered file: who
 
 Vendor claims should be tested rather than accepted. The testable ones are the specific assertions: that the panel covers a stated number of entities over a stated period, that the history is what was available at the time, that the mapping to securities is stable. Each can be checked against a sample, and a vendor that will not supply the sample for checking has answered the question.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ A useful habit is to record the vendor's own description verbatim alongside the 
 
 ## Sources
 
-- Disclosure and data-handling context: <https://www.sec.gov/about/about-securities>
+- Disclosure and data-handling context: <https://www.sec.gov/investor>
 - Research methods on data quality: <https://www.nber.org/>
 - Investor education on data use: <https://www.investor.gov/introduction-investing>

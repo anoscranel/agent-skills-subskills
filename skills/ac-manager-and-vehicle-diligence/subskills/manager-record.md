@@ -15,7 +15,7 @@ The record states the manager, the vehicle, the terms agreed, the tests applied 
 
 It also carries the conditions of the relationship. The reporting the allocator will receive, the information rights it holds, the review cycle, and the triggers that would cause a re-underwriting — a key-person departure, a fee change, a gate being invoked, a change of control — belong in the record before the allocation, because after it the allocator's leverage is reduced.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The record also serves as the baseline for the next diligence cycle: comparing t
 
 ## Sources
 
-- Fund and adviser disclosure: <https://www.sec.gov/about/about-securities>
+- Fund and adviser disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investment management standards: <https://www.cfainstitute.org/>

@@ -56,6 +56,6 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on estate planning: <https://www.investor.gov/introduction-investing>
 - Tax administration guidance on estate matters: <https://www.irs.gov/>
-- Regulatory context for asset transfers: <https://www.sec.gov/about/about-securities>
+- Regulatory context for asset transfers: <https://www.sec.gov/investor>
 
 The estimate does not need precision to be useful: an order-of-magnitude check against the cash available is enough to reveal whether the plan depends on a forced sale, and that finding is what motivates the structural work a professional can then do.

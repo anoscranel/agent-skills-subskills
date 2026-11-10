@@ -15,7 +15,7 @@ The distinction is what the bondholder can reach. A general obligation bond is b
 
 The difference shows up in the recovery, not in the coupon. A revenue bond on a project with a structural demand shortfall can default while the city behind it is fiscally sound, and the bondholder's remedy is limited to the project and whatever reserve fund stands behind it. Reading the pledge means asking two questions: which cash flow pays the debt, and what happens when that cash flow is insufficient.
 
-Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/about/about-se
 ## Sources
 
 - Municipal disclosure and market information: <https://www.msrb.org/>
-- Regulatory filings and disclosure context: <https://www.sec.gov/about/about-securities>
+- Regulatory filings and disclosure context: <https://www.sec.gov/investor>
 - Investor education on municipal securities: <https://www.investor.gov/introduction-investing>

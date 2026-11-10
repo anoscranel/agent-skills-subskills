@@ -61,4 +61,4 @@ The intercreditor agreement should be read for what it says about a sale of the 
 
 - Credit market structure: <https://www.federalreserve.gov/>
 - Credit analysis standards: <https://www.cfainstitute.org/>
-- Fund disclosure: <https://www.sec.gov/about/about-securities>
+- Fund disclosure: <https://www.sec.gov/investor>

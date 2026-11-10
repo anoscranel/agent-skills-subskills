@@ -15,7 +15,7 @@ The positioning record states the claim, the disclosure it rests on, the date of
 
 The record also states what would change the conclusion. Because every source here is stale and partial, a conclusion built on one is provisional by construction, and the trigger that would overturn it — a new filing, a reversal in the fails series, a change in the reported category — should be named when the conclusion is written rather than discovered later.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -62,4 +62,4 @@ Keeping the record in one place per security, with amendments appended rather th
 
 - Filing search for institutional disclosure: <https://www.sec.gov/edgar/search/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>

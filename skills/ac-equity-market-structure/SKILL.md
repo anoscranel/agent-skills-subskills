@@ -15,7 +15,7 @@ An equity order does not go to "the market"; it goes to a venue, at a time, unde
 
 This skill is the mechanical layer beneath any equity decision. It does not pick stocks or venues; it tells you what the mechanism will do to your order, and which features of the mechanism are worth recording before you rely on them.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## When to use
 

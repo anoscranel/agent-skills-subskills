@@ -15,7 +15,7 @@ An allocation to a manager is a decision about a counterparty as much as about a
 
 This skill covers that counterparty assessment. It deals with what a due diligence questionnaire can establish and what it cannot, how to test operations rather than describe them, how to read a fee stack and the offsets that reduce it, how side letters create different investors in the same fund, and how key-person, governance, and liquidity terms allocate the risk between the manager and the allocator.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## When to use
 

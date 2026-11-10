@@ -15,7 +15,7 @@ The record states the case, the class definition and how the holding falls insid
 
 It also states the outcome and the amount actually received, which is what allows a later review to compare the estimate with reality. Litigation recovery is a small line in most portfolios, but the process of estimating it is the same process used for larger contingent claims, and the record is where that discipline is either kept or lost.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The record also accumulates across cases: after several settlements, a holder ca
 
 ## Sources
 
-- Litigation and settlement disclosure: <https://www.sec.gov/about/about-securities>
+- Litigation and settlement disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investment operations standards: <https://www.cfainstitute.org/>

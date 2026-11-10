@@ -15,7 +15,7 @@ The grant type determines when shares actually appear in the count. A stock opti
 
 Vesting schedules determine the timing of the supply. Time-based vesting releases shares on a calendar, which makes the future dilution predictable; performance-based vesting releases them only if conditions are met, which makes it conditional; and a grant with a cliff releases nothing until a date and then releases everything at once. Recording the schedule and the form together is what makes the forward share count estimable rather than guessed.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.fasb.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.fasb.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Compensation disclosure in filings: <https://www.sec.gov/about/about-securities>
+- Compensation disclosure in filings: <https://www.sec.gov/investor>
 - Accounting standards for share-based payment: <https://www.fasb.org/>
 - Investor education on dilution: <https://www.investor.gov/introduction-investing>

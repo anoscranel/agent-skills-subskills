@@ -15,7 +15,7 @@ Most catastrophe perils have a season, and a bond's risk is concentrated in it: 
 
 Reset provisions add a second dynamic. A bond may reset its terms — the attachment point, the price, or both — on an anniversary, and a reset can extend exposure rather than terminate it. The record should state the season window, the reset dates, and whether the investor has any option to exit at reset, because a position held through a reset is a decision rather than an oversight.
 
-Primary sources: <https://www.artemis.bm/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.artemis.bm/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The reset decision is also a liquidity event: a reset date is one of the few mom
 ## Sources
 
 - Catastrophe bond terms and market data: <https://www.artemis.bm/>
-- Securities disclosure context: <https://www.sec.gov/about/about-securities>
+- Securities disclosure context: <https://www.sec.gov/investor>
 - Investor education on structured risk: <https://www.investor.gov/introduction-investing>

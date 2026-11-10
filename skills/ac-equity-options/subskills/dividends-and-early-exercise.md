@@ -15,7 +15,7 @@ A deep in-the-money American call is exercised for one reason: to capture the di
 
 The timing is what matters. Assignment arrives before the ex-dividend date, the notice is delivered after the close, and the resulting short stock position must be covered or borrowed. A trader who is short calls into an ex-dividend date without checking the open interest and the dividend size is exposed to an assignment that appears on the statement rather than in the plan.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The dividend calendar should be read alongside the option's own expiry: a call e
 ## Sources
 
 - Exchange exercise and dividend guidance: <https://www.cboe.com/>
-- Corporate action and dividend disclosure: <https://www.sec.gov/about/about-securities>
+- Corporate action and dividend disclosure: <https://www.sec.gov/investor>
 - Investor education on assignment: <https://www.investor.gov/introduction-investing>

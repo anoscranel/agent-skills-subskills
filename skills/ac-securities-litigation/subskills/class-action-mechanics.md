@@ -15,7 +15,7 @@ A securities class action begins with a complaint filed on behalf of a putative 
 
 The class definition sets the boundaries. It names the security, the period, and often the market in which the shares traded, and an investor outside those boundaries has no claim even if the loss is real. Reading the definition before assuming entitlement is the first step, and the class period is usually the second thing to check against the holding dates.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The stage also determines what a holder can do: before certification there is no
 
 ## Sources
 
-- Securities litigation disclosure: <https://www.sec.gov/about/about-securities>
+- Securities litigation disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Legal process context: <https://www.usa.gov/>

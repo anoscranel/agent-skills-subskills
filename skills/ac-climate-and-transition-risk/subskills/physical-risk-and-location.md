@@ -62,4 +62,4 @@ The adaptation question also has an ownership dimension: a tenant whose landlord
 
 - Physical risk and infrastructure data: <https://www.eia.gov/>
 - Climate risk frameworks: <https://www.bis.org/>
-- Disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Disclosure requirements: <https://www.sec.gov/investor>

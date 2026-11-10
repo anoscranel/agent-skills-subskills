@@ -56,4 +56,4 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on record-keeping and disclosure: <https://www.investor.gov/introduction-investing>
 - Pre-registration practice for stated criteria before evidence: <https://osf.io/prereg/>
-- Securities regulation context: <https://www.sec.gov/about/about-securities>
+- Securities regulation context: <https://www.sec.gov/investor>

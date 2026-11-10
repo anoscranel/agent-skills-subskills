@@ -15,7 +15,7 @@ When earnings and operating cash flow diverge, the difference sits in a working-
 
 Receivables absorbing the gap means revenue is being recognised ahead of collection. Inventory absorbing it means production is ahead of sale. Payables absorbing it means the company is paying suppliers later, which is a one-time benefit that reverses. A non-cash charge absorbing it means earnings are below cash rather than above, which is a different story entirely. Each has a different implication and a different persistence.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The most informative single check is whether the same account has absorbed the g
 
 ## Sources
 
-- Cash flow statement disclosure: <https://www.sec.gov/about/about-securities>
+- Cash flow statement disclosure: <https://www.sec.gov/investor>
 - Research on earnings and cash: <https://www.nber.org/>
 - Investor education on financial statements: <https://www.investor.gov/introduction-investing>

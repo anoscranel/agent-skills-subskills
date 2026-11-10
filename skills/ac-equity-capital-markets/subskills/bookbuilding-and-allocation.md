@@ -15,7 +15,7 @@ A bookbuild collects indications of demand from investors across a price range, 
 
 That discretion is why allocation is information. A book that is heavily oversubscribed at the top of the range prices there, and a book that is thin prices lower or is pulled; a book that is covered only by a few accounts prices but leaves a concentrated register that can sell in one block afterwards. Reading the disclosed coverage and the allocation pattern tells you more about the aftermarket than the offer price does.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The pricing decision also carries information about the issuer's own view: an is
 
 ## Sources
 
-- Securities offering disclosure: <https://www.sec.gov/about/about-securities>
+- Securities offering disclosure: <https://www.sec.gov/investor>
 - Underwriting and conduct guidance: <https://www.finra.org/>
 - Investor education on new issues: <https://www.investor.gov/introduction-investing>

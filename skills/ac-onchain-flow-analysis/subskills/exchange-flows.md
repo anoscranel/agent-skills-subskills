@@ -56,6 +56,6 @@ Primary sources: <https://ethereum.org/en/developers/docs/> and <https://arxiv.o
 
 - Ethereum developer documentation on ledger data: <https://ethereum.org/en/developers/docs/>
 - Empirical venue-flow measurement during stress: <https://arxiv.org/abs/2608.03616>
-- Disclosure context for reserve attestations: <https://www.sec.gov/about/about-securities>
+- Disclosure context for reserve attestations: <https://www.sec.gov/investor>
 
 The strongest use of exchange flows is comparative: the same venue, the same window length, the same exclusions, across several periods. A single reading tells you almost nothing; a series built on a consistent rule tells you when the venue's behaviour changed, which is the question a trading decision actually needs answered.

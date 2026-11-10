@@ -15,7 +15,7 @@ Some of the largest flows in a name are scheduled: the closing auction, where in
 
 The anticipation is partial. The size of the flow can be estimated from index weights and the assets tracking the index, but the estimate carries error, and the trade is widely known, which means part of it is priced before the effective date. The record should state the estimate, its error band, and the portion likely already reflected, rather than treating the scheduled flow as a free signal.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The auction's own mechanics are worth recording because they decide execution: o
 
 ## Sources
 
-- Market structure and closing auction context: <https://www.sec.gov/about/about-securities>
+- Market structure and closing auction context: <https://www.sec.gov/investor>
 - Trading practice guidance: <https://www.finra.org/>
 - Investor education on index events: <https://www.investor.gov/introduction-investing>

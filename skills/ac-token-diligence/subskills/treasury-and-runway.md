@@ -15,7 +15,7 @@ A protocol that pays its costs from a treasury is a business with a clock. The c
 
 Reported treasury figures are self-reported unless the holdings are verifiable on-chain. A treasury statement is evidence of what the issuer says it holds; a set of addresses is evidence of what it actually holds. Diligence records both and states which one the runway calculation used.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on disclosure and financial statements: <https://www.investor.gov/introduction-investing>
-- Securities regulation context for issuer disclosures: <https://www.sec.gov/about/about-securities>
+- Securities regulation context for issuer disclosures: <https://www.sec.gov/investor>
 - Ethereum token standards documentation: <https://ethereum.org/en/developers/docs/standards/tokens/>

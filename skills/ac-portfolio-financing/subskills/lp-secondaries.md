@@ -15,7 +15,7 @@ An LP secondary is the sale of an existing investor's interest in a fund to anot
 
 The discount is the market's opinion of the marks, which is why it is informative beyond the transaction. A fund reporting stable values while its interests trade at a substantial discount is telling two different stories, and the gap is a measure of the optimism in the reported figure. Recording the discount and its components is the way to read that gap.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ The comparison worth making is between the secondary discount and the fund's own
 
 ## Sources
 
-- Fund interest transaction disclosure: <https://www.sec.gov/about/about-securities>
+- Fund interest transaction disclosure: <https://www.sec.gov/investor>
 - Private markets standards: <https://www.cfainstitute.org/>
 - Credit conditions: <https://www.federalreserve.gov/>

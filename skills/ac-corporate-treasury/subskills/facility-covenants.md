@@ -15,7 +15,7 @@ Covenants come in two kinds and they constrain differently. A maintenance covena
 
 The headroom on the maintenance tests is the number that matters for credit. It is computed by taking the ratio's current level against its threshold and converting the gap into the amount of EBITDA decline or debt increase that would breach it. That conversion is what turns a covenant schedule into a statement about how much adversity the capital structure can absorb before the lender gains control.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The definition section deserves more attention than the threshold: a leverage co
 
 ## Sources
 
-- Facility and covenant disclosure: <https://www.sec.gov/about/about-securities>
+- Facility and covenant disclosure: <https://www.sec.gov/investor>
 - Credit market context: <https://www.federalreserve.gov/>
 - Investor education on credit agreements: <https://www.investor.gov/introduction-investing>

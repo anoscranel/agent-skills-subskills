@@ -58,4 +58,4 @@ The changing part of the analysis is the ownership chain: a designated party's h
 
 - International financial and sanctions context: <https://www.imf.org/>
 - Trade and policy information: <https://www.wto.org/>
-- Regulatory disclosure context: <https://www.sec.gov/about/about-securities>
+- Regulatory disclosure context: <https://www.sec.gov/investor>

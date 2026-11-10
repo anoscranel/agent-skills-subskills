@@ -15,7 +15,7 @@ Equity compensation is recognised as an expense in the income statement, and it 
 
 The arithmetic that closes the gap is straightforward: the expense is real to shareholders because it is paid in ownership, and the cash-flow statement's add-back restores the accounting figure without restoring the dilution. A company that reports an adjusted margin excluding compensation expense, and simultaneously buys back shares to offset the dilution, is spending cash on the offset and excluding the expense from the metric — which makes the offset visible and the cost invisible.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.fasb.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.fasb.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ A further check is whether the expense is stable as a percentage of revenue or r
 
 ## Sources
 
-- Financial statement disclosure: <https://www.sec.gov/about/about-securities>
+- Financial statement disclosure: <https://www.sec.gov/investor>
 - Share-based payment accounting standards: <https://www.fasb.org/>
 - Investor education on adjusted metrics: <https://www.investor.gov/introduction-investing>

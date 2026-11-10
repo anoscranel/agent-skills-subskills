@@ -58,4 +58,4 @@ The record's value compounds across a portfolio: with several converts and hybri
 
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Security disclosure: <https://www.sec.gov/about/about-securities>
+- Security disclosure: <https://www.sec.gov/investor>

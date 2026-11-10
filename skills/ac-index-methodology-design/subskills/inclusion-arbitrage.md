@@ -15,7 +15,7 @@ Index rules are published, so a security's likely inclusion or deletion can be a
 
 The opportunity is limited by its own visibility. The estimate carries error, the market anticipates the flow, and the effect on the price is largest in the announcement window rather than the effective date. The record should state the estimated flow, the anticipated portion, and the cost of being wrong about the decision itself, since a rule-based prediction can fail when the committee exercises discretion.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ The cost of being wrong about the decision is asymmetric in a way worth recordin
 ## Sources
 
 - Index methodology and announcements: <https://www.investor.gov/introduction-investing>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Fund and index data: <https://fred.stlouisfed.org/>

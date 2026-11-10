@@ -15,7 +15,7 @@ Two options expiring on the same date can settle against different prices. A PM-
 
 Weekly and daily expiries add a second layer. They shorten the option's life and concentrate gamma near expiry, which is why the last day of a short-dated contract behaves differently from the last day of a monthly one. A trader who plans an exit "at expiry" without checking whether the contract settles at the open or the close is planning against the wrong price.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ A further trap is the exercise-by-exception rule: an in-the-money option is exer
 ## Sources
 
 - Exchange settlement conventions: <https://www.cboe.com/>
-- Regulatory information on options: <https://www.sec.gov/about/about-securities>
+- Regulatory information on options: <https://www.sec.gov/investor>
 - Investor education on expiry: <https://www.investor.gov/introduction-investing>

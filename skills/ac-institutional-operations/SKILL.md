@@ -15,7 +15,7 @@ An institutional trade is a chain of obligations rather than a single transactio
 
 That chain is where the institutional footprint becomes visible to the back office rather than to the screen. A large order that appears as a single print in the tape becomes many allocations, several give-ups, and a set of settlement obligations. Understanding the chain is what makes it possible to interpret settlement data, fails, and lending flows, and it is the difference between reading a market from the front office and reading it from the plumbing.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

@@ -15,7 +15,7 @@ A treasury that holds cash with banks and enters derivatives with them is expose
 
 The measurement detail is where the discipline lives. A deposit is straightforward; a derivative's exposure is its replacement cost, which rises when the contract moves in the company's favour and can exceed the notional's apparent smallness. A policy that counts derivative exposure at zero because the notional is notionally matched is not measuring the risk that appears exactly when a counterparty fails.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The concentration that matters most is not per name but per funding model: banks
 ## Sources
 
 - Counterparty and collateral standards: <https://www.bis.org/>
-- Corporate disclosure of treasury arrangements: <https://www.sec.gov/about/about-securities>
+- Corporate disclosure of treasury arrangements: <https://www.sec.gov/investor>
 - Investor education on counterparty risk: <https://www.investor.gov/introduction-investing>

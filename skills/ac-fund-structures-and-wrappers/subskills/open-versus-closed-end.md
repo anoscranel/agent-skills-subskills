@@ -15,7 +15,7 @@ An open-end fund creates and redeems units at net asset value on demand, so the 
 
 The difference matters most in stress. An open-end fund facing redemptions must sell assets to meet them, which transmits selling pressure into the underlying market and can force sales at the worst prices; a closed-end fund faces no redemption pressure, so its assets stay intact while its share price absorbs the shock through a widening discount. The first structure risks the portfolio, the second risks the price.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The interval fund sits between the two and is worth naming separately: it offers
 
 ## Sources
 
-- Fund structure and disclosure framework: <https://www.sec.gov/about/about-securities>
+- Fund structure and disclosure framework: <https://www.sec.gov/investor>
 - Investor education on fund types: <https://www.investor.gov/introduction-investing>
 - Market practice guidance: <https://www.finra.org/>

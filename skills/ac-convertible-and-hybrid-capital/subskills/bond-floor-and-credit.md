@@ -15,7 +15,7 @@ The bond floor is the value of the convertible if the option were worthless: the
 
 The floor is not a fixed figure. It falls when the issuer's spread widens, when the remaining maturity shortens, and when the instrument is structurally subordinated to other claims. A convert whose stock has collapsed trades near its floor, and at that point the position's dominant risk has changed from equity to credit without any trade having been made.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The floor's practical use is as a discipline against confusion: when a convertib
 
 ## Sources
 
-- Security terms and disclosure: <https://www.sec.gov/about/about-securities>
+- Security terms and disclosure: <https://www.sec.gov/investor>
 - Capital structure and subordination standards: <https://www.bis.org/>
 - Rate data for discounting: <https://fred.stlouisfed.org/>

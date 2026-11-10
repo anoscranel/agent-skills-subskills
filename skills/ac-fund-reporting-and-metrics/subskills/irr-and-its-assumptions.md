@@ -15,7 +15,7 @@ IRR is the discount rate that makes the present value of a fund's cash flows equ
 
 The reinvestment assumption compounds the distortion. IRR implicitly assumes every interim cash flow is reinvested at the IRR itself, which for a fund reporting twenty percent assumes twenty percent redeployment of every distribution. No such opportunity is identified, and the assumption is most flattering precisely when the fund is doing well. The record should state that the metric is a summary of cash-flow timing rather than a compound annual return.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ A useful cross-check is to compute the IRR on the same cash flows with a delay o
 ## Sources
 
 - Investment performance standards: <https://www.cfainstitute.org/>
-- Fund disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Fund disclosure requirements: <https://www.sec.gov/investor>
 - Investor education on fund metrics: <https://www.investor.gov/introduction-investing>

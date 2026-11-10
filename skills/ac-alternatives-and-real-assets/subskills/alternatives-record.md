@@ -15,7 +15,7 @@ The record for an alternative asset has to do something a public-market record d
 
 A record that says "worth X" without the method is not a record; it is an assertion. The useful version says "marked at X by method M on date D, with a sale estimate of X minus a haircut H, and a lockup until date L" — from which a reader can see both the number and its fragility.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for private-asset valuation and disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for private-asset valuation and disclosure: <https://www.sec.gov/investor>
 - Investor education on alternative investments: <https://www.investor.gov/introduction-investing>
 - Rate context for discounting marks: <https://fred.stlouisfed.org/>
 

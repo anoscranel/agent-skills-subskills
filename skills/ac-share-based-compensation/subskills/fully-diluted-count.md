@@ -15,7 +15,7 @@ The basic count is the shares outstanding. The diluted count adds the shares tha
 
 That method makes dilution price-dependent. When the share price is above the strike, options are in the money and their dilutive effect rises with the price; when it is below, they add nothing. A diluted count computed at one price is therefore not the count at another, and the count used in a per-share calculation should be the one consistent with the price in the numerator.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.fasb.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.fasb.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The count should also be reconciled across periods, because an increase that com
 
 ## Sources
 
-- Share count disclosure in filings: <https://www.sec.gov/about/about-securities>
+- Share count disclosure in filings: <https://www.sec.gov/investor>
 - Earnings per share accounting standards: <https://www.fasb.org/>
 - Investor education on per-share metrics: <https://www.investor.gov/introduction-investing>

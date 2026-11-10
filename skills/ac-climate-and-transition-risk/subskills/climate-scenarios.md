@@ -15,7 +15,7 @@ A climate scenario is a conditional path: given this level of policy stringency,
 
 Reading one means reading its assumptions. The carbon price path, the technology cost assumptions, the discount rate, and the demand elasticity determine the answer, and a scenario that assumes a smooth carbon price is describing a world in which the transition has no political friction. Comparing a portfolio's loss under two scenarios without comparing their assumptions compares two different models rather than two futures.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ A useful discipline is to ask what the scenario would have to assume for the exp
 ## Sources
 
 - Climate scenario frameworks: <https://www.bis.org/>
-- Disclosure and scenario requirements: <https://www.sec.gov/about/about-securities>
+- Disclosure and scenario requirements: <https://www.sec.gov/investor>
 - Analysis standards: <https://www.cfainstitute.org/>

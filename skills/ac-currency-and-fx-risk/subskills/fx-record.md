@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Exchange-rate and rate data: <https://fred.stlouisfed.org/>
 - Investor education on currency exposure: <https://www.investor.gov/introduction-investing>
-- Regulatory context for portfolio disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for portfolio disclosure: <https://www.sec.gov/investor>
 
 The record's most useful line is the reason for the ratio, because it is the only thing that tells a later reader whether the hedge was a policy or a reaction. Ratios without reasons get revised after every currency move; reasons survive the move and are the basis for a calm review.
 

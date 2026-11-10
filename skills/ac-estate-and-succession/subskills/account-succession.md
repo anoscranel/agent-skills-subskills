@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on account transfers: <https://www.investor.gov/introduction-investing>
 - Tax administration guidance on inherited accounts: <https://www.irs.gov/>
-- Regulatory context for transfers on death: <https://www.sec.gov/about/about-securities>
+- Regulatory context for transfers on death: <https://www.sec.gov/investor>
 
 The step that catches most successors is proving authority: an institution will not discuss an account with someone whose paperwork is incomplete, and the paperwork differs by mechanism. Recording what each institution requires, in advance, converts a chain of discoveries into a sequence of calls.
 

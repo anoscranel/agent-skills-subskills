@@ -15,7 +15,7 @@ A rights issue offers existing holders the right to buy new shares at a discount
 
 The mechanics around the right decide its value. The subscription period is finite, and a holder who does nothing receives nothing unless the lapsed rights are sold in a rump placement, whose proceeds are returned to the holder. The ex-rights date changes the price of the existing shares, and a holder who buys on the wrong side of it does not receive the right.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The subscription decision also depends on the holder's view of the company rathe
 ## Sources
 
 - Rights issue filings: <https://www.sec.gov/edgar/search/>
-- Disclosure and rights framework: <https://www.sec.gov/about/about-securities>
+- Disclosure and rights framework: <https://www.sec.gov/investor>
 - Investor education on rights issues: <https://www.investor.gov/introduction-investing>

@@ -15,7 +15,7 @@ A private fund's reported performance and an investor's ability to exit are both
 
 Each of these is a legitimate tool and each creates a conflict, because the party arranging the financing or the continuation is the same party that reports the performance and decides the terms. This skill covers the mechanics, the arithmetic that makes them legible, and the conflicts that an investor has to price.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## When to use
 

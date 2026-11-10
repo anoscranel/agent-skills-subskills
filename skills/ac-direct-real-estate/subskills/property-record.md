@@ -15,7 +15,7 @@ The property record states the net operating income rebuilt from the rent roll r
 
 Its second purpose is comparability across a portfolio of properties. Two assets with the same reported yield can differ in lease concentration, capital need, and refinancing exposure, and a portfolio view that compares only yields will allocate to the one with the hidden liability. Stating the same fields for every property is what makes the comparison possible.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ Storing the appraisal date beside the capital plan is what makes the record a co
 
 ## Sources
 
-- Property and valuation disclosure: <https://www.sec.gov/about/about-securities>
+- Property and valuation disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Rate and market data: <https://www.federalreserve.gov/>

@@ -56,4 +56,4 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on bond mechanics: <https://www.investor.gov/introduction-investing>
 - Interest-rate and yield data: <https://fred.stlouisfed.org/>
-- Regulatory context for fixed-income disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for fixed-income disclosure: <https://www.sec.gov/investor>

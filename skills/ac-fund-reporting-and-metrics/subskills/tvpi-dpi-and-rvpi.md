@@ -15,7 +15,7 @@ Total value to paid-in capital divides a fund's net asset value plus cumulative 
 
 The three answer different questions and disagree over a fund's life. A young fund shows a high TVPI and a near-zero DPI, which says nothing about outcomes; a mature fund with a high TVPI and a low DPI is telling you the value is still a mark. Reading them as a triple rather than a single number is the discipline, and pairing them with the fund's age is what makes the triple interpretable.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The ratio that is hardest to misread is distributions divided by paid-in capital
 ## Sources
 
 - Investment performance standards: <https://www.cfainstitute.org/>
-- Fund reporting requirements: <https://www.sec.gov/about/about-securities>
+- Fund reporting requirements: <https://www.sec.gov/investor>
 - Investor education on fund reporting: <https://www.investor.gov/introduction-investing>

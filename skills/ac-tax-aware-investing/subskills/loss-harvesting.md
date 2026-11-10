@@ -59,4 +59,4 @@ The planning horizon also matters: a loss harvested this year against gains real
 
 - Tax administration guidance on losses: <https://www.irs.gov/>
 - Investor education on capital losses: <https://www.investor.gov/introduction-investing>
-- Tax records context: <https://www.sec.gov/about/about-securities>
+- Tax records context: <https://www.sec.gov/investor>

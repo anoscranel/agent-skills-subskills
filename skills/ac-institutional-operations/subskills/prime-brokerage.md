@@ -15,7 +15,7 @@ A prime broker sits between a fund and the executing brokers. The fund executes 
 
 The arrangement concentrates two things. It concentrates operational dependency, because the fund's ability to settle depends on one entity's systems, and it concentrates counterparty exposure, because the financing is secured on the positions the prime broker also holds. The terms that matter are the ones governing rehypothecation, cross-default, and the circumstances in which positions can be liquidated — and those are read before the account is opened, not after.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ The reporting is also where the concentration becomes visible: a fund using one 
 
 ## Sources
 
-- Broker-dealer regulation and custody context: <https://www.sec.gov/about/about-securities>
+- Broker-dealer regulation and custody context: <https://www.sec.gov/investor>
 - Market infrastructure and collateral standards: <https://www.bis.org/>
 - Investor education on brokerage arrangements: <https://www.investor.gov/introduction-investing>

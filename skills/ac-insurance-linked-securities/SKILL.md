@@ -15,7 +15,7 @@ A catastrophe bond transfers a defined set of insurance losses from a sponsor to
 
 This skill covers that structure: trigger design and the basis risk it creates, the collateral arrangement and the special-purpose reinsurer, expected loss and how the spread should be read against it, the difference between modelled and realised experience, the correlation between perils and the seasonality that concentrates it, and the record that makes a position reviewable.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.artemis.bm/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.artemis.bm/>.
 
 ## When to use
 

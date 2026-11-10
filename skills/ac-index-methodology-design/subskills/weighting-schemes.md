@@ -15,7 +15,7 @@ The weighting scheme converts a selected set of securities into a portfolio, and
 
 Schemes between those two make different trades. Fundamental weighting selects on accounting measures rather than price, which introduces a value tilt and a rebalancing pattern driven by reported data. Capped schemes preserve the selection while limiting single-name weight, at the cost of a defined rebalancing process. The record states the scheme, the concentration it produces, and the turnover it implies.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -63,6 +63,6 @@ Recording the scheme's rebalancing requirement beside its weights closes the las
 
 ## Sources
 
-- Index methodology context: <https://www.sec.gov/about/about-securities>
+- Index methodology context: <https://www.sec.gov/investor>
 - Investor education on index construction: <https://www.investor.gov/introduction-investing>
 - Market and fundamental data: <https://fred.stlouisfed.org/>

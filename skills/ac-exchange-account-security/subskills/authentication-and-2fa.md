@@ -58,4 +58,4 @@ The practical test is the recovery scenario: if the primary device is lost today
 
 - Digital identity and authenticator guidance: <https://www.nist.gov/>
 - Cybersecurity guidance for accounts and access: <https://www.cisa.gov/>
-- Market-participant security guidance: <https://www.sec.gov/about/about-securities>
+- Market-participant security guidance: <https://www.sec.gov/investor>

@@ -15,7 +15,7 @@ A deal closes when a sequence of conditions is satisfied: shareholder votes, reg
 
 The risks that break deals cluster. Regulatory review is the most common and the most uncertain, because the outcome depends on an authority's judgement and the timeline can extend through a second request. Financing is a risk when the consideration is cash and the acquirer is leveraged. A material adverse change clause is rarely invoked and, when it is, it becomes a legal dispute rather than a commercial one.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The outside date is also the calendar anchor for the spread's annualisation: a d
 ## Sources
 
 - Merger agreements and proxy filings: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on deal risk: <https://www.investor.gov/introduction-investing>

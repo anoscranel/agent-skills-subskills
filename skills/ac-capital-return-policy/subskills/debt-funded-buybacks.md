@@ -15,7 +15,7 @@ Repurchasing shares with debt is a swap: the company replaces equity with borrow
 
 The tests are coverage and maturity. Interest coverage after the transaction, the maturity profile of the new debt against the cash generation of the business, and the covenant headroom that remains are the numbers that decide whether the swap is prudent. A company that funds a buyback at a low fixed rate for a long maturity has made a different decision from one that funds it with short-dated floating debt.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The comparison that matters is with the company's own cost of equity rather than
 
 ## Sources
 
-- Debt and repurchase disclosure: <https://www.sec.gov/about/about-securities>
+- Debt and repurchase disclosure: <https://www.sec.gov/investor>
 - Leverage and capital standards: <https://www.bis.org/>
 - Rate data: <https://fred.stlouisfed.org/>

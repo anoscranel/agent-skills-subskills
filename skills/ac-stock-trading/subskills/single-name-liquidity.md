@@ -15,7 +15,7 @@ Liquidity in a single stock is measurable at the moment of trading and in aggreg
 
 The screening question is not whether a name is liquid but whether it is liquid enough for the size the idea deserves. A small-cap with a wide spread can be a fine investment and an impossible trade at size, and the position that would be prudent on the fundamentals may be several times what the book can absorb in a day. The record states the size the liquidity permits, and the trade is sized to the smaller of that and the risk budget.
 
-Primary sources: <https://www.finra.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.finra.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.finra.org/> and <https://www.sec.gov/about/about-s
 ## Sources
 
 - Trading and liquidity guidance: <https://www.finra.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on trading costs: <https://www.investor.gov/introduction-investing>

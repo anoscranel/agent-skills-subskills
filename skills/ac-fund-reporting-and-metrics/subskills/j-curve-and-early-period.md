@@ -15,7 +15,7 @@ A private fund typically reports negative returns in its first years. Fees are c
 
 The distinction that matters is between a J-curve and a flat or falling curve. A fund whose value is still below cost after most of its capital has been deployed and whose marks have not risen is not simply early; the vintage is telling you something. The record should compare the fund's shape with the expected shape for its strategy and vintage, rather than treating any negative number as normal.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The warning sign is not the depth of the dip but the failure to climb: a fund wh
 ## Sources
 
 - Investment performance standards: <https://www.cfainstitute.org/>
-- Fund disclosure context: <https://www.sec.gov/about/about-securities>
+- Fund disclosure context: <https://www.sec.gov/investor>
 - Investor education on private funds: <https://www.investor.gov/introduction-investing>

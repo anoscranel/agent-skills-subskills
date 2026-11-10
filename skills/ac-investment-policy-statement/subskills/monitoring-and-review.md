@@ -56,7 +56,7 @@ Primary sources: <https://www.cfainstitute.org/> and <https://www.investor.gov/i
 
 - Investment-policy reference material: <https://www.cfainstitute.org/>
 - Investor education on periodic review: <https://www.investor.gov/introduction-investing>
-- Disclosure context for policy documentation: <https://www.sec.gov/about/about-securities>
+- Disclosure context for policy documentation: <https://www.sec.gov/investor>
 
 The two cadences fail in different ways. Monitoring fails by becoming a daily price watch that changes nothing and distracts from the policy; review fails by never happening at all until a crisis forces it. Writing both down, and recording the uneventful passes, is what keeps the distinction alive. A review that concludes nothing has changed is a successful review, and it is worth recording as one.
 

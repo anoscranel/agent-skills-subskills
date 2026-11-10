@@ -58,4 +58,4 @@ The asymmetry worth recording is that a tariff collected at the border is paid b
 
 - Trade policy and tariff data: <https://www.wto.org/>
 - Macroeconomic and trade statistics: <https://www.imf.org/>
-- Regulatory and trade publications: <https://www.sec.gov/about/about-securities>
+- Regulatory and trade publications: <https://www.sec.gov/investor>

@@ -15,7 +15,7 @@ Securities lending transfers title to the borrower against collateral and a fee.
 
 Recall is the risk that matters for anyone relying on the lent position. The lender can demand the securities back, and the borrower must return them, which for a short seller means buying them in the market. That is why a lending programme's terms — who may recall, on what notice, and how the collateral is marked — determine whether an apparently available position is actually available.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The programme's economics are also a function of the borrower's demand: lending 
 ## Sources
 
 - Securities lending and collateral standards: <https://www.bis.org/>
-- Market structure and lending context: <https://www.sec.gov/about/about-securities>
+- Market structure and lending context: <https://www.sec.gov/investor>
 - Investor education on lending programmes: <https://www.investor.gov/introduction-investing>

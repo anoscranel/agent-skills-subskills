@@ -59,4 +59,4 @@ The tolerance band is the parameter that decides whether rebalancing helps or co
 
 - Tax administration guidance on gains: <https://www.irs.gov/>
 - Investor education on rebalancing: <https://www.investor.gov/introduction-investing>
-- Portfolio policy context: <https://www.sec.gov/about/about-securities>
+- Portfolio policy context: <https://www.sec.gov/investor>

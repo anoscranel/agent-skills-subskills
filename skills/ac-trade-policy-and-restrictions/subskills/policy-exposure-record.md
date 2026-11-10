@@ -60,4 +60,4 @@ Keeping the record attached to the research note rather than in a separate polic
 
 - Trade policy documentation: <https://www.wto.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Regulatory and disclosure context: <https://www.sec.gov/about/about-securities>
+- Regulatory and disclosure context: <https://www.sec.gov/investor>

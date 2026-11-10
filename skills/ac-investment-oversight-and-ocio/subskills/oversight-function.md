@@ -15,7 +15,7 @@ An oversight function exists to test whether delegated decisions are being made 
 
 The test of sufficiency is evidential rather than procedural. A committee that meets quarterly and receives reports has not necessarily overseen anything; a committee that has questioned a breach, required a remediation, and checked that it happened has. The record should therefore carry decisions and follow-ups rather than attendance and minutes, because decisions are what demonstrate that the function did something.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The most useful question to put to an oversight body is what it declined to appr
 ## Sources
 
 - Investment management and governance standards: <https://www.cfainstitute.org/>
-- Regulatory context for delegated management: <https://www.sec.gov/about/about-securities>
+- Regulatory context for delegated management: <https://www.sec.gov/investor>
 - Investor protection guidance: <https://www.investor.gov/introduction-investing>

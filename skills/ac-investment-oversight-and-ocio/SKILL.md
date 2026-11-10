@@ -15,7 +15,7 @@ When investment decisions are delegated, the delegator keeps a duty to oversee t
 
 This skill covers that structure, including the outsourced model in which a single provider takes the investment function as well as the implementation. Outsourcing concentrates the decisions but not the responsibility, and it creates conflicts — the provider's own funds, its fee schedule, its discretion over manager selection — that the oversight function has to see through rather than around.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

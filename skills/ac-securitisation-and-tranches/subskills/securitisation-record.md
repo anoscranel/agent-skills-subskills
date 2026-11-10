@@ -15,7 +15,7 @@ The structure record states the tranche's attachment and detachment, the enhance
 
 The record also carries the deal's own definitions, because they differ between transactions for the same asset class. What counts as a delinquency, how losses are calculated, and which triggers are tested are all document-specific, and a comparison built on headline labels rather than on the definitions is a comparison of two different things. Stating the definitions at entry is what makes a later comparison valid.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ Storing the definitions verbatim rather than summarised is worth the space: when
 
 ## Sources
 
-- Asset-backed securities disclosure: <https://www.sec.gov/about/about-securities>
+- Asset-backed securities disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Securitisation standards: <https://www.bis.org/>

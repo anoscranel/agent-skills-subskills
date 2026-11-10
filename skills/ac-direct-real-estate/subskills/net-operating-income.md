@@ -15,7 +15,7 @@ Net operating income is rental revenue plus recoveries, less operating expenses,
 
 The test is to rebuild it rather than accept it. Start from the rent roll, apply the contracted escalations, add recoveries at the rate the leases permit, subtract the actual expenses at a level that maintains the building, and compare the result with the reported figure. Where they differ, the difference is the part of the valuation that is an assumption rather than a contract.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The comparison that keeps the rebuild honest is against the prior year's normali
 
 ## Sources
 
-- Real estate disclosure and valuation context: <https://www.sec.gov/about/about-securities>
+- Real estate disclosure and valuation context: <https://www.sec.gov/investor>
 - Financial and rate data: <https://www.federalreserve.gov/>
 - Market data for rents and vacancies: <https://fred.stlouisfed.org/>

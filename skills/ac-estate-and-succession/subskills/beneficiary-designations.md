@@ -56,6 +56,6 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on account beneficiaries: <https://www.investor.gov/introduction-investing>
 - Tax administration guidance on inherited accounts: <https://www.irs.gov/>
-- Regulatory context for account transfers: <https://www.sec.gov/about/about-securities>
+- Regulatory context for account transfers: <https://www.sec.gov/investor>
 
 The most valuable habit is a signed copy of each form kept with the succession record, dated, alongside the institution's confirmation that it is the operative version. When a dispute arises the question is always which form was on file, and the answer is only available if it was captured.

@@ -58,6 +58,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Rate and spread series: <https://fred.stlouisfed.org/>
 - Investor education on bond portfolio risk: <https://www.investor.gov/introduction-investing>
-- Regulatory context for portfolio disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for portfolio disclosure: <https://www.sec.gov/investor>
 
 The record earns its keep in the moment someone asks whether to shorten duration, because the answer is already there: the sensitivity figure, the credit exposure, and the liquidity mismatch are all stated before the question arrives. A record assembled after the question is a rationalisation, not a record.

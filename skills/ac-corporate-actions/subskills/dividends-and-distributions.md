@@ -15,7 +15,7 @@ A dividend has a timetable: declaration, ex-date, record date, payment date. The
 
 The other distinction is between income and total return. A price series that ignores dividends understates return by the yield; a total-return series reinvests them. Which one is appropriate depends on the question, and the record must say which was used.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for dividend disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for dividend disclosure: <https://www.sec.gov/investor>
 - Investor education on dividends and total return: <https://www.investor.gov/introduction-investing>
 - Rule context for distribution processing: <https://www.finra.org/rules-guidance>
 

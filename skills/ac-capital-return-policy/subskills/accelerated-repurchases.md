@@ -15,7 +15,7 @@ An accelerated share repurchase delivers a large block of shares to the company 
 
 That structure means the company is not buying at the announcement price; it is buying at an average over the settlement window, with a cap and a floor that determine the range. The upfront payment divided by the initial share delivery gives a headline price that is not the economic price, which is why an ASR announcement that looks like a purchase at a premium can settle at a discount to the eventual average.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The economics also depend on what the dealer does with the borrowed shares: the 
 
 ## Sources
 
-- Repurchase agreement disclosure: <https://www.sec.gov/about/about-securities>
+- Repurchase agreement disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Market price data: <https://fred.stlouisfed.org/>

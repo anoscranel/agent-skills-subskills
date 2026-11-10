@@ -15,7 +15,7 @@ A fund's liquidity has two layers: the liquidity of the underlying assets and th
 
 For a mutual fund the layer is different: shares are bought and sold at the fund's valuation, not on an exchange, so the risk is a gate or a suspension rather than a discount. Both structures have documented stress behaviour, and both should be recorded before they are needed.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Fund liquidity and redemption disclosure: <https://www.sec.gov/about/about-securities>
+- Fund liquidity and redemption disclosure: <https://www.sec.gov/investor>
 - Investor education on fund trading: <https://www.investor.gov/introduction-investing>
 - Market liquidity data: <https://fred.stlouisfed.org/>
 

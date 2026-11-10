@@ -15,7 +15,7 @@ Two measures describe how well a fund follows its index, and they answer differe
 
 A fund can have a small tracking error and a persistently negative tracking difference: it follows the index faithfully, just below it, usually because of fees. A fund with a large tracking error is doing something the index does not describe, whether sampling, holding cash, or using derivatives, and that something needs explaining before the fund does.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on index funds: <https://www.investor.gov/introduction-investing>
-- Fund and index disclosure context: <https://www.sec.gov/about/about-securities>
+- Fund and index disclosure context: <https://www.sec.gov/investor>
 - Market return data: <https://fred.stlouisfed.org/>
 
 The most useful comparison is against the fund's own fee: a fund that tracks within a few basis points of its expense ratio is doing what it promised, while a fund whose gap is several times the fee is telling you something about implementation that the marketing page does not. That ratio belongs in the record.

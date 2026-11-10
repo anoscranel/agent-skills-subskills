@@ -58,4 +58,4 @@ A further filter to check is whether the universe includes funds that are still 
 
 - Investment performance standards: <https://www.cfainstitute.org/>
 - Research on private markets: <https://www.nber.org/>
-- Fund disclosure context: <https://www.sec.gov/about/about-securities>
+- Fund disclosure context: <https://www.sec.gov/investor>

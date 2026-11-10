@@ -15,7 +15,7 @@ An execution becomes a settled position through a sequence. The order is execute
 
 The stages that most often break are allocation and affirmation. An allocation that does not match the executing broker's record produces a mismatch that has to be resolved before settlement, and an affirmation that misses its deadline moves the trade to a different settlement date. Both are administrative, and both consume the time that settlement needs, which is why operations teams treat them as risk rather than paperwork.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The identifier discipline is what makes the rest possible: a unique reference th
 ## Sources
 
 - Settlement and market infrastructure standards: <https://www.bis.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on trade settlement: <https://www.investor.gov/introduction-investing>

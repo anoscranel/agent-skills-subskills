@@ -15,7 +15,7 @@ A follow-on offering sells additional shares, either by the company to raise cap
 
 A block trade is the same economics in a single transaction: a holder sells a large position to a bank, which resells it to institutions at a negotiated discount. The concession is measurable, and it is the right way to read the event: a block priced two percent below the market is a statement about how much supply the market would absorb at that moment, and a block that clears at a narrower discount suggests deeper demand.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The concession also has a memory: a series of blocks clearing at widening discou
 
 ## Sources
 
-- Offering disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Offering disclosure requirements: <https://www.sec.gov/investor>
 - Market practice and conduct: <https://www.finra.org/>
 - Investor education on share issuance: <https://www.investor.gov/introduction-investing>

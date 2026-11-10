@@ -15,7 +15,7 @@ A catastrophe bond is issued by a special-purpose reinsurer that holds the proce
 
 The vehicle's own structure matters as well. It is usually bankruptcy-remote and restricted to the transaction, and the swap it uses to convert collateral returns into the coupon carries a counterparty. A structure whose collateral is sound but whose swap counterparty is weak has a risk that does not appear in the peril analysis, and the record should separate the peril exposure from the collateral and counterparty exposure.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The provision that deserves particular attention is the one governing what happe
 
 ## Sources
 
-- Structured note and ILS disclosure: <https://www.sec.gov/about/about-securities>
+- Structured note and ILS disclosure: <https://www.sec.gov/investor>
 - Collateral and counterparty standards: <https://www.bis.org/>
 - Investor education on structured risk: <https://www.investor.gov/introduction-investing>

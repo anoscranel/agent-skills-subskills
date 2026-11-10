@@ -15,7 +15,7 @@ Enhancement is the loss-absorbing capacity beneath a tranche, and it comes in th
 
 The three behave differently under stress. Subordination is fixed unless the pool amortises unevenly; overcollateralisation shrinks as losses reduce the pool; and excess spread disappears first, because it is the most sensitive to rising defaults and falling recoveries. A tranche described as having eight percent enhancement may be relying mostly on spread that vanishes in the scenario it is meant to protect against.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A further point is that enhancement measured at closing is a statement about the
 
 ## Sources
 
-- Securitisation disclosure and standards: <https://www.sec.gov/about/about-securities>
+- Securitisation disclosure and standards: <https://www.sec.gov/investor>
 - Capital and securitisation framework: <https://www.bis.org/>
 - Regulatory market context: <https://www.federalreserve.gov/>

@@ -15,7 +15,7 @@ A trigger is a test that, when failed, changes the waterfall. The common ones ar
 
 The consequence for a holder is that the trigger converts an expected cash-flow stream into a different one. A junior tranche that relied on excess spread as its return can lose that spread entirely while the senior tranches are unaffected, and the diversion can happen months before the loss itself appears in the pool. The record should state each trigger, its threshold, its current level, and the consequence of breach.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The other consequence worth recording is that a breach can be self-reinforcing: 
 
 ## Sources
 
-- Securitisation trigger and performance disclosure: <https://www.sec.gov/about/about-securities>
+- Securitisation trigger and performance disclosure: <https://www.sec.gov/investor>
 - Securitisation standards: <https://www.bis.org/>
 - Regulatory reporting context: <https://www.federalreserve.gov/>

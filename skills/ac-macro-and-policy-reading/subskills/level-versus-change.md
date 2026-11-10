@@ -56,6 +56,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Macro level and change series: <https://fred.stlouisfed.org/>
 - Investor education on inflation and growth measures: <https://www.investor.gov/introduction-investing>
-- Regulatory context for statistical releases: <https://www.sec.gov/about/about-securities>
+- Regulatory context for statistical releases: <https://www.sec.gov/investor>
 
 The distinction also resolves most disputes about whether a series is 'high'. A level can be high while its change is falling, and both statements can be true; recording which one is being asserted turns an argument into a measurement.

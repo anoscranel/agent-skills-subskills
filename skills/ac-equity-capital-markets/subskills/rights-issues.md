@@ -15,7 +15,7 @@ A rights issue offers existing holders the right to buy new shares at a subscrip
 
 Renounceability is the feature that decides whether a holder who does not want to subscribe loses anything. If the rights are renounceable, they can be sold, and the holder captures some of the value; if they are not, the value is lost and the rump is placed with others, which is why non-renounceable issues transfer value away from passive holders. The rump placement price is the market's read on the demand that did not show up.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The ex-rights adjustment also affects any comparison with historical prices: the
 
 ## Sources
 
-- Rights issue disclosure: <https://www.sec.gov/about/about-securities>
+- Rights issue disclosure: <https://www.sec.gov/investor>
 - Market practice guidance: <https://www.finra.org/>
 - Investor education on corporate actions: <https://www.investor.gov/introduction-investing>

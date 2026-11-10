@@ -56,6 +56,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Exchange-rate and rate data: <https://fred.stlouisfed.org/>
 - Investor education on currency mechanics: <https://www.investor.gov/introduction-investing>
-- Regulatory context for FX disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for FX disclosure: <https://www.sec.gov/investor>
 
 The practical check is a round trip: convert an amount out of the reporting currency and back, and verify you arrive at the original number. A convention error survives one direction and disappears in the round trip, which is why the check catches it cheaply rather than at the position level.

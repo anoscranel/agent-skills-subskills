@@ -15,7 +15,7 @@ Two funds can hold identical assets and behave differently because of the legal 
 
 This skill covers the wrapper landscape: open-end and closed-end construction, the European passport and its requirements, the US registered fund framework and its diversification and leverage limits, unit trusts and their equivalents, exchange-traded mechanics including the creation and redemption process, and business development companies. Fund cost and tracking belong to a different skill, and so does the manager.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.esma.europa.eu/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.esma.europa.eu/>.
 
 ## When to use
 

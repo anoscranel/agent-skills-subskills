@@ -15,7 +15,7 @@ An algorithm working a large order slices it into many smaller trades, often at 
 
 The read is statistical. A cluster of identical sizes around a round number, repeating across minutes, is consistent with a single algorithm. It does not say whether the algorithm is buying or selling — that requires knowing which side the aggressor was on, which the tape can supply through the trade's direction — and it does not say whether the order is a client's or the broker's own.
 
-Primary sources: <https://www.finra.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.finra.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The cadence is the stronger of the two signals: size alone can be mimicked by a 
 ## Sources
 
 - Trading and reporting guidance: <https://www.finra.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on execution quality: <https://www.investor.gov/introduction-investing>

@@ -15,7 +15,7 @@ The record states the facilities the fund uses, the leverage they add, the retur
 
 It also records the investor's own decisions: whether to roll into a continuation, whether to sell an interest, and on what arithmetic. Those decisions are infrequent and consequential, and they arrive with a deadline and a default. Writing the reasoning at the time is the only way a later review can judge whether the choice was sound.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ A record that names the facility's covenant and its test date also converts a do
 
 ## Sources
 
-- Fund financing and transaction disclosure: <https://www.sec.gov/about/about-securities>
+- Fund financing and transaction disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Performance and analysis standards: <https://www.cfainstitute.org/>

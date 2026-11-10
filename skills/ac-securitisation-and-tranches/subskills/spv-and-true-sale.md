@@ -15,7 +15,7 @@ A securitisation works only if the assets belong to the vehicle rather than to t
 
 Bankruptcy remoteness is the second half. The vehicle is usually a shell with no other business, no employees, and restrictions on what it may do, so that it cannot itself fail for reasons unrelated to the pool. Those restrictions are covenants in the transaction documents, and they are enforceable only to the extent the documents provide.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The practical test is to ask what a noteholder would own if the originator faile
 
 ## Sources
 
-- Asset-backed securities disclosure: <https://www.sec.gov/about/about-securities>
+- Asset-backed securities disclosure: <https://www.sec.gov/investor>
 - Regulatory framework for securitisation: <https://www.federalreserve.gov/>
 - Standards for securitisation practices: <https://www.bis.org/>

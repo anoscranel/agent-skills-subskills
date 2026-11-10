@@ -56,7 +56,7 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Rate and reserve data: <https://fred.stlouisfed.org/>
 - Investor education on emerging-market risk: <https://www.investor.gov/introduction-investing>
-- Regulatory context for cross-border disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for cross-border disclosure: <https://www.sec.gov/investor>
 
 The historical pattern is consistent: reserves fall, the peg is defended with borrowing and controls, and the adjustment arrives with restrictions that make the currency less useful precisely when the investor wants it. Recording the reserve trend is the cheapest early signal available.
 

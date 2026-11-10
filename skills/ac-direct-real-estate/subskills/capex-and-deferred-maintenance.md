@@ -15,7 +15,7 @@ Capital expenditure sits below net operating income, which means a property can 
 
 The distinction that matters is between maintenance needed to sustain the current income and expenditure intended to grow it. A deferred roof is a liability that has been subtracted from neither NOI nor the capitalisation rate, so a valuation that ignores it is overstated by the cost of the roof. The record should state the capital plan, the deferred items with their estimated cost, and which of the two categories each belongs to.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The treatment worth recording explicitly is whether the deferred items were pric
 
 ## Sources
 
-- Property disclosure and reporting: <https://www.sec.gov/about/about-securities>
+- Property disclosure and reporting: <https://www.sec.gov/investor>
 - Financial data context: <https://www.federalreserve.gov/>
 - Construction and price series: <https://fred.stlouisfed.org/>

@@ -15,7 +15,7 @@ The index design record states the rule set, the consequences each rule produces
 
 The consequences section is what distinguishes a design record from a summary. A weighting scheme's consequence is its concentration; a rebalancing rule's is its turnover; a cap's is the redistribution it triggers. Recording each rule with its consequence makes the trade-offs visible and makes the index comparable with another built on different choices.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -63,6 +63,6 @@ Adding the date of the methodology version makes the record checkable against th
 
 ## Sources
 
-- Index methodology context: <https://www.sec.gov/about/about-securities>
+- Index methodology context: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investor education on index products: <https://www.investor.gov/introduction-investing>

@@ -15,7 +15,7 @@ The form of a distribution carries information beyond its amount. A regular divi
 
 The choice between forms is a statement about the durability of the cash flow. A company that pays a special rather than raising the regular dividend is saying it does not expect the excess to persist, which is a more honest signal than a raise it may later have to cut. A company that switches from regular to variable is telling the market to stop valuing the payment as an annuity, and the price reaction to that switch is usually about the multiple rather than the cash.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A special dividend also has a mechanical effect that is easy to miss: it lowers 
 
 ## Sources
 
-- Dividend declaration disclosure: <https://www.sec.gov/about/about-securities>
+- Dividend declaration disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Market data: <https://fred.stlouisfed.org/>

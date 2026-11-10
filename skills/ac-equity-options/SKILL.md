@@ -15,7 +15,7 @@ Listed equity options look standardised and are not uniform: a single-name contr
 
 This skill covers those mechanics: the single-name versus index distinction, the settlement conventions that decide which price an option settles against, dividend-driven early exercise, borrow effects on puts, the relationship between index and component volatility, and the adjustments triggered by corporate actions. Generic greeks and structures belong to the options skill; trading the underlying belongs to the stock trading skill.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

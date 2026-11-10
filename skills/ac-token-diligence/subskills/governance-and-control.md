@@ -15,7 +15,7 @@ Decentralisation is a spectrum of permissions, and the diligence question is not
 
 Governance tokens add a second layer: voting power that can change supply schedules, fee switches, or treasury spending. The relevant question is concentration of that power and whether any threshold is reachable by insiders alone. A governance process that cannot be captured is a real asset; one that can be captured is a risk the token's price rarely reflects until it happens.
 
-Primary sources: <https://ethereum.org/en/developers/docs/standards/tokens/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://ethereum.org/en/developers/docs/standards/tokens/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://ethereum.org/en/developers/docs/standards/tokens/> and
 ## Sources
 
 - Ethereum token standards and contract patterns: <https://ethereum.org/en/developers/docs/standards/tokens/>
-- Securities disclosure context for control and governance: <https://www.sec.gov/about/about-securities>
+- Securities disclosure context for control and governance: <https://www.sec.gov/investor>
 - Investor education on ownership structures: <https://www.investor.gov/introduction-investing>

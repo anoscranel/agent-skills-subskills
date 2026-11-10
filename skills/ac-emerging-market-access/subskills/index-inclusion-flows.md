@@ -15,7 +15,7 @@ When a market is added to a major index, or a security is added to an existing o
 
 The anticipation is the complication. A widely expected inclusion is partly priced before the announcement, and the flow at the effective date can be smaller than the estimate because funds pre-position or because the rebalancing is executed over several days. A study of the event that starts at the announcement misses the part that already happened.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The flow estimate also depends on which funds actually track the index: an index
 
 ## Sources
 
-- Index event disclosure: <https://www.sec.gov/about/about-securities>
+- Index event disclosure: <https://www.sec.gov/investor>
 - Index methodology standards: <https://www.cfainstitute.org/>
 - Fund flow context: <https://www.imf.org/>

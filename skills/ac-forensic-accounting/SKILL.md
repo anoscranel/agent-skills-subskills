@@ -15,7 +15,7 @@ Financial statements are a representation, prepared within rules that permit cho
 
 This skill covers those readings and the evidence that supports them. It is deliberately framed as questions with document references rather than as conclusions: a related-party transaction is not a fraud, and a capitalised cost is not necessarily an overstatement, but each is a place where the reported result and the underlying economics can diverge, and the divergence is what a reader needs to see.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## When to use
 

@@ -58,4 +58,4 @@ The capitalisation also affects covenant tests, because a growing principal chan
 
 - Credit market data: <https://www.federalreserve.gov/>
 - Financial analysis standards: <https://www.cfainstitute.org/>
-- Fund disclosure: <https://www.sec.gov/about/about-securities>
+- Fund disclosure: <https://www.sec.gov/investor>

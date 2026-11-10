@@ -15,7 +15,7 @@ A company that generates more cash than it can reinvest has to decide what to do
 
 This skill covers those mechanics and the arithmetic behind them: how buybacks are executed and what execution quality looks like, how dividend policy is set and what makes it sustainable, the difference between regular, special and variable distributions, the comparison of shareholder yield against other uses of cash, and the leverage question when buybacks are funded with debt.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## When to use
 

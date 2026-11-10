@@ -15,7 +15,7 @@ Accrual accounting records revenue when it is earned and expenses when they are 
 
 The direction matters more than the level. A single year of high accruals can follow a large contract or a seasonal build; a persistent pattern in which profit runs ahead of cash across several periods is harder to explain, and it often precedes either a write-down or a period of weak reported growth as the accruals reverse. The record compares the gap with revenue growth over the same window.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ A useful comparison is against the company's own history rather than against a p
 ## Sources
 
 - Company filings and full-text search: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on financial statements: <https://www.investor.gov/introduction-investing>

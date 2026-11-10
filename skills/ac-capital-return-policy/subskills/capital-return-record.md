@@ -15,7 +15,7 @@ The record states the company's policy in its own terms, the execution against t
 
 It also carries the counterfactual. Every distribution is a decision not to spend that cash elsewhere, and the record names the alternative — debt reduction, capital expenditure, acquisition, retention — so that a later review can ask whether the choice was right rather than only whether it happened. The shareholder-yield figure belongs here, with its components and their period.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The record's most useful column is the policy as it was stated at the time: comp
 
 ## Sources
 
-- Distribution and repurchase disclosure: <https://www.sec.gov/about/about-securities>
+- Distribution and repurchase disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investment analysis standards: <https://www.cfainstitute.org/>

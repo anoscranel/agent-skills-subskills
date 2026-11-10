@@ -59,4 +59,4 @@ The exception that most often overrides the rule is access: an asset needed for 
 
 - Tax administration guidance on accounts: <https://www.irs.gov/>
 - Investor education on account types: <https://www.investor.gov/introduction-investing>
-- Regulatory context for retirement accounts: <https://www.sec.gov/about/about-securities>
+- Regulatory context for retirement accounts: <https://www.sec.gov/investor>

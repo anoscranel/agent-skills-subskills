@@ -15,7 +15,7 @@ Crypto volatility surfaces carry a persistent structure that differs from equiti
 
 Term structure reflects the event calendar: expiries around protocol upgrades, regulatory dates, or large token unlocks trade at a premium, and the front of the curve can be far above the back. The weekend adds a further effect, since liquidity thins while the market keeps trading, and implied volatility often carries a premium into it.
 
-Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -61,4 +61,4 @@ Because the surface is thinner than its listed equivalents, a single large trade
 
 - Regulatory market information: <https://www.cftc.gov/>
 - Investor guidance on volatility products: <https://www.investor.gov/introduction-investing>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

@@ -15,7 +15,7 @@ A transition moves a portfolio from one set of holdings to another, usually when
 
 The specialist's job is to manage that exposure, and the conflict is that the specialist is also paid for the trades it executes. Crossing positions internally between the outgoing and incoming portfolios reduces both cost and impact, but the price at which the cross happens is a negotiation, and the incentive to trade rather than cross is real. The record should state the crossing policy and the exposure budget before the transition begins.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The measure of a transition is the tracking error against the target after the m
 ## Sources
 
 - Investment management and trading standards: <https://www.cfainstitute.org/>
-- Market structure and disclosure: <https://www.sec.gov/about/about-securities>
+- Market structure and disclosure: <https://www.sec.gov/investor>
 - Execution quality guidance: <https://www.finra.org/>

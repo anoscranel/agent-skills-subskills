@@ -15,7 +15,7 @@ An outsourced chief investment officer takes responsibility for the investment f
 
 The conflicts are structural and should be named rather than assumed away. A provider that offers its own funds has an incentive to allocate to them; one paid on assets has an incentive to grow assets; one that also earns fees from underlying managers has an incentive to use those managers. The record should state each conflict, the policy that addresses it, and the evidence that the policy was applied.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The structural point worth recording is that consolidation moves the oversight b
 ## Sources
 
 - Investment management standards: <https://www.cfainstitute.org/>
-- Regulatory context for delegated advice: <https://www.sec.gov/about/about-securities>
+- Regulatory context for delegated advice: <https://www.sec.gov/investor>
 - Investor guidance on advisory relationships: <https://www.investor.gov/introduction-investing>

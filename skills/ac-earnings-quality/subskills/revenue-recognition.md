@@ -15,7 +15,7 @@ Revenue is recognised when control of the good or service transfers, and the jud
 
 The balance sheet is the witness. Revenue recognised before cash arrives shows up as receivables; revenue recognised before the good ships shows up as inventory that has not moved; revenue recognised subject to returns shows up as a refund liability that grows. Reading the revenue line beside those balances is what turns a growth story into a set of testable questions.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -60,5 +60,5 @@ The revenue question is ultimately a question about whether the reported growth 
 ## Sources
 
 - Filing search for accounting policies: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on revenue: <https://www.investor.gov/introduction-investing>

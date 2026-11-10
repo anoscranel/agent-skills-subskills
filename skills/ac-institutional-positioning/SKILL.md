@@ -15,7 +15,7 @@ Large positions are disclosed on schedules, and the schedules are the only publi
 
 Reading them well means treating each as evidence with a timestamp and a coverage limit, not as a signal without one. The craft is knowing which disclosure answers which question, how stale the answer is, and what fraction of the market it actually covers. This skill is about those disclosures; the execution footprints institutions leave in the tape are a separate skill, and so is the operations plumbing.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cftc.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cftc.gov/>.
 
 ## When to use
 

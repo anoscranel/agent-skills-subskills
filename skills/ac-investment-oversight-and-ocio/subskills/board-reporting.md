@@ -15,7 +15,7 @@ A board report exists to support a decision, and most of them support none becau
 
 The omission is as deliberate as the inclusion. Detailed attribution, holdings lists, and risk decompositions belong in an appendix that is available and not presented, because putting them in the main body displaces the three answers. The record should state what the report contains at each level and which decision each level is meant to support.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The comparison basis deserves a line of its own because it is where reporting is
 ## Sources
 
 - Investment management and governance standards: <https://www.cfainstitute.org/>
-- Regulatory reporting context: <https://www.sec.gov/about/about-securities>
+- Regulatory reporting context: <https://www.sec.gov/investor>
 - Investor guidance on oversight: <https://www.investor.gov/introduction-investing>

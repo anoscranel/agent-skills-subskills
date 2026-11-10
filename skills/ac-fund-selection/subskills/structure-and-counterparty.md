@@ -15,7 +15,7 @@ A fund that owns the underlying securities has one set of risks; a fund that hol
 
 The counterparty chain is the point. In a physical fund, securities lending can put assets into a borrower's hands against collateral; in a synthetic fund, the swap provider's failure is the risk, and the collateral is the mitigation. Either way, the fund's documents describe it, and the record should state which structure is in use and who stands behind it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.b
 
 ## Sources
 
-- Fund structure disclosure: <https://www.sec.gov/about/about-securities>
+- Fund structure disclosure: <https://www.sec.gov/investor>
 - Regulatory standards for collateral and counterparty risk: <https://www.bis.org/>
 - Investor education on fund structures: <https://www.investor.gov/introduction-investing>
 

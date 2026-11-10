@@ -15,7 +15,7 @@ An appraisal is an opinion of value at a date, produced by one of three approach
 
 The gap between an appraisal and a transaction price is information rather than error. A property carried at an appraisal that has not been tested by a sale can be worth materially less in a market where buyers have become scarce, and a valuation produced for a financing is not the same as one produced for a sale, because the assumptions serve different purposes.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The most useful comparison to record is between two appraisals of the same asset
 
 ## Sources
 
-- Property valuation context: <https://www.sec.gov/about/about-securities>
+- Property valuation context: <https://www.sec.gov/investor>
 - Financial and rate data: <https://www.federalreserve.gov/>
 - Market price series: <https://fred.stlouisfed.org/>

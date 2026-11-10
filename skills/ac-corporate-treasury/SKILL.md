@@ -15,7 +15,7 @@ Treasury is where a company manages the risks its business creates but does not 
 
 This skill covers the policy and the mechanics: how much liquidity to hold and in what, how to set counterparty limits for deposits, how to design an interest rate and currency hedging programme, how hedge accounting constrains that design, how to read a maturity ladder, and what a covenant package permits. The investor-side policy and the credit analysis belong to other skills.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## When to use
 

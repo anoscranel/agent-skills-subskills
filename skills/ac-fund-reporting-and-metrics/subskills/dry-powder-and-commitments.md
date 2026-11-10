@@ -15,7 +15,7 @@ A commitment is not an investment until it is called. A fund reporting ten perce
 
 The investor's own dry powder matters for the same reason. A portfolio that is fully invested and also carrying unfunded commitments has committed more capital than it holds, which is a leverage of sorts, and the funding has to come from somewhere: from distributions that may not arrive, from cash that was meant for something else, or from selling assets at the wrong moment.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The coverage ratio worth writing down is unfunded commitments divided by liquid 
 ## Sources
 
 - Investment performance standards: <https://www.cfainstitute.org/>
-- Fund disclosure context: <https://www.sec.gov/about/about-securities>
+- Fund disclosure context: <https://www.sec.gov/investor>
 - Investor education on private funds: <https://www.investor.gov/introduction-investing>

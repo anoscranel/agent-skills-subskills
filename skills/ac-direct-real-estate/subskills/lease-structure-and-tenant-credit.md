@@ -15,7 +15,7 @@ The stability of a property's income is set by the leases that produce it. Term 
 
 Concentration is the second factor and the one most easily missed. A building whose income depends on one tenant is a credit exposure dressed as real estate, and the tenant's rating, its business, and its lease term together determine how much of the property's value survives if that tenant leaves. The record should state the largest tenants, their share of income, and the lease expiry profile.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The clause that most affects value and is least often read is the one governing 
 
 ## Sources
 
-- Property and lease disclosure: <https://www.sec.gov/about/about-securities>
+- Property and lease disclosure: <https://www.sec.gov/investor>
 - Market and rate data: <https://www.federalreserve.gov/>
 - Rent and vacancy series: <https://fred.stlouisfed.org/>

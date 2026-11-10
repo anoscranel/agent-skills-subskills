@@ -15,7 +15,7 @@ The record of a corporate action is written once, at the time, and it answers fo
 
 The record is per action and per holding, dated, and sourced. Where a deal was revised, the amendment is appended — never a rewrite — so the chain from the original terms to the final position is visible.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for corporate action disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for corporate action disclosure: <https://www.sec.gov/investor>
 - Investor education on reorganisations: <https://www.investor.gov/introduction-investing>
 - Rule context for processing and settlement: <https://www.finra.org/rules-guidance>
 

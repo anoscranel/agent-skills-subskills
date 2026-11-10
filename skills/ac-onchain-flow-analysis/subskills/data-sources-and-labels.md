@@ -56,6 +56,6 @@ Primary sources: <https://ethereum.org/en/developers/docs/> and <https://arxiv.o
 
 - Ethereum developer documentation on data and analytics: <https://ethereum.org/en/developers/docs/>
 - Empirical measurement of venue-level flows during stress: <https://arxiv.org/abs/2608.03616>
-- Entity and disclosure context: <https://www.sec.gov/about/about-securities>
+- Entity and disclosure context: <https://www.sec.gov/investor>
 
 The source table is the part of the record that ages best: vendors change, labels rot, and a reader two years later needs to know which layer produced a number before deciding whether to trust it again. Write the layer, the date, and the exact query or address list, not just the finding.

@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on account ownership: <https://www.investor.gov/introduction-investing>
 - Tax administration guidance on transfers: <https://www.irs.gov/>
-- Regulatory context for account titling: <https://www.sec.gov/about/about-securities>
+- Regulatory context for account titling: <https://www.sec.gov/investor>
 
 The most common error is adding a person to a title for convenience: it changes ownership, exposes the asset to their circumstances, and often contradicts the split the owner intended. Recording the consequence beside the title makes that trade-off visible before the signature.
 

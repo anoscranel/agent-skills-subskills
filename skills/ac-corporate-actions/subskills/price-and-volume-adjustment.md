@@ -15,7 +15,7 @@ A historical price series is only comparable if every corporate action since the
 
 Two series types matter. A split-adjusted price series answers "what did the price do" in today's share terms. A total-return series adds reinvested dividends and answers "what did an investor earn". Neither is correct for every question, and the record must state which is being used and what it does and does not include.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for price and volume reporting: <https://www.sec.gov/about/about-securities>
+- Regulatory context for price and volume reporting: <https://www.sec.gov/investor>
 - Investor education on total return: <https://www.investor.gov/introduction-investing>
 - Rule context for corporate-action processing: <https://www.finra.org/rules-guidance>
 

@@ -56,6 +56,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Macro data series and revisions: <https://fred.stlouisfed.org/>
 - Investor education on economic indicators: <https://www.investor.gov/introduction-investing>
-- Regulatory context for official statistics: <https://www.sec.gov/about/about-securities>
+- Regulatory context for official statistics: <https://www.sec.gov/investor>
 
 The practical consequence is that a strategy validated on first prints is validated on data that no longer exists. Using revised history for the backtest and first prints for the live signal creates a gap between the two that looks like skill in-sample and behaves like noise out of sample.

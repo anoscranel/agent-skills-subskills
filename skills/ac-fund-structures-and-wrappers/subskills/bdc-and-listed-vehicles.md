@@ -15,7 +15,7 @@ A business development company is a listed vehicle that lends to or invests in p
 
 That gap is the central analytical object. When a BDC trades below net asset value, the market is expressing doubt about the marks, the leverage, or the portfolio's credit quality, and the doubt may be right or wrong. Reading the vehicle means comparing the discount with the portfolio's composition, its non-accrual rate, and its leverage, rather than treating the discount as either an opportunity or a warning on its own.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Registered closed-end and BDC disclosure: <https://www.sec.gov/about/about-securities>
+- Registered closed-end and BDC disclosure: <https://www.sec.gov/investor>
 - Investor education on listed vehicles: <https://www.investor.gov/introduction-investing>
 - Market practice guidance: <https://www.finra.org/>

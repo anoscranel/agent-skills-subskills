@@ -60,4 +60,4 @@ The disclosure that makes the arrangement auditable is the total charge expresse
 
 - Regulatory guidance on research and commission: <https://www.finra.org/>
 - Investment management standards: <https://www.cfainstitute.org/>
-- Market structure and disclosure: <https://www.sec.gov/about/about-securities>
+- Market structure and disclosure: <https://www.sec.gov/investor>

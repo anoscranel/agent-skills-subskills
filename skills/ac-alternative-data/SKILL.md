@@ -15,7 +15,7 @@ Alternative data is any dataset that is not a standard market or financial-state
 
 This skill is about that work. The questions are unglamorous and decisive: where did the data come from, is the history point-in-time or reconstructed, does the coverage represent the universe being modelled, and what happens to the signal once the dataset is widely sold. A dataset that fails the provenance and point-in-time tests cannot be rescued by a good backtest, because the backtest will be measuring the reconstruction rather than the data.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## When to use
 

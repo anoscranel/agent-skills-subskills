@@ -15,7 +15,7 @@ A data licence specifies what may be done with the data: whether it may be used 
 
 The derived-data question is the one that most often surprises. A model trained on licensed data, or a feature computed from it, may be treated as a derived work subject to the same restrictions, which can prevent a fund from describing its process. The record should state what the licence permits at each stage: ingest, storage, computation, and disclosure.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ The practical consequence is that licence terms should be read before the resear
 
 ## Sources
 
-- Disclosure and market-participant context: <https://www.sec.gov/about/about-securities>
+- Disclosure and market-participant context: <https://www.sec.gov/investor>
 - Research practice on data governance: <https://www.nber.org/>
 - Investor education on data and research: <https://www.investor.gov/introduction-investing>

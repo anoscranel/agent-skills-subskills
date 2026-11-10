@@ -56,4 +56,4 @@ Primary sources: <https://www.irs.gov/> and <https://www.investor.gov/introducti
 
 - Tax administration guidance on record keeping: <https://www.irs.gov/>
 - Investor education on records and disclosure: <https://www.investor.gov/introduction-investing>
-- Regulatory context for transaction reporting: <https://www.sec.gov/about/about-securities>
+- Regulatory context for transaction reporting: <https://www.sec.gov/investor>

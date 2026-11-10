@@ -15,7 +15,7 @@ A collectible has two prices: what it costs to buy and what it would fetch if yo
 
 The valuation problem is structural. An index of repeat sales measures only the items that sold twice, which is a biased sample of items that were desirable enough to sell. A record price at auction is one transaction between two parties, not a market. Treating either as a mark for a portfolio overstates both the value and the liquidity.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on alternative assets: <https://www.investor.gov/introduction-investing>
-- Regulatory context for collectible and alternative disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for collectible and alternative disclosure: <https://www.sec.gov/investor>
 - Interest-rate context for opportunity cost: <https://fred.stlouisfed.org/>
 
 The honest test for a collection as an investment is whether it could be sold inside a stated period at a stated haircut. If the answer requires an auction calendar or a buyer who is not yet known, the asset is a possession with a price, not a liquid holding, and the record should say so.

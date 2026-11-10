@@ -15,7 +15,7 @@ A related-party transaction is a dealing between the company and someone connect
 
 The gaps worth documenting are structural. A counterparty whose ownership is described only as "affiliated with" a director; a transaction that recurs annually without competitive process; a balance that grows faster than the business; and a relationship that appears in one year's filing and not the next without explanation. Each is a question to put to the document, not a conclusion about the company.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The test that separates routine from notable is whether a transaction has a coun
 
 ## Sources
 
-- Company disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Company disclosure requirements: <https://www.sec.gov/investor>
 - Research on governance and disclosure: <https://www.nber.org/>
 - Investor education on filings: <https://www.investor.gov/introduction-investing>

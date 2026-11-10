@@ -15,7 +15,7 @@ A split multiplies the share count and divides the price by the same ratio; a co
 
 The record must reflect three things: the new share count, the adjusted cost basis per share, and the adjustment applied to any historical series used for analysis. A split handled in the position but not in the data produces a backtest that sees a catastrophic return on the split date; a split handled in the data but not in the position produces a portfolio that appears to have gained or lost a third of its value overnight.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for issuer disclosures: <https://www.sec.gov/about/about-securities>
+- Regulatory context for issuer disclosures: <https://www.sec.gov/investor>
 - Investor education on splits and share counts: <https://www.investor.gov/introduction-investing>
 - Rule context for settlement of adjusted positions: <https://www.finra.org/rules-guidance>

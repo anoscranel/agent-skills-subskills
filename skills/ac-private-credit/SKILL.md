@@ -15,7 +15,7 @@ Private credit is lending negotiated directly between a lender and a borrower, u
 
 Those three are the subject of this skill. A direct loan's protection lives in its covenants and its position in the capital structure; its liquidity is a contractual lock rather than a market; and its valuation, in the absence of trades, is a mark the manager produces. Each of those is a discipline of its own, and each is where the losses in this asset class have actually come from.
 
-Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

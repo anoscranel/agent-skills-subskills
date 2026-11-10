@@ -15,7 +15,7 @@ Withdrawal is the step where an account compromise becomes a loss, so the contro
 
 Each control has an operational cost that must be paid deliberately. A whitelist slows a legitimate new destination; a delay slows a legitimate transfer; separation complicates collateral management. Writing the cost beside the control is what stops the control from being quietly disabled in a busy week.
 
-Primary sources: <https://www.cisa.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cisa.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The controls also protect against the account holder: a delay catches a transfer
 ## Sources
 
 - Account and credential protection guidance: <https://www.cisa.gov/>
-- Market-participant and custody guidance: <https://www.sec.gov/about/about-securities>
+- Market-participant and custody guidance: <https://www.sec.gov/investor>
 - Investor protection information: <https://www.investor.gov/introduction-investing>

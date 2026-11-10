@@ -15,7 +15,7 @@ An indemnity trigger pays on the sponsor's actual losses, which means the invest
 
 Parametric triggers pay on a physical measurement — wind speed at a location, ground acceleration, rainfall — and settle quickly and objectively, at the cost of basis risk against the actual damage. Modelled loss triggers use a model to estimate industry loss from an event's parameters, which sits between the two. The record should state which design is in use and what the investor is actually exposed to, because the peril may be identical while the risk is not.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.artemis.bm/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.artemis.bm/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The basis risk that matters for a holder is the direction that produces a loss w
 
 ## Sources
 
-- Catastrophe bond disclosure: <https://www.sec.gov/about/about-securities>
+- Catastrophe bond disclosure: <https://www.sec.gov/investor>
 - Insurance-linked securities market data: <https://www.artemis.bm/>
 - Investor education on complex instruments: <https://www.investor.gov/introduction-investing>

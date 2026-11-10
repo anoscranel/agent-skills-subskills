@@ -15,7 +15,7 @@ Litigation funding is a third party paying the costs of a case in exchange for a
 
 The funding arrangement also shapes the case's trajectory. A funder with a portfolio of claims prefers early settlements with predictable outcomes; one funding a single large claim may prefer to pursue a judgment. Reading who controls the settlement decision, and what the funder's return requirement is, tells you more about the likely path than the merits do.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The comparison worth making is between the funded recovery and the unfunded one:
 
 ## Sources
 
-- Litigation and funding disclosure: <https://www.sec.gov/about/about-securities>
+- Litigation and funding disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Legal process context: <https://www.usa.gov/>

@@ -15,7 +15,7 @@ The audit is the last cheap checkpoint. It checks the pack against itself: do th
 
 The recurring errors are few and predictable: a missing month, a transfer counted twice, a fee not separated, a reward valued at the wrong date, an account omitted because it was closed. Each has a specific check, and a pack that passes all of them is a pack a professional can start work on immediately.
 
-Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-sec
 ## Sources
 
 - Tax administration guidance on records and audits: <https://www.irs.gov/>
-- Transaction reporting context: <https://www.sec.gov/about/about-securities>
+- Transaction reporting context: <https://www.sec.gov/investor>
 - Investor education on keeping records: <https://www.investor.gov/introduction-investing>
 
 Run the audit twice: once when the pack is assembled, and once after any correction. Corrections have a way of introducing the next error, and the second pass costs minutes against a first-pass error that can cost a filing.

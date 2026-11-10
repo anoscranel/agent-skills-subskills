@@ -15,7 +15,7 @@ A direct listing admits existing shares to trading without a bookbuild and witho
 
 A SPAC is the reverse: a shell raises cash in a blind pool, holds it in trust, and later combines with a private company. The dilution is layered — sponsor promote, warrants, and redemptions — and each layer is disclosed but easy to miss in aggregate. The arithmetic that matters is the cash left in trust after redemptions against the enterprise value being acquired, because that ratio determines how much of the deal is funded by the public and how much by the sponsor's own economics.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Offering and combination disclosure: <https://www.sec.gov/about/about-securities>
+- Offering and combination disclosure: <https://www.sec.gov/investor>
 - Market conduct guidance: <https://www.finra.org/>
 - Investor education on listings: <https://www.investor.gov/introduction-investing>

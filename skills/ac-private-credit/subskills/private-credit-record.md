@@ -15,7 +15,7 @@ The record states the structure the exposure actually carries: the tranche, the 
 
 It also states the exit path, because a private credit position has no market to sell into. The routes are repayment at maturity, refinancing by the borrower, a secondary sale at a discount, or a restructuring. Naming which route is assumed, and what the position is worth under each, converts an illiquid holding into a plan rather than an assumption.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -59,6 +59,6 @@ A record kept in this form also makes the fund's own reporting comparable across
 
 ## Sources
 
-- Fund and credit disclosure: <https://www.sec.gov/about/about-securities>
+- Fund and credit disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Credit standards: <https://www.cfainstitute.org/>

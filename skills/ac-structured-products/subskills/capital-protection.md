@@ -15,7 +15,7 @@ Capital protection is a promise with three qualifiers that are usually printed s
 
 A protected note is therefore a deposit-like claim on a bank plus a call option on the underlying, with the option paid for out of the coupon the principal would otherwise earn. That framing explains the cost: in a high-rate environment, a protected note gives up the risk-free yield to buy participation, and the participation it buys should be compared with what the same money would buy in listed options.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.b
 
 ## Sources
 
-- Structured product disclosure and investor guidance: <https://www.sec.gov/about/about-securities>
+- Structured product disclosure and investor guidance: <https://www.sec.gov/investor>
 - Bank capital and counterparty standards: <https://www.bis.org/>
 - Investor education on product risk: <https://www.investor.gov/introduction-investing>

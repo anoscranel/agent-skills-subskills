@@ -59,4 +59,4 @@ The record's value compounds across entries in a way a single observation cannot
 
 - Trading and reporting guidance: <https://www.finra.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

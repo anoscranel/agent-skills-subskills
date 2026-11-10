@@ -15,7 +15,7 @@ Most bad outcomes are visible in advance to anyone who runs a short list. The fl
 
 The strongest flags share a property: they remove your ability to check. An undisclosed supply schedule, reserves that cannot be audited, a team with no verifiable identity behind upgradeable contracts — each of these makes every other number in the record unverifiable, which is the actual finding.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -53,5 +53,5 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on fraud and disclosure: <https://www.investor.gov/introduction-investing>
-- Securities regulation context: <https://www.sec.gov/about/about-securities>
+- Securities regulation context: <https://www.sec.gov/investor>
 - Ethereum token standards documentation: <https://ethereum.org/en/developers/docs/standards/tokens/>

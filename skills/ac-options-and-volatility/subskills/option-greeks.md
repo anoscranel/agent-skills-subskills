@@ -56,6 +56,6 @@ Primary sources: <https://www.cboe.com/> and <https://www.investor.gov/introduct
 
 - Options industry education and market data: <https://www.cboe.com/>
 - Investor education on options risk: <https://www.investor.gov/introduction-investing>
-- Regulatory context for options disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for options disclosure: <https://www.sec.gov/investor>
 
 Greeks that are recomputed after every material move are worth more than greeks computed once: the numbers describe a local surface, and a position's risk can change sign after a gap. The record's job is to keep the recomputation cheap by storing the model and the inputs alongside the results.

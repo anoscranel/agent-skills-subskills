@@ -56,4 +56,4 @@ Primary sources: <https://www.federalreserve.gov/> and <https://fred.stlouisfed.
 
 - Rate and financial data: <https://www.federalreserve.gov/>
 - Market series for rates and prices: <https://fred.stlouisfed.org/>
-- Property valuation disclosure: <https://www.sec.gov/about/about-securities>
+- Property valuation disclosure: <https://www.sec.gov/investor>

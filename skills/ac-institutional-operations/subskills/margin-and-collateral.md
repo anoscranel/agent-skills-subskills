@@ -15,7 +15,7 @@ Margin at institutional scale has two components with different purposes. Variat
 
 Collateral eligibility and haircuts decide what the posted margin is worth. Cash, government securities, and corporate bonds are accepted at different haircuts, and a haircut is a discount to market value that absorbs price moves between calls. Posting a large amount of an ineligible or high-haircut asset increases the funding requirement even when the notional is unchanged.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ The funding plan should also name the source of last resort, because margin call
 ## Sources
 
 - Margin standards for central counterparties: <https://www.bis.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on margin: <https://www.investor.gov/introduction-investing>

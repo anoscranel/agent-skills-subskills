@@ -15,7 +15,7 @@ Short interest is published twice a month and reports the total shares sold shor
 
 Failure-to-deliver data is different: it reports shares that were not delivered at settlement, which can indicate a borrow that could not be sourced. A persistent fail in a name is a sign that the borrow is scarce, and it can coexist with a falling short interest if the positions are being rolled rather than closed. Neither series forecasts a squeeze, and both are frequently cited as if they did.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The two series are also read together for a reason that is easy to miss: a falli
 
 ## Sources
 
-- Short sale and fail data context: <https://www.sec.gov/about/about-securities>
+- Short sale and fail data context: <https://www.sec.gov/investor>
 - Market data and trading guidance: <https://www.finra.org/>
 - Investor education on short selling: <https://www.investor.gov/introduction-investing>

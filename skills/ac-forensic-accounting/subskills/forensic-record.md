@@ -15,7 +15,7 @@ The forensic record states the question, the document and line item that prompte
 
 The alternative-explanations field is what makes the record credible. Every observation in this skill has a legitimate explanation somewhere, and a record that lists the plausible benign ones and says why they were not sufficient is a record that a reader can trust. One that lists only the concerning reading is advocacy, and advocacy in this domain is both unfair and, in practice, wrong more often than its author expects.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ Keeping the records together across periods also shows which questions have alre
 
 ## Sources
 
-- Company filings and disclosure: <https://www.sec.gov/about/about-securities>
+- Company filings and disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investor education on filings: <https://www.investor.gov/introduction-investing>

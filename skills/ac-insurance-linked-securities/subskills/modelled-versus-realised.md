@@ -60,4 +60,4 @@ A useful habit is to record the expected loss both as reported and adjusted for 
 
 - ILS market and model information: <https://www.artemis.bm/>
 - Research on catastrophic risk: <https://www.nber.org/>
-- Securities disclosure context: <https://www.sec.gov/about/about-securities>
+- Securities disclosure context: <https://www.sec.gov/investor>

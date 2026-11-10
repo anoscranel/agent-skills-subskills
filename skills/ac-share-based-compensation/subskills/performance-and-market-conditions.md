@@ -15,7 +15,7 @@ Vesting conditions split into two kinds, and the split matters because the accou
 
 The distinction has a practical consequence for the reader. A grant with a demanding market condition can be expensed in full while never vesting, which means the reported expense overstates the eventual share issuance; a grant with a performance condition can be expensed only when the target looks achievable, which means the expense can arrive late and in a lump. Recording which kind applies is what makes the forward supply interpretable.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.fasb.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.fasb.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Compensation and vesting disclosure: <https://www.sec.gov/about/about-securities>
+- Compensation and vesting disclosure: <https://www.sec.gov/investor>
 - Share-based payment accounting standards: <https://www.fasb.org/>
 - Investor education on equity compensation: <https://www.investor.gov/introduction-investing>

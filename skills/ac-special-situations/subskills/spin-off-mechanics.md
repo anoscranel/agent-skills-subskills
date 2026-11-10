@@ -15,7 +15,7 @@ A spin-off distributes shares in a subsidiary to the parent's holders, usually i
 
 Three mechanics decide the outcome. The distribution ratio fixes how many new shares each parent share yields. Index treatment determines whether the spun entity is added and whether holders receive forced buying or selling. And the record date determines who receives the shares, which is a separate date from the distribution date and the ex-date.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -60,5 +60,5 @@ Recording the distribution ratio and the when-issued ticker together is what let
 ## Sources
 
 - Spin-off filings and information statements: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on corporate events: <https://www.investor.gov/introduction-investing>

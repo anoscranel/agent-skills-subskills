@@ -15,7 +15,7 @@ An autocallable redeems early when the underlying is at or above a trigger on an
 
 Naming the structure as short volatility explains its behaviour. In calm, rising markets the autocall triggers early and the investor is returned to cash, often at the moment when reinvesting is least attractive. In a fall, the reverse convertible converts exactly when the shares are falling, and the autocall's protection may fail at the barrier. The profile is the same one that makes option selling attractive on average and damaging in the tail.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.esma.europa.eu/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.esma.europa.eu/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.e
 
 ## Sources
 
-- Structured note disclosure context: <https://www.sec.gov/about/about-securities>
+- Structured note disclosure context: <https://www.sec.gov/investor>
 - European regulatory material on structured retail products: <https://www.esma.europa.eu/>
 - Retail product guidance: <https://www.finra.org/>

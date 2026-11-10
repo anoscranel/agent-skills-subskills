@@ -15,7 +15,7 @@ The same index exposure can be obtained through a future or through an ETF, and 
 
 The decision also depends on the holder's constraints. A future can be sized precisely and hedged quickly, but it requires margin management and a roll discipline; an ETF is simpler to hold but carries a fee, a tracking difference, and a secondary-market spread. The record states which vehicle was chosen, the reason, and the cost estimate for both, because the choice is reversible and should be revisited when rates or fees change.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on funds and costs: <https://www.investor.gov/introduction-investing>
-- Fund disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Fund disclosure requirements: <https://www.sec.gov/investor>
 - Rate data for financing estimates: <https://fred.stlouisfed.org/>

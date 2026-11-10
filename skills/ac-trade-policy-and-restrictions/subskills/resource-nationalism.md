@@ -58,4 +58,4 @@ The measure that is most often underestimated is the export quota, because it do
 
 - International financial and policy context: <https://www.imf.org/>
 - Trade and investment rules: <https://www.wto.org/>
-- Resource sector disclosure: <https://www.sec.gov/about/about-securities>
+- Resource sector disclosure: <https://www.sec.gov/investor>

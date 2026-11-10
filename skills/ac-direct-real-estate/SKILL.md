@@ -15,7 +15,7 @@ A direct property is valued on the income it produces, and that income depends o
 
 This skill covers those judgements and the documents behind them: how net operating income is built and where it can be flattered, how lease terms and tenant credit determine stability, how capitalisation rates relate to financing and growth, how appraisals differ from market prices, and how property-level debt and deferred capital expenditure change the equity return. It analyses the income; it does not select a property.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## When to use
 

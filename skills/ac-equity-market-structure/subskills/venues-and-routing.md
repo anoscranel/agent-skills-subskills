@@ -15,7 +15,7 @@ US equity trading is fragmented across exchanges and alternative venues, and the
 
 The reference price is the national best bid and offer, assembled from the venues. Your fill can be at that price, inside it, or worse, and the difference is the execution quality that disclosure statistics attempt to measure. A broker's statistics describe its aggregate flow; they do not promise the next order's fill.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/rules-guidance>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/rules-guidance>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Regulatory context for order routing and execution: <https://www.sec.gov/about/about-securities>
+- Regulatory context for order routing and execution: <https://www.sec.gov/investor>
 - Rule context for best execution and disclosure: <https://www.finra.org/rules-guidance>
 - Investor education on order handling: <https://www.investor.gov/introduction-investing>
 

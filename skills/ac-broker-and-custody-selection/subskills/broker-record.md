@@ -58,4 +58,4 @@ Reviewing the record against the current fee schedule and terms takes minutes an
 
 - Investor education on brokerage accounts: <https://www.investor.gov/introduction-investing>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Regulatory context for account terms: <https://www.sec.gov/about/about-securities>
+- Regulatory context for account terms: <https://www.sec.gov/investor>

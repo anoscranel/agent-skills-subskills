@@ -15,7 +15,7 @@ Reported profit is an estimate assembled under rules that permit judgement, and 
 
 This skill is forensic rather than accusatory. Every technique here identifies a pattern that warrants a question, and none of them establishes intent. The output is a set of specific questions with the filing references that raise them, which is a more useful product than a verdict, and a more honest one.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.sec.gov/edgar/search/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.sec.gov/edgar/search/>.
 
 ## When to use
 

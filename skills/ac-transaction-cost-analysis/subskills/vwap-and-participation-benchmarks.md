@@ -58,4 +58,4 @@ A further trap is benchmark choice after the fact: a window selected because it 
 
 - Trading and performance standards: <https://www.cfainstitute.org/>
 - Execution quality and market practice: <https://www.finra.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

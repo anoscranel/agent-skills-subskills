@@ -15,7 +15,7 @@ A stock trades in several distinct sessions, and each has its own liquidity and 
 
 The overnight gap is the structural consequence. A position held from the close to the next open is exposed to everything that happened while the market was shut, and the exposure cannot be managed with a stop, because the stop is not watched when the market is closed. That is why overnight risk is a sizing decision: the position either fits a plausible gap or it does not.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Market structure and trading session context: <https://www.sec.gov/about/about-securities>
+- Market structure and trading session context: <https://www.sec.gov/investor>
 - Trading practice and investor guidance: <https://www.finra.org/>
 - Investor education on equity trading: <https://www.investor.gov/introduction-investing>

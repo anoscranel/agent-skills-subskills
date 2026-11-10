@@ -15,7 +15,7 @@ A merger spread is the difference between the target's current price and the val
 
 Annualising the spread is what makes it comparable: a five percent spread over three months is a different proposition from the same spread over a year. The break case is the essential companion, because a deal that fails typically returns the target to its pre-announcement price, and the loss in that scenario is usually several times the spread being earned.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The implied probability deserves a caution of its own: it assumes the break case
 ## Sources
 
 - Merger filings and deal terms: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on event risk: <https://www.investor.gov/introduction-investing>

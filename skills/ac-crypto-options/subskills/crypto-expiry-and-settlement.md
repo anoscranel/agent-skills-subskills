@@ -15,7 +15,7 @@ Crypto options expire on a dense grid: daily, weekly, monthly, and quarterly, wi
 
 Settlement uses an index price computed from several spot venues, not the last trade on one exchange. The venue publishes the index and its composition, and the difference between the index and the venue's own last price can decide an expiry. A trader who watches one venue's chart through expiry is watching a proxy for the number that settles the contract.
 
-Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The index's construction deserves a note: it averages prices across several venu
 ## Sources
 
 - Regulatory information on crypto derivatives: <https://www.cftc.gov/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on derivatives: <https://www.investor.gov/introduction-investing>

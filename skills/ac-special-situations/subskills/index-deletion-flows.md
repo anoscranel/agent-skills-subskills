@@ -15,7 +15,7 @@ An index deletion forces every fund tracking that index to sell the shares by th
 
 The anticipation is the interesting part. A stock likely to be deleted can be identified in advance from the index's own rules, and the selling pressure often appears before the effective date as the market positions for it. That is why the flow estimate matters less than the timing: a flow that is known and dated is typically priced before it arrives, and the residual effect is in the days around the effective date rather than over the weeks preceding it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The flow's counterpart is equally important: an addition forces buying of the sa
 ## Sources
 
 - Index methodology and announcements: <https://www.investor.gov/introduction-investing>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Fund and index data: <https://fred.stlouisfed.org/>

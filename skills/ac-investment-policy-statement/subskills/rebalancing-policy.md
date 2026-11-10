@@ -56,7 +56,7 @@ Primary sources: <https://www.cfainstitute.org/> and <https://www.investor.gov/i
 
 - Investment-policy reference material: <https://www.cfainstitute.org/>
 - Investor education on rebalancing: <https://www.investor.gov/introduction-investing>
-- Regulatory context for trading costs and disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for trading costs and disclosure: <https://www.sec.gov/investor>
 
 The cost of rebalancing is small per trade and large in aggregate, which is why the band width matters more than the mechanism. A rule that fires often enough to feel responsive is usually a rule that pays intermediaries for the comfort. Record the estimated cost of a typical rebalance when the rule is written, and compare it against the drift the bands are meant to contain; the comparison, not the preference, should set the width.
 

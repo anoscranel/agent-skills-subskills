@@ -15,7 +15,7 @@ The case for alternatives rests on three claims: diversification from public mar
 
 The honest analysis therefore reports what the alternative contributed historically, using the best available transaction-based evidence rather than mark-based statistics, and states what would have to be true for the contribution to repeat.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on diversification and alternatives: <https://www.investor.gov/introduction-investing>
-- Regulatory context for fund disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for fund disclosure: <https://www.sec.gov/investor>
 - Rate and inflation series: <https://fred.stlouisfed.org/>
 
 The contribution test is comparative, not absolute: the alternative is measured against the liquid asset it displaces, net of fees, over the same period. An allocation that diversifies but underperforms by more than the diversification is worth has not earned its place, and the record should show both sides of that arithmetic rather than the favourable one.

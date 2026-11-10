@@ -59,4 +59,4 @@ The record also protects against institutional memory loss: the certificates and
 
 - Cross-border investment rules: <https://www.imf.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Market access disclosure: <https://www.sec.gov/about/about-securities>
+- Market access disclosure: <https://www.sec.gov/investor>

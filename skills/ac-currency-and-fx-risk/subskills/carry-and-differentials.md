@@ -56,7 +56,7 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Policy and market rate series: <https://fred.stlouisfed.org/>
 - Investor education on currency risk: <https://www.investor.gov/introduction-investing>
-- Regulatory context for rate disclosures: <https://www.sec.gov/about/about-securities>
+- Regulatory context for rate disclosures: <https://www.sec.gov/investor>
 
 The asymmetry is the point: carry accrues in small positive increments and is given back in occasional large moves, so a strategy's average return can look attractive while its worst month is catastrophic. Recording the drawdown alongside the yield is what keeps the two visible at the same time.
 

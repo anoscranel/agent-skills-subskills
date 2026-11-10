@@ -15,7 +15,7 @@ The fund record documents why a vehicle was chosen over the alternatives availab
 
 Its value appears at the next review: a fund that has since cut its fee, changed its index, or grown too large for its market can be compared against the original record and the change made deliberately. Without the record, every review starts from the fund's current marketing, which is exactly what the selection was supposed to look past.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Fund disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Fund disclosure requirements: <https://www.sec.gov/investor>
 - Investor education on fund selection: <https://www.investor.gov/introduction-investing>
 - Tax context for vehicle choice: <https://www.irs.gov/>
 

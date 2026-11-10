@@ -15,7 +15,7 @@ Capital controls determine whether an investment can be exited in the currency i
 
 The relevant tests are the repatriation rules for capital and for income, separately, because they often differ. Dividends may be repatriable while principal is not, or the reverse; proceeds from a sale may require a certificate obtained at entry; and the process for approval may take weeks or months, during which the currency can move. Recording the rules and the expected duration converts a policy risk into an operational one.
 
-Primary sources: <https://www.imf.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.imf.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The asymmetry between entry and exit is the central fact of this risk: a market 
 ## Sources
 
 - Capital flow and control data: <https://www.imf.org/>
-- Market access disclosure: <https://www.sec.gov/about/about-securities>
+- Market access disclosure: <https://www.sec.gov/investor>
 - Cross-border investment standards: <https://www.cfainstitute.org/>

@@ -15,7 +15,7 @@ Some of the largest and most predictable flows in a single stock come from event
 
 The direction is not always obvious. An index addition brings buying from tracking funds, but the effect is often anticipated and partly priced before the effective date. A lockup expiry releases supply that may or may not be sold. A buyback provides a bid whose size and timing are disclosed but whose execution is discretionary. The record states the event, the estimated flow, and the uncertainty around it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Corporate event disclosure: <https://www.sec.gov/about/about-securities>
+- Corporate event disclosure: <https://www.sec.gov/investor>
 - Trading and market practice guidance: <https://www.finra.org/>
 - Investor education on corporate actions: <https://www.investor.gov/introduction-investing>

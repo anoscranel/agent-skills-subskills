@@ -58,4 +58,4 @@ The definition of the metric matters as much as its level: a leverage test that 
 
 - Credit market conditions: <https://www.federalreserve.gov/>
 - Credit analysis standards: <https://www.cfainstitute.org/>
-- Fund and security disclosure: <https://www.sec.gov/about/about-securities>
+- Fund and security disclosure: <https://www.sec.gov/investor>

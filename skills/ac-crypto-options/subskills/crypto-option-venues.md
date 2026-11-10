@@ -15,7 +15,7 @@ Crypto option liquidity is concentrated. A few venues carry most of the volume, 
 
 That structure decides how a trade is executed. There is no consolidated tape to compare against, so the reference price is whatever the venue or an aggregator displays, and the executable price can differ materially. A position sized on the displayed market and executed through a quote can end up with a very different fill, and the record should note which route was used.
 
-Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The practical consequence is that execution is part of the strategy rather than 
 ## Sources
 
 - Regulatory information on crypto markets: <https://www.cftc.gov/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on trading costs: <https://www.investor.gov/introduction-investing>

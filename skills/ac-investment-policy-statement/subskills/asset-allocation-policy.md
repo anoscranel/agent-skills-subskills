@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on asset allocation: <https://www.investor.gov/introduction-investing>
 - Investment-policy reference material: <https://www.cfainstitute.org/>
-- Disclosure context for portfolio policy: <https://www.sec.gov/about/about-securities>
+- Disclosure context for portfolio policy: <https://www.sec.gov/investor>
 
 The allocation table is the part of the policy most likely to be revised for the wrong reason, because it is the part a market move makes visible. A target should change when the goals or constraints change, and the record should make that distinction explicit by dating the derivation rather than the decision.
 

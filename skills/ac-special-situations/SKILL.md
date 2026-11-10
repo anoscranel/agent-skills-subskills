@@ -15,7 +15,7 @@ A special situation is an event that changes a security's identity or ownership 
 
 This skill covers that arithmetic and the mechanics around it. The common structure is a spread: the price difference between the security and the consideration that will replace it, annualised over the expected timeline, with the break scenario defined. The skill does not forecast outcomes; it makes the payoff explicit so that a view about the event can be expressed and reviewed.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.sec.gov/edgar/search/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.sec.gov/edgar/search/>.
 
 ## When to use
 

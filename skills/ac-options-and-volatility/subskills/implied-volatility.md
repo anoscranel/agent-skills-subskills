@@ -56,6 +56,6 @@ Primary sources: <https://www.cboe.com/> and <https://www.investor.gov/introduct
 
 - Options market data and education: <https://www.cboe.com/>
 - Investor education on options volatility: <https://www.investor.gov/introduction-investing>
-- Regulatory context for options products: <https://www.sec.gov/about/about-securities>
+- Regulatory context for options products: <https://www.sec.gov/investor>
 
 The most reliable reading of a volatility surface is comparative: today against its own history, this strike against its neighbours, this expiry against the next. A level quoted alone carries almost no information, which is why the record always pairs it with the comparison it is being judged against.

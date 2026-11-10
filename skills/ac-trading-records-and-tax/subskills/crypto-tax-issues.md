@@ -56,6 +56,6 @@ Primary sources: <https://www.irs.gov/> and <https://www.investor.gov/introducti
 
 - Tax administration guidance: <https://www.irs.gov/>
 - Investor education on digital-asset reporting: <https://www.investor.gov/introduction-investing>
-- Disclosure context for exchange entities: <https://www.sec.gov/about/about-securities>
+- Disclosure context for exchange entities: <https://www.sec.gov/investor>
 
 The value of recording these facts early is that most of them are cheap to capture at the time and impossible to reconstruct later: the venue's legal entity, the account's jurisdiction, the price at the moment a reward arrived. A year-end attempt to recover them produces estimates, and estimates in a tax pack invite questions.

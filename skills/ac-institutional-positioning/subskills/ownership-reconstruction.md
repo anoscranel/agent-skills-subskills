@@ -15,7 +15,7 @@ Reconstructing ownership means adding filings together without double counting. 
 
 The second problem is coverage. Filing thresholds exclude small managers, some vehicles report only annually, and short positions are largely invisible. A reconstructed ownership picture is therefore a floor on institutional holding rather than a measurement of it, and the residual — the shares not attributed — is where the retail, insider, and unreported positions live.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.sec.gov/edgar/search/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.sec.gov/edgar/search/>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ The date discipline matters as much as the deduplication: filings issued for dif
 ## Sources
 
 - Filing search and ownership disclosures: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on ownership: <https://www.investor.gov/introduction-investing>

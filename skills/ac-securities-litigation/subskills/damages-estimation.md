@@ -15,7 +15,7 @@ Securities damages are usually computed from price inflation: the amount by whic
 
 Those assumptions are where the argument happens. A wider event window attributes less of a price move to the disclosure; a model with different risk factors attributes a different amount; and a corrective disclosure that arrives in stages produces a series of smaller inflation estimates rather than one. A damages figure in a complaint and one in a settlement are therefore different objects computed for different purposes.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The estimation period matters as much as the event window: a counterfactual buil
 
 ## Sources
 
-- Litigation disclosure and filings: <https://www.sec.gov/about/about-securities>
+- Litigation disclosure and filings: <https://www.sec.gov/investor>
 - Financial analysis standards: <https://www.cfainstitute.org/>
 - Market data for event studies: <https://fred.stlouisfed.org/>

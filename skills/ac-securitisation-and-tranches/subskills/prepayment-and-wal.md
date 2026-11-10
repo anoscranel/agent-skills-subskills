@@ -15,7 +15,7 @@ A mortgage or consumer pool does not amortise on its stated schedule: borrowers 
 
 The consequence is that the stated legal maturity is close to meaningless for valuation. A tranche with a thirty-year maturity may have a weighted average life of three years at a fast prepayment speed and eight at a slow one, and its price sensitivity changes with the speed itself. Prepayment risk is therefore two risks in one: the level of rates and the behaviour of borrowers, which do not always move together.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The asymmetry matters for a tranche's risk profile: when rates fall, prepayments
 
 ## Sources
 
-- Mortgage and asset-backed disclosure: <https://www.sec.gov/about/about-securities>
+- Mortgage and asset-backed disclosure: <https://www.sec.gov/investor>
 - Housing and rate data: <https://www.federalreserve.gov/>
 - Prepayment and rate series: <https://fred.stlouisfed.org/>

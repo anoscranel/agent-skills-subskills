@@ -15,7 +15,7 @@ Compliance can be tested before a trade or after it. Pre-trade testing prevents 
 
 Drift is the failure mode that post-trade-only and pre-trade-only systems share. A portfolio can move outside its limits through market movement, through a series of individually compliant trades, or through a corporate action that changes a holding's characteristics. Monitoring therefore needs a periodic full-portfolio test in addition to the trade-level checks, and the record should state which tests run, how often, and who reviews the exceptions.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The pattern that review should look for is a breach that recurs at the same poin
 ## Sources
 
 - Investment management standards: <https://www.cfainstitute.org/>
-- Regulatory compliance context: <https://www.sec.gov/about/about-securities>
+- Regulatory compliance context: <https://www.sec.gov/investor>
 - Investor protection guidance: <https://www.investor.gov/introduction-investing>

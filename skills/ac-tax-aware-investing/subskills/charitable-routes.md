@@ -59,4 +59,4 @@ The comparison that keeps the decision honest is against the sale, not against i
 
 - Tax administration guidance on charitable gifts: <https://www.irs.gov/>
 - Investor education on charitable giving: <https://www.investor.gov/introduction-investing>
-- Regulatory context for charitable vehicles: <https://www.sec.gov/about/about-securities>
+- Regulatory context for charitable vehicles: <https://www.sec.gov/investor>

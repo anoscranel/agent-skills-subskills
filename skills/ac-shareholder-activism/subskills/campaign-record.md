@@ -15,7 +15,7 @@ The record states the demand, the type of campaign, the filing timeline, the set
 
 It also carries the counterfactual: what the company did independently over the same period. A share price that rose during a campaign may reflect the campaign, the market, or the company's own improvements, and a record that names those separately is the only one that can attribute the effect. The record ends with what would count as resolution, set before the outcome.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A record that states what would count as resolution before the campaign finishes
 
 ## Sources
 
-- Activist and company filings: <https://www.sec.gov/about/about-securities>
+- Activist and company filings: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Governance research: <https://www.nber.org/>

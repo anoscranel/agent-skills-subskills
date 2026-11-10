@@ -15,7 +15,7 @@ A lock-up is a contractual bar on insiders and pre-issue holders selling for a s
 
 The mechanics that decide the impact are the size of the released block relative to the free float and to average daily volume, whether the expiry is staggered across several dates, and whether the holders have a plan in place. A release equal to a few days of volume is absorbed quietly; one equal to months of volume changes the supply-demand balance for as long as it takes to clear, and the market typically begins to price that before the date arrives.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The absorption estimate is worth stating as a range rather than a number, becaus
 
 ## Sources
 
-- Offering disclosure and lock-up terms: <https://www.sec.gov/about/about-securities>
+- Offering disclosure and lock-up terms: <https://www.sec.gov/investor>
 - Trading practice guidance: <https://www.finra.org/>
 - Investor education on new issues: <https://www.investor.gov/introduction-investing>

@@ -56,6 +56,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Real and nominal yield series: <https://fred.stlouisfed.org/>
 - Investor education on inflation protection: <https://www.investor.gov/introduction-investing>
-- Regulatory context for inflation-linked disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for inflation-linked disclosure: <https://www.sec.gov/investor>
 
 The honest framing for a long-horizon investor is that the linked instrument protects the real value of a known nominal amount against a published index, which is narrower and more specific than 'inflation protection' as it is usually sold. Recording exactly which index and which basket makes the difference visible.

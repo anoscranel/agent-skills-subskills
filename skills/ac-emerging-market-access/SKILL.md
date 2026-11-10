@@ -15,7 +15,7 @@ An emerging market exposure can be held through several routes, and they are not
 
 This skill covers the routes and the mechanics that distinguish them: how receipts are created and what their ratio means, what registration regimes require, how capital controls affect the ability to repatriate, where settlement and custody differ, what index inclusion does to flows, and how currency access is obtained and what it costs.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.imf.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.imf.org/>.
 
 ## When to use
 

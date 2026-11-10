@@ -15,7 +15,7 @@ Cash conversion measures how much of reported profit arrives as cash, usually as
 
 The cash cycle puts the same facts in days: days sales outstanding plus days inventory less days payables. A cycle that lengthens while revenue grows is a signal that the growth is being bought with working capital, and a cycle that shortens can mean either efficiency or a business that is collecting aggressively at the expense of future sales. The record states the cycle and its trend rather than a single reading.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The cycle also interacts with growth: a company growing quickly will absorb cash
 ## Sources
 
 - Filing search for financial statements: <https://www.sec.gov/edgar/search/>
-- Disclosure context: <https://www.sec.gov/about/about-securities>
+- Disclosure context: <https://www.sec.gov/investor>
 - Investor education on cash flow: <https://www.investor.gov/introduction-investing>

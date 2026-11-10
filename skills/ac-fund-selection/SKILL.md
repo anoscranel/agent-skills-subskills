@@ -15,7 +15,7 @@ A fund is a wrapper around an exposure, and the wrapper has costs, mechanics, an
 
 Fund selection is therefore a vehicle decision, separate from the asset decision. This skill evaluates the vehicle: what it costs in total, how closely it tracks, what its structure exposes the holder to, and how it behaves when the underlying market is stressed.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## When to use
 

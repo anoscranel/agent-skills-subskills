@@ -15,7 +15,7 @@ A volume profile plots how much traded at each price, which shows where the mark
 
 VWAP is the average price at which the day's volume traded, and orders benchmarked to it leave a footprint: volume arriving steadily through the session rather than clustered at the open and close, and a tendency for the price to revert toward the running average. A scheduled order that must finish by the close produces a pattern, and the pattern is visible in the intraday volume distribution.
 
-Primary sources: <https://www.finra.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.finra.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The profile's other use is comparative: the same name's profile from a month ear
 ## Sources
 
 - Trading and execution guidance: <https://www.finra.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on trading volume: <https://www.investor.gov/introduction-investing>

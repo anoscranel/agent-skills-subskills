@@ -11,11 +11,11 @@ status: seedling
 
 ## Standard
 
-A 13F reports the long equity positions of institutional managers above a size threshold, at a quarter end, filed within forty-five days. Those four facts define its value and its limits: it covers long positions only, it is a snapshot, it is at least six weeks stale when published, and it omits short positions, options economics, and any position held in a form the filing does not capture.
+A 13F reports the long equity positions of institutional managers exercising investment discretion over at least one hundred million dollars in qualifying securities, at a quarter end, filed within forty-five days. Those four facts define its value and its limits: it covers long positions only, it is a snapshot, it is at least six weeks stale when published, and it omits short positions, options economics, and any position held in a form the filing does not capture.
 
 The practical consequence is that a 13F tells you what a manager owned at a date, not what they think or what they are doing now. A manager can be long a stock in the filing and hedged with options, or have sold the entire position in the weeks before publication. Reading the filing as a live view is the most common error in this data, and it produces conclusions that were wrong before they were published.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.sec.gov/edgar/search/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.sec.gov/edgar/search/>.
 
 ## Decision rules
 
@@ -56,4 +56,4 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.s
 
 - SEC filings and full-text search: <https://www.sec.gov/edgar/search/>
 - Investor education on institutional disclosure: <https://www.investor.gov/introduction-investing>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

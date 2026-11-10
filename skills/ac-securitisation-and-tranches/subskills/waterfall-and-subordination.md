@@ -15,7 +15,7 @@ The waterfall is the clause that decides who is paid and when. Interest typicall
 
 Reading a structure means reading both directions. A tranche's headline rating describes its expected loss under the rating agency's model, not its position in the cash order, and the two can diverge once triggers have diverted cash. The record states the tranche's place in the interest waterfall, the principal waterfall, and the loss allocation, which are three separate facts.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The distinction that catches holders is between a tranche that is senior in the 
 
 ## Sources
 
-- Asset-backed securities documentation: <https://www.sec.gov/about/about-securities>
+- Asset-backed securities documentation: <https://www.sec.gov/investor>
 - Securitisation standards and practices: <https://www.bis.org/>
 - Market structure context: <https://www.federalreserve.gov/>

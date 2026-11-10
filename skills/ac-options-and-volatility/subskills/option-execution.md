@@ -15,7 +15,7 @@ Options trade with wider spreads and thinner books than the underlying, so execu
 
 Assignment and early exercise add mechanics that cost money quietly. A short option can be assigned before expiry, particularly around dividends or when it is deep in the money; a long option that is not exercised by expiry expires worthless. Both are administrative risks that a record should anticipate rather than discover.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-se
 ## Sources
 
 - Options market mechanics and data: <https://www.cboe.com/>
-- Options disclosure and settlement context: <https://www.sec.gov/about/about-securities>
+- Options disclosure and settlement context: <https://www.sec.gov/investor>
 - Investor education on options mechanics: <https://www.investor.gov/introduction-investing>
 
 The cost of execution in options is often larger than the edge being pursued, particularly in smaller books. That is why the executable price, not the mid, belongs in the record at inception: a position that only works at mid has already lost, and the loss is invisible until it is closed.

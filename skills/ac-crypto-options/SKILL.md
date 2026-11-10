@@ -15,7 +15,7 @@ Crypto options differ from their listed equity cousins in three ways that decide
 
 This skill covers those mechanics and the risks that follow: inverse contract arithmetic, settlement and mark price conventions, the surface and its persistent skew, margin and liquidation for short options, and the yield-selling pattern that dominates retail participation in this market. Generic greeks belong to the options skill and perpetual funding belongs to its own.
 
-Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

@@ -15,7 +15,7 @@ A trade is an agreement; settlement is when the securities and cash actually mov
 
 Fails to deliver happen when the seller does not deliver on time. They are recorded, published, and usually resolved, but they matter to anyone whose plan assumes shares or cash are available on a specific date. The mechanics are mundane and the consequences are not: a plan that assumes same-day availability of proceeds is built on a rule that does not exist.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for settlement and clearing: <https://www.sec.gov/about/about-securities>
+- Regulatory context for settlement and clearing: <https://www.sec.gov/investor>
 - Investor education on trade settlement: <https://www.investor.gov/introduction-investing>
 - Rule context for clearing requirements: <https://www.finra.org/rules-guidance>
 

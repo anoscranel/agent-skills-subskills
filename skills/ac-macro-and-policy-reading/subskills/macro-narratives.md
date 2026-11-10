@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on market narratives and behaviour: <https://www.investor.gov/introduction-investing>
 - Macro data for evidence checks: <https://fred.stlouisfed.org/>
-- Regulatory context for market commentary: <https://www.sec.gov/about/about-securities>
+- Regulatory context for market commentary: <https://www.sec.gov/investor>
 
 The useful posture is to hold the narrative as the market's working hypothesis rather than as your own conclusion. That framing makes it possible to describe what the narrative implies without adopting it, which is what allows a position to be sized against it rather than from it.
 

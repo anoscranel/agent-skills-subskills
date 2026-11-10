@@ -15,7 +15,7 @@ Many mandates are written to hold only investment-grade debt, and a rating cut b
 
 The flow is predictable in direction and not in size. The amount that must be sold depends on how widely the instrument is held by constrained mandates, which is disclosed only in aggregate, and the timing depends on each mandate's cure period. A holder who is not constrained can be paid to provide liquidity; a holder who is constrained has no choice, and the record should state which of the two the position is.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The other side of the flow is worth recording for a holder who is not constraine
 
 ## Sources
 
-- Credit rating and index disclosure: <https://www.sec.gov/about/about-securities>
+- Credit rating and index disclosure: <https://www.sec.gov/investor>
 - Regulatory references to rating thresholds: <https://www.bis.org/>
 - Fund holdings disclosure: <https://www.investor.gov/introduction-investing>

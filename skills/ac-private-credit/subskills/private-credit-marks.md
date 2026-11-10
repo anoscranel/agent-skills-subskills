@@ -15,7 +15,7 @@ A private loan does not trade, so its value is an estimate. The manager produces
 
 The practical consequences are three. Correlations between private credit and public markets appear lower than they are, because the private marks lag. Reported drawdowns are shallower, because a mark is not a sale. And the exit assumption — that the loan will repay at par — is doing much of the work, which is why a fund with a high proportion of PIK and a rising proportion of amendments deserves a closer look at its valuation policy.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The most informative comparison is the mark against the price at which any part 
 
 ## Sources
 
-- Fund valuation disclosure: <https://www.sec.gov/about/about-securities>
+- Fund valuation disclosure: <https://www.sec.gov/investor>
 - Credit market conditions: <https://www.federalreserve.gov/>
 - Financial analysis standards: <https://www.cfainstitute.org/>

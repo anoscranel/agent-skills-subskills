@@ -15,7 +15,7 @@ A restructuring charge is described as one-off because it relates to a specific 
 
 The test is arithmetic and simple: add the charges back over the window and ask what the profit would have been without the exclusion. If the cumulative adjustment is small relative to profit, the label is defensible; if it is large and repeated, the adjusted figure describes a business the company does not operate. The record should present both series side by side.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The reversal is the detail most easily missed: an impairment recognised in a wea
 ## Sources
 
 - Filing search for charges and impairments: <https://www.sec.gov/edgar/search/>
-- Disclosure context: <https://www.sec.gov/about/about-securities>
+- Disclosure context: <https://www.sec.gov/investor>
 - Investor education on financial reporting: <https://www.investor.gov/introduction-investing>

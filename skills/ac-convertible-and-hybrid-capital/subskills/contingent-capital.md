@@ -15,7 +15,7 @@ A contingent convertible converts to equity, or is written down, when a specifie
 
 The loss path is what distinguishes it from a bond. The coupon is discretionary and cancellation is not an event of default; the trigger can be accounting-based or point-of-non-viability; and the conversion price is usually set at a level that transfers value from the holder. A holder who models the instrument as a high-yield bond with a call has modelled the wrong payoff.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The comparison that matters is with the issuer's own equity and senior debt: a c
 ## Sources
 
 - Bank capital standards: <https://www.bis.org/>
-- Instrument disclosure: <https://www.sec.gov/about/about-securities>
+- Instrument disclosure: <https://www.sec.gov/investor>
 - Regulatory context: <https://www.federalreserve.gov/>

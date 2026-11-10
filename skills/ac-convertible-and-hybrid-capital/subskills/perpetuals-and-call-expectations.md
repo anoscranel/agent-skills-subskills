@@ -15,7 +15,7 @@ A perpetual hybrid has no maturity, and the market prices it as though it will b
 
 Extension risk is the whole of the analysis. A perpetual trading at a yield to call of six percent and a yield to perpetuity of nine percent is telling you that the market assigns a probability to extension, and that probability moves with the issuer's credit and with the level of rates. Reading the yield to call alone hides the outcome that hurts.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The extension scenario deserves a number rather than an adjective: computing the
 ## Sources
 
 - Hybrid capital standards: <https://www.bis.org/>
-- Instrument disclosure: <https://www.sec.gov/about/about-securities>
+- Instrument disclosure: <https://www.sec.gov/investor>
 - Rate data: <https://fred.stlouisfed.org/>

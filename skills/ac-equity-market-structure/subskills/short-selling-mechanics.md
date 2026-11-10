@@ -15,7 +15,7 @@ A short sale requires a borrow: someone must lend the shares, and the lender can
 
 Short interest is the published aggregate of open shorts; days-to-cover is that number divided by average volume. Both are lagged and both are interpreted far more confidently than the data supports. A squeeze happens when holders of the float will not sell and shorts must buy; the mechanics are real, but the prediction of one is not a reliable craft.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/rules-guidance>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/rules-guidance>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Regulatory context for short selling: <https://www.sec.gov/about/about-securities>
+- Regulatory context for short selling: <https://www.sec.gov/investor>
 - Rule and disclosure context for short interest: <https://www.finra.org/rules-guidance>
 - Investor education on short selling risk: <https://www.investor.gov/introduction-investing>
 

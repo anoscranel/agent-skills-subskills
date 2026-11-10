@@ -15,7 +15,7 @@ A buyback offsets dilution when the shares repurchased equal the shares newly is
 
 The comparison that makes this legible is between the cash spent on the buyback and the expense recognised for the compensation. If the two are close, the company is effectively paying cash for the shares it gives employees, and the compensation is a cash cost routed through the equity market. If the buyback is smaller, the difference is being funded by the holders through dilution, which is a transfer that no line in the income statement records.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The offset also has a timing problem: grants vest on a calendar while repurchase
 
 ## Sources
 
-- Share count and repurchase disclosure: <https://www.sec.gov/about/about-securities>
+- Share count and repurchase disclosure: <https://www.sec.gov/investor>
 - Investor education on buybacks and dilution: <https://www.investor.gov/introduction-investing>
 - Market data for price comparison: <https://fred.stlouisfed.org/>

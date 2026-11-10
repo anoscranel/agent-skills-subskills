@@ -15,7 +15,7 @@ The same bond exposure behaves differently depending on how it is held. Direct b
 
 The mismatch is not a flaw in every case; it is a feature whose cost must be understood. An ETF can trade at a discount to its net asset value when the underlying market is illiquid, and a fund can gate redemptions. Both are documented possibilities and both have occurred in stress episodes.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on funds and ETFs: <https://www.investor.gov/introduction-investing>
-- Regulatory context for fund and ETF disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for fund and ETF disclosure: <https://www.sec.gov/investor>
 - Interest-rate and liquidity data: <https://fred.stlouisfed.org/>

@@ -15,7 +15,7 @@ A corporate action changes the terms of a holding, and the change arrives throug
 
 This skill is the mechanics and the record. It does not judge whether an acquisition is good or bad; it makes sure the position, the cost basis, the adjusted history and the tax record all agree once the action has happened.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## When to use
 

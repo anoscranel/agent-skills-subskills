@@ -15,7 +15,7 @@ Venue statements and the desk's records disagree, and the disagreement is normal
 
 Three categories cause most of the trouble. Transfers between the desk's own accounts look like a disposal on one statement and an acquisition on another. Airdrops and forks arrive without a purchase, so their basis comes from a valuation at receipt that somebody must record. And rewards accrue continuously, which makes the valuation date a choice that must be stated.
 
-Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-sec
 ## Sources
 
 - Tax administration guidance on records and basis: <https://www.irs.gov/>
-- Transaction reporting context: <https://www.sec.gov/about/about-securities>
+- Transaction reporting context: <https://www.sec.gov/investor>
 - Investor education on record keeping: <https://www.investor.gov/introduction-investing>
 
 Keep the reconciliation file alongside the raw exports rather than inside them, so that a re-run produces the same result from the same inputs. A reconciliation that cannot be reproduced is a narrative, and narratives do not survive review.

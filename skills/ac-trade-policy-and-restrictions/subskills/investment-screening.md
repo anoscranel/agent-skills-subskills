@@ -58,4 +58,4 @@ A further effect that is easy to miss is on the exit: a screening regime that re
 
 - International investment and policy context: <https://www.imf.org/>
 - Trade and investment rules: <https://www.wto.org/>
-- Transaction disclosure context: <https://www.sec.gov/about/about-securities>
+- Transaction disclosure context: <https://www.sec.gov/investor>

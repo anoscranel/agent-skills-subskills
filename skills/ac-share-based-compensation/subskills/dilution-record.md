@@ -15,7 +15,7 @@ The dilution record states the starting count, the grants outstanding by type an
 
 Its second function is to preserve the method. The fully diluted count depends on a price and a method, and the dilution rate depends on which issuances are excluded, so a record that states the numbers without the method cannot be compared with anything. The record names the method, the price, and the exclusions, which is what makes the trend meaningful.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The record's most useful line is the cumulative effect at the current rate, stat
 
 ## Sources
 
-- Share count and compensation filings: <https://www.sec.gov/about/about-securities>
+- Share count and compensation filings: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investor education on dilution: <https://www.investor.gov/introduction-investing>

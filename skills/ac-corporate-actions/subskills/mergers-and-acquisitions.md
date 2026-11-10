@@ -15,7 +15,7 @@ A merger converts one position into another: cash, shares of the acquirer, or a 
 
 The mechanics arrive with dates: announcement, shareholder vote, regulatory approvals, closing, and the conversion of positions. Until closing, the target trades at a spread to the deal terms, and that spread is the market's estimate of completion risk rather than a valuation of the business.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for merger disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for merger disclosure: <https://www.sec.gov/investor>
 - Investor education on corporate reorganisations: <https://www.investor.gov/introduction-investing>
 - Rule context for position conversion: <https://www.finra.org/rules-guidance>
 

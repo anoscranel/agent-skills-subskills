@@ -15,7 +15,7 @@ A private asset is valued by a mark, and a mark is an opinion refreshed periodic
 
 Infrastructure and private credit are the two broad categories most often offered to individual investors, and they differ in what the mark depends on: infrastructure on long-dated contracted cash flows, private credit on the borrower's ability to repay. In both cases the lockup is the price of admission, and the exit queue is the risk that appears exactly when everyone wants out.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for private-fund disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for private-fund disclosure: <https://www.sec.gov/investor>
 - Investor education on private and illiquid assets: <https://www.investor.gov/introduction-investing>
 - Rate context for opportunity cost: <https://fred.stlouisfed.org/>
 

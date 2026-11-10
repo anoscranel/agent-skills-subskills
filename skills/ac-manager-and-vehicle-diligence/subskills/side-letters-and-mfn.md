@@ -15,7 +15,7 @@ A side letter grants one investor terms that differ from the fund's standard doc
 
 The most-favoured-nation provision is the mechanism intended to limit the divergence: it gives an investor the right to elect the better terms granted to another investor in defined categories. Its value depends entirely on its scope — which terms are covered, whether elections must be made within a window, and whether the manager must disclose the existence of better terms at all. An MFN without a disclosure obligation is a right the holder cannot exercise.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The MFN's practical value also depends on whether elections are made once or con
 
 ## Sources
 
-- Fund documentation and disclosure: <https://www.sec.gov/about/about-securities>
+- Fund documentation and disclosure: <https://www.sec.gov/investor>
 - Investment management standards: <https://www.cfainstitute.org/>
 - Fund governance research: <https://www.nber.org/>

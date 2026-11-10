@@ -15,7 +15,7 @@ Catastrophe bonds name a peril, and the definition decides what counts. A US hur
 
 Correlation is the second consideration and the one that turns a diversifying allocation into a concentrated one. Bonds across different regions and perils are less correlated than bonds on the same peril in the same region, but the correlation is not zero: a single season can produce events in several basins, and a reinsurance market dislocation affects every structure at once. A book of ten cat bonds on one peril is one position, not ten.
 
-Primary sources: <https://www.artemis.bm/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.artemis.bm/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The practical consequence for sizing is that the aggregate expected loss by peri
 ## Sources
 
 - ILS market and peril data: <https://www.artemis.bm/>
-- Securities disclosure context: <https://www.sec.gov/about/about-securities>
+- Securities disclosure context: <https://www.sec.gov/investor>
 - Research on catastrophic risk: <https://www.nber.org/>

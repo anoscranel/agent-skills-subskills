@@ -15,7 +15,7 @@ Alternatives are sold on properties that public markets are said to lack: divers
 
 Every asset class in this skill shares one structural feature: the price you see is either a market price with thin trading behind it, or an appraisal that nobody has tested with a sale. That single fact drives most of the discipline here.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## When to use
 

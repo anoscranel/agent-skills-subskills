@@ -15,7 +15,7 @@ A portfolio is only as reachable as the plumbing that holds it. Two accounts off
 
 This skill evaluates the provider rather than the product. It covers the legal structure behind an account, the insolvency path, the cost stack, execution quality, the incentives that shape what a provider recommends, and the friction of leaving. It does not name firms, and it does not judge whether a provider's investment ideas are good.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## When to use
 

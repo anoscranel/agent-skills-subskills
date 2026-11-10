@@ -15,7 +15,7 @@ A dataset built from card transactions, app installs, or web traffic covers a su
 
 The test is to compare the panel with a known aggregate on a measure both share. If the panel's share of a category differs from the aggregate and the difference is stable, the panel can still be used with an adjustment; if the difference moves, the relationship being modelled may be changing for reasons unconnected to the business. Either way the comparison belongs in the record rather than being assumed away.
 
-Primary sources: <https://www.nber.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.nber.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -59,4 +59,4 @@ The direction of the bias matters as much as its size: a panel that over-represe
 
 - Research methods on sampling and coverage: <https://www.nber.org/>
 - Statistical aggregates for comparison: <https://fred.stlouisfed.org/>
-- Disclosure context: <https://www.sec.gov/about/about-securities>
+- Disclosure context: <https://www.sec.gov/investor>

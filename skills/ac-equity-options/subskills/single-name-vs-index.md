@@ -15,7 +15,7 @@ Single-name options and index options are different instruments that share a voc
 
 The practical differences follow. Liquidity concentrates in index options for large notional hedging, and in a handful of mega-cap names for single-name trading; a mid-cap option may quote but not trade at size. Settlement matters too: a cash-settled index option pays a difference and never delivers shares, while a single-name option exercised delivers a stock position with everything that follows.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ A further distinction is the information content of the two: a single-name optio
 ## Sources
 
 - Exchange option specifications and product data: <https://www.cboe.com/>
-- Regulatory context for listed options: <https://www.sec.gov/about/about-securities>
+- Regulatory context for listed options: <https://www.sec.gov/investor>
 - Investor education on options: <https://www.investor.gov/introduction-investing>

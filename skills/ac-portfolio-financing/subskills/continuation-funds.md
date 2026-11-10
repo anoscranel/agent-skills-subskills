@@ -15,7 +15,7 @@ A continuation fund buys assets from an expiring fund and holds them in a new ve
 
 The structure exists because some assets need longer than the original fund's term, and it creates a transaction in which the seller and the buyer are both controlled by the same sponsor. That is the conflict, and the protections around it — an independent valuation, an advisory committee approval, and a disclosure of the sponsor's own rollover — determine whether the price is a fair one.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The election mechanics carry more weight than the headline choice: a default tha
 
 ## Sources
 
-- Fund transaction disclosure: <https://www.sec.gov/about/about-securities>
+- Fund transaction disclosure: <https://www.sec.gov/investor>
 - Private markets standards: <https://www.cfainstitute.org/>
 - Market conditions: <https://www.federalreserve.gov/>

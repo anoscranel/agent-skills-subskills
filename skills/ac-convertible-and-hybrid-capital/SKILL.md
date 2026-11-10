@@ -15,7 +15,7 @@ A convertible bond is three instruments wearing one ISIN: a corporate bond that 
 
 Reading either requires holding all the pieces at once. A convertible that falls with the stock and rises with credit is behaving correctly; the surprise is always that one of the three exposures has become dominant. This skill covers that arithmetic and those structures, and stops short of recommending an instrument.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## When to use
 

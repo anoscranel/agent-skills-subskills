@@ -56,6 +56,6 @@ Primary sources: <https://www.cboe.com/> and <https://www.investor.gov/introduct
 
 - Options strategies education: <https://www.cboe.com/>
 - Investor education on options: <https://www.investor.gov/introduction-investing>
-- Options disclosure and regulatory context: <https://www.sec.gov/about/about-securities>
+- Options disclosure and regulatory context: <https://www.sec.gov/investor>
 
 The naming convention is the least important part of a structure and the most frequently confused: the same payoff can be constructed several ways, and the greeks are the identity. A record that describes the exposure rather than the name survives a change of venue or terminology.

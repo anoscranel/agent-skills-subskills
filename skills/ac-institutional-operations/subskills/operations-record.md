@@ -62,4 +62,4 @@ A final field deserves its own line: the date the arrangement was last tested, w
 
 - Market infrastructure and settlement standards: <https://www.bis.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

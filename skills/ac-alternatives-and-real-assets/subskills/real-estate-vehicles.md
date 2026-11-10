@@ -15,7 +15,7 @@ Real estate can be owned directly or through a vehicle, and the difference is no
 
 The arithmetic that matters is the cap rate: net operating income divided by property value. It is the property's yield before financing, and comparing it with the cost of debt explains why leverage amplifies returns in both directions. A REIT trading at a discount to its net asset value is a different proposition from one trading at a premium, and the discount is a signal about the market's view of the assets and the debt.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for REIT disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for REIT disclosure: <https://www.sec.gov/investor>
 - Investor education on real-estate investing: <https://www.investor.gov/introduction-investing>
 - Rate data for the cost-of-debt comparison: <https://fred.stlouisfed.org/>

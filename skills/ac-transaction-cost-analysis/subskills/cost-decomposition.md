@@ -58,4 +58,4 @@ The interaction between components is the reason the decomposition should be rea
 
 - Trading cost and performance standards: <https://www.cfainstitute.org/>
 - Execution quality guidance: <https://www.finra.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

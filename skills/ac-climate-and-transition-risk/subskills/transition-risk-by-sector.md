@@ -59,4 +59,4 @@ The comparison that avoids sector labels is to ask how many dollars of capital a
 
 - Climate risk analysis frameworks: <https://www.bis.org/>
 - Energy and emissions data: <https://www.eia.gov/>
-- Disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Disclosure requirements: <https://www.sec.gov/investor>

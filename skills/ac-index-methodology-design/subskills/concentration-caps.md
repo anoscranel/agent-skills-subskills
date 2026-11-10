@@ -16,7 +16,7 @@ A cap limits the weight any single security or group can carry. It is described 
 
 The alternative is a capped-weighting scheme that scales all weights proportionally, which preserves relative weights while respecting the limit. The two produce different portfolios, and a methodology that states a cap without stating which mechanism applies has not described its own result. The record should state the cap level, the mechanism, and the review frequency at which the cap is enforced.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -61,6 +61,6 @@ The drift allowance is also a hidden exposure: an index that permits a single na
 
 ## Sources
 
-- Index methodology disclosure: <https://www.sec.gov/about/about-securities>
+- Index methodology disclosure: <https://www.sec.gov/investor>
 - Investor education on index rules: <https://www.investor.gov/introduction-investing>
 - Market data for weight computation: <https://fred.stlouisfed.org/>

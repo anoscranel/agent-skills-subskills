@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Reference exchange-rate data: <https://fred.stlouisfed.org/>
 - Investor education on transaction costs: <https://www.investor.gov/introduction-investing>
-- Regulatory context for cost disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for cost disclosure: <https://www.sec.gov/investor>
 
 The aggregate is what matters: a portfolio that converts monthly at a twenty-basis-point spread is paying a quarter of a percent a year for the privilege of holding foreign assets, and that cost belongs in the same table as the management fee rather than in a footnote about execution.
 

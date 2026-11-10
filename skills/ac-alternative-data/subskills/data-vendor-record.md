@@ -15,7 +15,7 @@ The vendor record states the dataset, its provenance, which integrity tests it p
 
 The record also carries the known failure modes and their consequences. A dataset that is reconstructed rather than point-in-time can still be used for description, just not for backtesting; one whose licence forbids redistribution can support internal research but not external reporting. Stating the permitted uses beside the limitations is what prevents a dataset from being quietly reused in a context it does not support.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ The record should also distinguish the tests that were run from the tests that e
 
 ## Sources
 
-- Data and disclosure context: <https://www.sec.gov/about/about-securities>
+- Data and disclosure context: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investor education on data use: <https://www.investor.gov/introduction-investing>

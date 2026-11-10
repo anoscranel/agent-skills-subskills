@@ -15,7 +15,7 @@ Every structured payoff is built from three choices: how much of the principal i
 
 Drawing the payoff is the test of understanding. A payoff diagram plotted against the underlying at maturity shows, in one picture, the loss the holder can take, the cap on the gain, and the kink where a barrier changes the rule. A note whose payoff cannot be drawn, or whose diagram has a vertical step the seller has not explained, is a note whose risks have not been communicated.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Structured product disclosure context: <https://www.sec.gov/about/about-securities>
+- Structured product disclosure context: <https://www.sec.gov/investor>
 - Retail product guidance and investor alerts: <https://www.finra.org/>
 - Investor education on complex products: <https://www.investor.gov/introduction-investing>

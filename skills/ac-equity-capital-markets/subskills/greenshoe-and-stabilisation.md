@@ -15,7 +15,7 @@ The greenshoe is an option granted to the syndicate to sell up to fifteen percen
 
 Reading it correctly means recognising that post-issue price support is a contractual activity with a limit. The stabilising manager can bid at or below the offer price for a defined period, and the capacity to do so is the size of the over-allotment. Once the option is exercised or the period ends, the bid disappears, and a stock that was held above the offer by that bid can move once the support is withdrawn.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ A further detail is that the option's exercise can be partial, and the partial o
 
 ## Sources
 
-- Offering and underwriting disclosure: <https://www.sec.gov/about/about-securities>
+- Offering and underwriting disclosure: <https://www.sec.gov/investor>
 - Market conduct guidance: <https://www.finra.org/>
 - Investor education on offerings: <https://www.investor.gov/introduction-investing>

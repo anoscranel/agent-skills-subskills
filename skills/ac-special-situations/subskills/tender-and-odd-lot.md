@@ -15,7 +15,7 @@ A tender offer invites holders to sell at a stated price, usually above the mark
 
 The arithmetic of a prorated tender is a weighted outcome. A holder who tenders everything receives the offer price on the accepted portion and keeps the rest, whose price after the offer reflects the reduced float. The odd-lot provision changes the calculation for holders below the threshold, which is why the record should state the holder's size against that threshold rather than treating the offer as uniform.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The record should also state whether the offer is for all shares or a fixed maxi
 ## Sources
 
 - Tender offer filings: <https://www.sec.gov/edgar/search/>
-- Disclosure and tender rules: <https://www.sec.gov/about/about-securities>
+- Disclosure and tender rules: <https://www.sec.gov/investor>
 - Investor education on tender offers: <https://www.investor.gov/introduction-investing>

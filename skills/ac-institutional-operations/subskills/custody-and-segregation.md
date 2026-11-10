@@ -15,7 +15,7 @@ Institutional assets are typically held through a chain: the client's account at
 
 Segregation is the central concept. Client assets held in segregated accounts are not available to the firm's creditors; assets that may be rehypothecated are, in economic substance, lent to the firm. The record should state which of the two applies to each holding, because the answer decides the exposure in a failure and it is usually buried in a schedule rather than stated in the summary.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ The reconciliation report is therefore the document to ask for when assessing an
 ## Sources
 
 - Client asset protection standards: <https://www.bis.org/>
-- Custody and broker-dealer regulation: <https://www.sec.gov/about/about-securities>
+- Custody and broker-dealer regulation: <https://www.sec.gov/investor>
 - Investor education on custody: <https://www.investor.gov/introduction-investing>

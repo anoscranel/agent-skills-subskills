@@ -15,7 +15,7 @@ Property-level debt is sized against the income it secures, through two tests: a
 
 Refinancing risk is the exposure that matters most in a property with a fixed-term loan, because the property's ability to refinance depends on rates and on appraised value at that date rather than on its performance. A loan maturing into a higher-rate environment with a lower appraisal can require an equity injection to refinance, which is a capital call on the owner arising from conditions outside the property's control.
 
-Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The number to compute before anything else is the equity required at refinancing
 ## Sources
 
 - Interest-rate and credit data: <https://www.federalreserve.gov/>
-- Property and loan disclosure: <https://www.sec.gov/about/about-securities>
+- Property and loan disclosure: <https://www.sec.gov/investor>
 - Rate series for refinancing scenarios: <https://fred.stlouisfed.org/>

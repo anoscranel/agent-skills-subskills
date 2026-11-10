@@ -15,7 +15,7 @@ Unusual volume is only meaningful against a baseline, and the right baseline is 
 
 The standard construction is relative volume: current cumulative volume divided by the average cumulative volume at the same elapsed time over a lookback window. Expressed that way, a reading of two means the name has traded twice its normal pace for that hour, which is a statement that can be compared across names and across the session.
 
-Primary sources: <https://www.finra.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.finra.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The lookback window is the choice that decides the answer: twenty sessions captu
 ## Sources
 
 - Trading data and reporting guidance: <https://www.finra.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on volume analysis: <https://www.investor.gov/introduction-investing>

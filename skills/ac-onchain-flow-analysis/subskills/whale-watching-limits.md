@@ -15,7 +15,7 @@ The limits are the most valuable part of on-chain analysis because they bound ev
 
 A claim that respects these limits is narrow and useful: this address class moved this much, over this window, with this label confidence. A claim that ignores them is a story about a whale that may be three addresses owned by the same fund.
 
-Primary sources: <https://ethereum.org/en/developers/docs/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://ethereum.org/en/developers/docs/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://ethereum.org/en/developers/docs/> and <https://www.sec
 ## Sources
 
 - Ethereum developer documentation on address and contract data: <https://ethereum.org/en/developers/docs/>
-- Disclosure and entity-identity context: <https://www.sec.gov/about/about-securities>
+- Disclosure and entity-identity context: <https://www.sec.gov/investor>
 - Investor education on concentration and risk: <https://www.investor.gov/introduction-investing>
 
 Write the limits into the record even when the finding survives them, because the next reader will not otherwise know what was ruled out. A claim with its limits attached is reusable; a claim without them has to be re-derived from scratch, and usually is not.

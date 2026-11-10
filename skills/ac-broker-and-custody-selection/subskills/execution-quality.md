@@ -15,7 +15,7 @@ Best execution is an obligation to take reasonable steps, not a promise of the b
 
 The measurement requires data the provider may not volunteer, which is why it is done from the investor's own records. A sample of trades with timestamps and fills produces a distribution, and the median and the tail of that distribution say more about a provider than any statement about routing. Where the sample is small, the record says so rather than concluding.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The comparison is most useful between two accounts the same investor actually us
 
 ## Sources
 
-- Order handling and best-execution context: <https://www.sec.gov/about/about-securities>
+- Order handling and best-execution context: <https://www.sec.gov/investor>
 - Industry execution-quality guidance: <https://www.finra.org/>
 - Market data for benchmarks: <https://fred.stlouisfed.org/>

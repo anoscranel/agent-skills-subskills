@@ -15,7 +15,7 @@ Buying a dataset costs a subscription; building one costs engineering, maintenan
 
 The maintenance burden is the part most often underestimated. A scraped dataset is a dependency on someone else's website, and every change to that site is an interruption that must be detected and repaired. A licensed dataset moves that burden to the vendor but introduces a dependency on their continued operation and pricing. Either way the record should state the total cost including maintenance, and the failure mode when the source changes.
 
-Primary sources: <https://www.nber.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.nber.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ A third option is often missed: using a public or regulatory dataset that is nei
 ## Sources
 
 - Research practice on data infrastructure: <https://www.nber.org/>
-- Market data context: <https://www.sec.gov/about/about-securities>
+- Market data context: <https://www.sec.gov/investor>
 - Investor education on research costs: <https://www.investor.gov/introduction-investing>

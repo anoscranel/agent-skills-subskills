@@ -15,7 +15,7 @@ A depositary receipt is a claim on shares held by a depositary bank in the home 
 
 The premium or discount to the local price is the number that matters for an allocator comparing routes. It reflects the cost of creating and cancelling receipts, the demand from the foreign market, and any restriction on convertibility. A persistent premium says the foreign market values the exposure more than the local one, often because access is limited; a discount says the opposite, and neither is free money unless the holder can arbitrage between the two markets.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ Programme termination is the risk that converts a liquid holding into a forced o
 
 ## Sources
 
-- Depositary receipt disclosure: <https://www.sec.gov/about/about-securities>
+- Depositary receipt disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Cross-border market context: <https://www.imf.org/>

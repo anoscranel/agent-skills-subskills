@@ -56,6 +56,6 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on long-term investing behaviour: <https://www.investor.gov/introduction-investing>
 - Prospect theory and loss aversion under frequent feedback: <https://www.jstor.org/stable/1914185>
-- Disclosure context for primary-source reading: <https://www.sec.gov/about/about-securities>
+- Disclosure context for primary-source reading: <https://www.sec.gov/investor>
 
 The test of a good diet is what happens on a volatile day: if the portfolio's policy is still the thing that decides, the diet is working. If a notification decides, the diet needs another rule.

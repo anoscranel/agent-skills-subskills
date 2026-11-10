@@ -15,7 +15,7 @@ A municipal bond is a loan to a state, a city, or an authority, and the two thin
 
 This skill covers those mechanics and the ones that follow: how call features and refundings change the expected life, what a bond insurer's wrap does and does not do, how to read an official statement and its continuing disclosure, and how pension and other post-employment obligations sit behind a credit. The taxable curve and corporate credit belong to other skills.
 
-Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

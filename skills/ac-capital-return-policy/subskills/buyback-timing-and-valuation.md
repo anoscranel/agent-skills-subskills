@@ -15,7 +15,7 @@ A repurchase creates value for continuing holders when the shares are bought bel
 
 The testable version uses the company's own disclosures: the average price paid each period against the range of prices the market offered, and against a valuation metric the company itself reports. A programme that accelerates when the shares are expensive and slows when they are cheap has a negative timing record, and the record is visible in the quarterly disclosures even without a valuation model.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A further test is whether the programme is counter-cyclical by design or by acci
 
 ## Sources
 
-- Repurchase execution disclosure: <https://www.sec.gov/about/about-securities>
+- Repurchase execution disclosure: <https://www.sec.gov/investor>
 - Valuation and analysis standards: <https://www.cfainstitute.org/>
 - Market and rate data: <https://fred.stlouisfed.org/>

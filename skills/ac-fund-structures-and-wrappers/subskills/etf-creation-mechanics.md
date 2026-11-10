@@ -15,7 +15,7 @@ An exchange-traded fund keeps its price near net asset value through a creation 
 
 The mechanism depends on the participant's ability to trade the basket. When the underlying is liquid, creation is cheap and the arbitrage is tight; when the underlying is illiquid or has stopped trading, the arbitrage becomes expensive or impossible, and the ETF can trade at a discount to a net asset value that is itself stale. That is why an ETF's premium or discount widens exactly when the underlying market is closed or dislocated.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- ETF structure and disclosure: <https://www.sec.gov/about/about-securities>
+- ETF structure and disclosure: <https://www.sec.gov/investor>
 - Market practice guidance: <https://www.finra.org/>
 - Investor education on exchange-traded funds: <https://www.investor.gov/introduction-investing>

@@ -15,7 +15,7 @@ Climate disclosure is governed by several overlapping regimes, and they differ i
 
 The gaps matter more than the overlaps. Forward-looking disclosure is often protected by safe harbours, scenario analysis is frequently qualitative, and scope 3 reporting is often permitted to rely on estimates without the methodology disclosed. Reading a disclosure means asking which of those gaps applies, because a complete-looking report can be complete only within a narrow definition.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ A further gap is the treatment of the value chain: some regimes require the larg
 
 ## Sources
 
-- Climate disclosure rules: <https://www.sec.gov/about/about-securities>
+- Climate disclosure rules: <https://www.sec.gov/investor>
 - International climate risk standards: <https://www.bis.org/>
 - Analysis and reporting standards: <https://www.cfainstitute.org/>

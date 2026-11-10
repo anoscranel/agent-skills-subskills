@@ -15,7 +15,7 @@ The expense ratio is the advertised cost, and it is rarely the whole cost. Holdi
 
 The total cost matters because it compounds against the investor and because it is the most predictable thing about a fund. Two funds with the same exposure and a twenty-basis-point difference in total cost diverge by a fifth of a percent per year, which over decades is a meaningful share of the outcome and requires no forecast to compare.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on fund costs: <https://www.investor.gov/introduction-investing>
-- Fund disclosure context: <https://www.sec.gov/about/about-securities>
+- Fund disclosure context: <https://www.sec.gov/investor>
 - Market data for spreads: <https://fred.stlouisfed.org/>
 
 The comparison is most useful when it is put in years: a twenty-basis-point difference in total cost, compounded over a twenty-year holding period, is a visible fraction of the ending balance, and it requires no forecast to state. Writing the arithmetic makes the otherwise abstract basis points into a decision.

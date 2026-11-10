@@ -15,7 +15,7 @@ When a broker fails, the question is not whether the assets exist but whether th
 
 Compensation schemes sit behind the segregation. They typically cover a capped amount per client and only certain shortfalls, so they are a backstop rather than a guarantee. Reading the cap, the scope, and the claim process before choosing a provider is the whole point: a large account spread across two providers may be better protected than one concentrated at a single firm.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The frozen period is the cost that is easiest to forget: assets that are returne
 ## Sources
 
 - Investor protection and account coverage information: <https://www.investor.gov/introduction-investing>
-- Regulatory framework for broker-dealers: <https://www.sec.gov/about/about-securities>
+- Regulatory framework for broker-dealers: <https://www.sec.gov/investor>
 - Cross-border resolution and client asset standards: <https://www.bis.org/>

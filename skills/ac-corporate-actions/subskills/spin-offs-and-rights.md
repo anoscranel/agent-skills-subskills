@@ -15,7 +15,7 @@ A spin-off distributes shares of a subsidiary to existing holders. The parent's 
 
 A rights issue offers existing holders the chance to buy new shares, usually at a discount. Taking up the rights means a new purchase with its own basis; selling the rights is a disposal of a separate asset; letting them lapse is a decision that should be recorded rather than defaulted into.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for spin-off and rights disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for spin-off and rights disclosure: <https://www.sec.gov/investor>
 - Investor education on corporate reorganisations: <https://www.investor.gov/introduction-investing>
 - Rule context for rights processing: <https://www.finra.org/rules-guidance>
 

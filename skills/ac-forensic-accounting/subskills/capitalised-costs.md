@@ -15,7 +15,7 @@ A cost that is capitalised is recorded as an asset and charged to expense over t
 
 The observable pattern is a capitalised balance growing faster than the revenue it supports, or a capitalisation rate that rises when results weaken. Both are disclosed in the notes and both raise the same question: whether the costs would have been capitalised under the policy in a stronger year. The record should state the policy, the balance, the amortisation period, and the trend relative to revenue.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ A second, quieter signal is the amortisation period itself: extending the life o
 
 ## Sources
 
-- Financial reporting disclosure: <https://www.sec.gov/about/about-securities>
+- Financial reporting disclosure: <https://www.sec.gov/investor>
 - Research on accounting choices: <https://www.nber.org/>
 - Investor education on filings: <https://www.investor.gov/introduction-investing>

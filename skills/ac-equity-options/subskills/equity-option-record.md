@@ -61,4 +61,4 @@ Keeping the record beside the underlying position's record is what makes the pai
 
 - Exchange option specifications: <https://www.cboe.com/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Regulatory context: <https://www.sec.gov/about/about-securities>
+- Regulatory context: <https://www.sec.gov/investor>

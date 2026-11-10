@@ -15,7 +15,7 @@ A subscription line is a facility secured on investors' uncalled commitments tha
 
 The effect on reported performance is arithmetic. Internal rate of return is sensitive to the timing of cash outflows, and delaying the outflow shortens the period over which the return is measured, which raises the annualised figure without any change in the underlying investment. Two funds with identical gross outcomes can report materially different IRRs depending on how long their subscription lines run.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The cleanest comparison across funds is the multiple, which measures total value
 
 ## Sources
 
-- Fund reporting and disclosure: <https://www.sec.gov/about/about-securities>
+- Fund reporting and disclosure: <https://www.sec.gov/investor>
 - Performance measurement standards: <https://www.cfainstitute.org/>
 - Market financing conditions: <https://www.federalreserve.gov/>

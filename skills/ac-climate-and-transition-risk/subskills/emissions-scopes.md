@@ -15,7 +15,7 @@ Scope 1 counts emissions a company produces directly: combustion on site, proces
 
 The scopes are not additive across companies. A tonne emitted by a supplier appears in that supplier's scope 1 and in its customer's scope 3, so summing scope 1, 2 and 3 across a portfolio double counts the same tonne many times. Any aggregate that does so is measuring economic activity through an emissions lens rather than measuring emissions, and the distinction matters whenever a total is quoted.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The intensity denominator decides most comparisons: a per-revenue figure favours
 
 ## Sources
 
-- Climate disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Climate disclosure requirements: <https://www.sec.gov/investor>
 - Financial stability analysis of climate risk: <https://www.bis.org/>
 - Emissions accounting standards: <https://www.cfainstitute.org/>

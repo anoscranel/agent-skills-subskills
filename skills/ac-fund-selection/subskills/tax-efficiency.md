@@ -15,7 +15,7 @@ Two funds can hold the same assets and deliver different after-tax results. The 
 
 Tax treatment is jurisdiction-specific, and this leaf does not compute it. What it does is record the facts that determine the drag: distribution history, turnover, the proportion of distributions that were capital gains rather than income, and the fund's structure. Those facts, with a professional's assessment of the jurisdiction, produce the after-tax comparison.
 
-Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.irs.gov/> and <https://www.sec.gov/about/about-sec
 ## Sources
 
 - Tax administration guidance on investment income: <https://www.irs.gov/>
-- Fund distribution disclosure: <https://www.sec.gov/about/about-securities>
+- Fund distribution disclosure: <https://www.sec.gov/investor>
 - Investor education on fund taxation: <https://www.investor.gov/introduction-investing>
 
 The distinction that matters for the comparison is between distributions the holder cannot avoid and gains the holder controls by choosing when to sell. A fund with high turnover converts the second into the first, which is why turnover belongs in the record even when the jurisdiction's treatment is still an open question.

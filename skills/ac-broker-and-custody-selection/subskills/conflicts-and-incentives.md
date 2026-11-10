@@ -15,7 +15,7 @@ A provider earns in several ways, and each creates a preference. Commission and 
 
 The record lists the revenue lines, then asks what each one makes the provider prefer, then checks whether the advice received aligns with that preference. A recommendation that happens to increase the provider's revenue is not thereby wrong, but it deserves the extra question: would the same recommendation be made if the provider earned the same either way.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The question to carry into any recommendation is not whether a conflict exists, 
 
 ## Sources
 
-- Broker-dealer conduct and conflict disclosure: <https://www.sec.gov/about/about-securities>
+- Broker-dealer conduct and conflict disclosure: <https://www.sec.gov/investor>
 - Industry guidance on conflicts and compensation: <https://www.finra.org/>
 - Investor education on advice and costs: <https://www.investor.gov/introduction-investing>

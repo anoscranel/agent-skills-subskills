@@ -15,7 +15,7 @@ Rebalancing frequency and the buffer around the selection cut-off together deter
 
 Buffers work by distinguishing the entry threshold from the exit threshold. A security must reach a higher rank to enter and can fall to a lower rank before leaving, which creates a band of stability. The band reduces turnover at the cost of holding names that a strict ranking would have removed, and the record should state both thresholds rather than only the cut.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ The intra-period adjustment rule deserves separate attention for corporate actio
 
 ## Sources
 
-- Index methodology disclosure: <https://www.sec.gov/about/about-securities>
+- Index methodology disclosure: <https://www.sec.gov/investor>
 - Investor education on index rebalancing: <https://www.investor.gov/introduction-investing>
 - Market data for turnover estimation: <https://fred.stlouisfed.org/>

@@ -15,7 +15,7 @@ A long-term issuer rating speaks to the likelihood of default on the obligor's d
 
 What it excludes is the part most often forgotten. A rating says nothing about expected loss when recovery differs between instruments, which is why senior secured debt can carry a better instrument rating than the issuer's own; nothing about liquidity or price volatility, which is why an investment-grade bond can fall sharply; and nothing about the price paid, which is why a highly rated instrument can be a poor investment.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The distinction that most affects a holder in practice is between the issuer rat
 
 ## Sources
 
-- Credit rating agency regulation and disclosure: <https://www.sec.gov/about/about-securities>
+- Credit rating agency regulation and disclosure: <https://www.sec.gov/investor>
 - Capital framework references to ratings: <https://www.bis.org/>
 - Investor education on credit risk: <https://www.investor.gov/introduction-investing>

@@ -58,4 +58,4 @@ The practical distinction is between an item that is listed and an item that is 
 
 - Export control and security standards: <https://www.bis.org/>
 - Trade policy information: <https://www.wto.org/>
-- Company disclosure of compliance matters: <https://www.sec.gov/about/about-securities>
+- Company disclosure of compliance matters: <https://www.sec.gov/investor>

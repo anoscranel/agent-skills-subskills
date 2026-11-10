@@ -56,7 +56,7 @@ Primary sources: <https://www.cfainstitute.org/> and <https://www.investor.gov/i
 
 - Investment-policy reference material: <https://www.cfainstitute.org/>
 - Investor education on policy documentation: <https://www.investor.gov/introduction-investing>
-- Disclosure context for governing documents: <https://www.sec.gov/about/about-securities>
+- Disclosure context for governing documents: <https://www.sec.gov/investor>
 
 The statement's authority comes from being read before the decision, not after. Keeping it where a review can find it — and referring to it in the monitoring log — is what turns a document into a constraint on behaviour. A policy nobody opens is a policy nobody follows, and the first symptom is a portfolio that drifts without a decision being recorded anywhere.
 

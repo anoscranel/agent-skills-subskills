@@ -15,7 +15,7 @@ A settlement creates a fund, and the fund is distributed according to a plan of 
 
 The striking fact about these funds is how much goes unclaimed. Investors change custodians, close accounts, and never receive the notice; institutions with small positions often judge the paperwork not worth the effort. The unclaimed portion is either redistributed to claimants in a further round or returned to the defendant, and either way the holder who did not file received nothing.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The recognised-loss calculation is where most claims are won or lost in practice
 
 ## Sources
 
-- Litigation settlement disclosure: <https://www.sec.gov/about/about-securities>
+- Litigation settlement disclosure: <https://www.sec.gov/investor>
 - Investment operations standards: <https://www.cfainstitute.org/>
 - Consumer and legal process guidance: <https://www.usa.gov/>

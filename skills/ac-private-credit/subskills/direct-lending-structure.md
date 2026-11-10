@@ -15,7 +15,7 @@ A direct loan is originated by one lender or a small group and held, which chang
 
 The agreement is where the protection lives. It defines the borrower, the guarantors, the collateral, the negative pledge, the permitted baskets for debt and liens, and the reporting obligations. Those clauses decide what a lender can do when the borrower deteriorates, and they are the part of the document that a summary never reproduces.
 
-Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The reporting package deserves attention beyond its frequency: a monthly covenan
 ## Sources
 
 - Private credit market context: <https://www.federalreserve.gov/>
-- Fund and security disclosure: <https://www.sec.gov/about/about-securities>
+- Fund and security disclosure: <https://www.sec.gov/investor>
 - Credit standards: <https://www.cfainstitute.org/>

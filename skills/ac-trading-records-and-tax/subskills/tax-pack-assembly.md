@@ -56,6 +56,6 @@ Primary sources: <https://www.irs.gov/> and <https://www.investor.gov/introducti
 
 - Tax administration guidance on supporting records: <https://www.irs.gov/>
 - Investor education on reporting obligations: <https://www.investor.gov/introduction-investing>
-- Regulatory context for transaction records: <https://www.sec.gov/about/about-securities>
+- Regulatory context for transaction records: <https://www.sec.gov/investor>
 
 The one-page summary is the highest-leverage page in the pack. It tells the professional where the risk is, which questions are open, and which accounts matter, in a minute. Packs that skip it are read in the order they were assembled, which is rarely the order of importance.

@@ -15,7 +15,7 @@ The management fee is the visible cost; the performance fee is the conditional o
 
 Reading the stack means modelling it at a stated return rather than quoting its components. A two and twenty structure at a ten percent gross return costs a very different fraction of the net return than the same structure at a five percent return, because the performance fee is calculated on a smaller base while the management fee is not. The record states the all-in cost at two or three return levels.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The compounding matters more than the level: a two percent management fee and a 
 
 ## Sources
 
-- Fund fee disclosure: <https://www.sec.gov/about/about-securities>
+- Fund fee disclosure: <https://www.sec.gov/investor>
 - Investment management standards: <https://www.cfainstitute.org/>
 - Fund governance research: <https://www.nber.org/>

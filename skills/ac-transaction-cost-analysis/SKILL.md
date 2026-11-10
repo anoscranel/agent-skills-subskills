@@ -15,7 +15,7 @@ The cost of trading is not the commission. It is the difference between the pric
 
 This skill covers that measurement: the benchmarks available and what each assumes, the decomposition of cost into its parts, how to score brokers and venues on evidence rather than on relationship, what transition management involves and where its risks sit, and how research payment is governed once it is no longer bundled into commission. It measures cost; it does not choose a broker.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

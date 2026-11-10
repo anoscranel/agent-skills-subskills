@@ -56,7 +56,7 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Macro series and vintages: <https://fred.stlouisfed.org/>
 - Investor education on economic indicators: <https://www.investor.gov/introduction-investing>
-- Regulatory context for official statistics: <https://www.sec.gov/about/about-securities>
+- Regulatory context for official statistics: <https://www.sec.gov/investor>
 
 Recording the vintage matters because a later reader cannot tell whether a conclusion was drawn from data available at the time or from data revised afterwards. Without the vintage, every historical reading looks prescient, and the record stops being evidence of anything.
 

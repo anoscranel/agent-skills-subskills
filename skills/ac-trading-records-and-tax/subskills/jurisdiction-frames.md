@@ -56,6 +56,6 @@ Primary sources: <https://www.irs.gov/> and <https://www.investor.gov/introducti
 
 - Tax administration guidance: <https://www.irs.gov/>
 - Investor education on tax and reporting: <https://www.investor.gov/introduction-investing>
-- Regulatory context for cross-border disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for cross-border disclosure: <https://www.sec.gov/investor>
 
 The frame is deliberately written as questions rather than answers because the alternative is worse: a generic answer applied to a specific jurisdiction is the most common source of expensive error in this area. A professional can answer questions quickly; they cannot easily undo a position taken on bad advice from a guide.

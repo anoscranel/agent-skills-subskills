@@ -56,4 +56,4 @@ Primary sources: <https://www.nist.gov/> and <https://www.cisa.gov/>.
 
 - Digital identity and secret management guidance: <https://www.nist.gov/>
 - Cybersecurity practice guidance: <https://www.cisa.gov/>
-- Market-participant security guidance: <https://www.sec.gov/about/about-securities>
+- Market-participant security guidance: <https://www.sec.gov/investor>

@@ -58,5 +58,5 @@ The comparison that carries information is against the company's own guidance ra
 ## Sources
 
 - Company releases and filings: <https://www.sec.gov/edgar/search/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>
 - Investor education on earnings expectations: <https://www.investor.gov/introduction-investing>

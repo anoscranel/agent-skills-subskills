@@ -15,7 +15,7 @@ Most retail accounts hold assets through a nominee: the broker's name appears on
 
 The distinctions worth recording are whether client assets are segregated or pooled, whether the firm lends them out, whether the account is held directly in the client's name, and what the local rules say about rehypothecation. A nominee account with strict segregation and no lending is a different object from one that permits both, and the difference is disclosed in terms most clients never read.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The discussion with the provider should end with a sentence the client can repea
 ## Sources
 
 - Investor education on brokerage accounts and custody: <https://www.investor.gov/introduction-investing>
-- Market structure and settlement context: <https://www.sec.gov/about/about-securities>
+- Market structure and settlement context: <https://www.sec.gov/investor>
 - Client asset protection standards: <https://www.bis.org/>

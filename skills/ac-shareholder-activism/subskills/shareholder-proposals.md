@@ -15,7 +15,7 @@ A shareholder proposal is a non-binding request, and its passage does not oblige
 
 The say-on-pay vote is the highest-profile example. It is advisory, it passes almost always, and yet a company that receives a thirty percent vote against is treated as having failed. The interpretation therefore depends on the baseline: what the company's own history is, what the peer group received, and what the company did in response to the last vote.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The threshold that matters is company-specific rather than universal: boards hav
 
 ## Sources
 
-- Proxy statement disclosure: <https://www.sec.gov/about/about-securities>
+- Proxy statement disclosure: <https://www.sec.gov/investor>
 - Governance standards: <https://www.cfainstitute.org/>
 - Governance research: <https://www.nber.org/>

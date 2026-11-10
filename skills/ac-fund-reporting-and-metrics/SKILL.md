@@ -15,7 +15,7 @@ Private-fund performance is reported in a vocabulary built for a different purpo
 
 This skill covers that arithmetic and its distortions: why an early IRR is meaningless, why a multiple without a duration is half a fact, why unfunded commitments belong in the denominator, and why a peer universe chosen by the manager is not a benchmark. It reads the numbers; it does not judge whether a fund will perform.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## When to use
 

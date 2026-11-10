@@ -15,7 +15,7 @@ A linear option is priced and settled in a stablecoin: the payoff is the differe
 
 That double exposure is the point and the trap. A long inverse call profits in coin terms when the underlying rises, but the coin-denominated profit is worth less in fiat if the coin itself has fallen. Conversely a short inverse put collects premium in coin that appreciates if the coin rallies, which is precisely when the short position loses. The record states the settlement currency and computes the result in both units.
 
-Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cftc.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -59,4 +59,4 @@ A further asymmetry is the collateral's own volatility: an inverse position post
 
 - Regulatory information on crypto derivatives: <https://www.cftc.gov/>
 - Investor guidance on complex products: <https://www.investor.gov/introduction-investing>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>

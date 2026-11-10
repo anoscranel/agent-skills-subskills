@@ -15,7 +15,7 @@ A net asset value loan is borrowing at the fund level, secured on the portfolio 
 
 The consequences are three. The leverage is inside the vehicle, so the reported volatility of the fund's assets understates the volatility of the investor's position. The loan has covenants tied to the portfolio's value, which can be breached by a valuation decline and can force asset sales at the worst moment. And the interest cost reduces the return while the distribution it funded may have been treated as a return of capital.
 
-Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The distribution question is worth resolving explicitly with the fund's own docu
 
 ## Sources
 
-- Fund financing disclosure: <https://www.sec.gov/about/about-securities>
+- Fund financing disclosure: <https://www.sec.gov/investor>
 - Credit conditions and leverage: <https://www.federalreserve.gov/>
 - Analysis standards: <https://www.cfainstitute.org/>

@@ -15,7 +15,7 @@ In a continuation transaction the sponsor is on both sides: it manages the selli
 
 The process elements that matter are the independence of the valuation, the identity of the party that negotiated on behalf of the selling fund, the advisory committee's access to its own advisers, and the disclosure of the sponsor's rollover. Each of these can be present formally and absent substantively, which is why reading the documents rather than the summary is the only way to judge.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The signal worth recording is the sponsor's own rollover: a sponsor that commits
 
 ## Sources
 
-- Transaction and conflict disclosure: <https://www.sec.gov/about/about-securities>
+- Transaction and conflict disclosure: <https://www.sec.gov/investor>
 - Governance standards: <https://www.cfainstitute.org/>
 - Investor protection guidance: <https://www.investor.gov/introduction-investing>

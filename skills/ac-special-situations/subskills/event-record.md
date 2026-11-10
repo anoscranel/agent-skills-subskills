@@ -59,4 +59,4 @@ The record also benefits from naming the observation that would change the asses
 
 - Event filings and terms: <https://www.sec.gov/edgar/search/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>

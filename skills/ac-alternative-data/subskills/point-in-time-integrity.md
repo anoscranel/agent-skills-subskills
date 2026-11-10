@@ -15,7 +15,7 @@ A point-in-time dataset records what was observable on each date. Its opposite i
 
 The most common reconstruction is the vendor who starts with today's universe and codes backwards. Every company that failed is missing, every data point reflects its final restated value, and the resulting series is cleaner than anything a participant could have seen. Testing for this requires asking when each record was first available, and checking whether the vendor can supply that field.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -59,4 +59,4 @@ The clearest test is a corporate failure: take a company that no longer exists a
 
 - Filing archives for point-in-time verification: <https://www.sec.gov/edgar/search/>
 - Research on look-ahead bias: <https://www.nber.org/>
-- Disclosure framework: <https://www.sec.gov/about/about-securities>
+- Disclosure framework: <https://www.sec.gov/investor>

@@ -15,7 +15,7 @@ A tranche is defined by two points: the attachment point, where it begins absorb
 
 The language matters when comparing structures. A tranche described as "senior" may attach at twelve percent of the pool in one deal and at thirty percent in another, and the same label therefore describes different risk. The record should state attachment and detachment as percentages of the collateral balance, and convert them into the pool loss that produces a loss of principal, rather than using the label the arranger chose.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The attachment point also interacts with the pooling and servicing agreement's d
 
 ## Sources
 
-- Securitisation capital structure disclosure: <https://www.sec.gov/about/about-securities>
+- Securitisation capital structure disclosure: <https://www.sec.gov/investor>
 - Securitisation framework and definitions: <https://www.bis.org/>
 - Market data and context: <https://www.federalreserve.gov/>

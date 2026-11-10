@@ -15,7 +15,7 @@ Equity compensation pays employees in shares or in claims on shares, and the cos
 
 This skill measures that transfer. It covers the grant types and their vesting, the accounting expense and what a non-GAAP add-back does to it, the fully diluted count and the treasury stock method that produces it, the arithmetic of how much buyback is needed to hold the count flat, and the annual dilution rate that results. The buyback programme and the earnings quality questions belong to other skills.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.fasb.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.fasb.org/>.
 
 ## When to use
 

@@ -15,7 +15,7 @@ Holding local shares requires a channel, and the channels differ. Some markets a
 
 Each channel carries a different operational burden. A registered direct account gives voting and corporate-action rights but requires local tax registration, local settlement arrangements, and compliance with reporting obligations. A quota-based channel gives access under an allocation that can be reduced or withdrawn, and the allocation is often the binding constraint rather than the capital.
 
-Primary sources: <https://www.imf.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.imf.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ The channel's exit deserves the same attention as its entry: closing a local acc
 ## Sources
 
 - Cross-border investment rules: <https://www.imf.org/>
-- Market access disclosure: <https://www.sec.gov/about/about-securities>
+- Market access disclosure: <https://www.sec.gov/investor>
 - Investment operations standards: <https://www.cfainstitute.org/>

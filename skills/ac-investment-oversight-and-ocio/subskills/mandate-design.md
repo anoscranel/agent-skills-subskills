@@ -15,7 +15,7 @@ A mandate is the contract that converts a policy into operating instructions. It
 
 The design failure that recurs is a mandate that constrains the visible and not the consequential. Limits on a single holding are common; limits on the aggregate exposure to a factor, a counterparty, or a liquidity profile are less common, and it is the aggregate that produces the surprise. A mandate should state what the portfolio must be able to do — sell a stated share within a stated period — as well as what it may hold.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The clause that is most often missing and most often needed is the one describin
 ## Sources
 
 - Investment management standards: <https://www.cfainstitute.org/>
-- Regulatory context for managed accounts: <https://www.sec.gov/about/about-securities>
+- Regulatory context for managed accounts: <https://www.sec.gov/investor>
 - Investor guidance on mandates: <https://www.investor.gov/introduction-investing>

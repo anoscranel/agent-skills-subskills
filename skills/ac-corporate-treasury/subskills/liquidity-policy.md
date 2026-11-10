@@ -15,7 +15,7 @@ A cash buffer exists to fund the business through a period when its cash flows a
 
 What the buffer may be invested in is a second decision, and the constraint is preservation rather than return. A policy that permits only deposits and short-dated government paper is preserving the buffer; one that permits longer-dated or lower-rated instruments is taking a return that the treasury does not need and cannot afford to lose, because the buffer's purpose is to be available precisely when other assets are not.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Corporate liquidity disclosure: <https://www.sec.gov/about/about-securities>
+- Corporate liquidity disclosure: <https://www.sec.gov/investor>
 - Money market and rate data: <https://www.federalreserve.gov/>
 - Investor education on liquidity: <https://www.investor.gov/introduction-investing>

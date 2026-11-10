@@ -15,7 +15,7 @@ The official statement is the municipal market's prospectus, and it is filed at 
 
 Reading it means locating the parts that decide the credit rather than the parts that describe the project. The financial statements and their notes, the pension and OPEB disclosure, the debt schedule with its maturity profile, the rate covenant, and the litigation and contingent liability section are the substance. The cover page, the project description, and the rating summary are the parts written to be read, and they are the parts most likely to omit the finding.
 
-Primary sources: <https://emma.msrb.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://emma.msrb.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ A further check is the tone of the document: an official statement that spends p
 ## Sources
 
 - Municipal disclosure repository: <https://emma.msrb.org/>
-- Regulatory disclosure framework: <https://www.sec.gov/about/about-securities>
+- Regulatory disclosure framework: <https://www.sec.gov/investor>
 - Investor education on municipal disclosure: <https://www.investor.gov/introduction-investing>

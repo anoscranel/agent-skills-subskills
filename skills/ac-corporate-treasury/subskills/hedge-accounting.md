@@ -15,7 +15,7 @@ Hedge accounting is an election that changes when a hedge's gains and losses app
 
 The election is not free. It requires documentation at inception, a designated hedge relationship, and a test of effectiveness that must be performed and passed. Those requirements constrain what a treasury can do: a hedge that fails the test, or a hedge of a risk that cannot be reliably measured, loses the accounting match, and a programme designed without regard to those rules can produce exactly the volatility it was meant to avoid.
 
-Primary sources: <https://www.fasb.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.fasb.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The practical consequence for a reader is that reported earnings can move for re
 
 ## Sources
 
-- Derivative and hedging disclosure: <https://www.sec.gov/about/about-securities>
+- Derivative and hedging disclosure: <https://www.sec.gov/investor>
 - Hedge accounting standards: <https://www.fasb.org/>
 - Investor education on reported results: <https://www.investor.gov/introduction-investing>

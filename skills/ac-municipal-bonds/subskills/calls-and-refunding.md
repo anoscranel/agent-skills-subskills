@@ -15,7 +15,7 @@ Most municipal bonds are callable, and the call schedule decides the bond's real
 
 Refunding logic explains when a call is likely. An issuer refunds when the present value of the interest savings exceeds the cost of the transaction, which is a function of the level of rates relative to the bond's coupon and the time remaining to the call. The record should state the yield to each call date as well as to maturity, and note the call protection period, which is the window in which the bond cannot be called and therefore behaves most like a non-callable bond.
 
-Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.msrb.org/> and <https://www.sec.gov/about/about-se
 ## Sources
 
 - Municipal bond disclosure and call information: <https://www.msrb.org/>
-- Securities disclosure context: <https://www.sec.gov/about/about-securities>
+- Securities disclosure context: <https://www.sec.gov/investor>
 - Investor education on callable bonds: <https://www.investor.gov/introduction-investing>

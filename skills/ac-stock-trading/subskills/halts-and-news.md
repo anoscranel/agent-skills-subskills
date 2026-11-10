@@ -15,7 +15,7 @@ A trading halt suspends price discovery, and the position does not stop existing
 
 The practical consequences are that stops do not execute during a halt and that the reopening is an auction where the clearing price is discovered from the orders submitted. A position sized as if the last price were available is therefore mis-sized, and a position held into a foreseeable event should assume a reopening gap. Where a halt is likely, the record states the exposure at a plausible reopening and the plan for the first minutes after trading resumes.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Trading halt and market operations context: <https://www.sec.gov/about/about-securities>
+- Trading halt and market operations context: <https://www.sec.gov/investor>
 - Trading practice guidance: <https://www.finra.org/>
 - Investor education on market events: <https://www.investor.gov/introduction-investing>

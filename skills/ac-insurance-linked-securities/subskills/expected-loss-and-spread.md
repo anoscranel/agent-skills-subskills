@@ -15,7 +15,7 @@ An insurance-linked security is priced as a spread over a funding rate, and the 
 
 The multiple is not a return. It is a compensation ratio, and it must be read against the model that produced the expected loss, the peril's tail behaviour, and the correlation the position adds. A high multiple on a peril that can produce a total loss in a single event is not the same offer as a high multiple on a frequency peril whose losses arrive in small increments, and the record should state which it is.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.artemis.bm/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.artemis.bm/>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ A further comparison worth making is the multiple against the same peril in prio
 ## Sources
 
 - Catastrophe bond market data: <https://www.artemis.bm/>
-- Securities disclosure context: <https://www.sec.gov/about/about-securities>
+- Securities disclosure context: <https://www.sec.gov/investor>
 - Investor education on risk premia: <https://www.investor.gov/introduction-investing>

@@ -15,7 +15,7 @@ A proxy contest is decided by arithmetic, and the arithmetic starts with the vot
 
 The second input is ownership. Retail turnout is low, index funds vote with the board more often than not, and a dissident's path runs through the largest active holders. Estimating the vote means mapping the register: who holds, how they have voted before, and what a dissident needs from each. A campaign that cannot name the holders it must win has not done the arithmetic.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ Turnout is the variable that most often decides an unexpected result: a contest 
 
 ## Sources
 
-- Proxy contest disclosure: <https://www.sec.gov/about/about-securities>
+- Proxy contest disclosure: <https://www.sec.gov/investor>
 - Governance standards: <https://www.cfainstitute.org/>
 - Corporate governance research: <https://www.nber.org/>

@@ -56,4 +56,4 @@ Primary sources: <https://www.cisa.gov/> and <https://www.nist.gov/>.
 
 - Authentication and credential guidance: <https://www.cisa.gov/>
 - Digital identity standards: <https://www.nist.gov/>
-- Investor and market-participant guidance: <https://www.sec.gov/about/about-securities>
+- Investor and market-participant guidance: <https://www.sec.gov/investor>

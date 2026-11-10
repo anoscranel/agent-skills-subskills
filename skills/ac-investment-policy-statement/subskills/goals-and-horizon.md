@@ -56,4 +56,4 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on goal setting and planning: <https://www.investor.gov/introduction-investing>
 - Investment-policy reference material: <https://www.cfainstitute.org/>
-- Disclosure context for long-horizon planning: <https://www.sec.gov/about/about-securities>
+- Disclosure context for long-horizon planning: <https://www.sec.gov/investor>

@@ -15,7 +15,7 @@ Insiders must report their transactions within two business days, which makes th
 
 The distinction that matters is between a transaction the insider chose and one that happened to them. A grant, an award vesting, or shares withheld for tax are compensation mechanics. An open-market purchase with the insider's own money, at the market price, is a choice, and a cluster of such purchases across several insiders is the strongest form of this signal the data offers.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.sec.gov/edgar/search/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.sec.gov/edgar/search/>.
 
 ## Decision rules
 
@@ -59,4 +59,4 @@ The size of a purchase relative to the insider's compensation also matters: a pu
 
 - SEC insider filing search: <https://www.sec.gov/edgar/search/>
 - Investor education on insider transactions: <https://www.investor.gov/introduction-investing>
-- Disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Disclosure requirements: <https://www.sec.gov/investor>

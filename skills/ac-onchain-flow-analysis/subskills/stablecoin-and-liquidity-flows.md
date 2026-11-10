@@ -56,6 +56,6 @@ Primary sources: <https://ethereum.org/en/developers/docs/> and <https://arxiv.o
 
 - Ethereum developer documentation on tokens and transfers: <https://ethereum.org/en/developers/docs/>
 - Empirical measurement of venue liquidity under stress: <https://arxiv.org/abs/2608.03616>
-- Attestation and disclosure context: <https://www.sec.gov/about/about-securities>
+- Attestation and disclosure context: <https://www.sec.gov/investor>
 
 The two series to keep are issuance and venue balances, collected on the same schedule, because the interesting events are the divergences between them. A week where issuance rises while venue balances fall is a different market from one where both rise, and only the paired series shows it.

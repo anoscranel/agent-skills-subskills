@@ -15,7 +15,7 @@ A credit rating is an agency's opinion about the likelihood of default and, for 
 
 This skill covers that mechanism: what each scale measures and excludes, how methodologies turn factors into a notch, what outlooks and watches mean operationally, how migration and default tables should be read, and which contract provisions a rating level activates. It explains the machinery and its consequences; it does not judge a particular credit.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## When to use
 

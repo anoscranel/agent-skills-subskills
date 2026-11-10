@@ -15,7 +15,7 @@ A structured product is a bond issued by a bank whose return is replaced by the 
 
 The craft is decomposing the note. Almost every retail structure can be read as a bond plus one or more options, and once it is read that way the cost becomes visible: the difference between the issue price and the value of the components is the distribution and structuring margin. This skill teaches that decomposition and the questions that follow; it does not judge whether a note will pay.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.esma.europa.eu/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.esma.europa.eu/>.
 
 ## When to use
 

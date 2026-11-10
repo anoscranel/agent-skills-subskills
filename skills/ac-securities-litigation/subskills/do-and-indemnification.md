@@ -15,7 +15,7 @@ A securities claim is usually brought against the company and its directors and 
 
 The layers matter because each has its own boundary. An indemnification obligation that the company cannot fund is worth little, which is why a financially distressed issuer's directors care about the insurance. A policy with a large retention leaves the first layer with the company, and a policy with an aggregate limit can be exhausted by one large claim before the second arrives.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The question that decides practical recovery is the company's own capacity: wher
 
 ## Sources
 
-- Disclosure of insurance and indemnification: <https://www.sec.gov/about/about-securities>
+- Disclosure of insurance and indemnification: <https://www.sec.gov/investor>
 - Risk transfer and insurance standards: <https://www.cfainstitute.org/>
 - Regulatory guidance: <https://www.finra.org/>

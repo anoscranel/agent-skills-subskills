@@ -15,7 +15,7 @@ Trading a single stock is a different activity from owning one. The owner is exp
 
 This skill covers those mechanics as a recurring process. It assumes the trading idea exists and asks how to express it without being surprised by the plumbing. The investment case belongs to equity research, the market's structure belongs to its own skill, and the placement of a single order belongs to execution; each is named where the boundary matters.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## When to use
 

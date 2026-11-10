@@ -15,7 +15,7 @@ The servicer collects payments, manages delinquencies, and decides when to modif
 
 Commingling is the sharper risk. If collections pass through the servicer's own accounts before reaching the trust, an insolvency of the servicer can trap cash that belongs to noteholders. The documents address this with a trigger that requires collections to be deposited directly into a trust account once the servicer's rating falls, and the adequacy of that trigger is worth reading.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ A single servicer with no backup and a large book is a concentration the structu
 
 ## Sources
 
-- Servicing and transaction disclosure: <https://www.sec.gov/about/about-securities>
+- Servicing and transaction disclosure: <https://www.sec.gov/investor>
 - Regulatory framework for servicing: <https://www.federalreserve.gov/>
 - Securitisation operational standards: <https://www.bis.org/>

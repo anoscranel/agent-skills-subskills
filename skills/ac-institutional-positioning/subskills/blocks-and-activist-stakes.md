@@ -13,9 +13,9 @@ status: seedling
 
 A block trade is a large position crossed away from the continuous book, usually negotiated between a seller and a buyer at a discount or premium to the market. The print is visible, and it is informative: the size, the price relative to the last trade, and the time of day all say something about who needed to transact and how urgently. What it does not say is who was on each side.
 
-An activist filing announces a position taken with intent. Crossing a threshold of beneficial ownership triggers a disclosure, and the choice between the short-form and the intent-form filing is itself the signal: one states that the holder is passive, the other that they may seek to influence the company. The filing names the holder, the size, and often the purpose, which makes it one of the few disclosures that states intent rather than only position.
+An activist filing announces a position taken with intent. Crossing five percent of a class of beneficial ownership triggers a disclosure within a short window, and the choice between the short-form and the intent-form filing is itself the signal: one states that the holder is passive, the other that they may seek to influence the company. The filing names the holder, the size, and often the purpose, which makes it one of the few disclosures that states intent rather than only position.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.sec.gov/edgar/search/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.sec.gov/edgar/search/>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.s
 ## Sources
 
 - SEC filing search for ownership disclosures: <https://www.sec.gov/edgar/search/>
-- Disclosure rules and thresholds: <https://www.sec.gov/about/about-securities>
+- Disclosure rules and thresholds: <https://www.sec.gov/investor>
 - Investor education on ownership filings: <https://www.investor.gov/introduction-investing>

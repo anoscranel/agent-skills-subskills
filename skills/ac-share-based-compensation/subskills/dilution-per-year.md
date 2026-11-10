@@ -15,7 +15,7 @@ The annual dilution rate is the increase in the fully diluted count over a year,
 
 Computing it correctly means separating the sources. Compensation issuance is the recurring transfer; option exercises add to it in proportion to the spread; acquisitions paid in stock are episodic; and a capital raise is a deliberate sale rather than a transfer. Only the first two belong in the rate, and a rate that includes the others overstates the recurring cost while one that excludes option exercises understates it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The rate is also more useful when compared with the buyback's cost than with the
 
 ## Sources
 
-- Share count and compensation disclosure: <https://www.sec.gov/about/about-securities>
+- Share count and compensation disclosure: <https://www.sec.gov/investor>
 - Investor education on dilution: <https://www.investor.gov/introduction-investing>
 - Market data for context: <https://fred.stlouisfed.org/>

@@ -15,7 +15,7 @@ An account's value includes the ability to get the money out. Withdrawal limits,
 
 Transfer friction is the quiet version of a lock-in. A provider that charges an exit fee, requires paper forms, or takes weeks to release positions imposes a cost that never appears in a fee comparison. Recording that friction before opening the account is cheaper than discovering it afterwards, and it is the practical test of whether the provider's incentives favour keeping the assets over serving the holder.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ A useful test before funding an account is to walk through the exit: find the tr
 ## Sources
 
 - Investor education on transfers and account access: <https://www.investor.gov/introduction-investing>
-- Regulatory context for account transfers: <https://www.sec.gov/about/about-securities>
+- Regulatory context for account transfers: <https://www.sec.gov/investor>
 - Consumer guidance on financial accounts: <https://www.usa.gov/>

@@ -15,7 +15,7 @@ A foreign holding passes through a chain: the global custodian, a local sub-cust
 
 Settlement differs too. Cycles vary by market, some require pre-funding, some operate on a delivery-versus-payment basis and some do not, and a market with a longer cycle ties up capital and currency for longer. The operational cost of these differences is real and shows up as funding requirements rather than as fees.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ The local depository's rules on client-asset segregation are worth recording as 
 ## Sources
 
 - Settlement and custody standards: <https://www.bis.org/>
-- Market infrastructure disclosure: <https://www.sec.gov/about/about-securities>
+- Market infrastructure disclosure: <https://www.sec.gov/investor>
 - Investment operations standards: <https://www.cfainstitute.org/>

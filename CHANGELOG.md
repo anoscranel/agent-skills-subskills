@@ -2,6 +2,28 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.48.0 — 2026-11-10
+
+### Fixed
+- **Dead citation URL across the whole pack.** `https://www.sec.gov/about/about-securities` returns
+  404. It appeared 600 times in 363 files across 55 skill trees, in every release since the first
+  investing skills. Replaced with `https://www.sec.gov/investor`, verified live.
+- **Three thresholds that named a quantity without a value**, found by reading rather than by script:
+  - 13F filing threshold now states investment discretion over at least one hundred million dollars.
+  - 13D/13G threshold now states five percent of a class of beneficial ownership.
+  - Settlement cycle now states T+1 or T+2 depending on market and instrument.
+
+### Changed
+- The gate review log records the auditing model in every section heading, and a new auditor identity
+  policy binds sections from v0.47.1 onward.
+
+### Known debt (recorded, not repaired)
+Structural citation defects in five pre-v0.39 skills: 20 leaves with no `## Sources` section, 10 using
+`## The standard` as the heading, 33 `Sources` sections with no URL, 90 leaves with fewer than two body
+URLs. Recorded in `findings/job-078-preexisting-citation-defects.md`.
+
+No skill count changed. The pack remains 162 skills, 1045 leaves.
+
 ## 0.47.1 — 2026-11-10
 
 ### Fixed

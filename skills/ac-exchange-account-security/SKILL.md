@@ -15,7 +15,7 @@ A trading account is a door to capital, and the door has several locks: credenti
 
 This skill hardens the access path. It does not evaluate whether a venue is safe to use, and it does not handle secret values: where a key must exist, the record names it and where it is stored, never what it is. The work is procedural and it is mostly done once, in advance, which is why it belongs in writing.
 
-Primary sources: <https://www.cisa.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cisa.gov/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

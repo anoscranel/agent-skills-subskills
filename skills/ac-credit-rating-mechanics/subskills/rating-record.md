@@ -15,7 +15,7 @@ The rating record states the rating by agency and scale, the outlook and any wat
 
 The record's second function is comparability. A rating quoted without its agency, its scale, and its date cannot be compared with another, and a portfolio aggregated across agencies without that discipline produces a composite that no agency would recognise. Stating each agency's view separately, rather than averaging, is what keeps the record honest about disagreement.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ Keeping the record for every holding rather than only for names near a threshold
 
 ## Sources
 
-- Credit rating disclosure: <https://www.sec.gov/about/about-securities>
+- Credit rating disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Regulatory references to ratings: <https://www.bis.org/>

@@ -56,6 +56,6 @@ Primary sources: <https://www.cboe.com/> and <https://www.investor.gov/introduct
 
 - Options hedging education: <https://www.cboe.com/>
 - Investor education on risk management: <https://www.investor.gov/introduction-investing>
-- Options disclosure context: <https://www.sec.gov/about/about-securities>
+- Options disclosure context: <https://www.sec.gov/investor>
 
 The insurance analogy is useful precisely because it exposes the trade-offs: a deductible is a strike, a premium is a cost, and an exclusion is a risk the policy does not cover. Reading a hedge the way an insurance buyer reads a policy produces better questions than reading it as a trade.

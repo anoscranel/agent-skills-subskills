@@ -15,7 +15,7 @@ A buy-out settles the defined-benefit obligation, and settlement is an accountin
 
 The reported consequence is therefore not a measure of whether the transaction was well priced. A settlement loss can appear when the insurer's price is above the book liability even though the transaction removed risk the sponsor was being paid nothing to hold, and a settlement gain can appear when the book liability was carried on conservative assumptions. Reading the settlement line requires knowing which basis produced it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.fasb.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.fasb.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The disclosure should also be read for what it does not say: a settlement line w
 
 ## Sources
 
-- Pension accounting disclosure: <https://www.sec.gov/about/about-securities>
+- Pension accounting disclosure: <https://www.sec.gov/investor>
 - Retirement benefit accounting standards: <https://www.fasb.org/>
 - Investor education on pension reporting: <https://www.investor.gov/introduction-investing>

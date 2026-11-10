@@ -15,7 +15,7 @@ The fee a delegator pays is rarely the fee it agreed. Management fees are quoted
 
 The check that catches most errors is arithmetic: compute the fee from the agreed basis and the actual assets, then compare it with what was charged. Discrepancies tend to be small in percentage terms and consistent in direction, which is why they survive for years; a reconciliation performed annually with the calculation shown is the only reliable control.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -59,5 +59,5 @@ Recording the reconciliation method itself, not only its outcome, is what allows
 ## Sources
 
 - Investment management standards: <https://www.cfainstitute.org/>
-- Fee disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Fee disclosure requirements: <https://www.sec.gov/investor>
 - Investor guidance on costs: <https://www.investor.gov/introduction-investing>

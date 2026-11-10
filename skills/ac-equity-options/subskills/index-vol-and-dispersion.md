@@ -15,7 +15,7 @@ An index's volatility is not the average of its components' volatilities; it is 
 
 That relationship is what a dispersion trade exploits: selling index volatility while buying the volatility of the components expresses a view that correlation will fall. The trade's risk is concentrated in exactly the states where correlation rises — a market-wide shock — which is why the position typically earns small amounts and loses heavily in a crisis, and why the record must state the correlation assumption rather than the implied volatilities alone.
 
-Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cboe.com/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -59,4 +59,4 @@ The practical consequence is that an index option position is a position on corr
 
 - Index and option volatility data: <https://www.cboe.com/>
 - Market and volatility series: <https://fred.stlouisfed.org/>
-- Regulatory product information: <https://www.sec.gov/about/about-securities>
+- Regulatory product information: <https://www.sec.gov/investor>

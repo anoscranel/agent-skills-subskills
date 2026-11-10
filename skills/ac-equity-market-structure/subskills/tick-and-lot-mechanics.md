@@ -15,7 +15,7 @@ A tick is the minimum price increment, and it is a rule, not a preference. Quote
 
 Lot sizes are the other rule. A round lot is the standard unit of quoting, and orders below it are treated differently by venues and by disclosure. Fractional shares have made small orders routine for retail, but the mechanics of quoting and of odd-lot treatment still follow the rule book.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/rules-guidance>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/rules-guidance>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Regulatory context for tick and lot rules: <https://www.sec.gov/about/about-securities>
+- Regulatory context for tick and lot rules: <https://www.sec.gov/investor>
 - Rule context for quoting and odd lots: <https://www.finra.org/rules-guidance>
 - Investor education on trading increments: <https://www.investor.gov/introduction-investing>
 

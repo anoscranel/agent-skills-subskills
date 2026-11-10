@@ -15,7 +15,7 @@ An activist campaign is a negotiation conducted in public, with a vote as the fa
 
 This skill covers those mechanics: the filing that starts the clock, the settlement terms that end most campaigns, the vote arithmetic that decides the rest, and the economics that determine whether a campaign is worth running. It does not judge whether an activist is right, and it does not recommend a position in a contested company.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## When to use
 

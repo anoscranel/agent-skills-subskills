@@ -15,7 +15,7 @@ A structured note is a debt obligation of the issuer, and the derivative is a pr
 
 The issuer usually hedges its exposure in the market, but the hedge protects the issuer, not the holder. What the holder owns is the note. That is why the assessment has two parts: the credit of the entity that must pay, and the terms of the derivative that determine how much it must pay. Neither is visible in the coupon alone.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The practical consequence is that a note's yield must be compared with the issue
 
 ## Sources
 
-- Note disclosure and issuer obligations: <https://www.sec.gov/about/about-securities>
+- Note disclosure and issuer obligations: <https://www.sec.gov/investor>
 - Bank resolution and creditor hierarchy: <https://www.bis.org/>
 - Investor education on counterparty risk: <https://www.investor.gov/introduction-investing>

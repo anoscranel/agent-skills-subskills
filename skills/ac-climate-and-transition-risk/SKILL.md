@@ -15,7 +15,7 @@ Climate risk enters a valuation through two doors. Transition risk is the cost o
 
 This skill covers the measurement: what the emissions scopes actually count, what the disclosure regimes require and where they leave gaps, what a climate scenario can and cannot tell you, how transition and physical risk show up by sector and by location, and the arithmetic of an asset whose value depends on a carbon price that does not yet exist.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## When to use
 

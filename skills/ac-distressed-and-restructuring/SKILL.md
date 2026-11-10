@@ -15,7 +15,7 @@ A distressed capital structure is a queue, and the work is locating yourself in 
 
 This skill covers the mechanics of that process: how priority and absolute priority constrain outcomes, how a company buys time with DIP financing, what the automatic stay does to claims and to trade counterparties, how claims trade while the process runs, and how a plan is negotiated, voted, and confirmed. The arithmetic is recovery per claim; the judgment is about process risk, which is not the same as credit risk.
 
-Primary sources: <https://www.uscourts.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.uscourts.gov/> and <https://www.sec.gov/investor>.
 
 ## When to use
 

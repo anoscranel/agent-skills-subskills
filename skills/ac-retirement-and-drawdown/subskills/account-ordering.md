@@ -56,6 +56,6 @@ Primary sources: <https://www.irs.gov/> and <https://www.investor.gov/introducti
 
 - Tax administration guidance on retirement accounts: <https://www.irs.gov/>
 - Investor education on account types: <https://www.investor.gov/introduction-investing>
-- Regulatory context for retirement products: <https://www.sec.gov/about/about-securities>
+- Regulatory context for retirement products: <https://www.sec.gov/investor>
 
 The ordering question changes as retirement progresses: early years are often about access and bracket management, later years about required distributions and what remains for beneficiaries. Recording the order as a staged plan rather than a single rule keeps it honest when the stage changes.

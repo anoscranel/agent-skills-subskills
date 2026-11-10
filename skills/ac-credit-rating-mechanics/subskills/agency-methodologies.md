@@ -15,7 +15,7 @@ Each agency publishes a methodology per sector, and the methodology states which
 
 The committee's discretion is the part models cannot capture and the part that produces surprises. A methodology may produce one rating and a committee another, justified by a judgement about parental support, sovereign constraints, or an event. That is why reading a methodology gives you the direction a rating is likely to move, not the timing or the level.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.bis.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.bis.org/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ Reading two agencies' methodologies side by side for the same issuer is often th
 
 ## Sources
 
-- Rating agency methodology disclosure: <https://www.sec.gov/about/about-securities>
+- Rating agency methodology disclosure: <https://www.sec.gov/investor>
 - Regulatory framework for rating agencies: <https://www.bis.org/>
 - Investor education on credit assessment: <https://www.investor.gov/introduction-investing>

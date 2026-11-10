@@ -15,7 +15,7 @@ The product record documents the payoff as a diagram, the issuer as a credit, th
 
 Its most important page is the one that states the bad case. A note's loss is produced by a specific path — a barrier breached near maturity, an underlying that converts, an issuer whose credit deteriorates — and recording that path in advance turns an abstract risk into a scenario the holder has already considered. The record also carries the alternative that was rejected and why.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A record kept this way also settles disputes: the diagram, the terms reference, 
 
 ## Sources
 
-- Structured product disclosure context: <https://www.sec.gov/about/about-securities>
+- Structured product disclosure context: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investor education on complex products: <https://www.investor.gov/introduction-investing>

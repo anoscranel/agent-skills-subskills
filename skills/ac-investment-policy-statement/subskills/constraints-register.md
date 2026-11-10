@@ -15,7 +15,7 @@ Constraints are the walls the portfolio may not cross, and most policy failures 
 
 Each constraint is recorded as an operative limit, not as a consideration: a dollar amount, a date, a jurisdiction, or a prohibition. A constraint that cannot be expressed as a limit is recorded as a qualitative preference with its reason, so a later reader can see it was considered rather than forgotten.
 
-Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.investor.gov/introduction-investing> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,7 +55,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 ## Sources
 
 - Investor education on constraints and planning: <https://www.investor.gov/introduction-investing>
-- Securities regulation and jurisdiction context: <https://www.sec.gov/about/about-securities>
+- Securities regulation and jurisdiction context: <https://www.sec.gov/investor>
 - Investment-policy reference material: <https://www.cfainstitute.org/>
 
 Constraints change with life more often than goals do: a jurisdiction, an employer, a family obligation. The register is therefore reviewed on the same cadence as the goals, and an expired constraint is removed with a date so the record shows why it no longer applies.

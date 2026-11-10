@@ -15,7 +15,7 @@ A non-GAAP figure starts from the reported number and subtracts items the compan
 
 The second question is what the adjusted figure is used for. When a company's guidance, covenants, or compensation targets are defined on the adjusted measure, the adjustments are no longer presentational: they determine behaviour and pay. That is why the bridge — the table showing each step from reported to adjusted — is the document to read, rather than the headline figure it produces.
 
-Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.sec.gov/edgar/search/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The bridge also reveals what a company considers its operating reality: when sha
 ## Sources
 
 - Filing and earnings release search: <https://www.sec.gov/edgar/search/>
-- Disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Disclosure requirements: <https://www.sec.gov/investor>
 - Investor education on non-GAAP measures: <https://www.investor.gov/introduction-investing>

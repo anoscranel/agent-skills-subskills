@@ -15,7 +15,7 @@ The opening and closing auctions concentrate a day's liquidity into two moments,
 
 Halts are the other mechanism. A limit-up/limit-down band pauses trading when the price moves too far too fast, and market-wide circuit breakers pause everything at stated thresholds. A halt is not a signal about value; it is a procedural stop, and the resumption auction is where the price discovery happens.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -53,7 +53,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Regulatory context for auctions and halts: <https://www.sec.gov/about/about-securities>
+- Regulatory context for auctions and halts: <https://www.sec.gov/investor>
 - Investor education on trading mechanics: <https://www.investor.gov/introduction-investing>
 - Exchange-rule context for circuit breakers: <https://www.finra.org/rules-guidance>
 

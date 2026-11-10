@@ -15,7 +15,7 @@ A block trade executes away from the continuous book, either negotiated bilatera
 
 Publication delays matter. Some off-book trades report promptly, others with a delay that varies by size, so a print appearing now may describe a trade from earlier, and the intervening price move can make the concession look larger or smaller than it was. The record should state the time of execution as well as the time of publication, where both are available.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ A useful framing is that the print describes a completed negotiation rather than
 
 ## Sources
 
-- Market structure and trade reporting: <https://www.sec.gov/about/about-securities>
+- Market structure and trade reporting: <https://www.sec.gov/investor>
 - Trading practice guidance: <https://www.finra.org/>
 - Investor education on execution: <https://www.investor.gov/introduction-investing>

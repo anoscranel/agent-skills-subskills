@@ -15,7 +15,7 @@ Eligibility rules are gates: they determine which securities the index can conta
 
 Selection rules then rank the eligible universe and take a subset. The cut-off and the buffer around it determine turnover: a hard cut at the fiftieth name produces more churn than a rule that requires a name to fall to sixtieth before removal. The record should state both the gates and the buffer, since the first defines the universe and the second defines its stability.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The excluded set is also the index's hidden exposure: an index that excludes a w
 
 ## Sources
 
-- Index methodology and disclosure context: <https://www.sec.gov/about/about-securities>
+- Index methodology and disclosure context: <https://www.sec.gov/investor>
 - Investor education on index investing: <https://www.investor.gov/introduction-investing>
 - Market data for universe construction: <https://fred.stlouisfed.org/>

@@ -15,7 +15,7 @@ Implementation shortfall measures the difference between the value of an order a
 
 Its weakness is the decision price itself. The moment of decision is not recorded in any system, so most implementations use the arrival price — the mid at the time the order reached the desk — which excludes the delay between decision and arrival. That exclusion is not small for strategies whose signal decays quickly, and the record should state which convention was used rather than presenting the result as the whole cost.
 
-Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.cfainstitute.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -57,5 +57,5 @@ The measure is also vulnerable to a favourable fill it did not cause: an order t
 ## Sources
 
 - Investment performance and trading standards: <https://www.cfainstitute.org/>
-- Market structure and execution disclosure: <https://www.sec.gov/about/about-securities>
+- Market structure and execution disclosure: <https://www.sec.gov/investor>
 - Execution quality guidance: <https://www.finra.org/>

@@ -15,7 +15,7 @@ A rating level is a defined term in more contracts than holders realise: loan co
 
 The practical consequence is that a downgrade can cost money without any change in the issuer's ability to pay. A collateral agreement that requires posting on a two-notch downgrade can force a firm to raise cash at the worst moment, and a mandate restriction can force a sale into a market where everyone else is selling for the same reason. The record should list the triggers a position is exposed to, not just the rating.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.isda.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.isda.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A further exposure that is easy to miss is the second-order trigger: a collatera
 
 ## Sources
 
-- Contractual and disclosure context: <https://www.sec.gov/about/about-securities>
+- Contractual and disclosure context: <https://www.sec.gov/investor>
 - Derivatives documentation and rating triggers: <https://www.isda.org/>
 - Regulatory framework for ratings: <https://www.bis.org/>

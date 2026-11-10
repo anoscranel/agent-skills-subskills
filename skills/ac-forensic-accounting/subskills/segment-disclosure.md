@@ -15,7 +15,7 @@ Segment reporting exists so that a reader can see the parts of a business, and i
 
 The questions are straightforward and answerable from the filings. Did the number of segments change, and what rationale was given? Were prior periods restated, and does the restatement preserve the old view anywhere? Which segment carries the capital expenditure and which carries the revenue? Is there an unallocated category that absorbs items the company does not wish to assign?
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -58,6 +58,6 @@ The cross-check that makes the analysis concrete is to compare the sum of segmen
 
 ## Sources
 
-- Segment reporting disclosure: <https://www.sec.gov/about/about-securities>
+- Segment reporting disclosure: <https://www.sec.gov/investor>
 - Research on disclosure quality: <https://www.nber.org/>
 - Investor education on filings: <https://www.investor.gov/introduction-investing>

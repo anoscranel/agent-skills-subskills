@@ -15,7 +15,7 @@ A convertible's yield depends on which of several dates the instrument ends on, 
 
 The call structure is where that asymmetry lives. An issuer calls when refinancing is cheaper or when the stock is above the conversion price and forcing conversion is attractive; the holder receives the call price, not the conversion value, unless the terms give a period to convert. The put, where it exists, is the holder's protection and its terms — the put date, the put price, and whether it is a one-time or periodic right — decide how much that protection is worth.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.c
 
 ## Sources
 
-- Convertible terms and disclosure: <https://www.sec.gov/about/about-securities>
+- Convertible terms and disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Rate data: <https://fred.stlouisfed.org/>

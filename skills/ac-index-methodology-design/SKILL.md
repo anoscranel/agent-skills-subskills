@@ -15,7 +15,7 @@ An index is a rule set that produces a portfolio, and every rule has a consequen
 
 Reading an index methodology means tracing those rules to their consequences rather than accepting the index's name as a description. Writing one means choosing the rules with the consequences in view, which is the difference between a benchmark that measures a market and one that measures its own design choices.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## When to use
 

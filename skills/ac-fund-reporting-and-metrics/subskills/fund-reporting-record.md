@@ -60,4 +60,4 @@ Finally, the record should state which figures were audited and which were produ
 
 - Investment performance standards: <https://www.cfainstitute.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Fund disclosure context: <https://www.sec.gov/about/about-securities>
+- Fund disclosure context: <https://www.sec.gov/investor>

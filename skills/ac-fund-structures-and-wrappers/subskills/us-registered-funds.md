@@ -15,7 +15,7 @@ A registered fund operates under a statutory framework that constrains what it c
 
 The practical consequence is that the wrapper, not the manager's preference, sets the boundaries. A manager who wants concentrated positions or meaningful leverage must use a different vehicle, and a fund that appears to hold a concentrated portfolio is either operating within an exception or is not the wrapper it claims. Reading the fundamental policies in the statement of additional information is how the constraints become visible.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ A further consequence of the framework is that changes to fundamental policy req
 
 ## Sources
 
-- Registered fund regulation and disclosure: <https://www.sec.gov/about/about-securities>
+- Registered fund regulation and disclosure: <https://www.sec.gov/investor>
 - Investor education on fund rules: <https://www.investor.gov/introduction-investing>
 - Regulatory guidance: <https://www.finra.org/>

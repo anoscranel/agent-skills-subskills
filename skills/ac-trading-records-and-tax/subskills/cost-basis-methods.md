@@ -56,6 +56,6 @@ Primary sources: <https://www.irs.gov/> and <https://www.investor.gov/introducti
 
 - Tax administration guidance on basis and identification: <https://www.irs.gov/>
 - Investor education on cost basis: <https://www.investor.gov/introduction-investing>
-- Regulatory context for transaction reporting: <https://www.sec.gov/about/about-securities>
+- Regulatory context for transaction reporting: <https://www.sec.gov/investor>
 
 The practical test of a basis method is whether a reviewer can take any single disposal and trace it to a specific purchase without asking a question. If the trail requires memory, the method is documented but not applied, and the gap will surface exactly when it is most expensive to fix.

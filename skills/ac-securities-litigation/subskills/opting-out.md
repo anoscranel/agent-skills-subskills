@@ -15,7 +15,7 @@ Opting out removes an investor from the class and preserves the right to bring a
 
 The arithmetic that decides it is the size of the individual loss relative to the cost of pursuing it. A holder whose recognised loss is small relative to the legal cost has no rational reason to opt out, however strong the claim appears. A holder with a large loss has a genuine choice, and the choice turns on the defendant's ability to pay, the strength of the evidence specific to that holder's transactions, and whether a funding arrangement is available.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The defendant's capacity to pay is the constraint that most often decides the qu
 
 ## Sources
 
-- Litigation procedures and disclosure: <https://www.sec.gov/about/about-securities>
+- Litigation procedures and disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Legal process guidance: <https://www.usa.gov/>

@@ -15,7 +15,7 @@ A maturity ladder lists debt by the year it falls due, and its shape is a statem
 
 Two features make the wall decisive. The first is whether the maturing debt is secured, because a secured refinancing needs the existing lender's cooperation and can consume the unencumbered assets a new lender would want. The second is the covenant structure: a company approaching a wall with tight maintenance covenants may be forced to refinance on worse terms, and the refinancing cost can appear before the maturity as a higher spread on new issuance.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.federalreserve.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.federalreserve.gov/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The ladder should also be read alongside the covenant package: a maturity that f
 
 ## Sources
 
-- Debt and maturity disclosure: <https://www.sec.gov/about/about-securities>
+- Debt and maturity disclosure: <https://www.sec.gov/investor>
 - Interest rate and credit data: <https://www.federalreserve.gov/>
 - Investor education on corporate debt: <https://www.investor.gov/introduction-investing>

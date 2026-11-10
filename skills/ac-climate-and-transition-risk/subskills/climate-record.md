@@ -15,7 +15,7 @@ The record states the emissions figure and what it counts, the scenario and its 
 
 It also states what was not assessed. Scope 3 coverage is often partial, physical risk is often assessed only for the largest sites, and the scenario used is often the one the company itself published. Naming those limits is what prevents a partial assessment from being read as a complete one, and it is the difference between an analysis and a summary of a disclosure.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The record's most defensible feature is that it separates what was measured from
 
 ## Sources
 
-- Climate disclosure requirements: <https://www.sec.gov/about/about-securities>
+- Climate disclosure requirements: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Climate risk frameworks: <https://www.bis.org/>

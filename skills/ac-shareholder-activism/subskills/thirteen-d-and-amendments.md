@@ -15,7 +15,7 @@ A 13D is filed when a holder acquires more than five percent of a class with a p
 
 The amendments carry the signal. An increase in position, a change in purpose from passive to active, a new agreement with other holders, or a reduction below the threshold each triggers an amendment, and the sequence tells a story that no single filing does. A holder that files a 13D and then amends to describe discussions with the company has moved from accumulation to negotiation, and the market reads that transition.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The timing of a filing relative to the position's accumulation also carries info
 
 ## Sources
 
-- Beneficial ownership disclosure: <https://www.sec.gov/about/about-securities>
+- Beneficial ownership disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Corporate governance research: <https://www.nber.org/>

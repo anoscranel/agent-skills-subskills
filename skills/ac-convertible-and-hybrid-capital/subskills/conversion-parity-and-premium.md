@@ -15,7 +15,7 @@ Conversion parity is what the bond would be worth if converted now: the conversi
 
 The premium moves for reasons that are not about the stock. It rises when implied volatility rises, because the embedded option is worth more; it rises when credit improves, because the floor rises with it; and it falls when the stock falls far enough that the bond floor becomes the binding value. Reading the premium without those inputs is reading one number from a three-variable equation.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The premium is also an artefact of supply: a large issue that many holders want 
 
 ## Sources
 
-- Convertible security disclosure: <https://www.sec.gov/about/about-securities>
+- Convertible security disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Market and rate data: <https://fred.stlouisfed.org/>

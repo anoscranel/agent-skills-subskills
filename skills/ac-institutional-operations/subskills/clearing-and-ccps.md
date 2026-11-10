@@ -15,7 +15,7 @@ A central counterparty becomes the buyer to every seller and the seller to every
 
 The concentration is managed through margin and a default fund. Members post initial margin against potential future exposure and variation margin against current exposure, and they contribute to a mutualised fund that absorbs losses if a member defaults and its margin is exhausted. Those two layers are what a participant should understand before assuming that a cleared trade carries no credit risk.
 
-Primary sources: <https://www.bis.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.bis.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -58,5 +58,5 @@ The practical consequence for a participant is that clearing moves the question 
 ## Sources
 
 - Clearing and settlement standards: <https://www.bis.org/>
-- Market structure context: <https://www.sec.gov/about/about-securities>
+- Market structure context: <https://www.sec.gov/investor>
 - Investor education on clearing: <https://www.investor.gov/introduction-investing>

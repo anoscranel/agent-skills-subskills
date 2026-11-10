@@ -15,7 +15,7 @@ An index's character is its rule set, and a change to the rules changes the inde
 
 The test is whether the change was consulted on, whether its effect on the index's stated purpose is described, and whether it increases or reduces the concentration and turnover the rules produce. A methodology that repeatedly revises toward the largest constituents is one whose exposure has drifted from its name, and the record should note the drift and its dates.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -61,5 +61,5 @@ A useful discipline is to record only effects and dates, leaving motive to infer
 ## Sources
 
 - Index methodology publications: <https://www.investor.gov/introduction-investing>
-- Disclosure and market context: <https://www.sec.gov/about/about-securities>
+- Disclosure and market context: <https://www.sec.gov/investor>
 - Market data for drift measurement: <https://fred.stlouisfed.org/>

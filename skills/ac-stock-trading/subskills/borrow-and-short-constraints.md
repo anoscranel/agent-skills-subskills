@@ -15,7 +15,7 @@ A short sale requires borrowed shares, and the borrow is a market of its own. Ea
 
 Recall is the risk that distinguishes shorting from most other trades. The lender can demand the shares back, and the broker allocates the recall across clients, which can force a covering purchase at the worst moment. A short positioned as if it could be held indefinitely is therefore mis-sized, and the record should state the borrow fee, the recall exposure, and the plan if the shares are recalled.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -54,6 +54,6 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Short sale regulation and disclosure: <https://www.sec.gov/about/about-securities>
+- Short sale regulation and disclosure: <https://www.sec.gov/investor>
 - Trading practice and margin guidance: <https://www.finra.org/>
 - Investor education on short selling: <https://www.investor.gov/introduction-investing>

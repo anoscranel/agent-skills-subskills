@@ -60,4 +60,4 @@ The record should also carry the questions that were asked and answered, not onl
 
 - Investment management standards: <https://www.cfainstitute.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Regulatory governance context: <https://www.sec.gov/about/about-securities>
+- Regulatory governance context: <https://www.sec.gov/investor>

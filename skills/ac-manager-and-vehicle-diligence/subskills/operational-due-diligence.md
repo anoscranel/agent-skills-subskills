@@ -15,7 +15,7 @@ Operational due diligence asks whether the manager can do what it says: whether 
 
 The evidence is available and mostly unused. An administrator's report, a custodian's confirmation, an audit opinion with its qualifications, a regulatory filing history, and the service providers' own reputations are all external to the manager and all checkable. A diligence process that consists of meetings with the manager has examined the manager's account of itself rather than its operations.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The reconciliation is the single most valuable test available: comparing the man
 
 ## Sources
 
-- Fund and adviser disclosure: <https://www.sec.gov/about/about-securities>
+- Fund and adviser disclosure: <https://www.sec.gov/investor>
 - Investment operations standards: <https://www.cfainstitute.org/>
 - Regulatory registration information: <https://www.finra.org/>

@@ -56,6 +56,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Rate and forward-point data: <https://fred.stlouisfed.org/>
 - Investor education on currency hedging: <https://www.investor.gov/introduction-investing>
-- Regulatory context for derivative disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for derivative disclosure: <https://www.sec.gov/investor>
 
 The hedge ratio also interacts with the holding period: a hedge that must be rolled monthly is a series of decisions, each with its own cost and timing, while an unhedged position is a single decision not to act. Recording the roll obligation is what makes the difference in effort visible before it is undertaken.

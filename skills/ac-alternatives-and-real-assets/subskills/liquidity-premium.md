@@ -56,7 +56,7 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on risk and return: <https://www.investor.gov/introduction-investing>
 - Rate series for opportunity cost: <https://fred.stlouisfed.org/>
-- Regulatory context for private-asset disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for private-asset disclosure: <https://www.sec.gov/investor>
 
 The arithmetic that makes the premium concrete is the comparison with the liquid alternative: same exposure, no lockup, and the difference in expected return is what the illiquidity pays. Where that comparison cannot be made because no liquid equivalent exists, the premium is an assumption, and the record should say so rather than presenting it as a measurement.
 

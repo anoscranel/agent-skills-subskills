@@ -15,7 +15,7 @@ Revenue is recognised when goods or services transfer to a customer, and the que
 
 The evidence trail is in the filings: receivables growing faster than revenue, days sales outstanding extending, customer concentration increasing, and investing cash outflows that correspond in size and timing to operating inflows. Each of those is a documented observation, and together they justify the question rather than the conclusion. The record should cite the line items and periods that produced the observation.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The timing correspondence is the part that is hardest to explain innocently: an 
 
 ## Sources
 
-- Financial statement disclosure: <https://www.sec.gov/about/about-securities>
+- Financial statement disclosure: <https://www.sec.gov/investor>
 - Research on earnings quality: <https://www.nber.org/>
 - Investor education on filings: <https://www.investor.gov/introduction-investing>

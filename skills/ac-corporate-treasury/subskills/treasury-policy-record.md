@@ -15,7 +15,7 @@ The treasury policy record states the limits, the authority, the permitted instr
 
 The record's second purpose is to make the policy comparable across companies. Two firms with the same cash balance can have very different liquidity positions depending on what the policy permits and how the limits are set, and a record that names the permitted instruments, the maximum maturity, and the counterparty floors allows that comparison to be made on the terms that matter rather than on the balance sheet total.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The record should state what the policy does not permit, since that is where the
 
 ## Sources
 
-- Corporate governance and risk disclosure: <https://www.sec.gov/about/about-securities>
+- Corporate governance and risk disclosure: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - Investor education on corporate risk: <https://www.investor.gov/introduction-investing>

@@ -56,4 +56,4 @@ Primary sources: <https://www.investor.gov/introduction-investing> and <https://
 
 - Investor education on commodities and funds: <https://www.investor.gov/introduction-investing>
 - Commodity and rate data: <https://fred.stlouisfed.org/>
-- Regulatory context for fund disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for fund disclosure: <https://www.sec.gov/investor>

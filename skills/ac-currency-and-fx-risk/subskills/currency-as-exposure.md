@@ -56,7 +56,7 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Exchange-rate and correlation data: <https://fred.stlouisfed.org/>
 - Investor education on currency exposure: <https://www.investor.gov/introduction-investing>
-- Regulatory context for portfolio disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for portfolio disclosure: <https://www.sec.gov/investor>
 
 The honest test is to decompose the portfolio's return into asset and currency components for a period and look at the split. Most investors discover the currency contribution is larger than expected, and that discovery is more useful than any framework for deciding whether to hedge.
 

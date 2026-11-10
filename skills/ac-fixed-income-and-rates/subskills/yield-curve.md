@@ -56,4 +56,4 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Treasury yield-curve data: <https://fred.stlouisfed.org/>
 - Investor education on interest rates: <https://www.investor.gov/introduction-investing>
-- Regulatory context for rate disclosures: <https://www.sec.gov/about/about-securities>
+- Regulatory context for rate disclosures: <https://www.sec.gov/investor>

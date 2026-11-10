@@ -15,7 +15,7 @@ A securities class action is a claim that investors were harmed by a misstatemen
 
 This skill covers those mechanics and the arithmetic around them: how a class is defined, how a claim is calculated, what opting out means, how damages are estimated, how litigation funding changes the incentives, and how insurance and indemnification interact with the claim. It is not legal advice, and it does not predict outcomes.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.ftc.gov/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.ftc.gov/>.
 
 ## When to use
 

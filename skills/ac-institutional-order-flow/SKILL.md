@@ -15,7 +15,7 @@ An institution executing a large order leaves a footprint even when the order is
 
 This skill is about reading that evidence honestly. Each technique here produces a probability statement, not an identification: repeated 5,000-share prints suggest algorithmic execution, and they do not say who ran it or why. The distinctions that matter are between accumulation and distribution, between an order that is being worked patiently and one that is urgent, and between a real imbalance and a displayed one that will be pulled.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## When to use
 

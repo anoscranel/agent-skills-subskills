@@ -15,7 +15,7 @@ Campaigns fall into a small number of types, and the type determines both the as
 
 The type predicts the resolution. Capital-return demands are the easiest to settle because the board can concede with cash; governance demands are the most likely to go to a vote because the concession is power. A campaign that begins with one demand and shifts to another is signalling that its first ask was refused, and the shift itself is information about the negotiation.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The type also predicts how the market prices the situation: a capital-return cam
 
 ## Sources
 
-- Activist filing and campaign disclosure: <https://www.sec.gov/about/about-securities>
+- Activist filing and campaign disclosure: <https://www.sec.gov/investor>
 - Investment analysis standards: <https://www.cfainstitute.org/>
 - Governance research context: <https://www.nber.org/>

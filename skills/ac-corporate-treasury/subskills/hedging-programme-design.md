@@ -54,6 +54,6 @@ Primary sources: <https://www.fasb.org/> and <https://www.bis.org/>.
 
 ## Sources
 
-- Risk management and derivative disclosure: <https://www.sec.gov/about/about-securities>
+- Risk management and derivative disclosure: <https://www.sec.gov/investor>
 - Derivative accounting standards: <https://www.fasb.org/>
 - Counterparty and market standards: <https://www.bis.org/>

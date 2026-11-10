@@ -15,7 +15,7 @@ An index is a rule set, and the rule set determines what the fund owns. Capitali
 
 Two features deserve particular attention. Rebalancing rules determine turnover, and turnover determines cost and, in taxable accounts, tax. Concentration limits — or their absence — determine whether a fund that looks diversified has become a bet on a handful of names after a long bull run.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.investor.gov/introduction-investing>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.investor.gov/introduction-investing>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.i
 
 ## Sources
 
-- Fund and index disclosure: <https://www.sec.gov/about/about-securities>
+- Fund and index disclosure: <https://www.sec.gov/investor>
 - Investor education on index investing: <https://www.investor.gov/introduction-investing>
 - Market and index data: <https://fred.stlouisfed.org/>
 

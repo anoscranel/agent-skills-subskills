@@ -15,7 +15,7 @@ The wrapper record states the legal form, the rule set it operates under, the el
 
 Its second function is to make comparison possible across jurisdictions. Two funds with the same strategy can carry different investor protections, different suspension powers, and different redemption rights, and a record that names those differences allows a choice to be made on them rather than on the strategy description alone. The record is written at the point of purchase and amended when the wrapper changes.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://osf.io/prereg/>.
+Primary sources: <https://www.sec.gov/investor> and <https://osf.io/prereg/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The record should also note the wrapper's failure mode in one sentence: what hap
 
 ## Sources
 
-- Fund regulation and disclosure framework: <https://www.sec.gov/about/about-securities>
+- Fund regulation and disclosure framework: <https://www.sec.gov/investor>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
 - European fund regulation: <https://www.esma.europa.eu/>

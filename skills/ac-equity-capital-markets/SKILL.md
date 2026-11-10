@@ -15,7 +15,7 @@ Primary equity issuance is where new shares are created and sold, and its mechan
 
 This skill covers that machinery: how a book is built and allocated, what the greenshoe does and who pays for it, what a lock-up expiry releases, how blocks and follow-ons are priced against the market, how a rights issue's discount and its rump placement work, and how a direct listing or a SPAC differs from a traditional offering. The trading of the shares afterwards belongs to the stock trading skill.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## When to use
 

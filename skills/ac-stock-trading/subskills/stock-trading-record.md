@@ -58,4 +58,4 @@ The record's final test is whether a reviewer could reconstruct the trade's cons
 
 - Trading practice and investor guidance: <https://www.finra.org/>
 - Pre-registration practice for stated conditions: <https://osf.io/prereg/>
-- Corporate event disclosure: <https://www.sec.gov/about/about-securities>
+- Corporate event disclosure: <https://www.sec.gov/investor>

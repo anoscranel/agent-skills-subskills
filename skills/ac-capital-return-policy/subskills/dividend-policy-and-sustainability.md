@@ -15,7 +15,7 @@ The payout ratio is the dividend divided by earnings, and it is the starting poi
 
 The sustainability tests form a ladder: coverage from free cash flow, trend in that coverage, the trajectory of debt, the capital expenditure required to maintain the business, and the company's stated commitment to the dividend relative to other uses of cash. A cut usually follows a sequence in which coverage deteriorates for several periods while management reaffirms the policy, which is why the trend matters more than the level.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The dividend's interaction with buybacks belongs in the same test: a company fun
 
 ## Sources
 
-- Dividend and cash flow disclosure: <https://www.sec.gov/about/about-securities>
+- Dividend and cash flow disclosure: <https://www.sec.gov/investor>
 - Financial analysis standards: <https://www.cfainstitute.org/>
 - Rate and inflation data: <https://fred.stlouisfed.org/>

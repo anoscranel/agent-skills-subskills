@@ -15,7 +15,7 @@ The order book shows the size resting at each price, and the imbalance between b
 
 The honest approach measures persistence rather than a snapshot. Depth that remains available through several price changes is different from depth that disappears as the price approaches it, and the difference is measurable by sampling the book repeatedly rather than reading it once. The record should state the sampling interval and what happened to the depth when the price moved toward it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -57,6 +57,6 @@ The measure also depends on what is counted as depth: orders at the touch, order
 
 ## Sources
 
-- Market structure and order handling: <https://www.sec.gov/about/about-securities>
+- Market structure and order handling: <https://www.sec.gov/investor>
 - Trading practice guidance: <https://www.finra.org/>
 - Investor education on market structure: <https://www.investor.gov/introduction-investing>

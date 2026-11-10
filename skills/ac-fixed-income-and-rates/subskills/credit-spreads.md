@@ -15,7 +15,7 @@ A credit spread is the extra yield a bond offers over a risk-free bond of the sa
 
 Ratings are a summary of someone else's assessment, published with a lag and revised after the market has usually moved. They are useful as a screen and dangerous as a substitute for reading the issuer's financials. The historical record of ratings through crises is one of stability followed by sudden, large revisions.
 
-Primary sources: <https://fred.stlouisfed.org/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://fred.stlouisfed.org/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -55,5 +55,5 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.sec.gov/about/a
 ## Sources
 
 - Credit-spread series and rate data: <https://fred.stlouisfed.org/>
-- Regulatory context for issuer disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for issuer disclosure: <https://www.sec.gov/investor>
 - Investor education on bond risk: <https://www.investor.gov/introduction-investing>

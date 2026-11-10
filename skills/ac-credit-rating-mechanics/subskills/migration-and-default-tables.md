@@ -15,7 +15,7 @@ A transition matrix reports the historical frequency with which issuers moved fr
 
 The honest reading states the period, the population, and the sample size. A default rate of zero for the top category over ten years is not a probability of zero; it is the absence of an observation in a sample too small to distinguish zero from a fraction of a percent. The same discipline applies to migration: a rating that has historically been stable may simply not have been tested in the conditions that would move it.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.nber.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.nber.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A further caution is that transition matrices are built from rated issuers only:
 
 ## Sources
 
-- Rating agency default and transition studies: <https://www.sec.gov/about/about-securities>
+- Rating agency default and transition studies: <https://www.sec.gov/investor>
 - Research on credit risk: <https://www.nber.org/>
 - Regulatory capital data on ratings: <https://www.bis.org/>

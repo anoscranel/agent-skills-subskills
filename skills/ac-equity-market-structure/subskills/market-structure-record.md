@@ -15,7 +15,7 @@ Every equity decision rests on assumptions about mechanics: that the order will 
 
 The record is short by design: one page per decision, naming the mechanics relied on and the rule or disclosure that supports each. It is updated when a rule changes, and it is the first document read when an execution surprises.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/rules-guidance>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/rules-guidance>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Regulatory context for market structure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for market structure: <https://www.sec.gov/investor>
 - Rule context for trading mechanics: <https://www.finra.org/rules-guidance>
 - Investor education on market mechanics: <https://www.investor.gov/introduction-investing>
 

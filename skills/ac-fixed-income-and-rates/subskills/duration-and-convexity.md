@@ -56,6 +56,6 @@ Primary sources: <https://fred.stlouisfed.org/> and <https://www.investor.gov/in
 
 - Interest-rate data and curve series: <https://fred.stlouisfed.org/>
 - Investor education on bond risk: <https://www.investor.gov/introduction-investing>
-- Regulatory context for fixed-income risk disclosure: <https://www.sec.gov/about/about-securities>
+- Regulatory context for fixed-income risk disclosure: <https://www.sec.gov/investor>
 
 The practical use is portfolio-level: a barbell of very short and very long bonds can match the duration of a bullet portfolio while behaving very differently when the curve twists. That is why duration alone is never the answer to 'what happens if rates move', and why key-rate exposure belongs in the record whenever the portfolio is not a simple ladder.

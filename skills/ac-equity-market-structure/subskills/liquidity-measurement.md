@@ -15,7 +15,7 @@ Liquidity has three observable faces: the spread you pay to trade now, the depth
 
 The honest measurement uses all three, at your own size. Quote-based measures describe the moment; trade-based measures describe the past. Neither tells you what happens when everyone wants the same side, which is why the stress test is a separate line in the record.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/rules-guidance>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/rules-guidance>.
 
 ## Decision rules
 
@@ -54,7 +54,7 @@ Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.f
 
 ## Sources
 
-- Regulatory context for market data and execution: <https://www.sec.gov/about/about-securities>
+- Regulatory context for market data and execution: <https://www.sec.gov/investor>
 - Rule context for trading and reporting: <https://www.finra.org/rules-guidance>
 - Investor education on trading costs: <https://www.investor.gov/introduction-investing>
 

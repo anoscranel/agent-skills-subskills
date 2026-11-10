@@ -15,7 +15,7 @@ Alignment is usually asserted through two facts: the manager has its own money i
 
 The investor rights are the other half. The ability to remove the manager for cause, to replace it without cause by a supermajority, and to sit on a limited partner advisory committee with real information rights are the mechanisms through which governance operates between fundraising cycles. A fund with a large advisory committee and no removal right has given its investors a forum rather than a power.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The removal right deserves particular attention because it is the only power tha
 
 ## Sources
 
-- Fund governance disclosure: <https://www.sec.gov/about/about-securities>
+- Fund governance disclosure: <https://www.sec.gov/investor>
 - Investment management standards: <https://www.cfainstitute.org/>
 - Governance research: <https://www.nber.org/>

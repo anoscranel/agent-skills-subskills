@@ -58,4 +58,4 @@ The fund's own life creates a timetable that the lender should record: a sponsor
 
 - Credit market context: <https://www.federalreserve.gov/>
 - Credit analysis standards: <https://www.cfainstitute.org/>
-- Fund disclosure: <https://www.sec.gov/about/about-securities>
+- Fund disclosure: <https://www.sec.gov/investor>

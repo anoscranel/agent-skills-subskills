@@ -15,7 +15,7 @@ Leverage at the fund level is borrowing by the vehicle rather than by the assets
 
 Measuring it means looking through the structure to the borrowings at each layer. A fund that reports asset-level leverage but omits a facility at the holding company is reporting a partial figure, and the difference matters most in a decline, when the covenant bites at the level nobody was watching.
 
-Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/about/about-securities>.
+Primary sources: <https://www.federalreserve.gov/> and <https://www.sec.gov/investor>.
 
 ## Decision rules
 
@@ -60,6 +60,6 @@ The waterfall position of each facility decides who absorbs a shortfall: senior 
 
 ## Sources
 
-- Fund leverage disclosure: <https://www.sec.gov/about/about-securities>
+- Fund leverage disclosure: <https://www.sec.gov/investor>
 - Credit conditions and leverage: <https://www.federalreserve.gov/>
 - Analysis standards: <https://www.cfainstitute.org/>

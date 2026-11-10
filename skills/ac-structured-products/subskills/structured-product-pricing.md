@@ -15,7 +15,7 @@ The standard decomposition is a zero-coupon bond plus one or more options. The b
 
 A second cost appears when the holder sells before maturity: the issuer's secondary-market quote carries a spread, and that spread widens in stress exactly when the holder might want to sell. Both costs are measurable in principle, and both belong in the record even when the measurement is approximate.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.finra.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.finra.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ A useful sanity check is to ask what the same participation would cost as a list
 
 ## Sources
 
-- Structured note disclosure context: <https://www.sec.gov/about/about-securities>
+- Structured note disclosure context: <https://www.sec.gov/investor>
 - Retail product and pricing transparency guidance: <https://www.finra.org/>
 - Interest-rate data for discounting: <https://fred.stlouisfed.org/>

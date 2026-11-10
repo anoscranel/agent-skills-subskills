@@ -15,7 +15,7 @@ A busted convertible is one whose stock trades far below the conversion price, s
 
 At the distressed end the conversion feature can become the whole story again, for the opposite reason. When the issuer's equity is a call option on the enterprise, a conversion price far above the current stock still has value if the enterprise recovers, and the convertible becomes a way to own that recovery senior to the equity. The analysis shifts to recovery, covenant position, and what the conversion is worth in a workout.
 
-Primary sources: <https://www.sec.gov/about/about-securities> and <https://www.cfainstitute.org/>.
+Primary sources: <https://www.sec.gov/investor> and <https://www.cfainstitute.org/>.
 
 ## Decision rules
 
@@ -56,6 +56,6 @@ The transition between the two regimes is the dangerous part: a convertible can 
 
 ## Sources
 
-- Issuer disclosure and security terms: <https://www.sec.gov/about/about-securities>
+- Issuer disclosure and security terms: <https://www.sec.gov/investor>
 - Credit analysis standards: <https://www.cfainstitute.org/>
 - Market and credit data: <https://fred.stlouisfed.org/>
