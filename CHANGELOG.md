@@ -2,6 +2,28 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.46.0 — 2026-11-10
+
+### Added
+Nine software-engineering skills, each with a written record leaf:
+
+- `ac-mobile-client-engineering` (7): release train and store review, offline-first state, version skew and forced upgrade, network and battery budgets, push and deep links, fragmentation, record.
+- `ac-i18n-and-localisation` (7): string externalisation, plurals and gender, RTL and bidi, collation and search, locale formatting, localisation workflow, record.
+- `ac-privacy-engineering` (7): data inventory, minimisation, retention and deletion, subject requests, pseudonymisation versus anonymisation, encryption and keys, record.
+- `ac-event-driven-architecture` (7): events versus commands, ordering and partitioning, idempotency and delivery, outbox, schema evolution, replay and rebuild, backpressure.
+- `ac-chaos-and-capacity-testing` (7): failure injection and blast radius, game days, load model validity, soak and spike, capacity headroom, dependency failure, record.
+- `ac-cost-aware-engineering` (7): unit economics, cost drivers, storage and egress, attribution, build versus buy, budget alarms, record.
+- `ac-monorepo-and-build-systems` (7): dependency graph, affected targets, cache keys, hermetic builds, generated code, incremental CI, record.
+- `ac-cli-and-tool-design` (7): exit codes, stdout and stderr, flag conventions, idempotency and re-runs, interactive modes, signals, record.
+- `ac-money-arithmetic` (7): representation and types, rounding modes, allocation and remainders, conversion and precision, accrual and day-count, reconciliation tolerance, record.
+
+Each passed a sealed blind routing run. Runs 86-88 were combined (46, 60 and 32 tasks) over a 178-entry catalog: **all nine scored 14 of 14 at top 1 on the first attempt**, with 4 of 4 out-of-scope tasks answered `none` in each run. No description corrections were required.
+
+### Changed
+- The `software-engineering` domain row now names all thirty-two software-engineering skills.
+
+The pack is now 153 skills, 982 leaves.
+
 ## 0.45.0 — 2026-11-10
 
 ### Added
