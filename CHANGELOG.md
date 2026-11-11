@@ -2,6 +2,23 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.54.0 — 2026-11-11
+
+### Added
+Four skills on the layer below the language runtime, each with a written record leaf:
+
+- `ac-memory-layout-and-caches` (8 leaves): cache lines and coherence, the hierarchy latency ladder, false sharing and padding, alignment and unaligned access, prefetch and access order, page faults major versus minor, NUMA and locality, and the layout record.
+- `ac-low-level-io-and-syscalls` (8): syscall cost and batching, the page cache versus direct I/O, mmap versus read, readiness and event loops, submission queues, vectored and zero-copy I/O, blocking versus non-blocking, and the I/O record.
+- `ac-compilers-and-abis` (7): compilation phases, language semantics versus target behaviour, undefined behaviour and the optimizer's licence, the ABI as a binary contract, name mangling and symbols, linking models and visibility, and the toolchain record.
+- `ac-wasm-and-sandboxes` (7): the linear memory model, host boundary functions, capability scoping, embedding and orchestration, compilation targets, side channels and limits, and the sandbox record.
+
+Routing: run 103, combined sealed file of 52 content and 4 out-of-scope tasks over a 213-entry catalog — all four skills at top 1 on the first attempt with no description corrections; out-of-scope tasks all answered `none`.
+
+### Fixed
+Four wording slips found by the gate audit: two typos in the compilers SKILL.md ("AB interpretation", "asEvidence"), a garbled double negative in the wasm host-boundary leaf, and a "glass-class" typo in the sandbox record.
+
+The pack is now 188 skills, 1237 leaves.
+
 ## 0.53.0 — 2026-11-11
 
 ### Added
