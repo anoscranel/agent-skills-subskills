@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.57.0 — 2026-11-11
+
+### Added
+- `ac-database-engine-internals` (software-engineering, 8 leaves): B-trees and paging, LSM trees, the write-ahead log, buffer pools, tombstones, compaction tuning, amplification analysis, and the written engine record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 219-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- The first gate audit returned HOLD: the arXiv citation for the LSM-tree survey was a wrong-paper ID (1512.04027 is a quantum physics paper), and six documentation URLs were dead paths. All were replaced with fetch-verified live sources; a body-URL line ("Primary sources") was added to every leaf; the re-audit returned SHIP.
+
+The pack is now 194 skills, 1282 leaves.
+
 ## 0.56.0 — 2026-11-11
 
 ### Added
