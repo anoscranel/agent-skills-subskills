@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.56.0 — 2026-11-11
+
+### Added
+- `ac-message-queues` (software-engineering, 7 leaves): routing topologies, delivery guarantees, ack and redelivery, poison and dead-letter, priority and dispatch, queue backpressure, record.
+- `ac-byzantine-consensus` (software-engineering, 7 leaves): byzantine versus crash, replica arithmetic, three-phase commit, view changes, client quorums, signatures versus MACs, record.
+- Routing: sealed blind run 105 (32 tasks over a 218-entry catalog) — message-queues 14 of 14, byzantine-consensus 14 of 14, negatives 4 of 4. No description corrections.
+
+### Fixed
+- The `software-engineering` domain vocabulary row had silently lost two v0.49.0 skills (`ac-caching-and-invalidation`, `ac-query-and-index-design`) in an earlier edit; restored, and the row is now reconciled against disk before each release.
+
+The pack is now 193 skills, 1274 leaves.
+
 ## 0.55.0 — 2026-11-11
 
 ### Added
