@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.59.0 — 2026-11-12
+
+### Added
+- `ac-quantitative-methods-for-trading` (crypto-trading, 8 leaves): mean reversion and pairs, cointegration testing, momentum and trend, realized versus implied volatility, GARCH-style volatility, variance and volatility swaps, signal decay and costs, quant record.
+- `ac-security-operations` (security-hardening, 8 leaves): detection engineering, alert triage and the SOC, threat hunting, vulnerability prioritization, phishing readiness, purple teaming, backup and recovery drills, SecOps record.
+
+Routing: combined sealed run (32 tasks over a 221-entry catalog) — both skills 14 of 14 at top 1 on the first attempt, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+Two gate-audit defects in the variance swap leaf, both repaired before release: the volatility swap payoff was described as convex in variance where it is concave (gains per variance point shrink as realized variance rises, losses per variance point grow as it falls; fair volatility strike below the square root of the variance strike by Jensen's inequality), and the first repair's loss clause inverted the direction of the loss slope.
+
+The pack is now 196 skills, 1298 leaves.
+
 ## 0.58.0 — 2026-11-12
 
 ### Repaired
