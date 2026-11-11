@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.63.0 — 2026-11-12
+
+### Added
+- `ac-online-experiments` (software-engineering, 8 leaves): the experiment as a decision, statistical power and minimum detectable effect, randomisation units and bucketing, ramping and the peeking problem, guardrail metrics, novelty and primacy effects, multiple comparisons across a fleet of tests, and the written experiment record.
+
+Measurement, not deployment: canary mechanics and percent rollout belong to `ac-ci-and-release`, and this skill covers what canary was invented to measure - power, randomisation integrity, sequential-looking discipline, guardrail stopping, and effect fading. Passed a sealed blind routing run (18 pre-registered tasks over a 227-entry catalog): 14 of 14 at top 1 on the first attempt, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+- The README software-engineering index line carried a duplicated pair (`consensus-protocols · content-addressed-storage` twice) from an earlier release; deduplicated in this release.
+
+The pack is now 202 skills, 1348 leaves.
+
 ## 0.62.0 — 2026-11-12
 
 ### Added
