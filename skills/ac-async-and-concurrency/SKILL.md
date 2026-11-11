@@ -1,6 +1,6 @@
 ---
 name: ac-async-and-concurrency
-description: "Designing code that does more than one thing at a time without races: shared mutable state and the primitives that protect it, async runtimes and the executor model, cancellation checkpoints and what never runs, structured concurrency and scope lifetime, ordering guarantees and happens-before, testing concurrency deterministically, and the written concurrency record. It explains how concurrent code behaves and fails; it never recommends a runtime and never promises a speedup. Use when asking \"race condition\", \"deadlock\", \"async await\", \"callback\", \"coroutine\", \"cancellation\", \"structured concurrency\", \"happens before\", \"atomicity\", \"lock ordering\", \"why does it fail only sometimes\", \"shared mutable state\". Not for distributed state and replication (ac-distributed-state-and-replication), not for resilience budgets around calls (ac-resilience-budgets), not for workflow orchestration (ac-durable-execution)."
+description: "Designing code that does more than one thing at a time without races: shared mutable state and the primitives that protect it, async runtimes and the executor model, cancellation checkpoints and what never runs, structured concurrency and scope lifetime, ordering guarantees and happens-before, message passing and actor ownership as the alternative to locks, testing concurrency deterministically, and the written concurrency record. It explains how concurrent code behaves and fails; it never recommends a runtime and never promises a speedup. Use when asking \"race condition\", \"deadlock\", \"async await\", \"callback\", \"coroutine\", \"cancellation\", \"structured concurrency\", \"happens before\", \"atomicity\", \"lock ordering\", \"why does it fail only sometimes\", \"shared mutable state\". Not for distributed state and replication (ac-distributed-state-and-replication), not for resilience budgets around calls (ac-resilience-budgets), not for workflow orchestration (ac-durable-execution)."
 license: MIT
 metadata:
   domain: software-engineering
@@ -39,6 +39,7 @@ Primary sources: <https://martinfowler.com/> and <https://dl.acm.org/>.
 | `subskills/lock-ordering-and-deadlock.md` | `software-engineering/lock-ordering-and-deadlock` | Acquiring in order, timing out, and why deadlock is a design error. |
 | `subskills/concurrency-testing.md` | `software-engineering/concurrency-testing` | Making races reproducible: stress, interleaving injection, and model checks. |
 | `subskills/async-api-design.md` | `software-engineering/async-api-design` | Futures, callbacks, and the semantics an async interface must state. |
+| `subskills/message-passing-and-actors.md` | `software-engineering/message-passing-and-actors` | Actors, mailboxes, ownership by isolation, and where message passing beats locks. |
 | `subskills/concurrency-record.md` | `software-engineering/concurrency-record` | The written record: shared state, orderings, cancellation, and blast radius. |
 
 ## Status and honest limits

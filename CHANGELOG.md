@@ -2,6 +2,22 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.53.0 — 2026-11-11
+
+### Added
+- `ac-binary-formats` (7 leaves): endianness and byte order, integer encodings, tagged versus positional layouts, alignment padding, checksums and magic, layout versioning, format record.
+- `ac-transaction-isolation` (7): isolation levels and their anomalies, MVCC snapshots, lost updates and their resolutions, explicit locking and deadlock ordering, savepoints, long transactions, isolation record.
+- `ac-audit-logging` (7): what an audit trail records, hash chaining and external anchoring, append-only storage, sequence integrity, investigator queries, retention and privacy, audit record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 209-entry catalog): all three 14 of 14 at top 1 on the first attempt, 4 of 4 out-of-scope answered `none`.
+
+### Changed
+- `ac-async-and-concurrency` widened from 7 to 8 leaves with a message-passing and actor-ownership leaf; description and index extended to match.
+
+### Fixed
+- Gate audit (0 blocker, 0 major, 3 minor, all repaired pre-ship): a duplicate Sources URL; a description promising write skew that no leaf delivered (two leaves extended); a stranded top-up paragraph after Sources and one grammar slip.
+
+The pack is now 184 skills, 1207 leaves.
+
 ## 0.52.0 — 2026-11-11
 
 ### Added
