@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.62.0 — 2026-11-12
+
+### Added
+- `ac-single-request-value` (prompt-engineering, 8 leaves): request economy, batching sub-questions, packing and context, single-request multi-output, clarification economics, preparation and caching, no-retry degradation, value record.
+- `ac-api-limit-operations` (software-engineering, 7 leaves): limit contract, client-side budgeting, degradation ladder, fallback chains, key pools, metering and reconciliation, limit ops record.
+- Each passed a sealed blind routing run (combined 32 tasks over a 226-entry catalog): 15 of 15 and 13 of 13 at top 1, 4 of 4 out-of-scope answered `none`.
+
+### Changed
+- The `prompt-engineering` and `software-engineering` domain rows now name the new skills.
+
+The pair splits the request-limit problem at its natural seam: the first skill packs maximum value into each precious request from the requesting side; the second keeps an application that depends on metered APIs operating inside the provider's contract from the systems side.
+
+The pack is now 201 skills, 1340 leaves.
+
 ## 0.61.0 — 2026-11-12
 
 ### Added
