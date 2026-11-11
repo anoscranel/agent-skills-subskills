@@ -2,6 +2,21 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.61.0 — 2026-11-12
+
+### Added
+- `ac-meta-analysis-and-synthesis` (research-operations, 9 leaves): effect measures, pooling models, heterogeneity statistics, forest plots, small-study effects, subgroups and meta-regression, network meta-analysis, certainty and sensitivity, record.
+- `ac-qualitative-synthesis` (research-operations, 9 leaves): approach selection, coding findings, meta-aggregation, thematic synthesis, meta-ethnography, refutational synthesis, appraising quality, confidence in findings, record.
+- Each passed a sealed blind routing run (combined 32 tasks over a 224-entry catalog): 14 of 14 at top 1 each, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+- The first gate returned HOLD: the qualitative tree's anchor citation resolved to a different paper (a hybrid-designs article) than the Thomas and Harden thematic-synthesis methods paper it was labelled as, and both descriptions exceeded the 1024-character cap. All 11 occurrences replaced with the correct DOI (Crossref-verified title, authors, and venue), descriptions trimmed to 987 and 1000 characters, re-audited to SHIP.
+
+### Changed
+- The `research-operations` domain row now names all five research skills.
+
+The pack is now 199 skills, 1325 leaves.
+
 ## 0.60.0 — 2026-11-12
 
 ### Added
