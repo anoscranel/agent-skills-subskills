@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.64.0 — 2026-11-12
+
+### Added
+- `ac-client-state-and-interaction` (software-engineering, 7 leaves): server versus UI state and the data layer, optimistic updates and rollback, interaction state machines, undo and history, list virtualization, offline and sync on the web, and the client-state record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 228-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all seventy-six software-engineering skills.
+
+The skill sits deliberately beside `ac-frontend-ui` (which keeps component structure, state placement basics, and WCAG) and beside `ac-mobile-client-engineering` (which keeps device-side offline sync): this one owns the web client's data layer and interaction mechanics.
+
+The pack is now 203 skills, 1355 leaves.
+
 ## 0.63.0 — 2026-11-12
 
 ### Added
