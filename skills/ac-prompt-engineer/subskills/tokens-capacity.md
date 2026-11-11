@@ -9,7 +9,7 @@ status: "seedling"
 
 # Tokens and capacity
 
-## The standard
+## Standard
 
 Treat the context window as a finite attention budget. Seek the minimal set of
 high-signal tokens; recall degrades as context grows ("context rot")
@@ -22,6 +22,8 @@ has implicit caching on by default (per-provider specifics: <https://claude.com/
 first and instructions last (<https://ai.google.dev/gemini-api/docs/prompting-strategies>), and production
 prompts restate load-bearing rules at the end where attention is highest ("recency
 pinning", Part II of <https://arxiv.org/html/2511.00751v2>).
+
+Primary sources: <https://developers.openai.com/> and <https://www.anthropic.com/engineering/building-effective-agents>.
 
 ## Decision rules
 
@@ -59,3 +61,8 @@ pinning", Part II of <https://arxiv.org/html/2511.00751v2>).
 - [ ] Cache-read token share is logged and trending up on repeated traffic.
 - [ ] A compaction plan exists before the context wall, not after it.
 - [ ] Rarely needed reference material is reachable, not pasted.
+
+## Sources
+
+- <https://developers.openai.com/>
+- <https://www.anthropic.com/engineering/building-effective-agents>

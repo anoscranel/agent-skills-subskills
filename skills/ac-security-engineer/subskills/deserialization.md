@@ -53,3 +53,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP Deserialization Cheat Sheet; OWASP ASVS 5.0 1.5.1–1.5.3; CWE-502.
+- <https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html>
+- <https://owasp.org/Top10/>

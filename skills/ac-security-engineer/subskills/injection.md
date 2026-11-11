@@ -53,3 +53,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP Injection Prevention Cheat Sheet; OWASP Top 10 2025 A05; OWASP ASVS 5.0 V1.2.4/V1.2.5/V1.3.7; CWE Top 25 2025; CWE KEV ranking (2026-01-27); CISA FY2024-25 Vulnerability Review.
+- <https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html>
+- <https://owasp.org/Top10/2025/A05_2025-Injection/>

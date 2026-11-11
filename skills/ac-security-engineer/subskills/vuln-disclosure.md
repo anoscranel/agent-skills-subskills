@@ -51,3 +51,5 @@ status: seedling
 ## Sources
 
 - Primary: RFC 9116 (rfc-editor.org); ISO/IEC 29147 (iso.org, revision under way); CISA VDP template; EU CRA Art. 14 (EUR-Lex). ⚠️ The day-counts are house convention — state them as your own commitments in the policy.
+- <https://www.first.org>
+- <https://cve.mitre.org>

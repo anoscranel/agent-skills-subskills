@@ -48,3 +48,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP Logging Cheat Sheet; CIS 8.9/8.10 (cisecurity.org); ASVS 5.0 V16; OWASP Top 10 A09:2025; IBM Cost of a Data Breach 2025; CIRCIA retention (⚠️ secondary).
+- <https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html>
+- <https://csrc.nist.gov/pubs/sp/800/92/final>

@@ -48,3 +48,5 @@ status: seedling
 ## Sources
 
 - Primary: SLSA spec v1.2 + getting-started (slsa.dev); CISA 2026 SBOM Minimum Elements; CISA Shai-Hulud alert; NIST SP 800-218; Sigstore docs; arXiv:2605.17062 (⚠️); OMB M-26-05 (secondary).
+- <https://slsa.dev>
+- <https://docs.sigstore.dev>

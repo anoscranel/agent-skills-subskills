@@ -49,3 +49,5 @@ status: seedling
 ## Sources
 
 - Primary: GDPR (EUR-Lex, Reg. (EU) 2016/679) Arts. 4, 9, 25, 28, 30, 35; NIST SP 800-122; DPDP Rules 2025 (⚠️ commencement from KPMG/dsci summaries).
+- <https://csrc.nist.gov/privacy-framework>
+- <https://owasp.org/www-project-application-security-verification-standard/>

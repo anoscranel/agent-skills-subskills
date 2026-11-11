@@ -54,3 +54,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP SSRF Prevention Cheat Sheet; OWASP Top 10 2025 A01; OWASP API Security Top 10 2023 API7; OWASP ASVS 5.0 V1.3.6.
+- <https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html>
+- <https://owasp.org/Top10/>

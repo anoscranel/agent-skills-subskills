@@ -52,3 +52,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP File Upload Cheat Sheet; OWASP ASVS 5.0 V5 (5.1.1–5.4.3); RFC 6266.
+- <https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html>
+- <https://owasp.org/www-project-application-security-verification-standard/>

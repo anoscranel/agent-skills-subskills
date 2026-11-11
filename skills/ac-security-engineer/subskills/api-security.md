@@ -56,3 +56,5 @@ status: "seedling"
 ## Sources
 
 - Primary: OWASP API Security Top 10 2023 (API1, API4, API9, API10); RFC 9700; RFC 8705; OWASP GraphQL Cheat Sheet; Standard Webhooks.
+- <https://owasp.org/API-Security/>
+- <https://cheatsheetseries.owasp.org>

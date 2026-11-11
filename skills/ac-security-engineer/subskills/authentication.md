@@ -53,3 +53,5 @@ status: "seedling"
 ## Sources
 
 - Primary: OWASP Password Storage, MFA, Passkey Security and Forgot Password Cheat Sheets; NIST SP 800-63B-4.
+- <https://pages.nist.gov/800-63-3/sp800-63b.html>
+- <https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html>

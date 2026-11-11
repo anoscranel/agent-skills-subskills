@@ -53,3 +53,5 @@ status: "seedling"
 ## Sources
 
 - Primary: OWASP API Security Top 10 2023 API1/API3/API5; OWASP Authorization, Multi-Tenant and Authorization Testing Automation Cheat Sheets; NIST SP 800-162; OWASP ASVS 5.0 V8.
+- <https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html>
+- <https://owasp.org/www-project-application-security-verification-standard/>

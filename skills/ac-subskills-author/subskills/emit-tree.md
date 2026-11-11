@@ -87,5 +87,5 @@ rule 5). The SKILL.md "when NOT to use" lines name out-of-scope tasks, never a h
 
 ## Sources
 
-- House standard for skills-with-subskills (unpublished).
+- House standard for skills-with-subskills (unpublished); the schema standard it emits against: <https://json-schema.org>.
 - SPEC-rsi-skills §7: https://github.com/anoscranel/rsi-skills

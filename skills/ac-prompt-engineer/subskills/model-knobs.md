@@ -9,7 +9,7 @@ status: seedling
 
 # Model and reasoning knobs
 
-## The standard
+## Standard
 
 Pick the model class first; it decides which prompt rules apply. OpenAI's analogy:
 a reasoning model is a senior coworker you hand a goal; a GPT-class instruction model is
@@ -22,6 +22,8 @@ extended-thinking doc likewise prefers general instructions over prescriptive th
 steps. For reproducibility, pin a dated model snapshot (<https://developers.openai.com/api/docs/guides/prompt-engineering>). ⚠️ Temperature 0 cuts variance but is not documented as deterministic. On Gemini 3.x, keep
 temperature, topP, and topK at defaults; changing them degrades complex reasoning
 (<https://ai.google.dev/gemini-api/docs/prompting-strategies>).
+
+Primary sources: <https://developers.openai.com/> and <https://ai.google.dev/gemini-api/docs/prompting-strategies>.
 
 ## Decision rules
 
@@ -59,3 +61,8 @@ temperature, topP, and topK at defaults; changing them degrades complex reasonin
 - [ ] Every upgrade goes through the old-vs-new paired run first.
 
 The knob that most often matters is the one that is not a number: whether the model is asked to reason before answering changes the output more than a temperature adjustment does, and the setting is usually a structural choice rather than a parameter. Recording which structural choice was made is more useful than recording the sampler values.
+
+## Sources
+
+- <https://developers.openai.com/>
+- <https://ai.google.dev/gemini-api/docs/prompting-strategies>

@@ -9,7 +9,7 @@ status: seedling
 
 # Decompose the job
 
-## The standard
+## Standard
 
 Decomposition converts one opaque failure into several locatable ones: split tasks so
 each intermediate output is individually validatable (<https://ai.google.dev/gemini-api/docs/prompting-strategies>). Write prompts at
@@ -20,6 +20,8 @@ agent cannot either, so curate a minimal tool set and move branching into code (
 source). The production unit is a typed contract (objective; authority policy; context;
 examples; tool and permission contracts; output schema), and every assembly layer must
 earn its cost (<https://developers.openai.com/api/docs/guides/prompt-engineering>).
+
+Primary sources: <https://www.anthropic.com/engineering/building-effective-agents> and <https://developers.openai.com/>.
 
 ## Decision rules
 
@@ -59,3 +61,8 @@ earn its cost (<https://developers.openai.com/api/docs/guides/prompt-engineering
 - [ ] Every rule-based branch lives in code or config, not in prompt text.
 - [ ] Each step's failure mode names its fallback.
 - [ ] A mid-chain output can be inspected without rerunning the whole job.
+
+## Sources
+
+- <https://www.anthropic.com/engineering/building-effective-agents>
+- <https://developers.openai.com/>

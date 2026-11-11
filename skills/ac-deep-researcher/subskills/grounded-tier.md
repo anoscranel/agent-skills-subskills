@@ -63,3 +63,8 @@ Never use either.
 - Any citation-free return is marked failed, never used.
 
 The tier's cost is latency and a hard quota, both of which argue for batching related sub-questions into one call rather than issuing them one at a time, and for recording how many calls a study consumed. A study whose grounding calls are not counted cannot be repeated within budget.
+
+## Sources
+
+- <https://osf.io/prereg/>
+- <https://training.cochrane.org>

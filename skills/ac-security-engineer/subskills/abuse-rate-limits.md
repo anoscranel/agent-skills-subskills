@@ -51,3 +51,5 @@ status: "seedling"
 ## Sources
 
 - Primary: OWASP Automated Threat Handbook v1.30; API4:2023; ASVS 5.0 V2.4; IETF RateLimit I-D -11; Cloudflare H1 2026 (⚠️); arXiv:2609.28585 (⚠️).
+- <https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet.html>
+- <https://owasp.org/Top10/>

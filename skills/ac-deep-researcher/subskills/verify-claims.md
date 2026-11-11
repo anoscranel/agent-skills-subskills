@@ -62,3 +62,8 @@ status: "seedling"
 - No claim stands on a single lineage without the ⚠️ mark.
 
 The verification should also record the version of the source, because a live document changes and a claim verified against last quarter's revision is unverified against this quarter's. For anything load-bearing, archiving the copy that was read is the difference between a citation and a memory.
+
+## Sources
+
+- <https://osf.io/prereg/>
+- <https://training.cochrane.org>

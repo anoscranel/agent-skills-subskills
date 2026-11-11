@@ -9,7 +9,7 @@ status: "seedling"
 
 # Instruction form
 
-## The standard
+## Standard
 
 Every prompt technique does one of two things: it adds **information** the model could
 not infer, or it tries to **elicit** a better answer from what the model already knows.
@@ -24,6 +24,8 @@ DOCUMENT"), because the highest-probability continuation of a question is an ans
 The 2026 OpenAI structure is Identity, Instructions, Examples, Context,
 with private data positioned near the end
 (https://platform.openai.com/docs/guides/prompt-engineering, fetched 2026-10-21).
+
+Primary sources: <https://www.anthropic.com/engineering/building-effective-agents> and <https://ai.google.dev/gemini-api/docs/prompting-strategies>.
 
 ## Decision rules
 
@@ -65,3 +67,8 @@ https://developers.openai.com/cookbook/examples/gpt-5/gpt-5_prompting_guide).
 - [ ] Every constraint is positive and checkable.
 - [ ] An abstain path exists wherever invention is dangerous.
 - [ ] No two lines demand conflicting behavior.
+
+## Sources
+
+- <https://www.anthropic.com/engineering/building-effective-agents>
+- <https://ai.google.dev/gemini-api/docs/prompting-strategies>

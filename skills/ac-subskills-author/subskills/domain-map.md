@@ -61,3 +61,5 @@ table is the input to flat-or-nest and emit-tree.
 ## Sources
 
 - House standard for skills-with-subskills (unpublished).
+- <https://martinfowler.com>
+- <https://github.com/>

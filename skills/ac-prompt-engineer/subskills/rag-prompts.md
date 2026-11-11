@@ -9,7 +9,7 @@ status: "seedling"
 
 # RAG prompts: grounded answers
 
-## The standard
+## Standard
 
 The pattern has one goal: the answer must come from the retrieved context, and the
 model must say so when it does not. Google's Gemini guide supplies the grounding clause
@@ -20,6 +20,8 @@ invented answer. Put retrieved material in an explicit data envelope at
 the tail of the context; never let its text redefine policy (<https://model-spec.openai.com/2026-08-18.html>).
 Retrieved content is untrusted data, so the rules compose with injection defenses; this
 leaf owns only the faithfulness contract.
+
+Primary sources: <https://ai.google.dev/gemini-api/docs/prompting-strategies> and <https://www.braintrust.dev>.
 
 ## Decision rules
 
@@ -55,3 +57,8 @@ leaf owns only the faithfulness contract.
 - [ ] A named abstain output exists and is tested.
 - [ ] Citations resolve to real source IDs under a code check.
 - [ ] Steer-text-in-document tests pass without policy drift.
+
+## Sources
+
+- <https://ai.google.dev/gemini-api/docs/prompting-strategies>
+- <https://www.braintrust.dev>

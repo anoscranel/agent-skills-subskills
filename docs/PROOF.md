@@ -2,13 +2,13 @@
 
 What was checked before this release, what passed, and what was not checked. Re-run the first three rows yourself; commands are given.
 
-## Gates you can re-run (v0.57.0)
+## Gates you can re-run (v0.58.0)
 
 | Gate | Command (from the repo root) | Result |
 |---|---|---|
 | Structure lint | `python3 -B skills/ac-subskills-author/scripts/lint_tree.py skills/<name>` | 194 of 194 PASS |
 | Security scan | `python3 -B skills/ac-subskills-author/scripts/skill_scan.py skills/<name>` | 194 of 194 PASS |
-| Strict YAML, every file | `yaml.safe_load` on every frontmatter block in the pack (SKILL.md and leaves) | 1476 of 1476 PASS (v0.57.0) |
+| Strict YAML, every file | `yaml.safe_load` on every frontmatter block in the pack (SKILL.md and leaves) | 1476 of 1476 PASS (v0.58.0) |
 | Spec frontmatter | Strict YAML parse; `name` matches dir and `^[a-z0-9]+(-[a-z0-9]+)*$`; `description` 1–1024 chars; only spec keys (`name`, `description`, `license`, `metadata`) | 194 of 194 PASS |
 
 The skill's own domain lives in `metadata.domain`, per the [Agent Skills spec](https://agentskills.io/specification), which reserves top-level keys.

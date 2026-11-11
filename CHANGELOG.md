@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.58.0 — 2026-11-12
+
+### Repaired
+
+No new skills. This release repairs recorded debt across five trees and the domain vocabulary.
+
+**Domain vocabulary**: the `writing` row listed 3 of 17 shipped skills; `security-hardening` and `research-operations` each listed 1 of 2. All three rows rebuilt from disk; a full vocabulary-vs-disk reconciliation now reports zero bad rows across all ten domains.
+
+**Citation debt (53 leaves)**: 20 leaves in `ac-prompt-engineer`, `ac-deep-researcher` and `ac-security-engineer` had no `## Sources` section; 10 `ac-prompt-engineer` leaves used a `## The standard` heading; 33 leaves across `ac-security-engineer`, `ac-subskills-author` and `ac-security-standards` had a Sources section with no URL. All now carry at least two live, subject-matched public sources, verified before the write.
+
+**Two defects found by the gate audit inside the repair itself**: a mistyped host (`modelcontextpolygon.io`, NXDOMAIN) and a wrong-paper DOI (`10.1136/bmj.m2734`, a Covid-19 news piece, cited as the SWiM reporting guideline). Both replaced with verified sources: `modelcontextprotocol.io` (200) and `10.1136/bmj.l6890`, Crossref-verified as the SWiM guideline, BMJ 2020.
+
+The pack remains 194 skills, 1282 leaves.
+
 ## 0.57.0 — 2026-11-11
 
 ### Added

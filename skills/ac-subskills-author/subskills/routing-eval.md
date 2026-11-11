@@ -57,3 +57,5 @@ Default PASS bars (a job may tighten with `--need GROUP=N`, `--min-pct P`; never
 ## Sources
 
 - House standard for skills-with-subskills (unpublished). The 80% bar is illustrative.
+- <https://arxiv.org>
+- <https://github.com/>

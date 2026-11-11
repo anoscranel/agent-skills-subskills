@@ -9,7 +9,7 @@ status: "seedling"
 
 # Harness and agent prompt mechanics
 
-## The standard
+## Standard
 
 Production agents converge on one skeleton, seen across a 30-prompt audit of shipping
 products: **identity, then behavior rules, then tool usage, then output format, then
@@ -27,6 +27,8 @@ so never treat ordering as armor (OpenAI Model Spec).
 Assemble context in authority order: immutable authority and policy first; task, goal,
 and stop conditions; typed tools and permissions; examples; then retrieved, user, and
 memory material last (<https://model-spec.openai.com/2026-08-18.html>).
+
+Primary sources: <https://www.anthropic.com/engineering/building-effective-agents> and <https://modelcontextprotocol.io>.
 
 ## Decision rules
 
@@ -62,3 +64,8 @@ memory material last (<https://model-spec.openai.com/2026-08-18.html>).
 - [ ] Every negative rule names the positive alternative.
 - [ ] Tool permissions are enforced in code, not prose.
 - [ ] Refusals use the named constant with the fallback documented.
+
+## Sources
+
+- <https://www.anthropic.com/engineering/building-effective-agents>
+- <https://modelcontextprotocol.io>

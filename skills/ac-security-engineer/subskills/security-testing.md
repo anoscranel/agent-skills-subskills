@@ -48,3 +48,5 @@ status: "seedling"
 ## Sources
 
 - Primary: NIST SP 800-218/218A; WAFFLED (ACSAC 2025); arXiv:2607.00107 (⚠️ preprint); GitGuardian 2026 (⚠️ vendor).
+- <https://owasp.org/www-project-web-security-testing-document/>
+- <https://cheatsheetseries.owasp.org>

@@ -55,3 +55,5 @@ status: "seedling"
 ## Sources
 
 - Primary: OWASP Session Management, JSON Web Token, OAuth2 Cheat Sheets; OAuth 2.1 draft-13; RFC 9700; RFC 8705; Standard Webhooks; OWASP ASVS 5.0 V7/V9/V10.
+- <https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html>
+- <https://pages.nist.gov/800-63-3/sp800-63b.html>

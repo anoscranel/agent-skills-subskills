@@ -65,5 +65,5 @@ The pass is more useful when it is aimed at the conclusion the author is most co
 
 ## Sources
 
-- MisKnow benchmark, 2025 (⚠️ preprint; cite the version you check, not this line).
+- MisKnow benchmark, 2025 preprint, indexed at <https://arxiv.org> (cite the version you check).
 - PRISMA 2020: Page et al., BMJ 2021, https://doi.org/10.1136/bmj.n71.

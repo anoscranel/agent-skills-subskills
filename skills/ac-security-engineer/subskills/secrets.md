@@ -50,3 +50,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP Secrets Management Cheat Sheet; Twelve-Factor III; NIST SP 800-57 Pt 1 Rev 5; GitHub docs (secret scanning, push protection, removing sensitive data, Actions OIDC); GitGuardian State of Secrets Sprawl 2026; Verizon DBIR 2025; gitleaks and trufflehog repos; Intruder JS-bundle scan (⚠️ vendor).
+- <https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html>
+- <https://www.cisa.gov>

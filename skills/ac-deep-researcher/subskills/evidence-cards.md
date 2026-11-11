@@ -58,3 +58,8 @@ status: "seedling"
 - The study report links each card it relied on.
 
 The card's counter-evidence field is the one most often left empty, and an empty field is ambiguous: it can mean the claim survived a search for contradicting evidence, or that no search was made. Recording which of the two applies is what makes the card an assessment rather than a quotation with metadata.
+
+## Sources
+
+- <https://osf.io/prereg/>
+- <https://www.cisa.gov>

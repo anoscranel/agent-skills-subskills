@@ -9,7 +9,7 @@ status: "seedling"
 
 # Meta-prompt libraries and prompt lifecycle
 
-## The standard
+## Standard
 
 Power-user libraries converge on git-tracked, folder-per-prompt layouts with YAML
 frontmatter: identifier, version, category, tags, provenance with source and license,
@@ -21,6 +21,8 @@ prompts like code: immutable versions, human-readable aliases (prod, staging) as
 only moving pointers, rollbacks as alias switches. Distribute through open formats: an
 Agent Skills folder for capability sharing, or the MCP Prompts primitive so any client
 discovers the library without code changes.
+
+Primary sources: <https://modelcontextprotocol.io> and <https://github.com/>.
 
 ## Meta-prompting, safely
 
@@ -58,3 +60,7 @@ The library's organising principle should be the task rather than the model, bec
 
 A library also needs a retirement rule, because an entry that has never been re-tested since a model change is a record of what used to work, and a growing library of untested entries is worse than a short one that has been checked. The date of the last evaluation belongs beside the prompt.
 
+## Sources
+
+- <https://modelcontextprotocol.io>
+- <https://github.com/>

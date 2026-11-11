@@ -54,3 +54,5 @@ status: "seedling"
 ## Sources
 
 - Primary: Saltzer & Schroeder 1975; CISA/NSA Shifting the Balance (2023); OWASP Top 10 2025 A06/A10; NIST SP 800-207; NIST SP 800-218; Willison lethal trifecta (2025).
+- <https://shostack.org>
+- <https://owasp.org/www-project-application-security-verification-standard/>

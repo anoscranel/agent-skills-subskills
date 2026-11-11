@@ -9,7 +9,7 @@ status: "seedling"
 
 # Prompt injection defenses
 
-## The standard
+## Standard
 
 A model response is evidence, never authority; only deterministic policy may authorize
 an action (<https://genai.owasp.org/download/52117/>).
@@ -29,6 +29,8 @@ The empirical record: adaptive attackers defeated eight prompt-and-filter defens
 over 50% attack success (NAACL 2025, arXiv:2503.00061); a 2026 large-scale competition
 found all 13 tested models vulnerable (arXiv:2603.15714; NIST CAISI summary). So prose
 hardening is never a security boundary.
+
+Primary sources: <https://genai.owasp.org> and <https://simonwillison.net>.
 
 ## Decision rules
 
@@ -66,3 +68,8 @@ hardening is never a security boundary.
 - [ ] High-risk tools sit behind approval that fails closed.
 - [ ] Effect-time validation runs in deterministic code, not in the prompt.
 - [ ] The red-team record reports attack-success rate with denominators, not slogans.
+
+## Sources
+
+- <https://genai.owasp.org>
+- <https://simonwillison.net>

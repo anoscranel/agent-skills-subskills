@@ -9,7 +9,7 @@ status: "seedling"
 
 # Multimodal prompt dialects
 
-## The standard
+## Standard
 
 Match syntax to model architecture; there is no cross-family prompt grammar. The
 operator-maintained dialect registry was sourced per vendor doc (an older cheat-sheet
@@ -30,6 +30,8 @@ was stale and was discarded). Key sourced facts:
 - **Video is a pipeline, not a prompt.** Prompt-text budgets range from 1,000 to 20,000
  characters across models on one router; duration, aspect, and reference roles are
  fields, not prose (Runway OpenAPI).
+
+Primary sources: <https://ai.google.dev/gemini-api/docs/prompting-strategies> and <https://platform.claude.com/docs>.
 
 ## Decision rules
 
@@ -64,3 +66,8 @@ was stale and was discarded). Key sourced facts:
 - [ ] Negation handling follows the three-case split.
 - [ ] Iteration changed one variable at a time.
 - [ ] Version bumps trigger dialect re-verification.
+
+## Sources
+
+- <https://ai.google.dev/gemini-api/docs/prompting-strategies>
+- <https://platform.claude.com/docs>

@@ -52,4 +52,4 @@ audit, unreadable file) is a NO-INSTALL. Flag it to the operator.
 
 ## Sources
 
-- The trifecta pattern: Simon Willison, "The lethal trifecta for AI agents" — <https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/>
+- The trifecta pattern: Simon Willison, "The lethal trifecta for AI agents" — <https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/>; registry auditing practice: <https://skills.sh>.

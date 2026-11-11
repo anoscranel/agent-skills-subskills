@@ -59,3 +59,5 @@ status: "seedling"
 ## Sources
 
 - Primary: OWASP Cryptographic Storage and Password Storage Cheat Sheets; RFC 8439; Bock et al. WOOT '16; NIST FIPS 203/204/205 (2024-08-13); NIST IR 8547 (2024-11); NSA CNSA 2.0 (2025-05-30).
+- <https://csrc.nist.gov/pubs/fips/203/final>
+- <https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html>

@@ -49,3 +49,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP LLM Top 10 2025 (genai.owasp.org); Willison (2025-06-16); CaMeL (arXiv:2503.18813); CapFlow (arXiv:2606.15242). ⚠️ Gap: a 2026 LLM Top 10 edition was reported at Black Hat 2026 but is unverified against the OWASP primary — re-check before citing 2026 names.
+- <https://genai.owasp.org>
+- <https://simonwillison.net>

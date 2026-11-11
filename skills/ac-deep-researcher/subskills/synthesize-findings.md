@@ -62,6 +62,6 @@ The synthesis should state which findings rest on a single lineage and which on 
 
 ## Sources
 
-- SWiM reporting guideline: Campbell et al., BMJ 2020, https://doi.org/10.1136/bmj.m2734 (item 8 is the reporting standard for synthesis links).
+- SWiM reporting guideline: Campbell et al., BMJ 2020, https://doi.org/10.1136/bmj.l6890 (item 8 is the reporting standard for synthesis links).
 - PRISMA 2020: Page et al., BMJ 2021, https://doi.org/10.1136/bmj.n71.
 - Cochrane Handbook, chapter on synthesising results, https://training.cochrane.org/handbook.

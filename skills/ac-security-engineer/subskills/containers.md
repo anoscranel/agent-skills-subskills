@@ -53,3 +53,5 @@ status: seedling
 ## Sources
 
 - Primary: NSA/CISA Kubernetes Hardening Guidance v1.2; NIST SP 800-190; CIS Docker Benchmark v1.8.0. Research: Sysdig 2026 Cloud-Native Security & Usage Report ⚠️ (vendor).
+- <https://cheatsheetseries.owasp.org>
+- <https://csrc.nist.gov/pubs/sp/800/190/final>

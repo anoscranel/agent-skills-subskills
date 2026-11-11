@@ -52,4 +52,4 @@ status: seedling
 
 ## Sources
 
-- Primary: https://asvs.dev; OWASP ASVS v5.0.0 release; OWASP Top 10 2025; OWASP API Security Top 10 2023 release notes.
+- Primary: https://asvs.dev and the OWASP Top 10 2025 <https://owasp.org>; CISA guidance <https://www.cisa.gov>.

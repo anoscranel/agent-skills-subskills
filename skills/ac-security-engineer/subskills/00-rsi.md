@@ -44,3 +44,7 @@ The log is also the input to a later decision about whether the leaf should be s
 
 A related distinction is between an observation that describes the leaf and one that describes the situation the leaf was applied to: the second is only useful if the situation recurs, and mixing the two makes the log's statistics describe the world rather than the leaf. Separating them costs one field and preserves the signal.
 
+## Sources
+
+- <https://www.cisa.gov>
+- <https://csrc.nist.gov/pubs/sp/800/218/final>

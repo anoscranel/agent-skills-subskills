@@ -51,3 +51,5 @@ status: seedling
 ## Sources
 
 - Primary: NIST SP 800-207; AWS root-user best practices; CIS Benchmarks; HashiCorp Terraform state docs; CISA BOD 26-04.
+- <https://developer.hashicorp.com>
+- <https://csrc.nist.gov/pubs/sp/800/218/final>

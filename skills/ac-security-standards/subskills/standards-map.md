@@ -68,3 +68,5 @@ Pick the row by the trigger phrase. Cite the edition the table carries; ⚠️-f
 
 - Per-row URLs inline; editions checked against primary pages 2026-10.
 - Also mapped: CWE Top 25 2025 · CISA KEV · NVD/CVSS 4.0 · CIS Docker Benchmark v1.8.0 · RFC 9116 `security.txt` · ISO/IEC 29147 (revision ⚠️).
+- <https://owasp.org/Top10/>
+- <https://csrc.nist.gov/pubs/sp/800/218/final>

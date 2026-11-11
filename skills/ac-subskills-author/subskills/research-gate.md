@@ -67,3 +67,5 @@ and report the gap to the operator; never author past an unpassed research gate.
 ## Sources
 
 - House standard for skills-with-subskills (unpublished).
+- <https://github.com/>
+- <https://osf.io/prereg/>

@@ -51,3 +51,5 @@ status: "seedling"
 ## Sources
 
 - Primary: MCP specification rev 2026-07-28 (modelcontextprotocol.io); OWASP MCP Top 10; Invariant Labs (2025-04-01). Research: arXiv:2609.14119 (⚠️), arXiv:2606.15242, arXiv:2609.28585, arXiv:2609.28586.
+- <https://genai.owasp.org>
+- <https://modelcontextprotocol.io>

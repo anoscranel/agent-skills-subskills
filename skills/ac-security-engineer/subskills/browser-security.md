@@ -63,3 +63,5 @@ X-XSS-Protection: 0            # OWASP: do NOT set the legacy filter — it can 
 ## Sources
 
 - Primary: OWASP XSS Prevention, CSP, CSRF Prevention and HTTP Headers Cheat Sheets; OWASP ASVS 5.0 V1.2.1/V3; CWE Top 25 2025; MDN HSTS and Cookies.
+- <https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html>
+- <https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP>

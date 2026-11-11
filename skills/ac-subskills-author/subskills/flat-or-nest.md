@@ -56,3 +56,5 @@ A third consideration is the cost of a wrong choice in each direction: a flat fi
 ## Sources
 
 - House standard for skills-with-subskills (unpublished).
+- <https://martinfowler.com>
+- <https://github.com/>

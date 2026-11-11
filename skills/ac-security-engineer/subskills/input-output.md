@@ -52,3 +52,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP Proactive Controls C3; OWASP Input Validation, Mass Assignment and XSS Prevention Cheat Sheets; OWASP ASVS 5.0 V1/V2; OWASP Top 10 2025 A05/A10; OWASP API Security Top 10 2023 API10.
+- <https://cheatsheetseries.owasp.org>
+- <https://owasp.org/www-project-application-security-verification-standard/>

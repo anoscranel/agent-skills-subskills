@@ -59,3 +59,8 @@ status: "seedling"
 - The final report repeats the stop reason verbatim.
 
 The rule should also say what happens when a criterion fires early with conclusions that feel unfinished, because the temptation is to continue until the report reads well rather than until the evidence stops moving. A stop that is honoured only when convenient is not a stop rule.
+
+## Sources
+
+- <https://osf.io/prereg/>
+- <https://arxiv.org>

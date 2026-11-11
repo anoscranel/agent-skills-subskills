@@ -48,3 +48,5 @@ status: seedling
 ## Sources
 
 - Primary: OWASP Top 10:2025; ASVS 5.0.0; OWASP Secure Coding with AI; CWE Top 25 2025 + KEV; CISA FY2024–25 review; arXiv:2607.00107 (⚠️).
+- <https://owasp.org/www-project-application-security-verification-standard/>
+- <https://shostack.org>

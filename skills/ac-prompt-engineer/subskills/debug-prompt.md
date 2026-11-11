@@ -9,7 +9,7 @@ status: "seedling"
 
 # Debug a failing prompt
 
-## The standard
+## Standard
 
 The debugging order is ranked by expected value per hour, and it is roughly the reverse
 of what most people try (<https://ai.google.dev/gemini-api/docs/prompting-strategies> §5):
@@ -31,6 +31,8 @@ of what most people try (<https://ai.google.dev/gemini-api/docs/prompting-strate
 For agent setups, also check the harnesses class of causes before wording: is the tool
 catalog itself ambiguous, is context rot degrading recall, is a guardrail firing
 upstream of the model (<https://learn.microsoft.com/en-us/security/zero-trust/sfi/defend-indirect-prompt-injection>).
+
+Primary sources: <https://www.anthropic.com/engineering/building-effective-agents> and <https://ai.google.dev/gemini-api/docs/prompting-strategies>.
 
 ## Procedure
 
@@ -63,3 +65,8 @@ upstream of the model (<https://learn.microsoft.com/en-us/security/zero-trust/sf
 - [ ] The failure was reproduced on the raw transcript.
 - [ ] The fix maps to exactly one rung of the ladder.
 - [ ] The failing case now lives in the golden set.
+
+## Sources
+
+- <https://www.anthropic.com/engineering/building-effective-agents>
+- <https://ai.google.dev/gemini-api/docs/prompting-strategies>

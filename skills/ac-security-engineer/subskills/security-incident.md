@@ -50,3 +50,5 @@ status: "seedling"
 ## Sources
 
 - Primary: NIST SP 800-61r3; CISA #StopRansomware checklist; GDPR Arts. 33/34 (EUR-Lex); EU CRA Art. 14 (Reg. (EU) 2024/2847); SEC Form 8-K Item 1.05 (ecfr.gov).
+- <https://www.cisa.gov>
+- <https://csrc.nist.gov/pubs/sp/800/61/rev-2/final>

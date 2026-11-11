@@ -62,3 +62,5 @@ The plan also needs a stopping rule attached to each branch, not only to the who
 ## Sources
 
 - arXiv 2608.05263 (cascade radius vs depth).
+- <https://osf.io/prereg/>
+- <https://arxiv.org>

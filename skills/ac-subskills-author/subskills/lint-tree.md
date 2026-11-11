@@ -65,3 +65,5 @@ LINT PASS.
 ## Sources
 
 - House standard for skills-with-subskills (unpublished). Rules 1–4.
+- <https://martinfowler.com>
+- <https://github.com/>

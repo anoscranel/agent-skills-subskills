@@ -63,4 +63,4 @@ The card is a record, not a credential. **The agent never installs on its own ju
 
 ## Sources
 
-- Registry verdicts (read-only): `https://skills.sh/<owner/repo>`, or `add-skill.vercel.sh/audit` with parameters `source` and `skills`.
+- Registry verdicts (read-only): `https://skills.sh/<owner/repo>` or <https://skills.sh>, and `add-skill.vercel.sh/audit` with parameters `source` and `skills`.
