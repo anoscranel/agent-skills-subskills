@@ -69,6 +69,6 @@ status: "seedling"
 
 ## Sources
 
-- <https://smaple.tr/en/blog/performans-muhendisligi-optimizasyon-en>
+- <https://web.dev/learn/performance>
 - <https://sre.google>
 - https://dl.acm.org/doi/10.1145/356635.356640 · https://grafana.com/docs/k6/latest/

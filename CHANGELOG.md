@@ -2,6 +2,25 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.52.0 — 2026-11-11
+
+### Added
+- `ac-production-debugging` (7 leaves): reading stack traces, symbols and core dumps, heisenbugs and observation, correlation across services, log hypothesis testing, evidence preservation, and the debug record.
+- `ac-resource-exhaustion-diagnosis` (7): file descriptors and ports, connection and cursor leaks, thread pool saturation, memory pressure and the OOM kill, leak versus limit, limits from evidence, and the exhaustion record.
+- `ac-scheduled-jobs` (7): missed-run semantics, overlap and singletons, idempotent job bodies, long-running and overdue jobs, catch-up and backfill, liveness monitoring, and the schedule record.
+- `ac-time-and-clocks` (7): monotonic versus wall clocks, clock skew, NTP, UTC storage, the timezone database, discontinuities, and the time policy record.
+- `ac-text-encoding` (7): UTF-8 and malformed input, normalization forms, units of text, encoding boundaries, mojibake diagnosis, text in storage, and the text policy record.
+
+### Changed
+- `ac-performance` widened from 2 to 7 leaves: added tail latency, continuous profiling, memory profiling, benchmarking, and latency budget allocation; the description now names them.
+
+### Fixed
+- Three dead-at-birth citation URLs caught by the gate audit and replaced with live-verified hosts: a stale V8 blog path and a Fowler article path in production-debugging, and a dead third-party host in two 2018-era performance leaves.
+
+Routing runs 100-101 (combined, 46+46 tasks over a 206-entry catalog): five skills 14 of 14 at top 1, production-debugging 13 of 14 (PASS at the 80% gate), negatives 4 of 4 in both runs.
+
+The pack is now 181 skills, 1185 leaves.
+
 ## 0.51.0 — 2026-11-11
 
 ### Added

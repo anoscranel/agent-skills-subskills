@@ -70,5 +70,5 @@ status: "seedling"
 ## Sources
 
 - https://web.dev/articles/vitals · https://developers.google.com/search/docs/appearance/core-web-vitals
-- <https://smaple.tr/en/blog/performans-muhendisligi-optimizasyon-en>
+- <https://web.dev/learn/performance>
 - <https://sre.google>
