@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.55.0 — 2026-11-11
+
+### Added
+- `ac-content-addressed-storage` (software-engineering, 7 leaves): addressing model, hash algorithm choice, Merkle trees, dedup and isolation, references and garbage collection, registry resolution, record.
+- `ac-sharding-and-placement` (software-engineering, 8 leaves): shard key choice, hash partitioning, consistent hashing, range partitioning, hot keys and skew, rebalancing, directory services, record.
+- `ac-consensus-protocols` (software-engineering, 8 leaves): replicated log, leader and terms, quorum intersection, leases and fencing, membership changes, single-decree and epochs, learners and witnesses, record.
+- Routing: sealed blind run 104 (46 tasks over a 216-entry catalog) — content-addressed-storage 14 of 14, sharding-and-placement 15 of 15, consensus-protocols 13 of 13, negatives 4 of 4. No description corrections.
+
+### Fixed
+- First gate returned HOLD: all three SKILL.md descriptions exceeded the 1024-character cap (1119/1072/1092). Trimmed to 885/918/925; a duplicate registry URL merged in `registry-resolution`. Re-audit returned SHIP on all seven narrow checks.
+- README software-engineering index line carried a duplication defect from an earlier release (four skill names repeated); fixed in this release.
+
+The pack is now 191 skills, 1260 leaves.
+
 ## 0.54.0 — 2026-11-11
 
 ### Added
