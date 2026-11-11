@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-164 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+170 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -8,7 +8,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 | Suite | Skills | Leaves |
 |---|---|---|
-| Software engineering | 43 | 228 |
+| Software engineering | 49 | 294 |
 | Writing | 17 | 70 |
 | Prompt engineering (`ac-prompt-engineer`) | 1 | 12 |
 | Skill authoring | 3 | 24 |
@@ -18,7 +18,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Collaboration | 3 | 21 |
 | Crypto trading | 19 | 133 |
 | Investing | 72 | 506 |
-| **Total** | **164** | **1059** |
+| **Total** | **170** | **1103** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
@@ -34,7 +34,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 **Security hardening:** ac-security-engineer · ac-security-standards
 
-**Software engineering:** agent-coding-governance · api-design · architecture · architecture-survey · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · design-taste · domain-modeling · frontend-ui · git-workflow · llm-api-integration · mcp-authoring · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing
+**Software engineering:** agent-coding-governance · analytical-data-modeling · async-and-concurrency · data-migration-cutover · distributed-state-and-replication · service-lifecycle · stream-processing · api-design · architecture · architecture-survey · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · design-taste · domain-modeling · frontend-ui · git-workflow · llm-api-integration · mcp-authoring · performance · quality-verification · reliability · software-engineering-standards · spec-writing · task-planning · testing
 
 **Writing:** academic-writing · business-writing · brand-guidelines · doc-coauthoring · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks · dataviz
 

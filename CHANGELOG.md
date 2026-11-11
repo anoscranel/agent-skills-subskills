@@ -2,6 +2,25 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.50.0 — 2026-11-11
+
+### Added
+Six software-engineering skills:
+
+- `ac-distributed-state-and-replication` (8 leaves): replication topologies, read replicas and staleness, leader election and split-brain, quorum arithmetic, vector clocks and conflicts, CRDTs and merge, session guarantees, record.
+- `ac-analytical-data-modeling` (8): grain and facts, dimensions, slowly changing dimensions, star versus snowflake, aggregates and summaries, columnar and sort design, metrics definition layer, record.
+- `ac-stream-processing` (7): event versus processing time, watermarks, windowing, late and out-of-order, state and size, streaming joins, record.
+- `ac-service-lifecycle` (7): startup and readiness, configuration load, graceful shutdown, in-flight work, health endpoints, dependency ordering, record.
+- `ac-data-migration-cutover` (7): cutover strategies, dual writes, shadow and verification, backfill ordering, switch and rollback, straggler and reconciliation, record.
+- `ac-async-and-concurrency` (7): shared state and primitives, async runtimes, cancellation, lock ordering and deadlock, concurrency testing, async API design, record.
+
+Each passed a sealed blind routing run. Runs 94 and 96 (46 tasks each over a 195-entry catalog): **all six scored 14 of 14 at top 1**; run 95 caught one routing miss on `ac-async-and-concurrency` (cancellation-checkpoint phrasing), fixed in the description and re-run clean.
+
+### Fixed
+- The first v0.50.0 audit returned NO-SHIP with three blockers: citation domains that never existed (31 occurrences across three trees). All were replaced with fetch-verified live hosts (Apache Flink docs, dataintensive.net, kimballgroup.com, clickhouse.com docs); all 18 distinct hosts across the six trees were verified live before the re-audit, which returned SHIP. Root cause recorded in the operation's findings.
+
+The pack is now 170 skills, 1103 leaves.
+
 ## 0.49.0 — 2026-11-11
 
 ### Added
