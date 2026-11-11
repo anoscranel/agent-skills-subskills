@@ -2,6 +2,25 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.51.0 — 2026-11-11
+
+### Added
+Six software-engineering skills, each a 7-leaf tree:
+
+- `ac-frontend-bundling`: module resolution, entry points and splitting, tree shaking and side effects, bundle budgets, source maps, asset graphs and hashing, bundle record.
+- `ac-network-edge-and-delivery`: DNS and propagation, TLS termination, load balancer behaviour, CDN cache keys, origin shielding, redirects and routing rules, edge record.
+- `ac-code-generation-and-apis`: codegen as a build step, type generation, client generation, database model generation, config bindings generation, reviewing generated code, codegen record.
+- `ac-software-supply-chain`: lockfiles and integrity, dependency risk and updates, vendoring versus fetching, provenance and signing, registry hygiene, fleet lockfile management, supply-chain record.
+- `ac-static-analysis`: what analysis finds, rule selection and severity, suppressions and baselines, metrics and their misuse, analysis in review, adopting onto existing code, analysis record.
+- `ac-test-environments`: local parity, preview environments, seeded versus shared data, environment drift, concurrent execution, environment cost, environment record.
+
+### Fixed
+- One routing description correction: `ac-software-supply-chain` scored 9/14 on its first sealed run (dependency-update, fleet, signing, and review-discipline tasks routed to adjacent skills); the description gained "dependency update discipline", "security release across a fleet", "lockfile merge review", "exception log with expiry", and "dormant repository updates". Fresh sealed re-run: 14/14.
+
+Each skill passed a sealed blind routing run over a 201-entry catalog: 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+The pack is now 176 skills, 1145 leaves.
+
 ## 0.50.0 — 2026-11-11
 
 ### Added
