@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.60.0 — 2026-11-12
+
+### Added
+- `ac-systematic-review-conduct` (research-operations, 9 leaves): the question and eligibility, search and coverage, screening and agreement, extraction forms, risk of bias, grey literature and registers, the PRISMA record, protocol registration, and the conduct record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 222-entry catalog): 14 of 14 at top 1 after one description fix (the router missed "audit trail" as a noun; added), 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `research-operations` domain row now names all three research skills.
+
+This fills the layer between hunting evidence (ac-deep-researcher) and writing the review (ac-academic-writing): the protocol-before-evidence conduct that makes a review systematic rather than authoritative-sounding — dual screening with measured agreement, extraction piloted in duplicate, named bias tools with cited judgments, registers versus published outcomes, amendments dated and prompted.
+
+The pack is now 197 skills, 1307 leaves.
+
 ## 0.59.0 — 2026-11-12
 
 ### Added

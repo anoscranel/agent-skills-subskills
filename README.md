@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-196 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+197 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -13,12 +13,12 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Prompt engineering (`ac-prompt-engineer`) | 1 | 12 |
 | Skill authoring | 3 | 24 |
 | Security hardening | 3 | 39 |
-| Research operations | 2 | 19 |
+| Research operations | 3 | 28 |
 | Critical thinking | 2 | 15 |
 | Collaboration | 3 | 21 |
 | Crypto trading | 20 | 141 |
 | Investing | 72 | 506 |
-| **Total** | **196** | **1298** |
+| **Total** | **197** | **1307** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
