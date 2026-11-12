@@ -2,6 +2,16 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.69.0 — 2026-11-12
+
+### Added
+- `ac-lexical-search-engineering` (software-engineering, 8 leaves): the analysis chain, the inverted index, query construction, BM25 scoring and tuning, typo tolerance, facets and aggregations, autocomplete and suggest, and the search record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 235-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope answered `none`.
+
+The probe found the token side of search unowned: the vector-retrieval skill's hybrid leaf assumes the sparse half rather than teaching it, and no tree covered analyzers, postings, BM25, facets, or type-ahead. This skill owns the token side; the combination remains with the retrieval skill.
+
+The pack is now 210 skills, 1415 leaves.
+
 ## 0.68.0 — 2026-11-12
 
 ### Added
