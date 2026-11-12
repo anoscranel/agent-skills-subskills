@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.72.0 — 2026-11-12
+
+### Added
+- `ac-media-pipelines` (software-engineering, 8 leaves): source and derivatives, upload verification, image optimisation, thumbnails and previews, video ladders, async processing jobs, metadata and privacy, media pipeline record.
+- Passed its sealed blind routing run (18 pre-registered tasks over a 241-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+- The first gate returned HOLD: the SKILL.md description line carried an unescaped quote pair that broke strict YAML parsing, and once parsed it exceeded the 1024-character cap. The line was rebuilt as a single-quoted YAML scalar at 993 characters, re-sealed, and re-audited to SHIP.
+
+The pack is now 216 skills, 1458 leaves.
+
 ## 0.71.0 — 2026-11-12
 
 ### Added
