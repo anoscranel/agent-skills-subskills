@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.66.0 — 2026-11-12
+
+### Added
+- `ac-data-pipeline-orchestration` (software-engineering, 8 leaves): DAG dependencies, idempotency and reruns, backfills, late data and upserts, partitioning strategy, freshness and SLAs, lineage and observability, and the pipeline record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 230-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- The gate noted the description named phrases no leaf delivers ("as-of reads", "medallion layers", "failure semantics"); the phrases were removed rather than the leaves padded — the description now maps one-to-one to the eight leaves (parsed 1023 → 895 characters).
+
+### Changed
+- The `software-engineering` domain row now names all seventy-eight software skills.
+
+The pack is now 205 skills, 1371 leaves.
+
 ## 0.65.0 — 2026-11-12
 
 ### Added
