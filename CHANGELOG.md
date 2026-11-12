@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.65.0 — 2026-11-12
+
+### Added
+- `ac-ml-systems-practice` (software-engineering, 8 leaves): pipeline and data validation, features and leakage, splits and evaluation, artefacts and versioning, train-serve skew, champion-challenger and canary, drift and retraining, and the ML systems record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 229-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+- The first gate returned HOLD: the description parsed to 1035 characters, 11 over the 1024 cap. Trimmed to 1001; re-audited to SHIP.
+
+### Changed
+- The `software-engineering` domain row now names all seventy-seven SE skills.
+
+The pack is now 204 skills, 1363 leaves.
+
 ## 0.64.0 — 2026-11-12
 
 ### Added
