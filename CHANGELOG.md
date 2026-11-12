@@ -2,6 +2,20 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.67.0 — 2026-11-12
+
+### Added
+- `ac-gpu-and-parallel-compute` (software-engineering, 8 leaves): execution model, memory hierarchy, coalescing and banks, occupancy and resources, launch and fusion, numeric formats, parallel algorithms, record.
+- `ac-model-evaluation` (prompt-engineering, 8 leaves): what the eval measures, case construction, contamination, scoring and judges, metrics and reading, human comparison, eval economics, record.
+- Each scored 14 of 14 at top 1 on its first sealed blind routing run (combined 32 tasks over a 232-entry catalog), with 4 of 4 out-of-scope tasks answered `none`.
+
+The first covers the programming model of throughput hardware — warps, coalescing, occupancy, transfers — unrepresented until now. The second covers evaluation-suite design for model selection, the instrument `ac-prompt-engineer` deliberately does not carry.
+
+### Changed
+- The `software-engineering` and `prompt-engineering` domain rows name the two new skills.
+
+The pack is now 207 skills, 1387 leaves.
+
 ## 0.66.0 — 2026-11-12
 
 ### Added
