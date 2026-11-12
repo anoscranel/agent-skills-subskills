@@ -2,6 +2,16 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.74.0 — 2026-11-13
+
+### Added
+- `ac-saas-tax-and-geography` (software-engineering, 8 leaves): place of supply, tax ID validation, thresholds and registration, reverse charge, tax-inclusive and display, invoicing compliance, tax address evidence, and the written tax-geography record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 243-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+The boundary: this skill owns the tax determination model a SaaS implements — place of supply, evidence, IDs, thresholds, display basis, invoice requirements; `ac-payments-and-billing-engineering` owns the charging machinery the determination feeds; `ac-money-arithmetic` owns the rounding of the computed amount. Nothing here is tax advice and no rate is named for any specific sale.
+
+The pack is now 218 skills, 1474 leaves.
+
 ## 0.73.0 — 2026-11-13
 
 ### Added
