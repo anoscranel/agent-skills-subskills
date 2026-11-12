@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.73.0 — 2026-11-13
+
+### Added
+- `ac-content-moderation` (software-engineering, 8 leaves): policy hierarchy from principles to decidable line-level rules, violation taxonomy that makes reviewer disagreement measurable, classifier thresholds as precision-recall decisions, review queues with calibrated inter-rater agreement, graduated enforcement ladders, appeals as the system's error-rate measurement, boundaries with adjacent security surfaces, and the written moderation record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 242-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- One cosmetic typo from the gate audit: a `precision-recoll` mis-key in the classifiers leaf's scope line, corrected to `precision-recall` before push.
+
+The pack is now 217 skills, 1466 leaves.
+
 ## 0.72.0 — 2026-11-12
 
 ### Added
