@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.68.0 — 2026-11-12
+
+### Added
+- `ac-payments-and-billing-engineering` (software-engineering, 11 leaves): payment state machine, idempotent charging, authorization and capture, declines and retries, webhook reconciliation, the double-entry ledger, subscription lifecycle and dunning, proration and metering, disputes and chargebacks, PCI card boundaries, and the payments record.
+- `ac-recommendation-systems` (software-engineering, 9 leaves): feedback signals, candidate generation, cold start, learning to rank, bias and correction, offline metrics, filtering and diversity, exploration and coverage, and the recommender record.
+- Each passed a sealed blind routing run (combined 32 tasks over a 234-entry catalog): 14 of 14 at top 1 each, 4 of 4 out-of-scope answered `none`.
+
+Both skills found by the same probe that overrode the v0.66.0 stop: payments engineering and recommendation ranking were misclassified as thin, but the grep evidence (PCI, chargeback, dunning, reconciliation, collaborative filtering, NDCG, position bias all zero) showed two unowned surfaces.
+
+The pack is now 209 skills, 1407 leaves.
+
 ## 0.67.0 — 2026-11-12
 
 ### Added
