@@ -2,6 +2,21 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.75.0 — 2026-11-13
+
+### Added
+- `ac-ma-transaction-execution` (investing, 8 leaves): deal structure and consideration, the merger model and synergies, accretion and dilution, purchase price allocation, reps warranties and indemnities, working capital and closing, regulatory clearance, deal record.
+- `ac-venture-financing` (investing, 9 leaves): cap table mechanics, liquidation preferences, anti-dilution and ratchets, option pool dilution, term sheet sequence, venture debt, exit waterfall, 409A fairness value, venture record.
+- Each passed a sealed blind routing run (combined 32 tasks over a 245-entry catalog): 14 of 14 at top 1 each, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+- Three citations in the venture tree cited a standards body whose remit does not cover private-company valuation; replaced live-first with a valuation association and a topical reference (the audit's minor finding, repaired before push).
+
+### Changed
+- The `investing` domain row now names all seventy-four investing skills, adding M&A transaction execution and venture financing mechanics to its scope.
+
+The pack is now 220 skills, 1491 leaves.
+
 ## 0.74.0 — 2026-11-13
 
 ### Added
