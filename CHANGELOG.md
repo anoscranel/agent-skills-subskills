@@ -2,6 +2,15 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.71.0 — 2026-11-12
+
+### Added
+- `ac-geospatial-data` (software-engineering, 7 leaves): coordinate reference systems, spatial index structures, bounding boxes and filters, distance and proximity, nearest neighbour, polygons and containment, record.
+- `ac-realtime-media-transport` (software-engineering, 7 leaves): NAT traversal and ICE, STUN and TURN, signalling and handshake, SDP and media negotiation, mandatory security, data channels, record.
+- Each passed a sealed blind routing run (combined 32 tasks over a 240-entry catalog): 14 of 14 at top 1 each, 4 of 4 out-of-scope answered `none`.
+
+The pack is now 215 skills, 1450 leaves.
+
 ## 0.70.0 — 2026-11-12
 
 ### Added
