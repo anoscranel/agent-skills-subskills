@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.70.0 — 2026-11-12
+
+### Added
+- `ac-email-deliverability` (software-engineering, 7 leaves): SPF and alignment, DKIM signing, DMARC policy, reputation and senders, bounce and complaint loops, list hygiene, record.
+- `ac-time-series-storage` (software-engineering, 7 leaves): the series model, write path, schema and indexing, chunking and compaction, downsampling and retention, query path, record.
+- `ac-notification-systems` (software-engineering, 7 leaves): anatomy and events, fan-out across channels, delivery receipts, channel policies, user preferences and attention, digest and batching, record.
+- Each passed a sealed blind routing run (combined 46 tasks over a 238-entry catalog): 14 of 14 at top 1 each, 4 of 4 out-of-scope answered `none`.
+
+### Fixed
+- The Gorilla VLDB paper URL now redirects to a proceedings shell; all 10 occurrences replaced with the live, content-verified time-series-database overview (live-first applied after the audit flagged the dead link). One capitalisation repair in retention decision rules.
+
+The pack is now 213 skills, 1436 leaves.
+
 ## 0.69.0 — 2026-11-12
 
 ### Added
