@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.78.0 — 2026-11-13
+
+### Added
+- `ac-agent-memory-and-recall` (prompt-engineering, 8 leaves): what-persists · note-anatomy · promote-and-supersede · recall-discipline · staleness-and-review · knowledge-manage · migration-and-portability · memory-record.
+- Memory that outlives the session: what an agent writes down at the end of its work, how notes are shaped so recall works, promoting and superseding rather than appending contradictions, staleness dating, corpus hygiene, and portability when a store dies.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 249-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `prompt-engineering` domain row now names all six prompt skills.
+
+The pack is now 224 skills, 1521 leaves.
+
 ## 0.77.0 — 2026-11-13
 
 ### Added
