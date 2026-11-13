@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.76.0 — 2026-11-13
+
+### Added
+- `ac-token-cost-optimization` (prompt-engineering, 8 leaves): pricing anatomy · model tiering and cascades · prompt cache economics · batch discounts · context window economics · output token economics · spend ledger · cost record.
+- The per-dollar counterpart to `ac-single-request-value`: that skill minimizes requests per answer; this one minimizes dollars per answer.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 246-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `prompt-engineering` domain row now names all four prompt skills.
+
+The pack is now 221 skills, 1499 leaves.
+
 ## 0.75.0 — 2026-11-13
 
 ### Added
