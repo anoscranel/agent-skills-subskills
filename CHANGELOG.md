@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.81.0 — 2026-11-13
+
+### Added
+- `ac-inference-serving` (software-engineering, 7 leaves): the memory wall · KV-cache management · batching strategies · streaming and first-token · throughput versus latency · GPU fleet scaling · serving record.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 252-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- The first gate returned HOLD: the description parsed 33 characters over the 1024 cap. Trimmed to 987 parsed characters; catalog re-sealed; re-audited to SHIP.
+- The README Software-engineering index line, which had accumulated insertion-order artifacts across releases, was rebuilt from `skills/` on disk (92 names, alphabetical, no duplicates).
+
+The pack is now 227 skills, 1543 leaves.
+
 ## 0.80.0 — 2026-11-13
 
 ### Added

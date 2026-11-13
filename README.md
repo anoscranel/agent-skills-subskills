@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-226 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+227 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -8,7 +8,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 | Suite | Skills | Leaves |
 |---|---|---|
-| Software engineering | 91 | 592 |
+| Software engineering | 92 | 599 |
 | Writing | 17 | 70 |
 | Prompt engineering | 7 | 58 |
 | Skill authoring | 3 | 24 |
@@ -18,7 +18,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Collaboration | 3 | 21 |
 | Crypto trading | 20 | 141 |
 | Investing | 74 | 522 |
-| **Total** | **226** | **1536** |
+| **Total** | **227** | **1543** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
@@ -34,7 +34,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 **Security hardening:** security-engineer · security-standards · compliance-program-engineering
 
-**Software engineering:** agent-coding-governance · agent-run-observability · api-limit-operations · audit-logging · content-moderation · email-deliverability · geospatial-data · gpu-and-parallel-compute · client-state-and-interaction · data-pipeline-orchestration · ml-systems-practice · media-pipelines · binary-formats · byzantine-consensus · compilers-and-abis · consensus-protocols · content-addressed-storage · database-engine-internals · message-queues · notification-systems · online-experiments · lexical-search-engineering · payments-and-billing-engineering · recommendation-systems · low-level-io-and-syscalls · memory-layout-and-caches · sharding-and-placement · wasm-and-sandboxes · production-debugging · resource-exhaustion-diagnosis · transaction-isolation · saas-tax-and-geography · scheduled-jobs · time-and-clocks · text-encoding · static-analysis · analytical-data-modeling · async-and-concurrency · code-generation-apis · data-migration-cutover · distributed-state-and-replication · network-edge-and-delivery · frontend-bundling · service-lifecycle · stream-processing · api-design · architecture · architecture-survey · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · design-taste · domain-modeling · frontend-ui · git-workflow · software-supply-chain · llm-api-integration · mcp-authoring · performance · quality-verification · realtime-media-transport · reliability · software-engineering-standards · test-environments · time-series-storage · spec-writing · task-planning · testing
+**Software engineering:** agent-coding-governance · agent-run-observability · analytical-data-modeling · api-design · api-limit-operations · architecture · architecture-survey · async-and-concurrency · audit-logging · binary-formats · byzantine-consensus · caching-and-invalidation · chaos-and-capacity-testing · ci-and-release · cli-and-tool-design · client-state-and-interaction · code-construction · code-generation-and-apis · code-review · codebase-maintenance · compilers-and-abis · consensus-protocols · content-addressed-storage · content-moderation · cost-aware-engineering · data-contracts · data-migration-cutover · data-pipeline-orchestration · database-changes · database-engine-internals · debugging · design-taste · distributed-state-and-replication · domain-modeling · durable-execution · email-deliverability · event-driven-architecture · frontend-bundling · frontend-ui · geospatial-data · git-workflow · gpu-and-parallel-compute · graphql-and-streaming-apis · i18n-and-localisation · inference-serving · lexical-search-engineering · llm-api-integration · low-level-io-and-syscalls · mcp-authoring · media-pipelines · memory-layout-and-caches · message-queues · ml-systems-practice · mobile-client-engineering · money-arithmetic · monorepo-and-build-systems · multitenancy-and-isolation · network-edge-and-delivery · notification-systems · online-experiments · payments-and-billing-engineering · performance · platform-engineering · privacy-engineering · production-debugging · quality-verification · query-and-index-design · realtime-media-transport · recommendation-systems · reliability · resilience-budgets · resource-exhaustion-diagnosis · retrieval-and-vector-systems · saas-tax-and-geography · scheduled-jobs · sdk-and-client-library-design · service-lifecycle · sharding-and-placement · software-engineering-standards · software-supply-chain · spec-writing · static-analysis · stream-processing · task-planning · test-environments · testing · text-encoding · time-and-clocks · time-series-storage · transaction-isolation · wasm-and-sandboxes · webhook-and-async-delivery
 **Prompt engineering:** agent-memory-and-recall · agent-tool-design · model-evaluation · prompt-engineer · rag-systems · single-request-value · token-cost-optimization
 
 **Writing:** academic-writing · business-writing · brand-guidelines · doc-coauthoring · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks · dataviz
