@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.77.0 — 2026-11-13
+
+### Added
+- `ac-agent-tool-design` (prompt-engineering, 7 leaves): what becomes a tool · reading descriptions · tool menu design · result payloads · errors as lessons · choosing parameters · tool-surface record.
+- `ac-compliance-program-engineering` (security-hardening, 7 leaves): framework and scope · control-to-owner mapping · evidence from the pipeline · policies that match · readiness review · findings and remediation · compliance record.
+- Each passed a sealed blind routing run (18 pre-registered tasks over a 248-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- The first audit returned HOLD on one self-referential citation (framework-and-scope.md cited the pack's own skill name as a URL); replaced with a live source and re-audited to SHIP.
+
+The pack is now 223 skills, 1513 leaves.
+
 ## 0.76.0 — 2026-11-13
 
 ### Added

@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-221 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+223 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -10,15 +10,15 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 |---|---|---|
 | Software engineering | 90 | 584 |
 | Writing | 17 | 70 |
-| Prompt engineering | 4 | 36 |
+| Prompt engineering | 5 | 43 |
 | Skill authoring | 3 | 24 |
-| Security hardening | 3 | 39 |
+| Security hardening | 4 | 46 |
 | Research operations | 5 | 46 |
 | Critical thinking | 2 | 15 |
 | Collaboration | 3 | 21 |
 | Crypto trading | 20 | 141 |
 | Investing | 74 | 522 |
-| **Total** | **221** | **1499** |
+| **Total** | **223** | **1513** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
@@ -32,10 +32,10 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 **Investing:** activism · capital-return · corporate-treasury · credit-rating-mechanics · distressed-and-restructuring · ma-transaction-execution · venture-financing · equity-capital-markets · direct-real-estate · forensic-accounting · fund-structures-and-wrappers · fund-reporting-and-metrics · infrastructure-and-project-finance · insurance-linked-securities · investment-oversight-and-ocio · liability-driven-investing · municipal-bonds · pension-risk-transfer · securitisation-and-tranches · share-based-compensation · sovereign-debt · trade-policy-and-restrictions · transaction-cost-analysis · climate · convertible-and-hybrid-capital · emerging-market-access · litigation · manager-diligence · portfolio-financing · private-credit · trade-finance · alternatives-and-real-assets · bank-and-credit-analysis · broker-and-custody-selection · commodity-options · commodity-trading · credit-derivatives · credit-options · equity-options · equity-index-futures · forex-trading · fx-options · rates-options · rates-trading · portfolio-leverage · estate-and-succession · insurance-and-risk-transfer · structured-products · behavioral-investing · corporate-actions · currency-and-fx-risk · equity-market-structure · equity-research · fixed-income-and-rates · investment-policy-statement · trading-records-and-tax · valuation
 
-**Security hardening:** ac-security-engineer · ac-security-standards
+**Security hardening:** security-engineer · security-standards · compliance-program-engineering
 
 **Software engineering:** agent-coding-governance · api-limit-operations · audit-logging · content-moderation · email-deliverability · geospatial-data · gpu-and-parallel-compute · client-state-and-interaction · data-pipeline-orchestration · ml-systems-practice · media-pipelines · binary-formats · byzantine-consensus · compilers-and-abis · consensus-protocols · content-addressed-storage · database-engine-internals · message-queues · notification-systems · online-experiments · lexical-search-engineering · payments-and-billing-engineering · recommendation-systems · low-level-io-and-syscalls · memory-layout-and-caches · sharding-and-placement · wasm-and-sandboxes · production-debugging · resource-exhaustion-diagnosis · transaction-isolation · saas-tax-and-geography · scheduled-jobs · time-and-clocks · text-encoding · static-analysis · analytical-data-modeling · async-and-concurrency · code-generation-apis · data-migration-cutover · distributed-state-and-replication · network-edge-and-delivery · frontend-bundling · service-lifecycle · stream-processing · api-design · architecture · architecture-survey · ci-and-release · code-construction · code-review · codebase-maintenance · database-changes · debugging · design-taste · domain-modeling · frontend-ui · git-workflow · software-supply-chain · llm-api-integration · mcp-authoring · performance · quality-verification · realtime-media-transport · reliability · software-engineering-standards · test-environments · time-series-storage · spec-writing · task-planning · testing
-**Prompt engineering:** model-evaluation · prompt-engineer · single-request-value · token-cost-optimization
+**Prompt engineering:** agent-tool-design · model-evaluation · prompt-engineer · single-request-value · token-cost-optimization
 
 **Writing:** academic-writing · business-writing · brand-guidelines · doc-coauthoring · drafting · editing · evidence-and-citation · narrative-writing · news-writing · persuasive-writing · plain-language · proposal-writing · technical-writing · voice-and-style · writing-standards · slide-decks · dataviz
 
