@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.80.0 — 2026-11-13
+
+### Added
+- `ac-agent-run-observability` (software-engineering, 8 leaves): run record structure · step-level tracing · token and cost per step · replay and diff · failure classification · trace sampling · agent dashboards · run observability record.
+- The inspection layer for agent behaviour: "why did the agent do that at step four" answered from a stored trajectory, not a rerun. Splits named against reliability (service telemetry), model-evaluation (offline suites), token-cost (spend ledgers), and agent-memory (across sessions).
+- Passed a sealed blind routing run (18 pre-registered tasks over a 251-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all ninety-one SE skills.
+
+The pack is now 226 skills, 1536 leaves.
+
 ## 0.79.0 — 2026-11-13
 
 ### Added
