@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.82.0 — 2026-11-15
+
+### Added
+- `ac-model-fine-tuning` (software-engineering, 8 leaves): the fine-tune-or-prompt decision · training-data craft · supervised fine-tuning and overfit traps · LoRA-class parameter-efficient methods · preference optimisation from RLHF to DPO · evaluation during training · serving the adapted adapter beside its pinned base · the fine-tuning record.
+- The adaptation layer the AI-stack was missing: `ac-prompt-engineer` explicitly disclaims model training; `ac-ml-systems-practice` explicitly disclaims tuning one. This skill fills the seam between them.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 253-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- Gate-minor repairs pre-push: four one-word typos and two word-band top-up paragraphs relocated from the Done-checklist region into Standard.
+
+The pack is now 228 skills, 1551 leaves.
+
 ## 0.81.0 — 2026-11-13
 
 ### Added
