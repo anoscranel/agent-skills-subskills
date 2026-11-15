@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.83.0 — 2026-11-15
+
+### Added
+- `ac-product-analytics-instrumentation` (software-engineering, 7 leaves): the event taxonomy and its governance · event naming by user-visible action · property design with types, units, and enums · identity stitching from anonymous to logged-in · client-side delivery realities (beacons, batching, lifecycle loss) · the event plan · the event record.
+- The instrumentation layer nobody owned: `ac-online-experiments` owns the experiment; `ac-analytical-data-modeling` owns the warehouse the events land in; this skill designs the tracking layer between them.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 254-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- The first gate returned HOLD on the description cap (1037 parsed, 13 over): trimmed to 982 via three targeted cuts, re-audited to SHIP.
+
+The pack is now 229 skills, 1558 leaves.
+
 ## 0.82.0 — 2026-11-15
 
 ### Added
