@@ -2,6 +2,21 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.84.0 — 2026-11-16
+
+### Added
+- `ac-agent-guardrails` (software-engineering, 7 leaves): action classification · interception points · output screening · interrupt harness · blast-radius bounds · guardrail incidents · guardrail record.
+- The runtime enforcement layer for live agents: the seam between static tool permissioning (ac-security-engineer), injection as a vulnerability class (ac-prompt-engineer), and content adjudication policy (ac-content-moderation) — none of which watch a running agent and can actually interrupt it.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 256-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- Four typos caught by the release audit and repaired before push: two in leaf bodies ("THC classification" for "Misclassification", "classificaion"), one in the index ("single-quote binary" for "single-catch binary"), one in the overview ("organismalive"). All re-gated clean.
+
+### Changed
+- The `software-engineering` domain row now names all ninety-five software-engineering skills.
+
+The pack is now 230 skills, 1565 leaves.
+
 ## 0.83.0 — 2026-11-15
 
 ### Added
