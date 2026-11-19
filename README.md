@@ -8,7 +8,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 
 | Suite | Skills | Leaves |
 |---|---|---|
-| Software engineering | 96 | 629 |
+| Software engineering | 96 | 628 |
 | Writing | 17 | 70 |
 | Prompt engineering | 7 | 58 |
 | Skill authoring | 3 | 24 |
@@ -17,7 +17,7 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Critical thinking | 2 | 15 |
 | Collaboration | 3 | 21 |
 | Crypto trading | 20 | 141 |
-| Investing | 74 | 522 |
+| Investing | 74 | 523 |
 | **Total** | **231** | **1572** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption

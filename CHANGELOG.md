@@ -2,6 +2,17 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.86.0 — 2026-11-19
+
+### Fixed
+- Full-pack independent audit and repair across all 231 skills / 1572 leaves. Removed fabricated arXiv/DOI citations and invented paper titles; corrected wrong-paper attributions (each replacement content-verified against a primary source); re-pointed or replaced dead and glued URLs; repaired 175 leaves that fell below the body/Sources citation minimums; normalized conventions (60 SKILL.md status fields, 6 descriptions, 4 leaf section structures); removed control-byte corruption in one formula.
+- README domain table: software-engineering leaf count 629→628 and investing 522→523 (publish-time arithmetic errors; the 1572 total was already correct).
+
+### Verified
+- Three independent delta-audit rounds on an append-only gate log; final verdict SHIP. Structure lint 231/231, security scan 0 failures, strict YAML 1803/1803, description caps and leaf word bands in range, and staging==installed for all 231 skills.
+
+The pack remains 231 skills, 1572 leaves.
+
 ## 0.85.0 — 2026-11-19
 
 ### Added
