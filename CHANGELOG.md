@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.85.0 — 2026-11-19
+
+### Added
+- `ac-agent-eval-harness` (software-engineering, 7 leaves): golden scenarios · assertion layers · tool doubles · replay regression · flaky agent triage · environment simulation · harness record.
+- The pre-release test layer for assembled agent systems: testing the loop, tools, and guardrails together under controlled conditions before a change ships. The seam: model-evaluation owns model selection offline, agent-run-observability owns live runs, agent-guardrails owns the runtime interrupt — nobody owned testing the assembled agent before release.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 257-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`. Sixth wrong-arXiv-ID caught pre-write (a particle-physics paper on muon decay — content-verified and dropped before writing).
+
+### Changed
+- The `software-engineering` domain row now names all ninety-six skills.
+
+The pack is now 231 skills, 1572 leaves.
+
 ## 0.84.0 — 2026-11-16
 
 ### Added
