@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.6.0 — 2026-11-21
+
+### Added
+- `ac-customer-success` (software-engineering, 7 leaves): the CS motion and retention economics, onboarding and time-to-value, health scores and early-warning signals, churn analysis and retention playbooks, QBRs and success plans, expansion and advocacy, and the metrics and record (NRR, GRR, logo retention).
+- The post-sale customer lifecycle: making customers achieve the outcome they bought for so they stay, expand, and advocate. The seam: product-management decides what to build, user-research observes users, sales wins the new logo — nobody owned value realisation after the sale. Success is measured by customer outcomes, never by vendor activity; an unfit customer is allowed to churn.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 277-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`. Gate held once (a retention guarantee and a mislabelled valueless renewal), both repaired, then delta SHIP.
+
+### Changed
+- The `software-engineering` domain row now names all one hundred and five skills.
+
+The pack is now 251 skills, 1712 leaves.
+
 ## 1.5.0 — 2026-11-21
 
 ### Added
