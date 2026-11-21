@@ -2,6 +2,13 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.3.0 — 2026-11-21
+
+### Added
+- `ac-medical-writing` (writing, 7 leaves): medical-writing principles · clinical and regulatory documents · patient information and health literacy · evidence and data reporting · publication ethics and transparency · medical record and review · medical education and clinician content.
+- The medical and clinical writing craft: clinical study reports and regulatory documents, patient information, honest evidence and data reporting, publication ethics, and the review record. The skill teaches writing craft only and carries an explicit never-medical-advice boundary; a qualified clinician owns every clinical decision.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 273-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
 ## 1.2.0 — 2026-11-21
 
 ### Added
