@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.90.0 — 2026-11-21
+
+### Added
+- `ac-privacy-preserving-ml` (software-engineering, 7 leaves): whether-privacy-preserving-ml · differential-privacy-foundations · dp-sgd-and-training · federated-learning · secure-aggregation-and-compute · privacy-utility-and-evaluation · privacy-ml-record.
+- The formal-privacy-guarantee craft for ML: differential privacy and its epsilon-delta budget, DP-SGD with per-example clipping and calibrated noise, federated learning, secure aggregation and cryptographic computation, and the privacy-versus-utility accounting. The seam: privacy-engineering owns data governance and GDPR duties, ml-systems-practice owns the pipeline, model-fine-tuning owns adapting weights, security-engineer owns application hardening — nobody owned training models under a formal privacy guarantee.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 261-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all one hundred skills.
+
+The pack is now 235 skills, 1600 leaves.
+
 ## 0.89.0 — 2026-11-21
 
 ### Added
