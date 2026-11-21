@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.96.0 — 2026-11-21
+
+### Added
+- `ac-team-collaboration` (collaboration, 7 leaves): working agreements and norms · meeting facilitation · async and written communication · psychological safety and trust · feedback and difficult conversations · stakeholder management and alignment · conflict and repair.
+- The day-to-day human team collaboration craft: how a team coordinates and disagrees productively. The seam: handoff writes the handoff artifact, inbound-triage routes a work queue, multi-agent-orchestration coordinates agents — nobody owned the human team's working agreements, safety, feedback, and conflict repair.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 267-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `collaboration` domain row now names all four skills.
+
+The pack is now 241 skills, 1642 leaves.
+
 ## 0.95.0 — 2026-11-21
 
 ### Added
