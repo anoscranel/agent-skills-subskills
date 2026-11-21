@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.5.0 — 2026-11-21
+
+### Added
+- `ac-change-management` (collaboration, 7 leaves): change framing and case · readiness and impact · change models and roadmaps · stakeholder engagement and communication · training and adoption · sustaining and reinforcing change · change metrics and record.
+- The organisational-adoption craft. The seam: project-management runs the project that produces the change; team-collaboration is day-to-day teamwork; platform-engineering drives internal platform adoption; nobody owned getting an organisation to actually adopt a change. Adoption, not delivery, is the deliverable.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 276-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `collaboration` domain row now names all six skills.
+
+The pack is now 250 skills, 1705 leaves.
+
 ## 1.4.0 — 2026-11-21
 
 ### Added
