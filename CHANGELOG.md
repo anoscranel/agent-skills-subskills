@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.1.0 — 2026-11-21
+
+### Added
+- `ac-science-communication` (writing, 7 leaves): audience and purpose · finding the story · accuracy without hype · conveying uncertainty · analogies and explanation · press release and media · scicomm record and ethics.
+- The science-to-public craft: explaining research to non-expert audiences without distorting it. The seam: academic-writing owns scholarly papers for experts, plain-language owns public standards documents, narrative-writing owns story and talk craft, technical-writing owns product docs — nobody owned explaining science to the public. Rejects the deficit model, matches claim strength to evidence, and treats uncertainty and corrections as first-class responsibilities.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 272-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`. Two stale negatives (salary negotiation, parser writing) had become in-domain as the pack grew and were replaced before the scored run.
+
+### Changed
+- The `writing` domain row now names all eighteen skills.
+
+The pack is now 246 skills, 1677 leaves.
+
 ## 1.0.0 — 2026-11-21
 
 ### Added
