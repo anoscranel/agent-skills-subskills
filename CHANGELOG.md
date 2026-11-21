@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.98.0 — 2026-11-21
+
+### Added
+- `ac-user-research` (software-engineering, 7 leaves): research framing · usability testing · usability metrics · interviews and personas · recruiting and screening · analysis and synthesis · research record and ethics.
+- The observe-real-users craft: task-based usability testing with measured task success, time-on-task, SUS and SEQ, plus generative user interviews, personas and journey maps. The seam: design-taste evaluates with expert judgement, qualitative-research-methods runs open-ended studies, product-management decides what to build, survey-research-methods measures at scale. Nobody owned watching real users attempt real tasks.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 269-entry catalog): 14 of 14 at top 1, 3 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all one-hundred-and-two skills.
+
+The pack is now 243 skills, 1656 leaves.
+
 ## 0.97.0 — 2026-11-21
 
 ### Added
