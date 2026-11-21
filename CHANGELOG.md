@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.4.0 — 2026-11-21
+
+### Added
+- `ac-project-management` (software-engineering, 7 leaves): project framing and charter · scope and work breakdown · scheduling and critical path · estimation and budgeting · risk and issue management · stakeholder and communication · monitoring control and closure.
+- Owns the project lifecycle from charter to closure: the WBS and one-hundred-percent rule, the critical path and float, estimation ranges with risk-sized contingency, the risk register with owners and triggers, the interest-influence stakeholder grid, and earned-value monitoring through to lessons learned. The seam: task-planning slices an approved spec into tasks, product-management decides what to build, spec-writing writes the feature spec — nobody owned running the project itself.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 275-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all one hundred and four skills.
+
+The pack is now 249 skills, 1698 leaves.
+
 ## 1.3.0 — 2026-11-21
 
 ### Added
