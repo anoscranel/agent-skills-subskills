@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.88.0 — 2026-11-21
+
+### Added
+- `ac-model-compression` (software-engineering, 7 leaves): whether to compress · quantization · knowledge distillation · pruning and sparsity · model merging · evaluating compression · compression record.
+- The model-artifact compression craft: quantization (PTQ vs QAT, GPTQ, AWQ, GGUF), distillation, structured/unstructured pruning, and merging (soups, task arithmetic, DARE). The seam: inference-serving runs the model, fine-tuning adapts weights by training, gpu-compute is the hardware layer — nobody owned compressing the artifact itself.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 259-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope answered `none`. Two gate MAJORs (off-topic Deep Compression caption in distillation; pruning storage/speed conflation) caught and repaired, delta-audited SHIP.
+
+### Changed
+- The `software-engineering` domain row now names all ninety-eight skills.
+
+The pack is now 233 skills, 1586 leaves.
+
 ## 0.87.0 — 2026-11-21
 
 ### Added
