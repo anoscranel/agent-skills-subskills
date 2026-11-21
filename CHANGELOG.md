@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.95.0 — 2026-11-21
+
+### Added
+- `ac-threat-intelligence` (security-hardening, 7 leaves): intelligence requirements and cycle · collection and source evaluation · indicators and Pyramid of Pain · analysis models and frameworks · attribution and campaign tracking · sharing standards and handling · operationalising and measuring intel.
+- The threat-intelligence production craft. The seam: security-operations runs the SOC, detection and threat hunting that consume intelligence; security-engineer hardens systems; security-standards maps which standard applies; nobody owned producing and disseminating the intelligence product itself. Attribution stays an assessment with confidence and alternatives, never a fact.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 266-entry catalog): 14 of 14 at top 1, 3 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- README `Security hardening` curated index now lists `security-operations` (pre-existing drift) alongside the new `threat-intelligence`.
+
+The pack is now 240 skills, 1635 leaves.
+
 ## 0.94.0 — 2026-11-21
 
 ### Added
