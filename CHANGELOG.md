@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.91.0 — 2026-11-21
+
+### Added
+- `ac-decision-analysis` (critical-thinking, 7 leaves): framing the decision · objectives and trade-offs · alternatives and options · uncertainty and probabilities · expected value and decision trees · value of information and sensitivity · decision review and record.
+- The moment of choosing under uncertainty, which the pack did not cover. The seam: ideation generates the options, interrogation attacks a plan already chosen, behavioral-investing manages investor bias, scenario-and-stress-testing stresses a portfolio. Nobody owned structuring the choice itself: framing, objectives, real alternatives, calibrated probabilities, expected value and utility, value of information, and the decision journal that separates process from outcome.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 262-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `critical-thinking` domain row now names all three skills.
+
+The pack is now 236 skills, 1607 leaves.
+
 ## 0.90.0 — 2026-11-21
 
 ### Added
