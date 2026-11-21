@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.87.0 — 2026-11-21
+
+### Added
+- `ac-data-annotation` (software-engineering, 7 leaves): annotation guidelines · annotator calibration · inter-annotator agreement · adjudication and consensus · quality-control labels · active learning and sampling · annotation record.
+- The craft of producing trustworthy labeled data for ML and LLM systems. The seam: model-fine-tuning curates instruction/preference pairs once labels exist, model-evaluation reads preference win-rates, systematic-review-conduct screens literature, ml-systems-practice validates pipelines — nobody owned producing the labels themselves.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 258-entry catalog): 14 of 14 at top 1, negatives pass.
+
+### Changed
+- The `software-engineering` domain row now names all ninety-seven skills.
+
+The pack is now 232 skills, 1579 leaves.
+
 ## 0.86.0 — 2026-11-19
 
 ### Fixed
