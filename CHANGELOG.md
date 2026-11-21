@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.99.0 — 2026-11-21
+
+### Added
+- `ac-negotiation` (collaboration, 7 leaves): negotiation preparation · BATNA and leverage · distributive versus integrative · principled negotiation · tactics and counters · difficult negotiations · negotiation record and review.
+- The deal-making craft between independent parties whose interests partly conflict. The seam: team-collaboration owns the internal team, ma-transaction-execution owns M&A closing mechanics, persuasive-writing owns marketing copy, behavioral-investing owns the investor's biases — nobody owned the negotiation conversation itself.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 270-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `collaboration` domain row now names all five skills.
+
+The pack is now 244 skills, 1663 leaves.
+
 ## 0.98.0 — 2026-11-21
 
 ### Added
