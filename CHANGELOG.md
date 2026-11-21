@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.2.0 — 2026-11-21
+
+### Added
+- `ac-legal-writing` (writing, 7 leaves): legal-writing principles · legal analysis and memos · contract structure and drafting · persuasive legal writing · plain language and defined terms · legal citation and authority · legal record and review.
+- The legal-document writing craft: IRAC analysis, contract architecture, persuasive briefs, plain legal language, disciplined defined terms, legal citation, and the review record. The skill teaches writing craft only and carries an explicit never-legal-advice boundary; a qualified lawyer owns the substance of any real matter.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 273-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Fixed
+- Gate round 1 caught an incorrect authority hierarchy in the citation leaf ("regulations outrank cases"); replaced with an accurate statement (constitutions supreme, statutes/regulations binding primary law, cases interpreting them, higher courts binding lower, binding over persuasive). Delta audit confirmed.
+
+The pack is now 247 skills, 1684 leaves.
+
 ## 1.1.0 — 2026-11-21
 
 ### Added
