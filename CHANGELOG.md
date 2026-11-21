@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 1.0.0 — 2026-11-21
+
+### Added
+- `ac-knowledge-graph` (software-engineering, 7 leaves): knowledge-graph fundamentals · modeling and ontologies · RDF and identifiers · OWL and semantics · SPARQL and query · linked data and integration · knowledge-graph record.
+- The semantic-modeling craft: representing knowledge as entities and typed relationships so it can be integrated, queried and reasoned over. The seam: analytical-data-modeling owns the star schema, database-changes owns the operational schema, content-addressed-storage owns content hashing, recommendation-systems owns ranking — nobody owned the knowledge-graph model.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 271-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all 103 skills.
+
+The pack is now 245 skills, 1670 leaves.
+
 ## 0.99.0 — 2026-11-21
 
 ### Added
