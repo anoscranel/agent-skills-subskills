@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.92.0 — 2026-11-21
+
+### Added
+- `ac-causal-inference` (critical-thinking, 7 leaves): the causal question · DAG and confounding · identification strategies · matching and adjustment · natural experiments · sensitivity and robustness · causal inference record.
+- The observational causal-estimation craft: drawing the line between association and cause, stating the identifying assumptions, and stress-testing how much unmeasured confounding the conclusion can bear. The seam: online-experiments owns randomized designs, meta-analysis-and-synthesis pools study results, decision-analysis chooses under uncertainty — nobody owned estimating causal effects from observational data.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 263-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `critical-thinking` domain row now names all four skills.
+
+The pack is now 237 skills, 1614 leaves.
+
 ## 0.91.0 — 2026-11-21
 
 ### Added
