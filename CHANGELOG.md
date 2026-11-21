@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.97.0 — 2026-11-21
+
+### Added
+- `ac-product-management` (software-engineering, 7 leaves): product discovery and framing · customer discovery and evidence · prioritisation frameworks · roadmapping and outcomes · MVP and dual-track · product metrics and north star · product record and decisions.
+- The decide-what-to-build layer that precedes specification: opportunity framing, customer evidence, prioritisation, outcome-based roadmaps, MVP scoping, north-star metrics, and the product decision record. The seam: spec-writing specifies a decided feature, task-planning breaks it down, online-experiments runs controlled tests, product-analytics-instrumentation wires events — nobody owned deciding what to build.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 268-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all one hundred and one skills.
+
+The pack is now 242 skills, 1649 leaves.
+
 ## 0.96.0 — 2026-11-21
 
 ### Added
