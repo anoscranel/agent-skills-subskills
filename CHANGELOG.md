@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.89.0 — 2026-11-21
+
+### Added
+- `ac-edge-ml-deployment` (software-engineering, 7 leaves): whether-on-device · model formats and conversion · runtimes and delegates · browser and web inference · on-device benchmarking · memory thermal and power · integration fallback and record.
+- The on-device deployment craft: getting a trained model onto a phone, embedded board or browser and proving it runs acceptably there. The seam: model-compression shrinks the artifact, mobile-client-engineering builds the app, inference-serving owns the server — nobody owned putting the model ON the device.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 260-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `software-engineering` domain row now names all ninety-nine skills.
+
+The pack is now 234 skills, 1593 leaves.
+
 ## 0.88.0 — 2026-11-21
 
 ### Added
