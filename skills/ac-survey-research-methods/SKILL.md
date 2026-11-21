@@ -27,7 +27,7 @@ Primary sources: <https://www.pewresearch.org/our-methods/> and <https://en.wiki
 ## When NOT to use
 
 - For synthesising existing literature (use ac-systematic-review-conduct).
-- For qualitative data collection and analysis (use ac-qualitative-synthesis).
+- For qualitative data collection and analysis (use ac-qualitative-research-methods).
 - For labelling ML training data (use ac-data-annotation).
 - For causal estimation from existing data (use ac-causal-inference).
 

@@ -2,6 +2,19 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.94.0 — 2026-11-21
+
+### Added
+- `ac-qualitative-research-methods` (research-operations, 7 leaves): design and framing · sampling and recruitment · data collection methods · coding and analysis · saturation and iteration · trustworthiness and reflexivity · qualitative record.
+- The primary qualitative research craft: conducting new qualitative studies (grounded theory, ethnography, case study, phenomenology) from exploratory question through purposive sampling and iterative collection to a trustworthy, well-evidenced account. The seam: qualitative-synthesis synthesises published studies, systematic-review-conduct runs review protocols, survey-research-methods designs quantitative surveys, data-annotation produces ML labels. Nobody owned conducting primary qualitative research.
+
+### Changed
+- `ac-survey-research-methods` "When NOT to use" qualitative-collection pointer corrected from ac-qualitative-synthesis to ac-qualitative-research-methods (primary conduct vs synthesis of existing studies).
+- Passed a sealed blind routing run (18 pre-registered tasks over a 265-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+- The `research-operations` domain row now names all seven skills.
+
+The pack is now 239 skills, 1628 leaves.
+
 ## 0.93.0 — 2026-11-21
 
 ### Added
