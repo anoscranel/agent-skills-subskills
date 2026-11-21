@@ -2,6 +2,18 @@
 
 All notable changes to this pack. Versions follow [SemVer](https://semver.org/).
 
+## 0.93.0 — 2026-11-21
+
+### Added
+- `ac-survey-research-methods` (research-operations, 7 leaves): survey question and mode · sampling and coverage · questionnaire design · wording and response bias · administration and fieldwork · non-response and weighting · survey record and reporting.
+- The primary survey data-collection craft: the four error sources (coverage, sampling, measurement, non-response) kept visible, no margin of error for non-probability samples, no high-response-rate-proves-no-bias. The seam: systematic-review-conduct synthesises existing studies, qualitative-synthesis synthesises qualitative findings, data-annotation labels ML data, causal-inference estimates effects. Nobody owned conducting a primary survey.
+- Passed a sealed blind routing run (18 pre-registered tasks over a 264-entry catalog): 14 of 14 at top 1, 4 of 4 out-of-scope tasks answered `none`.
+
+### Changed
+- The `research-operations` domain row now names all six skills.
+
+The pack is now 238 skills, 1621 leaves.
+
 ## 0.92.0 — 2026-11-21
 
 ### Added

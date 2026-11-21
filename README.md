@@ -1,6 +1,6 @@
 # agent-skills-subskills
 
-237 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
+238 MIT-licensed [Agent Skills](https://agentskills.io/specification) for professional work: software engineering, writing, prompt engineering, security hardening, research operations, critical thinking, collaboration, and one meta-skill that builds and audits skills like these.
 
 Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (`subskills/*.md`). The agent loads the index, picks one leaf, and follows it. Every leaf holds its full procedure and never hands the task to another skill.
 
@@ -13,16 +13,16 @@ Each skill is a short routing index (`SKILL.md`) over a flat set of leaf files (
 | Prompt engineering | 7 | 58 |
 | Skill authoring | 3 | 24 |
 | Security hardening | 4 | 46 |
-| Research operations | 5 | 46 |
+| Research operations | 6 | 53 |
 | Critical thinking | 4 | 29 |
 | Collaboration | 3 | 21 |
 | Crypto trading | 20 | 141 |
 | Investing | 74 | 523 |
-| **Total** | **237** | **1614** |
+| **Total** | **238** | **1621** |
 
 **Skill authoring:** subskills-author · release-publish · skill-adoption
 
-**Research operations:** deep-researcher · adversarial-corpus-challenge · meta-analysis-and-synthesis · qualitative-synthesis · systematic-review-conduct
+**Research operations:** deep-researcher · adversarial-corpus-challenge · meta-analysis-and-synthesis · qualitative-synthesis · survey-research-methods · systematic-review-conduct
 
 **Critical thinking:** causal-inference · decision-analysis · ideation · interrogation
 
